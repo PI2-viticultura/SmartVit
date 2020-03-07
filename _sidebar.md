@@ -3,7 +3,7 @@
   * [Reuniões](docs/reunioes.md)
   * [Termo de abertura do projeto]()
   * [Estrutura analítica do projeto]()
-  * [Plano de comunicação]()
+  * [Plano de comunicação](docs/Plano-comunicacao.md)
   * [Metodologia]()
   * [Gerenciamento de Riscos]()
 
