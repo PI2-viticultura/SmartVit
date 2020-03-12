@@ -5,3 +5,4 @@ A equipe tem como princípio básico reuniões presenciais periodicamente. Duran
 * [Reunião 01](docs/reunioes/reuniao_01.md)
 * [Reunião 02](docs/reunioes/reuniao_02.md)
 * [Reunião 03](docs/reunioes/reuniao_03.md)
+* [Reunião 04](docs/reunioes/reuniao_04.md)
