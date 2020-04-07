@@ -7,12 +7,39 @@
   * [Metodologia]()
   * [Gerenciamento de Riscos]()
 
+* Suporte Eletrônico
+
+  * Gerenciamento
+    * [Plano de comunicação]()
+    * [Metodologia de trabalho]()
+  * Produto 
+    * Estrutura
+      * [Arquitetura]()
+      * [Montagem]()
+    * Testes
+
+* Estrutura 
+
+  * Gerenciamento
+    * [Plano de comunicação]()
+    * [Metodologia de trabalho]()
+  * Produto 
+    * Sustentação
+      * [Arquitetura]()
+      * [Montagem]()
+    * Testes
+
 * Produto de software
-  * [Plano de elicitação]()
-  * [Backlog]()
-  * [Histórias de usuário]()
-  * [Roadmaps]()
-  * [Sprints]()
+
+  * Gerenciamento
+    * [Plano de comunicação]()
+    * [Metodologia de trabalho]()
+  * Produto
+    * [Plano de elicitação]()
+    * [Backlog]()
+    * [Histórias de usuário]()
+    * [Roadmaps]()
+    * [Sprints]()
   * Planejamento
     * [Estrutura de branches e padrões]()
     * [Metodologia de desenvolvimento]()
