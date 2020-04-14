@@ -5,7 +5,7 @@
   * [Estrutura analítica do projeto]()
   * [Plano de comunicação](docs/Plano-comunicacao.md)
   * [Metodologia]()
-  * [Gerenciamento de Riscos]()
+  * [Gerenciamento de Riscos](docs/Plano-riscos.md)
 
 * Suporte Eletrônico
 
