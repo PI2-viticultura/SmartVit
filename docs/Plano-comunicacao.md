@@ -2,7 +2,7 @@
 
 ## 1. <a name="1">Objetivo</a>
 
- <p align = "justify"> &emsp;&emsp; Este documento tem como objetivo evidenciar a comunicação interna e externa entre membros do grupo e quais as ferramentas a serem utilizadas para obtenção da mesma. As ferramentas tem a função de facilitar a comunicação dos integrantes, professores e possíveis clientes com o intuito de se tornar eficiente as soluções das dúvidas referentes ao andamento do projeto.
+ <p align = "justify"> &emsp;&emsp; Este documento tem como objetivo evidenciar a comunicação interna e externa entre membros do grupo e quais as ferramentas a serem utilizadas para obtenção da mesma. As ferramentas tem a função de facilitar a comunicação dos integrantes, professores e possíveis clientes com o intuito de se tornar eficiente as soluções das dúvidas referentes ao andamento do projeto. </p>
 
 
 ## 2. <a name="2">Ferramentas</a>
@@ -28,7 +28,7 @@
 
 <p align = "justify"> &emsp;&emsp; GitHub é uma plataforma de hospedagem de código-fonte com controle de versionamento usando Git, permitindo que os usuários cadastrados na plataforma contribuam em projetos privados e/ou públicos de qualquer lugar do mundo.
 
-<p align = "justify"> &emsp;&emsp; O GitHub é essencial na transparência interna da equipe principalmente dos membros de engenharia de software e externa aos professores do projeto e aos demais alunos da disciplina. Serve também para comunicação entre os membros da equipe, para dúvidas sobre sprints, issues e para mostração do código-fonte do projeto.
+<p align = "justify"> &emsp;&emsp; O GitHub é essencial na transparência interna da equipe principalmente dos membros de engenharia de software e externa aos professores do projeto e aos demais alunos da disciplina. Serve também para comunicação entre os membros da equipe, para dúvidas sobre sprints, issues e para demonstração do código-fonte do projeto.
 
 
 #### 2.5. <a name="2_5">Google Drive</a>
