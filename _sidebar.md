@@ -41,7 +41,7 @@
     * [Roadmaps]()
     * [Sprints]()
   * Planejamento
-    * [Estrutura de branches e padrões]()
+    * [Estrutura de branches e padrões](docs/Padrao-branch.md)
     * [Metodologia de desenvolvimento]()
     * [Folha de estilo]()
     * [Plano de Qualidade]()
