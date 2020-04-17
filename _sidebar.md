@@ -12,18 +12,18 @@
   * Gerenciamento
     * [Plano de comunicação]()
     * [Metodologia de trabalho]()
-  * Produto 
+  * Produto
     * Estrutura
       * [Arquitetura]()
       * [Montagem]()
     * Testes
 
-* Estrutura 
+* Estrutura
 
   * Gerenciamento
     * [Plano de comunicação]()
     * [Metodologia de trabalho]()
-  * Produto 
+  * Produto
     * Sustentação
       * [Arquitetura]()
       * [Montagem]()
@@ -32,10 +32,10 @@
 * Produto de software
 
   * Gerenciamento
-    * [Plano de comunicação]()
+    * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
     * [Metodologia de trabalho]()
   * Produto
-    * [Plano de elicitação]()
+    * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
     * [Backlog]()
     * [Histórias de usuário]()
     * [Roadmaps]()
