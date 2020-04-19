@@ -4,6 +4,7 @@
   * [Termo de abertura do projeto]()
   * [Estrutura analítica do projeto]()
   * [Plano de comunicação](docs/Plano-comunicacao.md)
+  * [Plano de Gerenciamento de Cronograma](docs/software/Plano-cronograma.md)
   * [Metodologia]()
   * [Gerenciamento de Riscos](docs/Plano-riscos.md)
 
@@ -43,6 +44,7 @@
   * Planejamento
     * [Estrutura de branches e padrões](docs/Padrao-branch.md)
     * [Metodologia de desenvolvimento]()
+    * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Folha de estilo]()
     * [Plano de Qualidade]()
   * Documentação
