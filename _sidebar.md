@@ -36,7 +36,9 @@
     * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
     * [Metodologia de trabalho]()
   * Produto
-    * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
+    * Elicitação de Requisitos
+      * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
+      * [Sobre o universo de informações](docs/software/universo.md)
     * [Backlog]()
     * [Histórias de usuário]()
     * [Roadmaps]()
