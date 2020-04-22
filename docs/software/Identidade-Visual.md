@@ -6,15 +6,15 @@
 
 ## 2. <a name="2">Paleta de Cores</a>
 
-<p align = "center"> &emsp;&emsp; <img src="imgs/logo_paleta.png" />
+<p align = "center"> &emsp;&emsp; <img src="https://i.ibb.co/sw8SBGG/logo-paleta.png" />
 
 <p align = "justify"> &emsp;&emsp; Para a logo e ícone foi definido um cacho de uvas de cor marsala, onde a intuição de lembrar a coloração de vinhos enquanto as suas folhas, de cores diversificadas de verde, lembram-se uma antena de símbolo _Wi-fi_ para remeter ao sistema do projeto.
 
-<p align = "center"> &emsp;&emsp; <img src="imgs/Logo_SmartVit.png" width="300" height="150" />
+<p align = "center"> &emsp;&emsp; <img src="https://i.ibb.co/n0mhq6H/Logo-Smart-Vit.png" width="300" height="150" />
 
 <p align = "center"> &emsp;&emsp;  Imagem 1: Logo do Projeto SmartVit
 
-<p align = "center"> &emsp;&emsp; <img src="imgs/Icone_SmartVit.png" width="150" height="150" />
+<p align = "center"> &emsp;&emsp; <img src="https://i.ibb.co/NKTH1t9/Icone-Smart-Vit.png" width="150" height="150" />
 
 <p align = "center"> &emsp;&emsp;  Imagem 2: Ícone do Projeto SmartVit
 

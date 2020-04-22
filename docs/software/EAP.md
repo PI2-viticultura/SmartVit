@@ -10,4 +10,4 @@
 
 ## 2.1. <a name="2_1">Versão 1.0</a>
 
-<p align = "center"> &emsp;&emsp; ![img](imgs/EAP.png)
+![img](imgs/EAP.png)
