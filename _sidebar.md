@@ -6,7 +6,7 @@
   * [Plano de comunicação](docs/Plano-comunicacao.md)
   * [Plano de Gerenciamento de Cronograma](docs/software/Plano-cronograma.md)
   * [Metodologia]()
-  * [Gerenciamento de Riscos](docs/Plano-riscos.md)
+  * [Gerenciamento de Riscos]()
 
 * Suporte Eletrônico
 
@@ -35,6 +35,7 @@
   * Gerenciamento
     * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
     * [Metodologia de trabalho]()
+    * [Gerenciamento de Riscos](docs/Plano-riscos.md)
   * Produto
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
@@ -47,6 +48,7 @@
   * Planejamento
     * [Estrutura de branches e padrões](docs/Padrao-branch.md)
     * [Metodologia de desenvolvimento]()
+    * [Estrutura Analítica do Projeto](docs/software/EAP.md)
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Folha de estilo]()
     * [Plano de Qualidade]()
