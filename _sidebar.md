@@ -39,6 +39,7 @@
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
       * [Sobre o universo de informações](docs/software/universo.md)
+      * [Rich Picture](docs/software/rich-picture.md)
     * [Backlog]()
     * [Histórias de usuário]()
     * [Roadmaps]()
