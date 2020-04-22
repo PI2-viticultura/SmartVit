@@ -21,8 +21,6 @@
 
 <p align = "justify"> &emsp;&emsp; Para criação e controle do cronograma será utilizado a ferramenta Gantter for Google Drive. O software permite que seja definidos os processos citados acima, providencia também outras funções que possam ser de interesse do grupo, como uma análise gráfica do tempo do projeto.
 
-<iframe src="https://drive.google.com/file/d/15DUSEmFbEXp8ir4T0QFVtOIqHHageis_/view?usp=sharing" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true";"></iframe>
-
 <p align = "center"> &emsp;&emsp; <img src="https://i.ibb.co/YX82hzx/Cronograma.png" />
 
 <p align = "center"> &emsp;&emsp;  Imagem 1: Cronograma na fase inicial do projeto.

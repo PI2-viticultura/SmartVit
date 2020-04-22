@@ -38,8 +38,8 @@
     * [Gerenciamento de Riscos](docs/Plano-riscos.md)
   * Produto
     * Elicitação de Requisitos
-      * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
-      * [Sobre o universo de informações](docs/software/universo.md)
+      * [Plano de Elicitação](docs/software/plano-elicitacao-requisitos.md)
+      * [Sobre o Universo de Informações](docs/software/universo.md)
     * [Backlog]()
     * [Histórias de usuário]()
     * [Roadmaps]()
@@ -47,6 +47,7 @@
   * Planejamento
     * [Estrutura de branches e padrões](docs/Padrao-branch.md)
     * [Metodologia de desenvolvimento]()
+    * [Estrutura Analítica do Projeto](docs/software/EAP.md)
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Folha de estilo]()
     * [Plano de Qualidade]()
