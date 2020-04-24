@@ -50,7 +50,7 @@
     * [Estrutura Analítica do Projeto](docs/software/EAP.md)
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Folha de estilo]()
-    * [Plano de Qualidade]()
+    * [Plano de Qualidade](docs/software/Plano-qualidade.md)
   * Documentação
     * [Documento de arquitetura]()
     * [Documento de visão]()
