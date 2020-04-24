@@ -40,6 +40,7 @@
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
       * [Sobre o universo de informações](docs/software/universo.md)
+      * [Rich Picture](docs/software/rich-picture.md)
     * [Backlog]()
     * [Histórias de usuário]()
     * [Roadmaps]()
@@ -47,9 +48,10 @@
   * Planejamento
     * [Estrutura de branches e padrões](docs/software/Padrao-branch-software.md)
     * [Metodologia de desenvolvimento]()
+    * [Estrutura Analítica do Projeto](docs/software/EAP.md)
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Folha de estilo]()
-    * [Plano de Qualidade]()
+    * [Plano de Qualidade](docs/software/Plano-qualidade.md)
   * Documentação
     * [Documento de arquitetura]()
     * [Documento de visão]()
