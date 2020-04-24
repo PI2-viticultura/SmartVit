@@ -35,7 +35,7 @@
   * Gerenciamento
     * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
     * [Metodologia de trabalho](docs/software/Metodologia.md)
-    * [Gerenciamento de Riscos](docs/Plano-riscos.md)
+    * [Gerenciamento de Riscos](docs/software/Plano-riscos.md)
   * Produto
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
