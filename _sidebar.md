@@ -38,8 +38,9 @@
     * [Gerenciamento de Riscos](docs/Plano-riscos.md)
   * Produto
     * Elicitação de Requisitos
-      * [Plano de Elicitação](docs/software/plano-elicitacao-requisitos.md)
-      * [Sobre o Universo de Informações](docs/software/universo.md)
+      * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
+      * [Sobre o universo de informações](docs/software/universo.md)
+      * [Rich Picture](docs/software/rich-picture.md)
     * [Backlog]()
     * [Histórias de usuário]()
     * [Roadmaps]()
