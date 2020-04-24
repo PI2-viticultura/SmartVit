@@ -34,7 +34,7 @@
 
   * Gerenciamento
     * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
-    * [Metodologia de trabalho]()
+    * [Metodologia de trabalho](docs/software/Metodologia.md)
     * [Gerenciamento de Riscos](docs/Plano-riscos.md)
   * Produto
     * Elicitação de Requisitos
@@ -45,7 +45,7 @@
     * [Roadmaps]()
     * [Sprints]()
   * Planejamento
-    * [Estrutura de branches e padrões](docs/Padrao-branch.md)
+    * [Estrutura de branches e padrões](docs/software/Padrao-branch-software.md)
     * [Metodologia de desenvolvimento]()
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Folha de estilo]()
