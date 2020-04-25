@@ -55,7 +55,7 @@
     * [Plano de Qualidade](docs/software/Plano-qualidade.md)
   * Documentação
     * [Documento de arquitetura]()
-    * [Documento de visão]()
+    * [Documento de visão](docs/software/vision.md)
     * [Protótipos]()
     * [Testes]()
       * Resultados
