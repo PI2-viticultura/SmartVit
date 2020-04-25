@@ -8,7 +8,7 @@
 
 <p align = "center"> &emsp;&emsp; <img src="https://i.ibb.co/sw8SBGG/logo-paleta.png" />
 
-<p align = "justify"> &emsp;&emsp; Para a logo e ícone foi definido um cacho de uvas de cor marsala, onde a intuição de lembrar a coloração de vinhos enquanto as suas folhas, de cores diversificadas de verde, lembram-se uma antena de símbolo _Wi-fi_ para remeter ao sistema do projeto.
+<p align = "justify"> &emsp;&emsp; Para a logo e ícone foi definido um cacho de uvas de cor marsala, onde a intuição de lembrar a coloração de vinhos enquanto as suas folhas, de cores diversificadas de verde, lembram-se uma antena de símbolo Wi-fi para remeter ao sistema do projeto. A ideia foi pensado nesse modelo para remeter ao controle de cultivo de videiras, proporcionando uma aspecto tecnológico nas uvas e nos plantios. As inspirações veio da logo da empresa americana Apple e Fazendas Labrunier em Pernambuco, e do site WordDisk.
 
 <p align = "center"> &emsp;&emsp; <img src="https://i.ibb.co/n0mhq6H/Logo-Smart-Vit.png" width="300" height="150" />
 

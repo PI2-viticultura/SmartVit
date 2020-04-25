@@ -53,6 +53,7 @@
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Folha de estilo]()
     * [Plano de Qualidade](docs/software/Plano-qualidade.md)
+    * [GQM - Goal Question Metric](docs/software/gqm.md)
   * Documentação
     * [Documento de arquitetura]()
     * [Documento de visão](docs/software/vision.md)
