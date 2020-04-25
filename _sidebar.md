@@ -42,7 +42,7 @@
       * [Sobre o universo de informações](docs/software/universo.md)
       * [Rich Picture](docs/software/rich-picture.md)
       * [Brainstorm](docs/software/brainstorm.md)
-    * [Backlog]()
+    * [Backlog](docs/software/backlog.md)
     * [Histórias de usuário]()
     * [Roadmaps]()
     * [Sprints]()
