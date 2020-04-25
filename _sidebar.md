@@ -4,7 +4,6 @@
   * [Termo de abertura do projeto]()
   * [Estrutura analítica do projeto]()
   * [Plano de comunicação](docs/Plano-comunicacao.md)
-  * [Plano de Gerenciamento de Cronograma](docs/software/Plano-cronograma.md)
   * [Metodologia]()
   * [Gerenciamento de Riscos]()
 
@@ -36,6 +35,7 @@
     * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
     * [Metodologia de trabalho](docs/software/Metodologia.md)
     * [Gerenciamento de Riscos](docs/software/Plano-riscos.md)
+    * [Cronograma inicial](docs/software/cronograma-inicial.md)
   * Produto
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
