@@ -41,6 +41,7 @@
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
       * [Sobre o universo de informações](docs/software/universo.md)
       * [Rich Picture](docs/software/rich-picture.md)
+      * [Brainstorm](docs/software/brainstorm.md)
     * [Backlog]()
     * [Histórias de usuário]()
     * [Roadmaps]()
