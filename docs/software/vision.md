@@ -135,11 +135,41 @@ a elementos externos. O exemplo é o Kit de cultivo da equipe Olivetti. </p>
 
 ## 4. Visão Geral do Produto
 
+Este tópico consiste na definição de nível macro do que será o SmartVit, trazendo os principais recursos e perspectivas acerca do mesmo.
+
 ### 4.1. Perspectiva do produto
+
+O sistema SmartVit possui como principal objetivo fornecer os dados de monitoramento de vinícolas, obtidos a partir dos sensores componentes do kit SmartVit, como informação utilizável ao responsável pelo monitoramento da safra. Tendo em vista que serão medidos aspectos do solo, temperatura e água, o produto se propõe a qualificar a situação da plantação, fornecendo avisos de criticidade, de intemperies na região e das ações automáticas oriundas da gestão inteligente fornecida pelo kit SmartVit. Deve-se salientar que o kit físico se propõe a atuar em caso de necessidade de irrigação e extensão do fio que sustenta a uva, caso o peso das mesmas esteja atrapalhando a recepção da energia solar.
+
+De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitoramento de vinícolas sem que haja real necessidade da presença física do responsável no local. Essa atuação possui o potencial de modificar o modo como é praticado o cultivo e melhorar os resultados obtidos durante as safras, resultando em uvas de melhor qualidade. Dessa forma, auxilia no controle da qualidade da uva e consequentemente do vinho a ser produzido.
+
 
 ### 4.2. Resumo dos recursos
 
+| Benefício para os usuários | Recursos do suporte |
+| --- | --- |
+| Facilidade no acompanhamento da safra | Acesso à dashboard com indicadores claros e de fácil acesso |
+| Acompanhamento transparente das ações tomadas pelo sistema | Notificação das ações automáticas tomadas pelo sistema físico SmartVit |
+| Acionamento de irrigação à distância | Envio de sinal ao sistema físico para acionar a irrigação a distância |
+| Previsibilidade quanto à qualidade da safra | Análise preditiva |
+| Fácil comunicação com a equipe de suporte | Registro de solicitações à SmartVit |
+
+
 ## 5. Recursos do Produto
+
+A aplicação permitirá ao usuário apenas acompanhar a safra, acessando indicadores de qualidade do solo, água e temperatura por meio de dashboards dinâmicos. Além disso poderá, diante de adversidades acionar por conta própria a irrigação do solo. Abaixo há uma listagem dos principais recursos:
+
+* Visualizar indicadores de umidade, temperatura e qualidade do solo
+* Gerenciar vinícolas cadastradas
+* Ativar o monitoramento do sistema para as vinícolas
+* Filtrar vinícolas cadastradas
+* Remover vinícolas do monitoramento
+* Visualizar dados brutos em formato gráfico
+* Feedback de acionamento físico do SmartVit
+* Visualização de alertas de intemperies na região das vinícolas
+* Visualizar dados dos sistemas instalados na vinícola
+* Alertar sistema quanto à pragas
+* Envio de feedback do usuário
 
 ## 6. Restrições
 
