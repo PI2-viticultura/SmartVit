@@ -1,11 +1,12 @@
 # Índice
 
 * [1. Introdução](#_1-Introdução)
-* [2. Papéis](#_2-Papéis)
-    * [2.1. Papéis](#_21-Divisão-dos-papéis)
-* [3. Rituais](#_3-Rituais)
-* [4. Planejamento](#_4-Planejamento)
-* [5. Gerenciamento](#_5-Gerenciamento)
+* [2. Fases de desenvolvimento](#_2-Fases-de-desenvolvimento)
+* [3. Papéis](#_3-Papéis)
+    * [3.1. Divisão dos papéis](#_31-Divisão-dos-papéis)
+* [4. Rituais](#_4-Rituais)
+* [5. Planejamento](#_5-Planejamento)
+* [6. Gerenciamento](#_6-Gerenciamento)
 
 # 1. Introdução
 
@@ -29,9 +30,15 @@ As fases do RUP compreendem todo o ciclo de desenvolvimento do software e são d
 
 **Transição**: ênfase na implantação.
 
-# 2. Papéis
+Nos tópicos seguintes serão especificados rituais de cada framework utilizado.
 
-Os papéis utilizados no presente projeto respeitam o framework Scrum, com a adição dos papéis de arquiteto e DevOps, com o objetivo de manter uma infraestrutura estável e evolutiva. Além disto, devido à quantidade reduzida de membros, os papéis serão compartilhados. As atribuições dos papéis utilizados pode ser conferida a seguir:
+# 2. Fases de desenvolvimento
+
+O desenvolvimento do projeto SmartVit possuirá as fases descritas no framework RUP, ou seja, concepção, elaboração e construção, com o adcional de maleabilidade advinda da metodologia ágil, o que permite uma transição entre fases de forma não abrupta, logo é possível criar interatividade entre diferente fases, como por exemplo, evolução de requisitos na fase se construção.
+
+# 3. Papéis
+
+Os papéis utilizados no presente projeto respeitam o framework Scrum, com a adição dos papéis de arquiteto e DevOps, com o objetivo de manter uma infraestrutura estável e evolutiva. Além disto, os papéis serão compartilhados devido à quantidade de membros da equipe e ao contexto de isolamento devido ao COVID-19, o que permite o melhor aproveitamento dos membros. As atribuições dos papéis utilizados pode ser conferida a seguir:
 
 ### Product Owner
 
@@ -67,7 +74,7 @@ Os papéis utilizados no presente projeto respeitam o framework Scrum, com a adi
 - Manter a qualidade do produto em relação a código.
 
 
-## 2.1 Divisão dos papéis
+## 3.1 Divisão dos papéis
 
 A divisão da equipe quanto aos papéis ocorre de acordo com o a seguinte especificação:
 
@@ -80,7 +87,7 @@ A divisão da equipe quanto aos papéis ocorre de acordo com o a seguinte especi
 | Desenvolvedores | Adrianne Silva, João Lucas e  Lucas Vitor |
 
 
-# 3. Rituais
+# 4. Rituais
 
 ### Sprints:
 
@@ -100,7 +107,7 @@ A divisão da equipe quanto aos papéis ocorre de acordo com o a seguinte especi
     - Reunião de planejamento para definir as atividades a serem desenvolvidas durante a Sprint.
     - Ocorre no início de cada Sprint.
 
-# 4. Planejamento
+# 5. Planejamento
 
 - Issues
 
@@ -119,7 +126,7 @@ Os épicos serão utilizados para associar issues de um mesmo módulo ou para re
 A priorização Seguirá o padrão MoSCoW (Must, Should, Could, Would).
 
 
-# 5. Gerenciamento
+# 6. Gerenciamento
 
 - Velocity
 
