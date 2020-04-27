@@ -29,13 +29,13 @@ Ex: _feature/numero_issue-cadastro-usuario_
 
 ## 1.2. Commits
 
-Em Inglês, verbo no gerúndio com descrição do que foi feito e co-authored para as pessoas no pareamento. 
+Em Inglês, verbo no gerúndio com descrição do que foi feito e co-authored para as pessoas no pareamento. Além da utilização de tags que demonstram o tipo de commit, estas tags são Docs, Feature e Bugfix
 
 Ex:
 
-_Implementing user register._
+_[Feature] Implementing user register._
 
-_Co-authored-by: Lucas Vitor <lucasvitorifg@gmail.com\>_
+_Co-authored-by: john Doe <john@doe.com\>_
 
 
 ## 1.3. Fluxo de adição de uma nova funcionalidade

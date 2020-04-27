@@ -32,11 +32,24 @@
 
 ### 1.1. Finalidade
 
+<p align="justify">&emsp;&emsp; Este documento tem por objetivo a apresentação do SmartVit, um produto para monitoramento de viticulturas, determinando sua utilidade e funcionalidades, abordando sua capacidade, recursos e relação com o usuário. Com esse propósito, será realizada uma exposição detalhada do projeto, de modo a abranger as inovações ofertadas pela aplicação, através de tópicos relativos à descrição do problema, oportunidade de negócios, descrição dos envolvidos, restrições do projeto e outros. Espera-se, desta forma, que o leitor seja capaz de entender a proposta e as suas aplicabilidades, sendo este investidor ou usuário do sistema. </p>
+
 ### 1.2. Escopo
+
+<p align="justify">&emsp;&emsp; A inserção de maquinário tecnológico com o intuito de possibilitar o controle de aspectos ambientais e meteorológicos, conhecido como  agricultura de precisão tem ganhado espaço entre os produtores. Dentro do contexto da viticultura esse fato se mantém, esta modalidade é conhecida como viticultura de precisão e pode ser entendida como a gestão da variabilidade temporal e espacial do vinhedo com o objetivo de melhorar o rendimento da atividade agrícola, seja pelo aumento na produtividade, seja pela redução dos custos de produção, trazendo consigo o possibilidade ao produtor de entender o processo do seu vinhedo e acompanhar a produção, permitindo a mitigação de problemas que possuem a capacidade de reduzir a qualidade de seu produto. </p>
+<p align="justify">&emsp;&emsp; Tendo em vista tal fato, este projeto objetiva a criação de um sistema de monitoramento de viticultura de precisão de pequena escala. Dentre as sua principais funcionalidades estão sistema de suporte que permite melhor irrigação e monitoramento do vinhedo, coleta e disponibilização de dados sobre solo, água e ar dentro do vinhedo. </p>
 
 ### 1.3. Visão geral
 
+<p align="justify">&emsp;&emsp; O documento apresenta informações essenciais relacionadas ao projeto, organizadas de modo a fornecer ao leitor a melhor forma de visualizá-las. Dessa forma, a início é descrito o contexto no qual o projeto foi planejado, expondo os envolvidos e a equipe responsável por desenvolver o software e gerir toda a produção. Por fim, o documento foca nas especificações do projeto, em termos de requisitos e funcionalidades do sistema. </p>
+
 ### 1.4. Referências
+
+BRAGA, Ricardo. **Viticultura de Precisão**. Associação dos Jovens Agricultores de Portugal, 2009. Disponível em:  http://agrinov.ajap.pt/images/diapositivos/Diapositivos_Viticultura_de_Precisao.pdf. Acesso em: 17/04/2020.
+
+URSKA. **Why to implement IoT in the vineyard?**. eVineyard, 2018. Disponível em: https://www.evineyardapp.com/blog/2018/08/23/why-to-implement-iot-in-the-vineyard/. Acesso em: 26/03/2020.
+
+IBM Knowledge Center. **Documento de Visão**. IBM. Disponível em: https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html. Acesso em: 26/04/2020.
 
 ## 2. Posicionamento
 
@@ -162,8 +175,27 @@ A aplicação permitirá ao usuário apenas acompanhar a safra, acessando indica
 
 ### 6.1. Restrições de Design
 
+- O design deve ser simples e intuitivo;
+- Respeitar as cores da palheta definida;
+- Itens devem ser agrupados por proximidade das informações.
+
 ### 6.2. Restrições de Implementação
+
+- Arquitetura deve seguir o modelo cliente-servidor;
+- O sistema deve ser desenvolvido utilizando os frameworks Django e React;
+- O sistema de ser capaz de se comunicar com os sensores dispostos na vinícola.
 
 ### 6.3. Restrições de Uso
 
+- O usuário deve ter um navegador compatível com a aplicação. As versões suportadas são Google Chrome 76.0.3809.100 ou superior e Mozilla Firefox 75 ou superior.
+
+
 ## 7. Intervalos de Qualidade
+
+Para total desempenho e aproveitamento por parte dos usuários devem ser respeitados os seguintes intervalos de qualidade:
+
+Usabilidade: O Sistema deve ser intuitivo, possuir um baixo número de passos para alcançar o objetivo, ser fácil de compreender.
+
+Disponibilidade: O Sistema deve estar disponível na maior parte do tempo, utilizando-se as madrugadas para manutenção, ou seja, 20 horas por dia e 7 dias por semana.
+
+Manutenção: O Sistema deve ter boa manutenabilidade, a fim de facilitar futuras evoluções e correções por equipes diferentes da original. Assim, esses aspectos de qualidade devem ser observados no código entregue.
