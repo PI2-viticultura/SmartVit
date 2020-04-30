@@ -55,7 +55,7 @@
     * [Plano de Qualidade](docs/software/Plano-qualidade.md)
     * [GQM - Goal Question Metric](docs/software/gqm.md)
   * Documentação
-    * [Documento de arquitetura]()
+    * [Documento de arquitetura](docs/software/architecture.md)
     * [Documento de visão](docs/software/vision.md)
     * [Protótipos]()
     * [Testes]()
