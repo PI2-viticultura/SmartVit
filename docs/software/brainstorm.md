@@ -1,10 +1,10 @@
 # Brainstorm
 
-O brainstorming é uma técnica que possui como objetivo estimular a produção e relação de ideias a respeito de um determinado tema. No contexto do desenvolvimento desse projeto, considerando o início transtornado pela pandemia do COVID-19, essa técnica foi realizada durante as reuniões entre os próprios componentes da equipe. Isso porque consistiu na melhor alternativa frente aos obstáculos encontrados. Os resultados obtidos estão relacionados abaixo:
+<p align="justify">&emsp;&emsp; O brainstorming é uma técnica que possui como objetivo estimular a produção e relação de ideias a respeito de um determinado tema. No contexto do desenvolvimento desse projeto, considerando o início transtornado pela pandemia do COVID-19, essa técnica foi realizada durante as reuniões entre os próprios componentes da equipe. Isso porque consistiu na melhor alternativa frente aos obstáculos encontrados. Os resultados obtidos estão relacionados abaixo:
 
 ## Primeira reunião
 
-A primeira reunião da equipe, destinada à discussão a respeito da solução a ser realizada, ocorreu de maneira informal, pois fez parte das definições iniciais do projeto e contou com todos os membros. Nela, levantou-se principalmente requisitos não funcionais do projeto, como se segue:
+<p align="justify">&emsp;&emsp; A primeira reunião da equipe, destinada à discussão a respeito da solução a ser realizada, ocorreu de maneira informal, pois fez parte das definições iniciais do projeto e contou com todos os membros. Nela, levantou-se principalmente requisitos não funcionais do projeto, como se segue:
 
 |  # | Descrição  | Categoria |
 |---|---|---|
@@ -16,7 +16,7 @@ A primeira reunião da equipe, destinada à discussão a respeito da solução a
 
 ## Segunda reunião
 
-A segunda reunião destinada ao brainstorm partiu dos requisitos iniciais relacionados no uso do rich picture. Dessa forma, estavam presentes os líderes de cada área do projeto (eletrônica, estruturas e software) e a gerente da equipe. Isso porque, com essa composição foi possível obter novamente a visão de produto das demais áreas, além de discutir necessidades específicas de cada. Os resultados oriundos dessa iteração estão expressos na tabela abaixo.
+<p align="justify">&emsp;&emsp; A segunda reunião destinada ao brainstorm partiu dos requisitos iniciais relacionados no uso do rich picture. Dessa forma, estavam presentes os líderes de cada área do projeto (eletrônica, estruturas e software) e a gerente da equipe. Isso porque, com essa composição foi possível obter novamente a visão de produto das demais áreas, além de discutir necessidades específicas de cada. Os resultados oriundos dessa iteração estão expressos na tabela abaixo.
 
 |  # | Descrição  | Categoria |
 |---|---|---|

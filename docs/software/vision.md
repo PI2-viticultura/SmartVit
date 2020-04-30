@@ -135,11 +135,11 @@ a elementos externos. O exemplo é o Kit de cultivo da equipe Olivetti. </p>
 
 ## 4. Visão Geral do Produto
 
-Este tópico consiste na definição de nível macro do que será o SmartVit, trazendo os principais recursos e perspectivas acerca do mesmo.
+<p align="justify">&emsp;&emsp; Este tópico consiste na definição de nível macro do que será o SmartVit, trazendo os principais recursos e perspectivas acerca do mesmo.
 
 ### 4.1. Perspectiva do produto
 
-O sistema SmartVit possui como principal objetivo fornecer os dados de monitoramento de vinícolas, obtidos a partir dos sensores componentes do kit SmartVit, como informação utilizável ao responsável pelo monitoramento da safra. Tendo em vista que serão medidos aspectos do solo, temperatura e água, o produto se propõe a qualificar a situação da plantação, fornecendo avisos de criticidade, de intemperies na região e das ações automáticas oriundas da gestão inteligente fornecida pelo kit SmartVit. Deve-se salientar que o kit físico se propõe a atuar em caso de necessidade de irrigação e extensão do fio que sustenta a uva, caso o peso das mesmas esteja atrapalhando a recepção da energia solar.
+<p align="justify">&emsp;&emsp; O sistema SmartVit possui como principal objetivo fornecer os dados de monitoramento de vinícolas, obtidos a partir dos sensores componentes do kit SmartVit, como informação utilizável ao responsável pelo monitoramento da safra. Tendo em vista que serão medidos aspectos do solo, temperatura e água, o produto se propõe a qualificar a situação da plantação, fornecendo avisos de criticidade, de intemperies na região e das ações automáticas oriundas da gestão inteligente fornecida pelo kit SmartVit. Deve-se salientar que o kit físico se propõe a atuar em caso de necessidade de irrigação e extensão do fio que sustenta a uva, caso o peso das mesmas esteja atrapalhando a recepção da energia solar.
 
 De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitoramento de vinícolas sem que haja real necessidade da presença física do responsável no local. Essa atuação possui o potencial de modificar o modo como é praticado o cultivo e melhorar os resultados obtidos durante as safras, resultando em uvas de melhor qualidade. Dessa forma, auxilia no controle da qualidade da uva e consequentemente do vinho a ser produzido.
 
@@ -157,7 +157,7 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 
 ## 5. Recursos do Produto
 
-A aplicação permitirá ao usuário apenas acompanhar a safra, acessando indicadores de qualidade do solo, água e temperatura por meio de dashboards dinâmicos. Além disso poderá, diante de adversidades acionar por conta própria a irrigação do solo. Abaixo há uma listagem dos principais recursos:
+<p align="justify">&emsp;&emsp; A aplicação permitirá ao usuário apenas acompanhar a safra, acessando indicadores de qualidade do solo, água e temperatura por meio de dashboards dinâmicos. Além disso poderá, diante de adversidades acionar por conta própria a irrigação do solo. Abaixo há uma listagem dos principais recursos:
 
 * Visualizar indicadores de umidade, temperatura e qualidade do solo
 * Gerenciar vinícolas cadastradas
@@ -192,10 +192,10 @@ A aplicação permitirá ao usuário apenas acompanhar a safra, acessando indica
 
 ## 7. Intervalos de Qualidade
 
-Para total desempenho e aproveitamento por parte dos usuários devem ser respeitados os seguintes intervalos de qualidade:
+<p align="justify">&emsp;&emsp; Para total desempenho e aproveitamento por parte dos usuários devem ser respeitados os seguintes intervalos de qualidade:
 
-Usabilidade: O Sistema deve ser intuitivo, possuir um baixo número de passos para alcançar o objetivo, ser fácil de compreender.
+<p align="justify">&emsp;&emsp; Usabilidade: O Sistema deve ser intuitivo, possuir um baixo número de passos para alcançar o objetivo, ser fácil de compreender.
 
-Disponibilidade: O Sistema deve estar disponível na maior parte do tempo, utilizando-se as madrugadas para manutenção, ou seja, 20 horas por dia e 7 dias por semana.
+<p align="justify">&emsp;&emsp; Disponibilidade: O Sistema deve estar disponível na maior parte do tempo, utilizando-se as madrugadas para manutenção, ou seja, 20 horas por dia e 7 dias por semana.
 
-Manutenção: O Sistema deve ter boa manutenabilidade, a fim de facilitar futuras evoluções e correções por equipes diferentes da original. Assim, esses aspectos de qualidade devem ser observados no código entregue.
+<p align="justify">&emsp;&emsp; Manutenção: O Sistema deve ter boa manutenabilidade, a fim de facilitar futuras evoluções e correções por equipes diferentes da original. Assim, esses aspectos de qualidade devem ser observados no código entregue.

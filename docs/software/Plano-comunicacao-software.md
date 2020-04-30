@@ -18,7 +18,7 @@
 
 #### 2.2. <a name="2_2">Telegram</a>
 
-<p align = "justify"> &emsp;&emsp; Os alunos de software optaram na utilzação do Telegram, um serviço de mensagens instantâneas disponível para smartphones, tablets e também aplicação web. O aplicativo se assemelha muito com o WhatsApp, é possível que os usuários possam criar grupo com diversos integrantes. O motivo das escolha dos membros de software para a utilização da aplicação Telegram se dar ao fato que é uma grande ferramenta entre os programadores, sendo que a maioria dos estudantes utilizam do aplicativo como a principal fonte de comunicação.
+<p align = "justify"> &emsp;&emsp; Os alunos de software optaram na utilização do Telegram, um serviço de mensagens instantâneas disponível para smartphones, tablets e também aplicação web. O aplicativo se assemelha muito com o WhatsApp, é possível que os usuários possam criar grupo com diversos integrantes. O motivo das escolha dos membros de software para a utilização da aplicação Telegram se dar ao fato que é uma grande ferramenta entre os programadores, sendo que a maioria dos estudantes utilizam do aplicativo como a principal fonte de comunicação.
 <p align = "justify"> &emsp;&emsp; O aplicativo servirá para comunicação entre os membros de software da equipe, bem como definição das reuniões, dúvidas, entregas, discussões entre os mesmos. </p>
 
 #### 2.3. <a name="2_3">Microsoft Teams</a>
