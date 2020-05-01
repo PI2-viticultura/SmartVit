@@ -36,6 +36,7 @@
     * [Metodologia de trabalho](docs/software/Metodologia.md)
     * [Gerenciamento de Riscos](docs/software/Plano-riscos.md)
     * [Cronograma inicial](docs/software/cronograma-inicial.md)
+    * [Fluxo de Trabalho](docs/software/fluxo-trabalho.md)
   * Produto
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
@@ -51,7 +52,7 @@
     * [Metodologia de desenvolvimento]()
     * [Estrutura Analítica do Projeto](docs/software/EAP.md)
     * [Identidade Visual](docs/software/Identidade-Visual.md)
-    * [Folha de estilo]()
+    * [Folha de Estilo](docs/software/Folha-de-estilo.md)
     * [Plano de Qualidade](docs/software/Plano-qualidade.md)
     * [GQM - Goal Question Metric](docs/software/gqm.md)
   * Documentação
