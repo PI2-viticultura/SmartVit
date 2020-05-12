@@ -22,7 +22,11 @@
 
 ### 1.1. Objetivos
 
+ <p align = "justify"> &emsp;&emsp; O Documento de Arquitetura de Software tem como finalidade fornecer a visão geral de software da arquitetura do projeto SmartVit, utilizando representações arquiteturais, como a visão lógica e casos de uso, com a finalidade de facilitar o entendimento dos processos e funcionamento de todo o sistema. Tem também como objetivo transmitir as decisões arquiteturais significativas tomadas em relação ao mesmo.</p>
+
 ###  1.2. Escopo do documento
+
+<p align="justify"> &emsp;&emsp; Atráves do documento, pretende-se que possível obter entendimento da arquitetura do projeto, permitindo que os leitores a compreensão do funcionamento do SmartVit, e suas abordagens utilizadas para o seu desenvolvimento. </p>
 
 ## 2. Representação da Arquitetura
 
@@ -46,4 +50,9 @@
 
 ## 6. Desempenho
 
+ <p align = "justify"> &emsp;&emsp; O desempempenho do sistema está relacionado ao projeto todo. Por se tratar de um navegador PWA, a conexão com a internet e o aparelho eletrônico  são os fatores que pode causar os maiores problemas de seu desempenho, pois são os que demandam processamento mais abrangentes.
+
 ## 7. Qualidade
+
+<p align = "justify"> &emsp;&emsp; O projeto terá uma interface gráfica intuitiva, portando as informações principais que provém do projeto para que seja eficaz aos usuários. Todas os dados que venham a ser rceolhidos serão armazenados e uma tela que demostra essas informações será providenciada. </p>
+<p align = "justify"> &emsp;&emsp; O código-fonte será bem estruturado, seguindo as normas definidas no documento de folha de estilo, respeitando a padronização e manutenibilidade, criando testes e respeitando as métricas deferidas no Plano de Qualidade.
