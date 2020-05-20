@@ -58,17 +58,27 @@
 
 ### 2.2. Tecnologias
 
-* Django REST Framework: Biblioteca para o Framework Django que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST. 
-
+* HTML/CSS:	Utilizado no desenvolvimento Web de forma padrão e estruturado.
+* Python: Linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
+* Django REST Framework: Biblioteca para o Framework Django que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST.
+* JavaScript: Linguagem de programação que permite a implementação de itens complexos em páginas web de forma dinâmica.
 * ReactJS: Biblioteca JavaScript para construção de interfaces de usuários.
-
 * MongoDB: Banco NOSQL orientado a documentos (document database) no formato JSON.
 
 ## 3. Restrições e Metas Arquiteturais
 
 ### 3.1. Restrições
 
+- O sistema depende de conexão com internet;
+- O sistema deve ser utilizado em ambiente web;
+- Somente a API terá acesso direto ao banco de dados;
+
 ### 3.2. Metas Arquiteturais
+
+- Deve garantir a privacidade dos dados inseridos em seu banco de dados;
+- Deve conseguir responder às requisições em poucos segundos e ter alta disponibilidade;
+- Deverá atender aos requisitos não funcionais, como disponibilidade, segurança, usabilidade, escalabilidade, garantir a manutenibilidade do sistema;
+- Possuir desacoplamento e independência entre outros serviços.
 
 ## 4. Visão de Casos de Uso
 
