@@ -30,6 +30,40 @@
 
 ## 2. Representação da Arquitetura
 
+<p align="justify"> &emsp;&emsp; A arquitetura adotada possui organização em três camadas: módulo eletrônico, onde os dados serão coletados e transmitidos; API, onde os dados serão requisitados, tratados e distribuídos; e front-end, onde os dados serão entregues ao usuário de forma inteligível. </p>
+
+<p align="justify"> &emsp;&emsp; O principal relacionamento do projeto é implementado como um cliente-servidor. O servidor, implementado em Django Rest Framework, será responsável pela manutenção e processamento dos dados, enquanto ao cliente, representado pelo front-end e implementado em ReactJS, será encarregada a função de fornecer os dados dos usuários. </p>
+
+### 2.1. Diagrama de Relações
+
+<p align="justify"> &emsp;&emsp; Abaixo estão descritos os módulos que integram o sistema e suas relações. </p>
+
+![img](imgs/arquitetura.png)
+
+#### 2.1.1. Módulo Eletrônico
+
+<p align="justify"> &emsp;&emsp; Módulo físico responsável por captar dados como umidade, pH do solo, umidade e irrigação das vinícolas cadastradas. </p>
+
+#### 2.1.2. API
+
+<p align="justify"> &emsp;&emsp; A API é a unidade da arquitetura responsável por receber, processar e armazenar dados do módulo eletrônico. Neste ambiente serão realizadas as análises preditivas e de safra, gerenciamento das vinícolas e acionamento de sistemas (recebendo a entrada do usuário e repassando para o módulo eletrônico responsável). </p>
+
+#### 2.1.3. Aplicação Web
+
+<p align="justify"> &emsp;&emsp; A aplicação web é a unidade responsável por criar a ponte entre o usuário e a API, enviando dados para requisições e recebendo dados para então formulá-los de forma inteligível ao usuário. </p>
+
+#### 2.1.4. Banco de Dados
+
+<p align="justify"> &emsp;&emsp; Unidade responsável por armazenar os dados recebidos e processados pela API. </p>
+
+### 2.2. Tecnologias
+
+* Django REST Framework: Biblioteca para o Framework Django que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST. 
+
+* ReactJS: Biblioteca JavaScript para construção de interfaces de usuários.
+
+* MongoDB: Banco NOSQL orientado a documentos (document database) no formato JSON.
+
 ## 3. Restrições e Metas Arquiteturais
 
 ### 3.1. Restrições
