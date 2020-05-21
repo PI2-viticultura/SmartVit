@@ -90,11 +90,19 @@
 
 ### 5.1. Visão Geral: Pacotes e Camadas
 
+ <p align = "justify"> &emsp;&emsp; A arquitetura conhecida como Cliente/Servidor se baseia em dois módulos principais, em que ambos farão a comunicação entre si, fornecendo aos usuários os serviços desejados.
+ <p align = "justify"> &emsp;&emsp; No caso do projeto SmartVit, o Cliente nesse caso será a aplicação desenvolvida em ReactJS, enquanto o Servidor será a API do Django.
+
+
+A figura a seguir mostra a estrutura de pacotes do sistema:
+
+![img](imgs/packagediagram.png)
+
 ### 5.2. Visão Geral: Banco de dados
 
 ## 6. Desempenho
 
- <p align = "justify"> &emsp;&emsp; O desempempenho do sistema está relacionado ao projeto todo. Por se tratar de um navegador PWA, a conexão com a internet e o aparelho eletrônico  são os fatores que pode causar os maiores problemas de seu desempenho, pois são os que demandam processamento mais abrangentes.
+ <p align = "justify"> &emsp;&emsp; O desempenho do sistema está relacionado ao projeto todo. Por se tratar de um navegador PWA, a conexão com a internet e o aparelho eletrônico  são os fatores que pode causar os maiores problemas de seu desempenho, pois são os que demandam processamento mais abrangentes.
 
 ## 7. Qualidade
 
