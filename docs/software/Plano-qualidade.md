@@ -13,7 +13,7 @@
 
 ## 3. <a name="3">Metodologia de Aplicação do Plano</a>
 
-<p align = "justify"> &emsp;&emsp; Visando uma boa qualidade de código do projeto, alguns métricas com padrões de qualidade de corpos de conhecimentos e de normas são definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. Essas métricas serão coletadas periodicamente, com a ajuda de algumas tecnologias definidas. </p>
+<p align = "justify"> &emsp;&emsp; Visando uma boa qualidade de código do projeto, alguns métricas com padrões de qualidade de corpos de conhecimentos e de normas são definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. Essas métricas serão coletadas periodicamente, com a ajuda de algumas tecnologias definidas. a Metodologia a ser utilizada será a [GQM](https://pi2-viticultura.github.io/SmartVit/#/docs/software/gqm) . </p>
 
 ## 4. <a name="4">Métricas</a>
 

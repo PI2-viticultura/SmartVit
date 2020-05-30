@@ -2,7 +2,9 @@
 
 ## 1. <a name="1">Introdução</a>
 
-<p align = "justify"> &emsp;&emsp; O documento de Fluxo de Trabalho explícita de como funcionará o desempenho dos membros de software da equipe em relação ao projeto SmartVit, através da organização de Issues do GitHub.
+<p align = "justify"> &emsp;&emsp; O documento de Fluxo de Trabalho explícita de como funcionará o desempenho dos membros de software da equipe em relação ao projeto SmartVit.
+
+![img](imgs/Fluxo.png)
 
 ## 2. <a name="2">Fluxo de Trabalho da Equipe</a>
 
