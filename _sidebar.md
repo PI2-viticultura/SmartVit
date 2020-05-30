@@ -44,7 +44,7 @@
       * [Rich Picture](docs/software/rich-picture.md)
       * [Brainstorm](docs/software/brainstorm.md)
     * [Backlog](docs/software/backlog.md)
-    * [Histórias de usuário]()
+    * [Histórias de usuário](docs/software/user_stories.md)
     * [Roadmaps]()
     * [Sprints]()
   * Planejamento
