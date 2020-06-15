@@ -81,10 +81,209 @@
 - Possuir desacoplamento e independência entre outros serviços.
 
 ## 4. Visão de Casos de Uso
+Esta seção traz as situações de ações e uso do sistema, em termos de funcionalidades, descrevendo de modo sucinto como o mesmo será utilizado pelos atores ou usuários.
 
 ### 4.1. Diagrama de Casos de Uso
+O diagrama de caso de uso descreve as funcionalidades propostas para um sistema, utilizando como princípio a atuação dos atores. Abaixo segue a primeira versão do diagrma elaborado.
+
+![img](imgs/diagrama-casos-uso.png)
 
 ### 4.2. Descrição dos Casos de Uso
+
+#### UC 01 - Logar no sistema
+| | |
+| -- | -- |
+| Descrição | Usuário realiza login no sistema. |
+| Atores | Usuário |
+| Pré-condições | Usuário deve acessar a página inicial do sistema em um navegador com internet |
+| Pós-condições | Usuário deve ter acesso às funcionalidades que caibam ao seu perfil |
+| Fluxo principal | 1. Usuário acessa página inicial da plataforma <br> 2. Usuário digita login e senha <br> 3. Usuário clica em "Entrar"|
+| Fluxo de exceção | [UC 19] Caso a vinícola ainda não esteja cadastrada o usuário não possuirá login na plataforma. |
+
+#### UC 02 - Visualizar notificações de criticidade
+| | |
+| -- | -- |
+| Descrição | O agrônomo visualizará as notificações recebidas sobre quaisquer indicadores críticos relacionados à safra |
+| Atores | Agrônomo |
+| Pré-condições | Usuário deve possuir perfil de agrônomo no sistema |
+| Pós-condições | O usuário deve receber notificações sempre que a vinícola apresentar algum indicador fora do intervalo esperado, via email e através do próprio sistema |
+| Fluxo principal | 1. Sistema decta indicador fora do intervalo <br> 2. Usuário recebe email sobre a criticidade de um indicador <br> 3. Usuário entra no sistema <br> 4.Usuário clica nas notificações |
+| Fluxo de exceção | |
+
+#### UC 03 - Acompanhar indicadores da situação da safra
+| | |
+| -- | -- |
+| Descrição | O usuário poderá visualizar um dashboard com os principais indicadores da safra |
+| Atores | Agrônomo e agricultor |
+| Pré-condições | O usuário deve estar logado no sistema |
+| Pós-condições | O usuário deve visualizar todos os indicadores da safra |
+| Fluxo principal | 1. Usuário realiza login no sistema <br> 2. Sistema abre na dashboard <br> |
+| Fluxo de exceção | |
+
+#### UC 04 - Registrar pragas na vinícola
+| | |
+| -- | -- |
+| Descrição | Usuário pode registrar pragas identificadas na sua vinícola para acompanhamento |
+| Atores | Agrônomo |
+| Pré-condições | Usuário deve estar logado no sistema |
+| Pós-condições | Na página de acompanhamento deve aparecer as pragas registradas |
+| Fluxo principal | 1. Usuário faz login no sistema <br> 2. Usuário acessa dashboard e clica em "registrar praga" <br> 3. Preenche o formulário informando a praga <br> 4. Clica em 'registrar' |
+| Fluxo de exceção | |
+
+#### UC 05 - Acionar equipe do sistema
+| | |
+| -- | -- |
+| Descrição | O usuário poderá acionar a equipe do sistema para eventuais problemas nos dados obtidos, enviando uma mensagem para o administrador |
+| Atores | Agrônomo |
+| Pré-condições | Usuário deve estar logado no sistema |
+| Pós-condições | O usuário deve conseguir enviar uma mensagem para o administrador a fim de informar irregularidade/problemas no sistema web|
+| Fluxo principal | 1. O usuário deve entrar no sistema <br> 2. Clicar no ícone correspondente à "suporte do sistema" <br> 3. Preencher o formulário infomando o problema e/ou solicitação <br> 4. O usuário deve clicar "enviar"|
+| Fluxo de exceção | |
+
+
+#### UC 06 - Avaliar safra
+| | |
+| -- | -- |
+| Descrição | O agrônomo deverá/poderá responder um questionário sobre a uva obtida no final da safra |
+| Atores | Agrônomo |
+| Pré-condições | O agrônomo deve está logado no sistema |
+| Pós-condições | O usuário deve receber uma análise da qualidade do vinho a ser obtido com a uva coletada |
+| Fluxo principal | 1. O agrônomo entrará na página do dashboard <br> 2. Clicará em "avaliar resultado da safra" <br> 3. Irá clicar em "enviar" <br> 4. Será redirecionado para uma página em formato PDF com as prováveis qualidades do vinho que será obtido com a uva produzida. |
+| Fluxo de exceção | |
+
+#### UC 07 - Predizer qualidade do vinho
+| | |
+| -- | -- |
+| Descrição | Ao receber as informações da avaliação da safra, realizada pelo agrônomo, o sistema irá fornecer informações sobre a qualidade do vinho a ser obtido com aquela safra |
+| Atores | Sistema |
+| Pré-condições | O agrônomo deve enviar o formulário de avaliação da safra |
+| Pós-condições | O sistema deve ser capaz de mapear a qualidade do vinho a ser obtido |
+| Fluxo principal | 1. O usuário enviará o formulário de avaliação <br> 2. O sistema realizará a predição <br> 3. O sistema fornecerá um PDF com as informações processadas |
+| Fluxo de exceção |  |
+
+
+#### UC 08 - Alertar sobre intemperies
+| | |
+| -- | -- |
+| Descrição | O sistema irá alertar aos usuários sobre intempéries de acordo com a região em que a vinícola está cadastrada.|
+| Atores | Sistema |
+| Pré-condições | O contrato que associa a vinícola ao sistema deve estar ativo. |
+| Pós-condições | O usuário deve receber por email e como notificação no sistema o aviso de intempéries |
+| Fluxo principal | 1. O sistema recebe alerta de intempéries nas regiões das vinícolas cadastradas <br> 2. O sistema envia a notificação para os usuários das vinícolas que estão sujeitas às intempéries|
+| Fluxo de exceção | |
+
+#### UC 09 - Notificar cancelamento
+| | |
+| -- | -- |
+| Descrição | O sistema deve avisar ao usuário caso o contrato que abrange a vinícola que está monitorando seja cancelado por qualquer motivo |
+| Atores | Sistema |
+| Pré-condições | O usuário deve possuir cadastro no sistema |
+| Pós-condições | O usuário deve receber o email enviado pelo sistema informando o cancelamento do contrato |
+| Fluxo principal | 1. O contrato é cancelado <br> 2. O sistema envia notificação para o agricultor e agrônomo |
+| Fluxo de exceção | |
+
+
+#### UC 10 - Bloquear acesso ao suporte do sistema eletrônico
+| | |
+| -- | -- |
+| Descrição | O sistema deve bloquear o acesso às solicitações de suporte aos sistemas eletrônicos caso o contrato da vinícola tenha sido cancelado/expirado. |
+| Atores | Sistema |
+| Pré-condições | O contrato deve ter sido cancelado  |
+| Pós-condições | O usuário não deve possuir acesso à funcionalidade de suporte aos sistemas eletrônicos |
+| Fluxo principal | 1. Contrato é cancelado <br> 2. O suporte ao sistema eletrônico fica indisponível para o usuário |
+| Fluxo de exceção | |
+
+#### UC 11 - Gerenciar sistemas eletrônicos da safra
+| | |
+| -- | -- |
+| Descrição | O agrônomo deve ter acesso à todos os sistemas eletrônicos instalados na safra, incluindo os dados coletados e processados na plataforma. |
+| Atores | Agrônomo |
+| Pré-condições | O usuário deve estar logado na plataforma e possuir perfil de agrônomo |
+| Pós-condições | O usuário deve ter acesso à todos os sistemas eletrônicos e dados processados dentro do sistema |
+| Fluxo principal | 1. O agrônomo entra na plataforma <br> 2. Clica em "Sistemas instalados" <br> 3. Vê a lista de sistemas instalados na vinícola <br> 4. Entra em um sistema que deseja gerenciar <br> 5. Visualiza os sensores instalados, dados coletados, entre outras informações |
+| Fluxo de exceção | |
+
+#### UC 12 - Acionar suporte dos sistemas eletrônicos
+| | |
+| -- | -- |
+| Descrição | O usuário conseguirá entrar em contato com a equipe de suporte aos sistemas eletrônicos instalados |
+| Atores | Agricultor e Administrador |
+| Pré-condições | O usuário deve estar logado |
+| Pós-condições | O usuário deve poder acionar o suporte via mensagem na plataforma |
+| Fluxo principal | 1. O agricultor entra na plataforma <br> 2.Entra em "Sistemas instalados" <br> 3. Clica em "acionar suporte"  <br> 4. Preenche um formulário informando qual o sistema e qual foi o problema identificado |
+| Fluxo de exceção | |
+
+#### UC 13 - Parar coleta de dados no servidor
+| | |
+| -- | -- |
+| Descrição | Assim que um contrato for finalizado o sistema deve interromper a coleta de dados no servidor |
+| Atores | Sistema |
+| Pré-condições | O contrato deve ter sido cancelado ou ter finalizado |
+| Pós-condições | O sistema deve apenas mostrar os dados até aquele momento, mas não coletar nenhum dado novo |
+| Fluxo principal | 1. O contrato da vinícola é cancelado <br> 2. O sistema interrompe a coleta de dados no servidor |
+| Fluxo de exceção | |
+
+
+#### UC 14 - Cancelar contrato
+| | |
+| -- | -- |
+| Descrição | O administrador poderá cancelar um contrato, interrompendo as suas atividades |
+| Atores | Administrador |
+| Pré-condições | O usuário deve estar logado e possuir perfil de administrador |
+| Pós-condições | 1. O sistema deve parar a coleta realizada para os sistemas referente àquele contrato <br> 2. O sistema deve interromper o acesso do usuário ao acionamento do suporte para os sistemas físicos <br> 3. O usuário se limitará apenas a visualizar os dados já processados até aquele momento <br> 4. O usuário receberá uma notificação informando sobre o cancelamento. [UC 09] |
+| Fluxo principal | 1. Administrador deve logar no sistema <br> 2. Administrador deve selecionar "Contratos" <br> 3. Deve clicar em "cancelar contrato"|
+| Fluxo de exceção | |
+
+#### UC 15 - Mostrar tráfego de dados
+| | |
+| -- | -- |
+| Descrição | O administrador verá o tráfego de dados dos sistemas presentes nas vinícolas |
+| Atores | Administrador |
+| Pré-condições | O usuário deve estar logado e possuir perfil de administrador |
+| Pós-condições | O administrador deve ser capaz de visualizar pausas ou irregularidades através do tráfego de dados dos sensores |
+| Fluxo principal | 1. O administrador loga no sistema <br> 2. Ele entra na aba "Sistemas eletrônicos" <br> 3. Ele clica em "fluxo de dados" <br> 4. Ele visualiza uma lista de sistemas e sensores <br> 5. Ele filtra pelo sistema que deseja <br> 6.Clica em "filtrar" <br> 7. Entra no sistema e visualiza o tráfego |
+| Fluxo de exceção | |
+
+#### UC 16 - Notificar mau funcionamento de sistema eletrônico
+| | |
+| -- | -- |
+| Descrição | Caso algum sistema apresente um grande intervalo de tempo sem enviar dados, o sistema deve notificar ao administrador sobre o problema no sistema eletrônico |
+| Atores | Sistema |
+| Pré-condições | Algum sensor deve deixar de enviar dados com regularidade |
+| Pós-condições | Administrador recebe notificação e email informando qual o sistema eletrônico que possivelmente está com problemas |
+| Fluxo principal | 1. O usuário deve entrar no sistema <br> 2. Clicar no ícone correspondente à "sistema físico" <br> 3. Abrirá uma página discriminando os sistemas instalados na vinícola 4. O usuário deve clicar em acionar supor|
+| Fluxo de exceção | |
+
+
+#### UC 17 - Visualizar vinícolas
+| | |
+| -- | -- |
+| Descrição | O administrador poderá visualizar as vinícolas cadastradas |
+| Atores | Administrador |
+| Pré-condições | O usuário deve estar logado e possuir perfil de administrador |
+| Pós-condições | O usuário deve visualizar todas as vinícolas cadastradas |
+| Fluxo principal | 1. Usuário entra no sistema <br> 2. Usuário clica em "Vinícolas" |
+| Fluxo de exceção | |
+
+#### UC 18 - Cadastrar contrato
+| | |
+| -- | -- |
+| Descrição | O administrador irá realizar o cadastro de novos contratos na plataforma |
+| Atores | Administrador |
+| Pré-condições | O usuário deve estar logado e possuir perfil de administrador |
+| Pós-condições | O contrato deve estar pronto para receber os dados da vinícola a ser vinculada |
+| Fluxo principal | 1. O administrador entra no sistema <br> 2. Clica em "novo contrato" <br> 3. Preenche o formulário com os dados do novo contrato <br> 4. O usuário é redirecionado para a página de contratos |
+| Fluxo de exceção | |
+
+#### UC 19 - Cadastrar vinícola
+| | |
+| -- | -- |
+| Descrição | O administrador irá cadastrar as vinícolas associando-as a um contrato |
+| Atores | Administrador |
+| Pré-condições | 1. O usuário deve estar logado e ser administrador <br> 2. O contrato deve existir e estar ativo <br> 3. Os sistemas devem estar instalados e cadastrados |
+| Pós-condições | 1. Devem ser criados os emails do agricultor e do agrônomo responsável, fornecendo-os acesso ao sistema <br> 2. A vinícola deve aparecer na lista de vinícolas cadastradas <br> 3. Os sistemas devem ser associados à vinícola  <br> 4. Os dados devem ser captados do servidor |
+| Fluxo principal | 1. O administrador entra no sistema <br> 2. Pesquisa pelo contrato que receberá a vinícola <br> 3. Entra no contrato <br> 4. Clica em "cadastrar vinícola" <br> 5. Preenche o formulário <br> 6. Clica em "cadastrar" |
+| Fluxo de exceção | |
 
 ## 5. Visão Lógica
 
