@@ -1,4 +1,4 @@
-# Índice
+## Estrutura e Padrões
 
 * [1. Estrutura e Política de Branches](#_1-Estrutura-e-Política-de-branches)
     * [1.1. Nomes de branches](#_11-Nomes-de-branches)
@@ -7,9 +7,10 @@
     * [1.4. Fluxo de adição de documentos](#_14-Fluxo-de-adição-de-documentos)
 * [2. Estrutura de Issues](#_2-Estrutura-de-issues)
 * [3. Estrutura de Pull Request](#_3-Estrutura-de-pull-request)
+- [ Histórico de revisão](#_histórico-de-revisão)
     
 
-# 1. Estrutura e Política de Branches
+### 1. Estrutura e Política de Branches
 
 A estrutura de branches do repositório seguirá a organização definida a seguir:
 
@@ -20,14 +21,14 @@ A estrutura de branches do repositório seguirá a organização definida a segu
 * Branches **_docs/*_**, que serão utilizadas para o desenvolvimento da documentação do projeto;
 * Branches **_bug/*_**, que servirão para correção de eventuais bugs encontrados em produção.
 
-## 1.1. Nomes de branches
+### 1.1. Nomes de branches
 
 Em Inglês, letras minúsculas, palavras separadas por '-', respeitando o padrão gitflow. 
 
 Ex: _feature/numero_issue-cadastro-usuario_
 
 
-## 1.2. Commits
+### 1.2. Commits
 
 Em Inglês, verbo no gerúndio com descrição do que foi feito e co-authored para as pessoas no pareamento. Além da utilização de tags que demonstram o tipo de commit, estas tags são Docs, Feature e Bugfix
 
@@ -38,7 +39,7 @@ _[Feature] Implementing user register._
 _Co-authored-by: john Doe <john@doe.com\>_
 
 
-## 1.3. Fluxo de adição de uma nova funcionalidade
+### 1.3. Fluxo de adição de uma nova funcionalidade
 
 #### 1.3.1. Criar a branch para a nova funcionalidade a partir de _devel_
 
@@ -69,7 +70,7 @@ Na branch _feature/new-feature_:
 O título do Pull Request deve ser igual ao da issue e a descrição deve seguir o template pré-estabelecido.
 
 
-## 1.4. Fluxo de adição de documentos
+### 1.4. Fluxo de adição de documentos
 
 #### 1.4.1. Criar a branch para o novo documento a partir de _gh-pages_
 
@@ -106,3 +107,9 @@ Todas as issues, sejam de feature (isso inclui documentação), sejam de bug, de
 # 3. Estrutura de Pull Request
 
 Todas os Pull Requests devem seguir os padrões presentes no repositório. Estes padrões aparecem automaticamente ao criar o Pull Request.
+
+| O quê | Quem  | Quando |
+| - | - | - |
+|  Primeira versão do documento | Lucas Vitor | 17/04/2020 |
+| Revisão entrega| Adrianne | 24/04/2020 |
+| Revisão, restruturação do documento | Adrianne Alves da Silva | 23/08/2020
