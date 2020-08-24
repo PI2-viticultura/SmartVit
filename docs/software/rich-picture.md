@@ -1,18 +1,26 @@
-# Rich Picture
+## Rich Picture
 
-A técnica de uso do rich picture consiste no desenho consciente das ações dos atores relativos ao universo de informações ao qual compreende o domínio do produto a ser desenvolvido. Nesse sentido, espera-se expressar as regras de negócio como atuações no sistema. Abaixo seguem os rich pictures elaborados conforme as versões.
+- [1. Introdução](#_1-introdução)
+- [2. Visão do administrador](#_2-visão-do-administrador)
+- [3. Visão do agrônomo](#_3-visão-do-agrônomo)
+- [4. Visão do agricultor](#_4-visão-do-agricultor)
+- [ Histórico de revisão](#_histórico-de-revisão)
 
-## Versão 01
+### 1. Introdução
 
-* Visão do administrador
+A técnica de uso do rich picture consiste no desenho consciente das ações dos atores relativos ao universo de informações ao qual compreende o domínio do produto a ser desenvolvido. Nesse sentido, espera-se expressar as regras de negócio como atuações no sistema. Abaixo seguem os rich pictures elaborados a punho, resultado do processo de introspecção dos membros da equipe (**Adrianne**, **Lucas**, **João**).
+
+### 2. Visão do administrador
 
 ![img](imgs/rich-adm.png)
 
-* Visão do agrônomo
+### 3. Visão do agrônomo
 
 ![img](imgs/rich-agronomo.jpg)
 
-* Visão do agricultor / dono da vinícola
+### 4. Visão do agricultor
+
+* O agricultor corresponde ao dono da vinícola
 
 ![img](imgs/rich-agricultor.jpg)
 
@@ -37,3 +45,11 @@ A técnica de uso do rich picture consiste no desenho consciente das ações dos
 | 14 | Analisar qualidade da safra dado um tipo de uva | Agrônomo | O agronômo poderá obter uma análise preditiva que indique a qualidade da safra de determinado tipo de uva naquele local * |
 | 15 | Alertar sistema quanto a pragas | Agrônomo |  Será possível avisar o sistema quanto a pragas * |
 | 16 | Visualizar alertas de clima/intemperies | Agricultor | |
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+|  Primeira versão do documento | Adrianne | 17/04/2020 |
+| Revisão entrega| João Lucas | 17/04/2020 |
+| Revisão, reorganização do documento | Adrianne Alves da Silva | 23/08/2020
