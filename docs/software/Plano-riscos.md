@@ -1,14 +1,30 @@
 # Plano de Gerenciamento de Riscos
 
+- [1. Introdução](#_1-introdução)
+  * [1.1 Metodologia](#_metodologia)
+- [2. Análise Quantitativa](#_2-análise-quantitativa)
+  * [a. Probabilidade](#_a-probabilidade)
+  * [b. Impacto](#_b-impacto)
+  * [c. Prioridade](#_c-prioridade)
+- [3. Plano de ação](#_3-plano-de-ação)
+  * [3.1. Comunicação Interna](#_31-comunicação-interna)
+- [ Histórico de revisão](#_histórico-de-revisão)
+
 ## 1.  Introdução
 
-Este documento tem por objetivo a descrição dos riscos do projeto, bem como as medidas que serão tomadas para mitigá-los.
+O plano de gerenciamento de risco consiste na descrição dos processos de mitigação de riscos já identificados que afetam o processo de desenvolvimento da equipe. Este documento trata exclusivamente dos riscos relacionados à equipe de desenvolvimento de software, abrangendo situações e problemas que podem vir a prejudicar o andamento da concepção do produto. Aqui também se encontram as medidas a serem tomadas para que estes problemas não ocorram. 
+
+### 1.1 Metodologia 
+
+Primeiramente, foi necessário realizar o levantamento dos riscos. Este processo foi realizado em conjunto com os membros da equipe de desenvolvimento de software, durante a pandemia e revisado pelos membros que entraram na equipe após redistribuição das equipes com a volta das aulas em formato EAD. Em posse da relação dos riscos, foi estabelecida uma escala de pesos para as probabilidades e os impactos, o que deu origem à prioridade dos mesmos. Os intervalos relativos aos valores de prioridade deram origem aos níveis que são utilizados para gerenciamento dos riscos.
 
 ## 2. Análise Quantitativa
 
-A análise quantitativa tem por objetivo a priorização e categorização dos riscos de acordo com duas métricas: probabilidade (chances de um risco ocorrer)e impacto (o quanto um risco impacta no projeto).
+A análise quantitativa tem por objetivo a priorização e categorização dos riscos de acordo com duas métricas: probabilidade (chances de um risco ocorrer) e impacto (o quanto um risco impacta no projeto). Em posse desses valores é possível determinar a prioridade de um risco, que de acordos com os níveis auxiliam na gestão e tomadas de decisão quanto às ações a serem tomadas.
 
 ### a. Probabilidade
+
+A probabilidade, como se refere o nome traz uma classificação da probabilidade do risco acontecer. Esse indicador vai de 0 a 5, compreendendo de probabilidades nulas a probabilidades muito altas.
 
 <table>
   <tr>
@@ -56,7 +72,11 @@ A análise quantitativa tem por objetivo a priorização e categorização dos r
   </tr>
 </table>
 
+<br> 
+
 ### b. Impacto
+
+O impacto consiste em um indicador que relaciona o quanto a ocorrência deste risco poderá afetar a equipe. Ele compreende, assim como a probabilidade, valores que vão de 0 a 5, englobando desde o impacto nulo ao muito alto. 
 
 <table>
   <tr>
@@ -104,9 +124,13 @@ A análise quantitativa tem por objetivo a priorização e categorização dos r
   </tr>
 </table>
 
+<br> 
+
 ### c. Prioridade
 
-Baseando-se no impacto e na probabilidade é calculada a prioridade dos riscos, o que determina a urgência com que medidas devem ser tomadas para mitigar um risco que pode atrapalhar ou impedir o projeto. A prioridade segue o seguinte modelo:
+Baseando-se no impacto e na probabilidade é calculada a prioridade dos riscos, o que determina a urgência com que medidas devem ser tomadas para mitigar um risco que pode atrapalhar ou impedir o desenvolvimento do projeto de software. 
+
+A prioridade segue a seguinte relação entre impacto e probabilidade (impacto x probabilidade):
 
 <table>
   <tr>
@@ -195,8 +219,10 @@ Baseando-se no impacto e na probabilidade é calculada a prioridade dos riscos, 
   </tr>
 </table>
 
+<br> 
+<br>
 
-E seus níveis são:
+Para a classificação dos riscos, utiliza-se a tabela de níveis, cujo intervalo diz respeito à priorização realizada no passo anterior. Os níveis são:
 
 <table>
   <tr>
@@ -237,8 +263,14 @@ E seus níveis são:
   </tr>
 </table>
 
-## 3. Plano de ação para os riscos
+<br>
+<br>
 
+## 3. Plano de ação 
+
+Foram relacionados e categorizados os riscos abaixo. A partir desta tabela será realizado um processo interno de gerenciamento de riscos, responsabilidade de todos os membros da equipe. 
+
+<br>
 <table>
   <tr>
    <td><strong>Risco</strong>
@@ -259,7 +291,7 @@ E seus níveis são:
    </td>
    <td>Prevenir
    </td>
-   <td>Validar o escopo de forma assertiva com toda a equipe
+   <td>Validar o escopo de forma assertiva com toda a equipe, incluindo as demais áreas
    </td>
    <td>4
    </td>
@@ -273,7 +305,7 @@ E seus níveis são:
    </td>
    <td>Prevenir
    </td>
-   <td>Definir escopo concretizável dentro da realidade da equipe
+   <td>Definir escopo concretizável dentro da realidade da equipe e do tempo disponível na disciplina, relativo à duração do semestre
    </td>
    <td>5
    </td>
@@ -329,7 +361,7 @@ E seus níveis são:
    </td>
    <td>Mitigar
    </td>
-   <td>Reforçar a importância de cada membro para a equipe e a importância da disciplina para o integrante
+   <td> Realizar acompanhamento da situação dos membros e auxiliá-los reforçando a sua importância na equipe
    </td>
    <td>2
    </td>
@@ -343,7 +375,7 @@ E seus níveis são:
    </td>
    <td>Prevenir
    </td>
-   <td>Monitorar priorização e utilizar técnicas de priorizar
+   <td>Monitorar priorização e utilizar técnicas para priorizar
    </td>
    <td>3
    </td>
@@ -385,7 +417,7 @@ E seus níveis são:
    </td>
    <td>Prevenir
    </td>
-   <td>Realizar treinamentos e pareamentos dentro do grupo
+   <td>Realizar treinamentos e pareamentos entre os membros do grupo
    </td>
    <td>1
    </td>
@@ -395,3 +427,12 @@ E seus níveis são:
    </td>
   </tr>
 </table>
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+|  Primeira versão do documento | Lucas Vitor | 17/04/2020 |
+| Revisão entrega | Adrianne Alves | 24/04/2020 |
+| Aprimoramento | Lucas Vitor | 24/04/2020 |
+| Revisão, reorganização, restruturação do documento segundo diretrizes EAD | Adrianne Alves da Silva | 23/08/2020

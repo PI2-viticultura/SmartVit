@@ -1,4 +1,4 @@
-# <a name="Plano-comunicacao">Plano de Comunicação - Software</a>
+# Plano de Comunicação - Software
 
 - [1. Introdução](#_1-introdução)
   * [1.1. Objetivo](#_11-objetivo)
