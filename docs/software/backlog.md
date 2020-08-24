@@ -1,19 +1,28 @@
-# Backlog
+## Backlog
 
-<p align="justify">&emsp;&emsp; O backlog consiste na relação das funcionalidades a serem desenvolvidas em um projeto de software. A relação dos primeiros requisitos dá origem à baseline de requisitos, ou seja, os requisitos previstos para o sistema em questão. É importante salientar que o backlog é dinâmico e pode incorporar ou perder componentes de acordo às necessidades do projeto.
+- [1. Introdução](#_1-introdução)
+- [2. Priorização](#_2-priorização)
+- [3. Resultado](#_3-resultado)
+- [ Histórico de revisão](#_histórico-de-revisão)
 
-## Priorização
+## 1. Introdução
 
-<p align="justify">&emsp;&emsp; A priorização do dos requisitos do projeto seguem o padrão MoSCoW. Este método é uma técnica que tem por objetivo encontrar um entendimento em comum entre as partes interessadas sobre a importância que elas atribuem a cada requisito.
+<p align="justify">O backlog consiste na relação das funcionalidades a serem desenvolvidas em um projeto de software. A relação dos primeiros requisitos dá origem à baseline de requisitos, ou seja, os requisitos previstos para o sistema em questão. É importante salientar que o backlog é dinâmico e pode incorporar ou perder componentes de acordo às necessidades do projeto.
 
-<p align="justify">&emsp;&emsp; O termo MoSCoW é um acrônimo em inglês derivado da primeira letra de cada uma das quatro categorias. O significado de cada categoria pode ser verificada a seguir:
+## 2. Priorização
+
+<p align="justify">A priorização do dos requisitos do projeto seguem o padrão MoSCoW. Este método é uma técnica que tem por objetivo encontrar um entendimento em comum entre as partes interessadas sobre a importância que elas atribuem a cada requisito.
+
+<p align="justify">O termo MoSCoW é um acrônimo em inglês derivado da primeira letra de cada uma das quatro categorias. O significado de cada categoria pode ser verificada a seguir:
 
 - Must Have (Tenho que fazer): São itens essenciais para o projeto.
 - Should Have (Devo fazer): São itens críticos para o projeto.
 - Could Have (Poderia fazer): São itens desejáveis para o projeto.
 - Would Have (Não vou fazer): São itens que podem ser incluídos no projeto. </p>
 
- <p align="justify">&emsp;&emsp; A primeira versão do backlog, obtida por meio das técnicas de elicitação anteriormente mencionadas e documentadas encontra-se abaixo:
+## 3. Resultado
+
+ <p align="justify">A primeira versão do backlog, obtida por meio das técnicas de elicitação anteriormente mencionadas e documentadas encontra-se abaixo:
 
 |  # | Descrição  | Ator |  Observação | Priorização|
 |---|---|---|---|---|
@@ -34,3 +43,11 @@
 | 15 | Alertas de clima/intempéries na região da vinícola | Agricultor | | Could |
 | 16 | O sistema deve avisar ao usuário quando comportamentos automáticos forem acionados, ex: irrigação | Sistema | | Should |
 | 17 | Envio de feedback do usuário | todos usuários | | Should |
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+|  Primeira versão do documento | Adrianne | 24/04/2020 |
+| Revisão entrega| João Lucas | 22/04/2020 |
+| Revisão, reorganização do documento | Adrianne Alves da Silva | 23/08/2020

@@ -51,6 +51,6 @@
 
 | O quê | Quem  | Quando |
 | - | - | - |
-|  Primeira versão do documento | Adrianne | 17/04/2020 |
-| Revisão entrega| João Lucas | 17/04/2020 |
+|  Primeira versão do documento | Adrianne | 24/04/2020 |
+| Revisão entrega| João Lucas | 22/04/2020 |
 | Revisão, reorganização do documento | Adrianne Alves da Silva | 23/08/2020
