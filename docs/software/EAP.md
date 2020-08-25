@@ -2,6 +2,7 @@
 
 - [1. Sobre](#_1-sobre)
 - [2. A EAP](#_2-a-eap)
+- [ Histórico de revisão](#_histórico-de-revisão)
 
 ## 1. Sobre
 
