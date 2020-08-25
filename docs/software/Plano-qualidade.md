@@ -1,23 +1,23 @@
-# <a name="Plano de Qualidade"> Plano de Qualidade </a>
+# Plano de Qualidade 
 
-## 1. <a name="1">Introdução</a>
+## 1. Introdução
 
-<p align = "justify"> &emsp;&emsp; O documento tem como finalidade a apresentação do plano de qualidade do projeto. Visando uma boa qualidade de código do projeto, alguns padrões de qualidade e normas foram definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. </p>
+<p align = "justify">O documento tem como finalidade a apresentação do plano de qualidade do projeto. Visando uma boa qualidade de código do projeto, alguns padrões de qualidade e normas foram definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. </p>
 
-## 2. <a name="2">Objetivos do Plano</a>
+## 2. Objetivos do Plano
 
-<p align = "justify"> &emsp;&emsp; A qualidade de software pode ser entendida como o nível de conformidade do sistema com os requisitos funionais e não-funcionais aplicados com o intuito de garantir que os aspectos do projeto sejam atendidos da melhor forma possível, criou-se este documento. </p>
+<p align = "justify">A qualidade de software pode ser entendida como o nível de conformidade do sistema com os requisitos funionais e não-funcionais aplicados com o intuito de garantir que os aspectos do projeto sejam atendidos da melhor forma possível, criou-se este documento. </p>
 
-<p align = "justify"> &emsp;&emsp; O plano tem que garantir um acompanhamento a respeito da qualidade do produto nas fases desenvolvimento e de entrega ao cliente, estabelecendo as ferramentas e métricas que possibilitem a análise da mesma. </p>
+<p align = "justify">O plano tem que garantir um acompanhamento a respeito da qualidade do produto nas fases desenvolvimento e de entrega ao cliente, estabelecendo as ferramentas e métricas que possibilitem a análise da mesma. </p>
 
 
-## 3. <a name="3">Metodologia de Aplicação do Plano</a>
+## 3. Metodologia de Aplicação do Plano
 
-<p align = "justify"> &emsp;&emsp; Visando uma boa qualidade de código do projeto, alguns métricas com padrões de qualidade de corpos de conhecimentos e de normas são definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. Essas métricas serão coletadas periodicamente, com a ajuda de algumas tecnologias definidas. a Metodologia a ser utilizada será a [GQM](https://pi2-viticultura.github.io/SmartVit/#/docs/software/gqm) . </p>
+<p align = "justify">Visando uma boa qualidade de código do projeto, alguns métricas com padrões de qualidade de corpos de conhecimentos e de normas são definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. Essas métricas serão coletadas periodicamente, com a ajuda de algumas tecnologias definidas. a Metodologia a ser utilizada será a [GQM](https://pi2-viticultura.github.io/SmartVit/#/docs/software/gqm) . </p>
 
-## 4. <a name="4">Métricas</a>
+## 4. Métricas
 
-<p align = "justify"> &emsp;&emsp; Para a análise das métricas foram estabelecidos alguns critérios a serem seguidos, classificados entre bom, regular ou crítico. </p>
+<p align = "justify">Para a análise das métricas foram estabelecidos alguns critérios a serem seguidos, classificados entre bom, regular ou crítico. </p>
 
 |                    Métrica                    | Bom          | Regular      | Crítico       |
 | :-------------------------------------------: | ------------ | ------------ | ------------- |
