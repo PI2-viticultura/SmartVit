@@ -1,4 +1,21 @@
-# GQM - Goal Question Metric
+## GQM - Goal Question Metric
+
+- [1. Introdução](#_1-introdução)
+- [2. Metas](#_2-metas)
+  * [2.1. Qualidade de Software](#_21-qualidade-de-software)
+  * [2.2. Produtividade](#_22-produtividade)
+- [3. Questões](#_3-questões)
+  * [3.1. Questões da Meta de Qualidade de Software](#_31-questões-da-meta-de-qualidade-de-software)
+  * [3.2. Questões da Meta de Produtividade](#_32-questões-da-meta-de-produtividade)
+- [4. Métricas](#_4-métricas)
+  * [4.1. Métricas para Meta de Qualidade de Software](#_41-métricas-para-meta-de-qualidade-de-software)
+    * [4.1.1 Cobertura de Testes](#_411-cobertura-de-testes)
+    * [4.1.2 Formatação do Código-fonte](#_412-formatação-do-código-fonte)
+  * [4.2. Métricas para Meta de Produtividade](#_42-métricas-para-meta-de-produtividade)
+     * [4.2.1 Burndown](#_421-burndown)
+     * [4.2.2 Velocity](#_422-velocity)
+- [5. Referências](#_5-referências)
+- [ Histórico de revisão](#_histórico-de-revisão)
 
 ## 1. Introdução
 
@@ -457,3 +474,13 @@
 ## 5. Referências
 
 BASILI, Victor; CALDIERA, Gianluigi; ROMBACH, H. Dieter. **The Goal Question Metric Approach**. Universidade de Maryland, Maryland. 2002.  Disponível em: <http://www.cs.umd.edu/~mvz/handouts/gqm.pdf> Acesso em 25 abr. 2020.
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+| Primeira versão do documento | João Lucas | 24/04/2020 |
+| Revisão entrega | Lucas Vitor | 22/05/2020 |
+| Segunda versão | João Lucas | 25/05/2020 |
+| Revisão entrega | Adrianne Alves | 25/05/2020 |
+| Adição de histórico, organização e atualização de informações| Adrianne Alves da Silva | 25/08/2020 |

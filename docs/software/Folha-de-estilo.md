@@ -1,12 +1,23 @@
-# Folha de Estilo
+## Folha de Estilo
 
-## 1. Introdução
+- [1. Introdução](#_1-introdução)
+- [2. Guia de Estilo da Linguagem Python](#_2-guia-de-estilo-da-linguagem-python)
+   * [2.1. Convenção de Nomes](#_21-convenção-de-nomes)
+   * [2.2. Formatação de Código](#_22-formatação-de-código)
+   * [2.3. Estruturas de Comentários](#_23-estruturas-de-comentários)
+   * [2.4. Organização de Estruturas de Controle](#_24-organização-de-estruturas-de-controle)
+   * [2.5. Rotinas](#_25-rotinas)
+   * [2.6. Indentação de Estruturas de Controle](#_26-indentação-de-estruturas-de-controle)
+- [3. Referências](#_3-referências)
+- [ Histórico de revisão](#_histórico-de-revisão)
 
-<p align = "justify"> &emsp;&emsp; A folha de estilo é usado para padronização e organização do código de um projeto. O uso desse documento serve para instruir os programadores o padrão de estilo do código de uma determinada linguagem de programação, em que a estrutura do código fique compreensível a outros programadores; que fique mais elegante a maneira de escrever o código, e principalmente, aumentar a qualidade interna do software.
+### 1. Introdução
 
-## 2. Guia de Estilo da Linguagem Python
+<p align = "justify"> A folha de estilo é usado para padronização e organização do código de um projeto. O uso desse documento serve para instruir os programadores o padrão de estilo do código de uma determinada linguagem de programação, em que a estrutura do código fique compreensível a outros programadores; que fique mais elegante a maneira de escrever o código, e principalmente, aumentar a qualidade interna do software.
 
-### 2.1. Convenção de Nomes
+### 2. Guia de Estilo da Linguagem Python
+
+#### 2.1. Convenção de Nomes
 
 > Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula
 
@@ -63,7 +74,7 @@
 * Faça:
       MAX_LENGTH = 25
 
-### 2.2. Formatação de Código
+#### 2.2. Formatação de Código
 
 #### Indentação
 
@@ -154,7 +165,7 @@
                   ira_deduction -
                   student_loan_interest)
 
-### 2.3. Estruturas de Comentários
+#### 2.3. Estruturas de Comentários
 
 > Todos os comentários devem começar com letra maiúscula
 
@@ -200,7 +211,7 @@ Todos os comentários devem ter uma linha em branco acima
 
       print(phrase)
 
-### 2.4. Organização de Estruturas de Controle
+#### 2.4. Organização de Estruturas de Controle
 
 > Usar parênteses em estruturas de decisão
 
@@ -222,7 +233,7 @@ Todos os comentários devem ter uma linha em branco acima
       if((name == 'Linda' and age == 10) or
          (name == 'Jessica' and age == 8)):
 
-### 2.5. Rotinas         
+#### 2.5. Rotinas         
 
 > Usar linhas em branco para separar as partes da rotina
 
@@ -254,7 +265,7 @@ Todos os comentários devem ter uma linha em branco acima
           user
       ):
 
-### 2.6. Indentação de Estruturas de Controle
+#### 2.6. Indentação de Estruturas de Controle
 
 > Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura
 
@@ -291,3 +302,11 @@ Todos os comentários devem ter uma linha em branco acima
 Google Python Style Guide. Disponível em: <https://google.github.io/styleguide/pyguide.html>. Acesso 30 abr. 2020.
 
 PEP 0008 - Guia de Estilo de Python. Disponível em: <https://wiki.python.org.br/GuiaDeEstilo>. Acesso em: 30 abr. 2020.
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+| Primeira versão do documento | João Lucas | 22/05/2020 |
+| Revisão entrega | Lucas Vitor | 29/05/2020 |
+| Adição de histórico, organização e atualização de informações| Adrianne Alves da Silva | 25/08/2020 |
