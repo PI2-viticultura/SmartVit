@@ -1,18 +1,18 @@
-# <a name="GQM">GQM - Goal Question Metric</a>
+# GQM - Goal Question Metric
 
-## 1. <a name="1">Introdução</a>
+## 1. Introdução
 
-<p align = "justify"> &emsp;&emsp;  GQM é uma abordagem top-down, desenvolvida por Victor Basili, utilizada para facilitar o processo de medição de processos de desenvolvimento de software. O uso da abordagem específica quais serão as medições a serem utilizadas para garantir a qualidade da aplicação, através de metas. Para isso, utiliza-se conjuntos precisos de questões e de regras para interpretação dos dados em que resultam em métricas, alcançando assim, a resolução das metas de qualidade. </p>
+<p align = "justify">GQM é uma abordagem top-down, desenvolvida por Victor Basili, utilizada para facilitar o processo de medição de processos de desenvolvimento de software. O uso da abordagem específica quais serão as medições a serem utilizadas para garantir a qualidade da aplicação, através de metas. Para isso, utiliza-se conjuntos precisos de questões e de regras para interpretação dos dados em que resultam em métricas, alcançando assim, a resolução das metas de qualidade. </p>
 
-<p align = "justify"> &emsp;&emsp; Esta abordagem possui três níveis:</p>
+<p align = "justify">Esta abordagem possui três níveis:</p>
 
 **Conceitual**: Definição das metas do software (Goals); </p>
 **Operacional**: Levantamento das questões (Questions) para abordagens relacionadas as meta definidas no Nível Conceituals; </p>
 **Quantitativo**: Levantamento das métricas (Metrics) que responderão às questões definidas no Nível Operacional. </p>
 
-## 2. <a name="2">Metas</a>
+## 2. Metas
 
-<p align = "justify"> &emsp;&emsp; No primeiro nível, deve-se definir as metas do projeto, baseando-se nos conceitos de criação de metas definidas pelo GQM, que consiste em:
+<p align = "justify">No primeiro nível, deve-se definir as metas do projeto, baseando-se nos conceitos de criação de metas definidas pelo GQM, que consiste em:
 
 <table>
     <tr>
@@ -58,7 +58,7 @@
 </table>
 </p>
 
-### 2.1. <a name="2.1. ">Qualidade de Software</a>
+### 2.1. Qualidade de Software
 
 <table>
     <tr>
@@ -103,7 +103,7 @@
     </tr>
 </table>
 
-### 2.2. <a name="2.2. ">Produtividade</a>
+### 2.2. Produtividade
 
 <table>
     <tr>
@@ -149,29 +149,30 @@
 </table>
 
 </p>
-## 3. <a name="3. ">Questões</a>
 
-<p align = "justify"> &emsp;&emsp; No nível Operacional, deve-se definir as questões que servem para classificar e aperfeiçoar os objetivos abordados nas metas.
+## 3. Questões
+
+<p align = "justify">No nível Operacional, deve-se definir as questões que servem para classificar e aperfeiçoar os objetivos abordados nas metas.
 
 </p>
 
-### 3.1. <a name="3.1. ">Questões da Meta de Qualidade de Software</a>
+### 3.1. Questões da Meta de Qualidade de Software
 
 - O produto apresenta uma boa manutenibilidade do software?
 - O projeto apresenta qualidade de código?
 </p>
 
 
-### 3.2. <a name="3.2. ">Questões da Meta de Produtividade</a>
+### 3.2. Questões da Meta de Produtividade
 
 - A equipe realiza as entregas de forma constante?
 - As atividades dividas estão homogêneas, para que não seja sobrecarregado os membros e nem o projeto?
 </p>
 
 
-## 4. <a name="4. ">Métricas</a>
+## 4. Métricas
 
-<p align = "justify"> &emsp;&emsp; No último nível, define-se o processo das métricas que respondam as perguntas referentes as metas estipuladas. Para tal é utilizada a seguinte tabela:
+<p align = "justify">No último nível, define-se o processo das métricas que respondam as perguntas referentes as metas estipuladas. Para tal é utilizada a seguinte tabela:
 
 <table>
     <tr>
@@ -226,9 +227,9 @@
 
 </p>
 
-### 4.1. <a name="4.1. ">Métricas para Meta de Qualidade de Software</a>
+### 4.1. Métricas para Meta de Qualidade de Software
 
-#### 4.1.1 <a name="4.1.1. ">Cobertura de Testes </a>
+#### 4.1.1 Cobertura de Testes 
 <table>
     <tr>
         <td>
@@ -282,7 +283,8 @@
 </table>
 
 </p>
-#### 4.1.2 <a name="4.1.2. ">Formatação do Código-fonte</a>
+
+#### 4.1.2 Formatação do Código-fonte
 
 <table>
     <tr>
@@ -337,9 +339,10 @@
 </table>
 
 </p>
-### 4.2. <a name="4.1. ">Métricas para Meta de Produtividade</a>
 
-#### 4.2.1 <a name="4.2.1. ">Burndown </a>
+### 4.2. Métricas para Meta de Produtividade
+
+#### 4.2.1 Burndown 
 
 <table>
     <tr>
@@ -394,7 +397,8 @@
 </table>
 
 </p>
-#### 4.2.2 <a name="4.2.2. ">Velocity </a>
+
+#### 4.2.2 Velocity 
 
 <table>
     <tr>
@@ -449,6 +453,7 @@
 </table>
 
 </p>
-## 5. <a name="5">Referências</a>
+
+## 5. Referências
 
 BASILI, Victor; CALDIERA, Gianluigi; ROMBACH, H. Dieter. **The Goal Question Metric Approach**. Universidade de Maryland, Maryland. 2002.  Disponível em: <http://www.cs.umd.edu/~mvz/handouts/gqm.pdf> Acesso em 25 abr. 2020.

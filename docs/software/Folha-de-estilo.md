@@ -1,12 +1,12 @@
-# <a name="Folha de Estilo">Folha de Estilo</a>
+# Folha de Estilo
 
-## 1. <a name="1">Introdução</a>
+## 1. Introdução
 
 <p align = "justify"> &emsp;&emsp; A folha de estilo é usado para padronização e organização do código de um projeto. O uso desse documento serve para instruir os programadores o padrão de estilo do código de uma determinada linguagem de programação, em que a estrutura do código fique compreensível a outros programadores; que fique mais elegante a maneira de escrever o código, e principalmente, aumentar a qualidade interna do software.
 
-## 2. <a name="2">Guia de Estilo da Linguagem Python</a>
+## 2. Guia de Estilo da Linguagem Python
 
-### 2.1. <a name="2.1"> Convenção de Nomes</a>
+### 2.1. Convenção de Nomes
 
 > Nomes de classes devem usar a convenção das iniciais de cada palavra em letra maiúscula
 
@@ -63,7 +63,7 @@
 * Faça:
       MAX_LENGTH = 25
 
-### 2.2. <a name="2.2"> Formatação de Código</a>
+### 2.2. Formatação de Código
 
 #### Indentação
 
@@ -154,7 +154,7 @@
                   ira_deduction -
                   student_loan_interest)
 
-### 2.3. <a name="2.3"> Estruturas de Comentários</a>
+### 2.3. Estruturas de Comentários
 
 > Todos os comentários devem começar com letra maiúscula
 
@@ -200,7 +200,7 @@ Todos os comentários devem ter uma linha em branco acima
 
       print(phrase)
 
-### 2.4. <a name="2.4"> Organização de Estruturas de Controle</a>
+### 2.4. Organização de Estruturas de Controle
 
 > Usar parênteses em estruturas de decisão
 
@@ -222,7 +222,7 @@ Todos os comentários devem ter uma linha em branco acima
       if((name == 'Linda' and age == 10) or
          (name == 'Jessica' and age == 8)):
 
-### 2.5. <a name="2.5"> Rotinas</a>         
+### 2.5. Rotinas         
 
 > Usar linhas em branco para separar as partes da rotina
 
@@ -254,7 +254,7 @@ Todos os comentários devem ter uma linha em branco acima
           user
       ):
 
-### 2.6. <a name="2.6"> Indentação de Estruturas de Controle</a>
+### 2.6. Indentação de Estruturas de Controle
 
 > Quando uma estrutura é subordinada a outra, deve ser recuada sob essa estrutura
 
@@ -286,7 +286,7 @@ Todos os comentários devem ter uma linha em branco acima
             do_that( )
 
 
-## 3. <a name="3">Referências</a>
+## 3. Referências
 
 Google Python Style Guide. Disponível em: <https://google.github.io/styleguide/pyguide.html>. Acesso 30 abr. 2020.
 
