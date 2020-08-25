@@ -1,4 +1,12 @@
-# Plano de Qualidade 
+## Plano de Qualidade 
+
+- [1. Introdução](#_1-introdução)
+- [2. Objetivos do Plano](#_2-objetivos-do-plano)
+- [3. Metodologia](#_3-metodologia)
+- [4. Métricas](#_4-métricas)
+- [5. Referências](#_5-referências)
+- [ Histórico de revisão](#_histórico-de-revisão)
+
 
 ## 1. Introdução
 
@@ -11,7 +19,7 @@
 <p align = "justify">O plano tem que garantir um acompanhamento a respeito da qualidade do produto nas fases desenvolvimento e de entrega ao cliente, estabelecendo as ferramentas e métricas que possibilitem a análise da mesma. </p>
 
 
-## 3. Metodologia de Aplicação do Plano
+## 3. Metodologia
 
 <p align = "justify">Visando uma boa qualidade de código do projeto, alguns métricas com padrões de qualidade de corpos de conhecimentos e de normas são definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. Essas métricas serão coletadas periodicamente, com a ajuda de algumas tecnologias definidas. a Metodologia a ser utilizada será a [GQM](https://pi2-viticultura.github.io/SmartVit/#/docs/software/gqm) . </p>
 
@@ -27,14 +35,16 @@
 |              Cobertura de código              | acima de 90% | acima de 80% | abaixo de 80% |
 |Cobertura de testes unitários | Acima de 90% |De 75% a 90% | Abaixo de 75%|
 
-
-## 5. Ferramentas e tecnologias utilizadas
-
-* [Codacy](https://www.codacy.com/)
-* [Coveralls](https://coveralls.io/)
-* [Travis CI](https://travis-ci.org/)
-* [Jest](https://jestjs.io/)
-
-## 6. Referências
+## 5. Referências
 
 SOFTWARE TESTING FUNDAMENTALS. Software Quality. Disponível em: <http://softwaretestingfundamentals.com/software-quality/>. Acesso em 22 abr. 2020.
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+| Primeira versão do documento | João Lucas | 24/04/2020 |
+| Revisão entrega | Lucas Vitor | 22/05/2020 |
+| Segunda versão | João Lucas | 25/05/2020 |
+| Revisão entrega | Adrianne Alves | 25/05/2020 |
+| Adição de histórico, organização e atualização de informações| Adrianne Alves da Silva | 25/08/2020 |
