@@ -16,13 +16,13 @@ A técnica de uso do rich picture consiste no desenho consciente das ações dos
 
 ### 3. Visão do agrônomo
 
-![img](imgs/rich-agronomo.jpg)
+![img](imgs/rich-agronomo.png)
 
 ### 4. Visão do agricultor
 
 * O agricultor corresponde ao dono da vinícola
 
-![img](imgs/rich-agricultor.jpg)
+![img](imgs/rich-agricultor.png)
 
 
 # Requisitos elicitados
@@ -52,4 +52,5 @@ A técnica de uso do rich picture consiste no desenho consciente das ações dos
 | - | - | - |
 |  Primeira versão do documento | Adrianne | 17/04/2020 |
 | Revisão entrega| João Lucas | 17/04/2020 |
-| Revisão, reorganização do documento | Adrianne Alves da Silva | 23/08/2020
+| Revisão, reorganização do documento | Adrianne Alves da Silva | 23/08/2020 |
+| Atualização rich pictures | Adrianne Alves da Silva | 25/08/2020 |
