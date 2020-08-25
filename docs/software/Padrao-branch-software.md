@@ -108,8 +108,10 @@ Todas as issues, sejam de feature (isso inclui documentação), sejam de bug, de
 
 Todas os Pull Requests devem seguir os padrões presentes no repositório. Estes padrões aparecem automaticamente ao criar o Pull Request.
 
+# Histórico de revisão
+
 | O quê | Quem  | Quando |
 | - | - | - |
 |  Primeira versão do documento | Lucas Vitor | 17/04/2020 |
-| Revisão entrega| Adrianne | 24/04/2020 |
-| Revisão, restruturação do documento | Adrianne Alves da Silva | 23/08/2020
+| Revisão entrega| Adrianne Alves | 24/04/2020 |
+| Adição de histórico | Adrianne Alves da Silva | 25/08/2020 |
