@@ -1,4 +1,4 @@
-# Índice
+# Metodologia de desenvolvimento
 
 * [1. Introdução](#_1-Introdução)
 * [2. Fases de desenvolvimento](#_2-Fases-de-desenvolvimento)
@@ -7,6 +7,7 @@
 * [4. Rituais](#_4-Rituais)
 * [5. Planejamento](#_5-Planejamento)
 * [6. Gerenciamento](#_6-Gerenciamento)
+- [ Histórico de revisão](#_histórico-de-revisão)
 
 # 1. Introdução
 
@@ -82,9 +83,9 @@ A divisão da equipe quanto aos papéis ocorre de acordo com o a seguinte especi
 | :--------:      | :----:                                    | 
 | Product Owner   | Adrianne Silva e João Lucas               |
 | Scrum Master    | Adrianne Silva                            |
-| Arquiteto       | João Lucas e Lucas Vitor                  |
-| DevOps          | Adrianne Silva e Lucas Vitor              |
-| Desenvolvedores | Adrianne Silva, João Lucas e  Lucas Vitor |
+| Arquiteto       | João Lucas, Adrianne e Lucas Vitor        |
+| DevOps          | Luciano dos Santos                        |
+| Desenvolvedores | Adrianne Silva, João Lucas, Lucas Vitor e Luciano |
 
 
 # 4. Rituais
@@ -136,6 +137,10 @@ O velocity atuará como ferramenta para análise da capacidade de desenvolviment
 
 Para monitorar as atividades entregues, o Scrum Master utilizará também o burndown, gerado pelo kanban usado pela equipe. Ele irá utilizá-lo inclusive ao longo das sprints para garantir as entregas.
 
-- Burndown de Riscos
+# Histórico de revisão
 
-Para monitorar os riscos do projeto, a fim de evitar complicações e maiores problemas, o Scrum Master irá criar e monitorar o burndown de riscos ao longo das sprints.
+| O quê | Quem  | Quando |
+| - | - | - |
+| Primeira versão do documento | Lucas Vitor | 24/04/2020 |
+| Revisão entrega | Adrianne Alves | 22/05/2020 |
+| Adição de histórico e edição de mudanças devido adição de membro na equipe | Adrianne Alves da Silva | 25/08/2020 |
