@@ -6,7 +6,6 @@
 - [4. Métricas](#_4-métricas)
 - [5. Referências](#_5-referências)
 - [ Histórico de revisão](#_histórico-de-revisão)
-jhfjgshbdjfgsdf
 
 ## 1. Introdução
 
