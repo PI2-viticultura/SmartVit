@@ -7,7 +7,6 @@
 - [5. Referências](#_5-referências)
 - [ Histórico de revisão](#_histórico-de-revisão)
 
-
 ## 1. Introdução
 
 <p align = "justify">O documento tem como finalidade a apresentação do plano de qualidade do projeto. Visando uma boa qualidade de código do projeto, alguns padrões de qualidade e normas foram definidos, tanto quanto as ferramentas que serão utilizadas para monitorar essa qualidade. </p>

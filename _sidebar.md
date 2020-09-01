@@ -57,6 +57,6 @@
   * Documentação
     * [Documento de arquitetura](docs/software/architecture.md)
     * [Documento de visão](docs/software/vision.md)
-    * [Protótipos]()
+    * [Protótipos](docs/software/prototipo.md)
     * [Testes]()
       * Resultados
