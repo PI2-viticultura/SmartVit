@@ -1,6 +1,6 @@
 # Histórias de Usuário
 
-As histórias de usuário foram escritas com base no baack log do produto desenvolvido anteriormente. Elas contam com Épicos, Features, histórias de usuário em si, tasks e priorização seguindo o modelo MoSCoW.
+As histórias de usuário foram escritas com base no backlog do produto desenvolvido anteriormente. Elas contam com Épicos, Features, histórias de usuário em si, tasks e priorização seguindo o modelo MoSCoW.
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSl7epPKmvBzbeKJkC9NBxmXYrmi0mZ1LdjfoTJH_VYBXwsQ2OUrYIsDGDsW2C0Q-EigW8f_madCEha/pub" style="min-width:100%;min-height:750px;"></iframe>
 

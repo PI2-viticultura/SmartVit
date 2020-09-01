@@ -22,39 +22,39 @@
 
 ### 1.1. Objetivos
 
- <p align = "justify"> &emsp;&emsp; O Documento de Arquitetura de Software tem como finalidade fornecer a visão geral de software da arquitetura do projeto SmartVit, utilizando representações arquiteturais, como a visão lógica e casos de uso, com a finalidade de facilitar o entendimento dos processos e funcionamento de todo o sistema. Tem também como objetivo transmitir as decisões arquiteturais significativas tomadas em relação ao mesmo.</p>
+ <p align = "justify"> O Documento de Arquitetura de Software tem como finalidade fornecer a visão geral de software da arquitetura do projeto SmartVit, utilizando representações arquiteturais, como a visão lógica e casos de uso, com a finalidade de facilitar o entendimento dos processos e funcionamento de todo o sistema. Tem também como objetivo transmitir as decisões arquiteturais significativas tomadas em relação ao mesmo.</p>
 
 ###  1.2. Escopo do documento
 
-<p align="justify"> &emsp;&emsp; Atráves do documento, pretende-se que possível obter entendimento da arquitetura do projeto, permitindo que os leitores a compreensão do funcionamento do SmartVit, e suas abordagens utilizadas para o seu desenvolvimento. </p>
+<p align="justify"> Atráves do documento, pretende-se que possível obter entendimento da arquitetura do projeto, permitindo que os leitores a compreensão do funcionamento do SmartVit, e suas abordagens utilizadas para o seu desenvolvimento. </p>
 
 ## 2. Representação da Arquitetura
 
-<p align="justify"> &emsp;&emsp; A arquitetura adotada possui organização em três camadas: módulo eletrônico, onde os dados serão coletados e transmitidos; API, onde os dados serão requisitados, tratados e distribuídos; e front-end, onde os dados serão entregues ao usuário de forma inteligível. </p>
+<p align="justify"> A arquitetura adotada possui organização em três camadas: módulo eletrônico, onde os dados serão coletados e transmitidos; API, onde os dados serão requisitados, tratados e distribuídos; e front-end, onde os dados serão entregues ao usuário de forma inteligível. </p>
 
-<p align="justify"> &emsp;&emsp; O principal relacionamento do projeto é implementado como um cliente-servidor. O servidor, implementado em Django Rest Framework, será responsável pela manutenção e processamento dos dados, enquanto ao cliente, representado pelo front-end e implementado em ReactJS, será encarregada a função de fornecer os dados dos usuários. </p>
+<p align="justify"> O principal relacionamento do projeto é implementado como um cliente-servidor. O servidor, implementado em Django Rest Framework, será responsável pela manutenção e processamento dos dados, enquanto ao cliente, representado pelo front-end e implementado em ReactJS, será encarregada a função de fornecer os dados dos usuários. </p>
 
 ### 2.1. Diagrama de Relações
 
-<p align="justify"> &emsp;&emsp; Abaixo estão descritos os módulos que integram o sistema e suas relações. </p>
+<p align="justify"> Abaixo estão descritos os módulos que integram o sistema e suas relações. </p>
 
 ![img](imgs/arquitetura.png)
 
 #### 2.1.1. Módulo Eletrônico
 
-<p align="justify"> &emsp;&emsp; Módulo físico responsável por captar dados como umidade, pH do solo, umidade e irrigação das vinícolas cadastradas. </p>
+<p align="justify"> Módulo físico responsável por captar dados como umidade, pH do solo, umidade e irrigação das vinícolas cadastradas. </p>
 
 #### 2.1.2. API
 
-<p align="justify"> &emsp;&emsp; A API é a unidade da arquitetura responsável por receber, processar e armazenar dados do módulo eletrônico. Neste ambiente serão realizadas as análises preditivas e de safra, gerenciamento das vinícolas e acionamento de sistemas (recebendo a entrada do usuário e repassando para o módulo eletrônico responsável). </p>
+<p align="justify"> A API é a unidade da arquitetura responsável por receber, processar e armazenar dados do módulo eletrônico. Neste ambiente serão realizadas as análises preditivas e de safra, gerenciamento das vinícolas e acionamento de sistemas (recebendo a entrada do usuário e repassando para o módulo eletrônico responsável). </p>
 
 #### 2.1.3. Aplicação Web
 
-<p align="justify"> &emsp;&emsp; A aplicação web é a unidade responsável por criar a ponte entre o usuário e a API, enviando dados para requisições e recebendo dados para então formulá-los de forma inteligível ao usuário. </p>
+<p align="justify"> A aplicação web é a unidade responsável por criar a ponte entre o usuário e a API, enviando dados para requisições e recebendo dados para então formulá-los de forma inteligível ao usuário. </p>
 
 #### 2.1.4. Banco de Dados
 
-<p align="justify"> &emsp;&emsp; Unidade responsável por armazenar os dados recebidos e processados pela API. </p>
+<p align="justify"> Unidade responsável por armazenar os dados recebidos e processados pela API. </p>
 
 ### 2.2. Tecnologias
 
@@ -289,8 +289,8 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 
 ### 5.1. Visão Geral: Pacotes e Camadas
 
- <p align = "justify"> &emsp;&emsp; A arquitetura conhecida como Cliente/Servidor se baseia em dois módulos principais, em que ambos farão a comunicação entre si, fornecendo aos usuários os serviços desejados.
- <p align = "justify"> &emsp;&emsp; No caso do projeto SmartVit, o Cliente nesse caso será a aplicação desenvolvida em ReactJS, enquanto o Servidor será a API do Django.
+ <p align = "justify"> A arquitetura conhecida como Cliente/Servidor se baseia em dois módulos principais, em que ambos farão a comunicação entre si, fornecendo aos usuários os serviços desejados.
+ <p align = "justify"> No caso do projeto SmartVit, o Cliente nesse caso será a aplicação desenvolvida em ReactJS, enquanto o Servidor será a API do Django.
 
 
 A figura a seguir mostra a estrutura de pacotes do sistema:
@@ -301,9 +301,18 @@ A figura a seguir mostra a estrutura de pacotes do sistema:
 
 ## 6. Desempenho
 
- <p align = "justify"> &emsp;&emsp; O desempenho do sistema está relacionado ao projeto todo. Por se tratar de um navegador PWA, a conexão com a internet e o aparelho eletrônico  são os fatores que pode causar os maiores problemas de seu desempenho, pois são os que demandam processamento mais abrangentes.
+ <p align = "justify"> O desempenho do sistema está relacionado ao projeto todo. Por se tratar de um navegador PWA, a conexão com a internet e o aparelho eletrônico  são os fatores que pode causar os maiores problemas de seu desempenho, pois são os que demandam processamento mais abrangentes.
 
 ## 7. Qualidade
 
-<p align = "justify"> &emsp;&emsp; O projeto terá uma interface gráfica intuitiva, portando as informações principais que provém do projeto para que seja eficaz aos usuários. Todas os dados que venham a ser rceolhidos serão armazenados e uma tela que demostra essas informações será providenciada. </p>
-<p align = "justify"> &emsp;&emsp; O código-fonte será bem estruturado, seguindo as normas definidas no documento de folha de estilo, respeitando a padronização e manutenibilidade, criando testes e respeitando as métricas deferidas no Plano de Qualidade.
+<p align = "justify"> O projeto terá uma interface gráfica intuitiva, portando as informações principais que provém do projeto para que seja eficaz aos usuários. Todas os dados que venham a ser rceolhidos serão armazenados e uma tela que demostra essas informações será providenciada. </p>
+<p align = "justify"> O código-fonte será bem estruturado, seguindo as normas definidas no documento de folha de estilo, respeitando a padronização e manutenibilidade, criando testes e respeitando as métricas deferidas no Plano de Qualidade.
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+|  Versão 01 - visão de casos de uso e visão geral: Banco de Dados | Adrianne Alves | 22/05/2020 |
+| Versão 01 - Introdução e Desempenho e Qualidade e Visão Geral: Pacotes e Camada | João Lucas | 22/05/2020 |
+| Versão 01 - Representação da Arquitetura e Restrições e Metas Arquiteturais | Lucas Vitor | 22/05/2020 |
+| Versão 01 - Reorganização do documento | Adrianne Alves da Silva | 23/08/2020 |
