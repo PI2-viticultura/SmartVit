@@ -22,11 +22,11 @@
 
 ### 1.1. Objetivos
 
- <p align = "justify"> O Documento de Arquitetura de Software tem como finalidade fornecer a visão geral de software da arquitetura do projeto SmartVit, utilizando representações arquiteturais, como a visão lógica e casos de uso, com a finalidade de facilitar o entendimento dos processos e funcionamento de todo o sistema. Tem também como objetivo transmitir as decisões arquiteturais significativas tomadas em relação ao mesmo.</p>
+ <p align = "justify"> Este documento tem como finalidade fornecer, de maneira detalhada, a arquitetura empregada na plataforma SmartVit, utilizando para isso representações arquiteturais, como a visão lógica e de casos de uso, com o objetivo de facilitar o entendimento dos processos e funcionamento de todo o sistema. Dessa forma, nesse documento está uma descrição técnica do modo como a plataforma SmartVit se estrutura, no que diz respeito à organização, comunicação e definição dos seus componentes e dado. Assim, espera-se que os interessados sejam capazes de visualizar as possíveis consequências, em termos de software, da arquitetura escolhida. </p>
 
-###  1.2. Escopo do documento
+###  1.2. Escopo
 
-<p align="justify"> Atráves do documento, pretende-se que possível obter entendimento da arquitetura do projeto, permitindo que os leitores a compreensão do funcionamento do SmartVit, e suas abordagens utilizadas para o seu desenvolvimento. </p>
+<p align="justify"> A SmartVit consiste em uma plataforma desenvolvida para facilitar o processo de acompanhamento de vinícolas durante todo o ciclo de vida. Para isso, ela fornece os dados coletados pelo sistema eletrônico inteligente instalado na plantação, obtidos por meio dos sensores de solo e água, como informação utilizável pelo agrônomo responsável na tomada de decisões. Em termos técnicos, este documento abordará toda a lógica de construção da plataforma, abordando os casos de uso, diagramas de pacote, informações sobre desempenho, banco de dados e qualidade do software. </p>
 
 ## 2. Representação da Arquitetura
 
