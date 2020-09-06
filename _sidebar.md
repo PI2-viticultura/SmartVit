@@ -45,7 +45,7 @@
     * [Backlog](docs/software/backlog.md)
     * [Histórias de usuário](docs/software/user_stories.md)
     * [Roadmaps](docs/software/roadmap-geral.md)
-    * [Sprints]()
+    * [Sprints](docs/software/sprint.md)
   * Planejamento
     * [Estrutura de branches e padrões](docs/software/Padrao-branch-software.md)
     * [Metodologia de desenvolvimento](docs/software/Metodologia.md)
