@@ -9,29 +9,49 @@
 
 ## 1. Introdução
 
-<p align = "justify">O Documento de Identidade Visual descreve as confecções de design das telas, logo e ícone a partir da aprovação do tema do projeto pelos professores da disciplina de Projeto Integrador 2. Com isso, definindo-se a paleta de cores e tipografia que serão utilizadas na produção da documentação e da aplicação do software. Essas definições têm como objetivo ajudar a uniformizar a experiência do usuário durante o uso da aplicação.
+<p align = "justify">O Guia de identidade visual apresenta convenções para o design das telas da aplicação e para sua identidade visual a partir da definição de logomarca do produto, paleta de cores, tipografia e íconização utilizada na produção do front-end. Essas definições têm como objetivo ajudar a uniformizar a experiência do usuário durante o uso da aplicação.</p>
 
 ## 2. Paleta de Cores
 
-A paleta de cores relaciona as cores a serem utilizadas no software a ser desenvolvido. A relação de cores esolhidas encontra-se abaixo.
+<p align = "justify">As cores que compõem a paleta de cores, foram definidas a partir da análise das cores da uva vermelha, a espécie de uva mais utilizada para a representação visual da fruta. Para a extração das cores foi utilizado o software Adobe Color, e o resultado obtido é mostrado a seguir:</p>
 
-<p align = "center"><img src="https://i.ibb.co/sw8SBGG/logo-paleta.png" />
+![img](imgs/cores-uva.png)
+
+A partir das cores obtidas, pensando na comodidade visual dos usuários, algumas cores foram alteradas para versões escuras das cores. Com este ajuste, a paleta primária da aplicação foi a seguinte:
+
+![img](imgs/paleta-primaria.png)
+
+Para a iconização da aplicação foi definida uma paleta secundária que seguia o padrão de cores relativo ao seu uso e representação. A seguir estão as cores secundárias utilizadas na aplicação.
+
+![img](imgs/paleta-secundaria.png)
 
 ## 3. Logo e ícones
 
-<p align = "justify"> Para a logo e ícone foi definido o uso de um cacho de uvas de cor marsala, cujo objetivo consiste em remeter à coloração dos vinhos. Já as folhas em diferentes tons de verde, remetem à uma antena de símbolo Wi-fi referente ao sistema do projeto. As inspirações vieram da logo da empresa americana Apple e Fazendas Labrunier em Pernambuco, e do site WordDisk. Abaixo, seguem as imagens referes à logo e imagem para ser utilizada como ícone no projeto.
+<p align = "justify"> Para a logo e ícone foi definido o uso de um cacho de uvas de cor marsala, cujo objetivo consiste em remeter à coloração dos vinhos. Já as folhas em diferentes tons de verde, remetem à uma antena de símbolo Wi-fi referente ao sistema do projeto. As inspirações vieram da logo da empresa americana Apple e Fazendas Labrunier em Pernambuco, e do site WordDisk. Abaixo, seguem as imagens referes à logo e imagem para ser utilizada como ícone no projeto.</p>
 
-<p align = "center"> <img src="https://i.ibb.co/n0mhq6H/Logo-Smart-Vit.png" width="300" height="150" />
+<p align = "center"> 
 
-<p align = "center">Imagem 1: Logo do Projeto SmartVit
+![img](imgs/Logo-Smart-Vit.png)
 
-<p align = "center"> <img src="https://i.ibb.co/NKTH1t9/Icone-Smart-Vit.png" width="150" height="150" />
+</p>
 
-<p align = "center"> Imagem 2: Ícone do Projeto SmartVit
+<p align = "center">Imagem 1: Logo do Projeto SmartVit </p>
+
+<div style="width:100%;display:flex;justify-content: center">
+<div style="width: 200px;">
+
+![img](imgs/icon.png)
+
+</div>
+</div>
+
+<p align = "center"> Imagem 2: Ícone do Projeto SmartVit</p>
 
 ## 4. Tipografia
 
-<p align = "justify"> A escolha da tipografia na logo foi o Archivo Black, a fonte é utilizada para simular fontes de produtos que envolvem tecnologia e apresenta características e estéticas de demais fontes de alto desempenho.
+<p align = "justify"> A escolha da tipografia na logo foi a sans-serif (sem serifa), esta fonte tem por uso comum a transmissão de ideias relacionadas a modernidade, simplicidade  e minimalismo, conceitos que condizem com o intuito da aplicação, que objetiva o minimalismo para melhorar a apresenção da modernidade ao contexto de viticultura. A seguir está a esquematização da fonte escolhida:</p>
+
+![img](imgs/fonte.png)
 
 ## 5. Referências
 
@@ -45,3 +65,4 @@ ADOBE, __Adobe Color CC__. Disponível em: <https://color.adobe.com/pt/create/im
 | Revisão entrega | Lucas Vitor | 24/04/2020 |
 | Segunda versão | João Lucas | 22/05/2020 |
 | Adição de histórico, organização e atualização de informações| Adrianne Alves da Silva | 25/08/2020 |
+| Reorganização do documento, adição da análise de cores e atualização da tipografia | Lucas Vitor | 06/09/2020 |
