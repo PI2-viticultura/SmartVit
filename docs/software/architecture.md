@@ -289,13 +289,11 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 
 ### 5.1. Visão Geral: Pacotes e Camadas
 
- <p align = "justify"> A arquitetura conhecida como Cliente/Servidor se baseia em dois módulos principais, em que ambos farão a comunicação entre si, fornecendo aos usuários os serviços desejados.
- <p align = "justify"> No caso do projeto SmartVit, o Cliente nesse caso será a aplicação desenvolvida em ReactJS, enquanto o Servidor será a API do Django.
-
+ <p align = "justify"> A seguir é expressa a estruturação básica representativa dos pacotes presentes no sistema SmartVit, por se tratar de uma arquitetura de microsserviços e possuir, por conseguinte, muitos componentes, foi escolhida uma estrutura básica para todos os serviços afim de manter a padronização do software, por este motivo foi escolhida a representação de uma forma simplificada do sistema, mas que representa a ideia por trás da arquitetura adotada.
 
 A figura a seguir mostra a estrutura de pacotes do sistema:
 
-![img](imgs/packagediagram.png)
+![img](imgs/pacotes.png)
 
 ### 5.2. Visão Geral: Banco de dados
 
@@ -321,3 +319,4 @@ A visão geral de banco de dados consiste na diagramação básica que define co
 | Versão 01 - Introdução e Desempenho e Qualidade e Visão Geral: Pacotes e Camada | João Lucas | 22/05/2020 |
 | Versão 01 - Representação da Arquitetura e Restrições e Metas Arquiteturais | Lucas Vitor | 22/05/2020 |
 | Versão 01 - Reorganização do documento | Adrianne Alves da Silva | 23/08/2020 |
+| Versão 01 - Atualização do diagrama de pacotes | Lucas Vitor | 10/09/2020 |
