@@ -299,6 +299,11 @@ A figura a seguir mostra a estrutura de pacotes do sistema:
 
 ### 5.2. Visão Geral: Banco de dados
 
+A visão geral de banco de dados consiste na diagramação básica que define como será estruturado o banco de dados da aplicação. Nesse sentido, será apenas um banco de dados não relacional, cujos documentos estão explicitados abaixo. 
+
+![img](imgs/modelagem-banco.png)
+
+
 ## 6. Desempenho
 
  <p align = "justify"> O desempenho do sistema está relacionado ao projeto todo. Por se tratar de um navegador PWA, a conexão com a internet e o aparelho eletrônico  são os fatores que pode causar os maiores problemas de seu desempenho, pois são os que demandam processamento mais abrangentes.
