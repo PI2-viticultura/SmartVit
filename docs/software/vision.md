@@ -36,8 +36,8 @@
 
 ### 1.2. Escopo
 
-<p align="justify">&emsp;&emsp; A inserção de maquinário tecnológico com o intuito de possibilitar o controle de aspectos ambientais e meteorológicos, conhecido como  agricultura de precisão tem ganhado espaço entre os produtores. Dentro do contexto da viticultura esse fato se mantém, esta modalidade é conhecida como viticultura de precisão e pode ser entendida como a gestão da variabilidade temporal e espacial do vinhedo com o objetivo de melhorar o rendimento da atividade agrícola, seja pelo aumento na produtividade, seja pela redução dos custos de produção, trazendo consigo o possibilidade ao produtor de entender o processo do seu vinhedo e acompanhar a produção, permitindo a mitigação de problemas que possuem a capacidade de reduzir a qualidade de seu produto. </p>
-<p align="justify">&emsp;&emsp; Tendo em vista tal fato, este projeto objetiva a criação de um sistema de monitoramento de viticultura de precisão de pequena escala. Dentre as sua principais funcionalidades estão sistema de suporte que permite melhor irrigação e monitoramento do vinhedo, coleta e disponibilização de dados sobre solo, água e ar dentro do vinhedo. </p>
+<p align="justify">&emsp;&emsp; A inserção de maquinário tecnológico com o intuito de possibilitar o controle de aspectos ambientais e meteorológicos, conhecido como  agricultura de precisão tem ganhado espaço entre os produtores. Dentro do contexto da viticultura esse fato se mantém, esta modalidade é conhecida como viticultura de precisão e pode ser entendida como a gestão da variabilidade temporal e espacial do vinhedo com o objetivo de melhorar o rendimento da atividade agrícola, seja pelo aumento na produtividade, seja pela redução dos custos de produção, trazendo consigo a possibilidade de o produtor entender o processo do seu vinhedo e acompanhar a produção, permitindo a mitigação de problemas que possuem a capacidade de reduzir a qualidade de seu produto. </p>
+<p align="justify">&emsp;&emsp; Tendo em vista tal fato, este projeto objetiva a criação de um sistema de monitoramento de viticultura de precisão de pequena escala. Dentre as sua principais funcionalidades estão sistema de suporte com acionamento automático de irrigação, que poderá ser acompanhado por meio do software; Monitoramento de aspectos físico/quimicos do vinhedo, no que diz respeito a dados sobre o vento, previsão de chuva, temperatura, umidade, ph do solo e radiação; Auxilio a tomada de decisões por meio de dashboard com indicadores com fácil visualização; Acompanhamento de pragas, por meio do qual será possível o registro do problema e da ação tomada para resolver, além da análise e alertas gerais dos indicadores fora dos intervalos permitidos.
 
 ### 1.3. Visão geral
 
@@ -55,25 +55,25 @@ IBM Knowledge Center. **Documento de Visão**. IBM. Disponível em: https://www.
 
 ### 2.1. Oportunidade de Negócios
 
-<p align="justify">&emsp;&emsp; A utilização do projeto em vinícolas de uvas tem como objetivos aumentar a produtividade e a eficiência das lavouras, melhorando a qualidade do plantio e manter o sabor da fruta. E, visando a adaptabilidade dos elementos externos, como chuva, temperatura, sensibilidade luminosa, umidade, pragas e controle solar. Além disso, essa aplicação possibilita que a produção seja inteligente e sustentável e aumente a produção e as suas vendas. </p>
+<p align="justify">&emsp;&emsp; A utilização do sistema em vinícolas de uvas tem como objetivo aumentar a produtividade e a eficiência das lavouras, melhorando a qualidade do plantio e auxiliando na manutenabilidade do sabor da fruta. Isso porque, visando a adaptabilidade dos elementos externos, como chuva, temperatura, sensibilidade luminosa, umidade, pragas e controle solar, a SmartVit se propõe a auxiliar na tomada de decisões e atuar no controle de irrigação, realizando o monitoramento e alertando o usuário diante de possíveis problemas. Além disso, essa aplicação possibilita que a produção seja inteligente e sustentável e aumente a produção e, consequentemente, as vendas. </p>
 
 ### 2.2. Descrição do problema
 
-|**O problema de**| qualidade de safras de uvas e condições climáticas que não favorecem o plantio|
+|**O problema**| do controle e monitoramento das safras de uvas e condições climáticas que não favorecem o plantio|
 |:---:|:---:|
-|**afeta**|Fazendeiros e Consumidores de Uvas|
-|**cujo impacto é**|a produção e venda da fruta.|
-|**uma boa solução seria**|um aparelho eletrônico e aplicação para dispositivo móvel, para monitorar as condições climáticas de plantio e controle do sistema de irrigação na produção de uvas.|
+|**afeta**| Produtores e Consumidores de Uvas|
+|**cujo impacto**| se reflete na qualidade da uva cultivada |
+|**uma boa solução seria**| a instalação de um sistema eletrônico de monitoramento web e via dispositivo móvel, para monitorar as condições físico/químicas do plantio, com dashboard para controle e acionamento automático de irrigação.|
 
 ### 2.3. Sentença de Posição do Produto
 
-|**Para** |Agricultores de plantio de videiras |
+|**Para** | Agricultores que cultivam videiras |
 |:---:|:---:|
-|**Que** |necessitam de aumento de produção e eficiência de suas lavouras.|
-|**O SmartVit**|é uma aplicação para dinamizar o plantio.|
-|**Que**|monitora as condições climáticas e controla o sistema de irrigação.|
-|**Diferente de**|outros paradigmas de plantio que às vezes são pouco eficazes.|
-|**Nosso produto**|é uma solução para chegar a cultivo de qualidade na produção de uvas.|
+|**Que** | necessitam monitorar as suas plantações de uva, de acordo com as especificidades do seu ciclo de vida  |
+|**a SmartVit**| é uma aplicação focada no monitoramento a distância e disposição de subsídios para a rápida tomada de decisões no âmbito do cultivo de uvas |
+|**Que**| monitora as condições climáticas e controla o sistema de irrigação por meio de acionamento automático. |
+|**E diferente de**| outras ferramentas e sistemas de monitoramento |
+|**Nosso produto**| é uma solução galgada na completa automatização do processo de monitoramento do cultivo específico de uva. |
 
 ## 3. Descrição dos Envolvidos e dos Usuários
 
@@ -89,18 +89,20 @@ IBM Knowledge Center. **Documento de Visão**. IBM. Disponível em: https://www.
 
 |Nome|Descrição|
 |:-:|:-:|
-| Agricultores de Uvas | <p align = "justify"> Agricultores que trabalham com plantações de videiras e conhecem todo o procedimento e cuidados que devem etr para tal plantio. |
+| Agricultores de Uvas | <p align = "justify"> Agricultores que trabalham com plantações de videiras e conhecem todo o procedimento e cuidados que devem ter para tal plantio, dono da plantação |
+| Agrônomos | <p align = "justify"> Profissional que realiza o acompanhamento das condições da videira no dia-a-dia durante todo o ciclo de vida. |
+| Administrador | <p align = "justify"> Usuário que realiza a interface entre o contrato, o cadastro dos usuários, as respostas à requisições e controles de acesso e os usuários finais. |
+
 
 ### 3.3. Ambiente do Usuário
 
-<p align="justify">&emsp;&emsp; A aplicação será utilizada em dispositivos móveis, onde será desenvolvido o sistema para leitura e controle remoto
-dos dados coletados.</p>
+<p align="justify">&emsp;&emsp; A aplicação poderá ser utilizada tanto em dispositivos móveis, na versão aplicativo, quanto nos navegadores de quaisquer dispositivos. Dessa forma, é importante apenas que o usuário possua um dispositivo com conexão a internet e um navegador.</p>
 
 ### 3.4. Perfis dos Envolvidos
 
 #### 3.4.1 Equipe de Gestão e Desenvolvimento do Projeto
 
-|Representantes |Adrianne Silva, João Lucas e Lucas Vítor|
+|Representantes |Adrianne Silva, João Lucas, Lucas Vítor e Luciano|
 |:-:|:-:|
 |**Tipo**|Estudantes de Engenharia de software, cursando a disciplina de Projeto Integrador de Engenharia 2 da Universidade de Brasília.|
 |**Responsabilidade**|Desenvolvimento, Testes, Documentação, Implementação, Gestão e garantir o melhor processo para o desenvolvimento do produto. |
@@ -110,9 +112,9 @@ dos dados coletados.</p>
 
 #### 3.4.2 Cliente
 
-|Representantes |Comerciantes|
+|Representantes | Agricultores |
 |:-:|:-:|
-|**Descrição**|Comerciantes de frutas e em específico o de uvas.|
+|**Descrição**|Produtores de frutas e em específico o de uvas.|
 |**Tipo**|Cliente.|
 |**Critérios de Sucesso**| Auxiliar no estabelecimento do escopo, validar a solução do time.|
 |**Envolvimento**|Alto.|
@@ -124,14 +126,21 @@ dos dados coletados.</p>
 |**Descrição**|Cultivadores de videiras.|
 |**Tipo**|Usuários do Sistema|
 |**Responsabilidade**| Utilizar o aparelho para o propósito.|
-|**Critérios de Sucesso**| Conseguir usar o produto e o mesmo traga benefícios no plantio na sua utilização.|
+|**Critérios de Sucesso**| Conseguir usar o produto e o mesmo traga benefícios ao plantio e ao processo de monitoramento.|
 |**Envolvimento**|Alto.|
 
 ### 3.6. Alternativas e concorrência
 
-<p align = "justify"> &emsp;&emsp; Existem projetos semelhantes de Vinícolas Inteligentes tendo como principais objetivos aumentar também a produtividade e a eciência das lavouras, melhorando
+<p align = "justify"> &emsp;&emsp; Existem projetos semelhantes de monitoramento Inteligentes tendo como principais objetivos aumentar também a produtividade e a eciência das lavouras, melhorando
 a qualidade do serviço ao cliente e a adaptabilidade
-a elementos externos. O exemplo é o Kit de cultivo da equipe Olivetti. </p>
+a elementos externos. Abaixo encontra-se uma relação de pontos positivos e negativos dos concorrentes encontrados. É importante salientar que dentre estes nenhuma das soluções possui referência de utilização no território brasileiro.</p>
+
+| Sistema | Pontos positivos | Pontos negativos |
+| -- | -- | -- |
+| Kit da libelium | Faz a coleta de informações a respeito do solo e umidade folear | Não realiza irrigação automática e não é específico para o cultivo de uvas |
+| PlantCT | Possui irrigação, detecção de pragas, faz coleta de informações do solo, umidade folear, precipitação, radiação solar | Não menciona análise folear, não fornece os requisitos detalhados do sistema e atua na região européia |
+| eVineyard | Possui calendário online, realiza previsão de mofo e irrigação, realiza planejamento de trabalhos e custos, suporte para sensores de irrigação, estação climática | O produto não oferece a parte de sensoreamento, apenas possui a parte de software, sendo voltado ao registro e controle de trabalho | 
+| Predivine | Rede de sensores wireless, estação de clima e algorítimo de predição  | Não detalha os sensores e é Chileno |
 
 ## 4. Visão Geral do Produto
 
@@ -139,7 +148,7 @@ a elementos externos. O exemplo é o Kit de cultivo da equipe Olivetti. </p>
 
 ### 4.1. Perspectiva do produto
 
-<p align="justify">&emsp;&emsp; O sistema SmartVit possui como principal objetivo fornecer os dados de monitoramento de vinícolas, obtidos a partir dos sensores componentes do kit SmartVit, como informação utilizável ao responsável pelo monitoramento da safra. Tendo em vista que serão medidos aspectos do solo, temperatura e água, o produto se propõe a qualificar a situação da plantação, fornecendo avisos de criticidade, de intemperies na região e das ações automáticas oriundas da gestão inteligente fornecida pelo kit SmartVit. Deve-se salientar que o kit físico se propõe a atuar em caso de necessidade de irrigação e extensão do fio que sustenta a uva, caso o peso das mesmas esteja atrapalhando a recepção da energia solar.
+<p align="justify">&emsp;&emsp; O sistema SmartVit possui como principal objetivo fornecer os dados de monitoramento de vinícolas, obtidos a partir dos sensores componentes do kit SmartVit, como informação utilizável ao responsável pelo monitoramento da safra. Tendo em vista que serão medidos aspectos do solo, temperatura e água, o produto se propõe a qualificar a situação da plantação, fornecendo avisos de criticidade, de intemperies na região e das ações automáticas oriundas da gestão inteligente fornecida pelo kit SmartVit. Deve-se salientar que o kit físico se propõe a atuar em caso de necessidade de irrigação.
 
 De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitoramento de vinícolas sem que haja real necessidade da presença física do responsável no local. Essa atuação possui o potencial de modificar o modo como é praticado o cultivo e melhorar os resultados obtidos durante as safras, resultando em uvas de melhor qualidade. Dessa forma, auxilia no controle da qualidade da uva e consequentemente do vinho a ser produzido.
 
@@ -150,8 +159,9 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 | --- | --- |
 | Facilidade no acompanhamento da safra | Acesso à dashboard com indicadores claros e de fácil acesso |
 | Acompanhamento transparente das ações tomadas pelo sistema | Notificação das ações automáticas tomadas pelo sistema físico SmartVit |
-| Acionamento de irrigação à distância | Envio de sinal ao sistema físico para acionar a irrigação a distância |
-| Previsibilidade quanto à qualidade da safra | Análise preditiva |
+| Acionamento de irrigação à distância | Acionamento automático em caso de valores abaixo do esperado |
+| Alertas de intempéries ou de problemas | Usuário receber alerta caso haja intemperies ou valores fora dos limites aceitáveis |
+| Análise das características da safra | Registro dos resultados obtidos |
 | Fácil comunicação com a equipe de suporte | Registro de solicitações à SmartVit |
 
 
@@ -170,6 +180,9 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 * Visualizar dados dos sistemas instalados na vinícola
 * Alertar sistema quanto à pragas
 * Envio de feedback do usuário
+* Registro de avaliação da safra obtida
+* Visualizar sistemas intalados 
+* Gerenciar sensores 
 
 ## 6. Restrições
 
@@ -178,12 +191,14 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 - O design deve ser simples e intuitivo;
 - Respeitar as cores da palheta definida;
 - Itens devem ser agrupados por proximidade das informações.
+- Os gráficos devem ser de fácil entendimento 
+- As letras devem ser claras 
 
 ### 6.2. Restrições de Implementação
 
-- Arquitetura deve seguir o modelo cliente-servidor;
-- O sistema deve ser desenvolvido utilizando os frameworks Django e React;
-- O sistema de ser capaz de se comunicar com os sensores dispostos na vinícola.
+- Arquitetura deve seguir o modelo de microsserviços;
+- O sistema deve ser desenvolvido utilizando os frameworks flask e React;
+- O sistema deve ser capaz de receber os valores dos sensores adequadamente.
 
 ### 6.3. Restrições de Uso
 
@@ -199,3 +214,12 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 <p align="justify">&emsp;&emsp; Disponibilidade: O Sistema deve estar disponível na maior parte do tempo, utilizando-se as madrugadas para manutenção, ou seja, 20 horas por dia e 7 dias por semana.
 
 <p align="justify">&emsp;&emsp; Manutenção: O Sistema deve ter boa manutenabilidade, a fim de facilitar futuras evoluções e correções por equipes diferentes da original. Assim, esses aspectos de qualidade devem ser observados no código entregue.
+
+# Histórico de revisão
+
+| O quê | Quem  | Quando |
+| - | - | - |
+|  Versão 01 - Introdução e restrições e intervalos de qualidade | Lucas Vitor | 24/04/2020 |
+| Versão 01 - Introdução e Descrição dos envolvidos e dos usuários | João Lucas | 24/04/2020 |
+| Versão 01 - visão geral do produto	e recursos do produto	 | Adrianne Alves | 24/05/2020 |
+| Versão 02 - Reestruturação, atualização e reescrita | Adrianne Alves da Silva | 08/09/2020 |
