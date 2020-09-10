@@ -321,3 +321,4 @@ A visão geral de banco de dados consiste na diagramação básica que define co
 | Versão 01 - Introdução e Desempenho e Qualidade e Visão Geral: Pacotes e Camada | João Lucas | 22/05/2020 |
 | Versão 01 - Representação da Arquitetura e Restrições e Metas Arquiteturais | Lucas Vitor | 22/05/2020 |
 | Versão 01 - Reorganização do documento | Adrianne Alves da Silva | 23/08/2020 |
+| Versão 02 - Inserção de diagrama lógico de banco de dados | Adrianne Alves da Silva | 09/09/2020 |
