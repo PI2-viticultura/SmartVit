@@ -60,7 +60,7 @@
 
 * HTML/CSS:	Utilizado no desenvolvimento Web de forma padrão e estruturado.
 * Python: Linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
-* Django REST Framework: Biblioteca para o Framework Django que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST.
+* Flask: Framework python que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST.
 * JavaScript: Linguagem de programação que permite a implementação de itens complexos em páginas web de forma dinâmica.
 * ReactJS: Biblioteca JavaScript para construção de interfaces de usuários.
 * MongoDB: Banco NOSQL orientado a documentos (document database) no formato JSON.
@@ -340,3 +340,4 @@ A visão geral de banco de dados consiste na diagramação básica que define co
 | Versão 02 - Inserção de diagrama lógico de banco de dados | Adrianne Alves da Silva | 09/09/2020 |
 | Versão 02 - Atualização do diagrama de pacotes | Lucas Vitor | 10/09/2020 |
 | Versão 02 - Atualização do diagrama de casos de uso | Adrianne Alves| 10/09/2020 |
+| Versão 02 - Atualização do diagrama de arquitetura | Lucas Vitor| 11/09/2020 |
