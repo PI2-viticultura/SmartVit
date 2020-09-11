@@ -28,20 +28,29 @@
 ### Detalhamento
 
 * Fazer diagrama de integração
+
     **Responsáveis**: Lucas e Adrianne
 * Atualizar documentação geral da equipe com a parte de software
+    
     **Responsáveis**: Todos 
 * Rever custos de software
+   
     **Responsáveis**: Luciano 
 * US17 - Feedback usuário
+    
     **Responsáveis**: Luciano e João
 * US11 - Acionar equipe
+    
     **Responsáveis**: Adrianne e Lucas  
 * Estruturação de apresentação
+   
     **Responsáveis**: Todos
 * Definição de datas do roadmap
+    
     **Responsáveis**: Adrianne
 * Configurar CI
+   
     **Responsáveis**: Luciano e João
 * Documentar principais decisões da equipe
+   
     **Responsáveis**: Lucas    
