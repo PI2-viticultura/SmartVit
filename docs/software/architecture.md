@@ -30,9 +30,9 @@
 
 ## 2. Representação da Arquitetura
 
-<p align="justify"> A arquitetura adotada possui organização em três camadas: módulo eletrônico, onde os dados serão coletados e transmitidos; API, onde os dados serão requisitados, tratados e distribuídos; e front-end, onde os dados serão entregues ao usuário de forma inteligível. </p>
+<p align="justify"> A arquitetura adotada possui organização em microsserviços, isto se deve à robustez da aplicação a ser desenvolvida, com a utilização desta arquitetura é possível ter um software modularizado, manutenível e expansível, além disto, é possível ter um software com suas responsabilidades distribuídas, o que permite ao software lidar melhor com a carga imposta sobre ele. </p>
 
-<p align="justify"> O principal relacionamento do projeto é implementado como um cliente-servidor. O servidor, implementado em Django Rest Framework, será responsável pela manutenção e processamento dos dados, enquanto ao cliente, representado pelo front-end e implementado em ReactJS, será encarregada a função de fornecer os dados dos usuários. </p>
+<p align="justify"> Como complemento da arquitetura de microsserviços, são utilizados BFF (Back For Front), uma decisão arquitetural que permite a contextualização do bacend para so frontends existentes (existirão dois frontends). </p>
 
 ### 2.1. Diagrama de Relações
 
@@ -44,13 +44,13 @@
 
 <p align="justify"> Módulo físico responsável por captar dados como umidade, pH do solo, umidade e irrigação das vinícolas cadastradas. </p>
 
-#### 2.1.2. API
+#### 2.1.2. Backend
 
-<p align="justify"> A API é a unidade da arquitetura responsável por receber, processar e armazenar dados do módulo eletrônico. Neste ambiente serão realizadas as análises preditivas e de safra, gerenciamento das vinícolas e acionamento de sistemas (recebendo a entrada do usuário e repassando para o módulo eletrônico responsável). </p>
+<p align="justify"> O backend é a unidade da arquitetura responsável por receber, processar e armazenar dados do módulo eletrônico. Neste ambiente serão realizadas as análises preditivas e de safra, gerenciamento das vinícolas e acionamento de sistemas (recebendo a entrada do usuário e repassando para o módulo eletrônico responsável). </p>
 
-#### 2.1.3. Aplicação Web
+#### 2.1.3. Frontend
 
-<p align="justify"> A aplicação web é a unidade responsável por criar a ponte entre o usuário e a API, enviando dados para requisições e recebendo dados para então formulá-los de forma inteligível ao usuário. </p>
+<p align="justify"> O frontend é a unidade responsável por criar a ponte entre o usuário e a API, enviando dados para requisições e recebendo dados para então formulá-los de forma inteligível ao usuário. </p>
 
 #### 2.1.4. Banco de Dados
 
@@ -60,7 +60,7 @@
 
 * HTML/CSS:	Utilizado no desenvolvimento Web de forma padrão e estruturado.
 * Python: Linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
-* Django REST Framework: Biblioteca para o Framework Django que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST.
+* Flask: Framework python que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST.
 * JavaScript: Linguagem de programação que permite a implementação de itens complexos em páginas web de forma dinâmica.
 * ReactJS: Biblioteca JavaScript para construção de interfaces de usuários.
 * MongoDB: Banco NOSQL orientado a documentos (document database) no formato JSON.
@@ -340,3 +340,4 @@ A visão geral de banco de dados consiste na diagramação básica que define co
 | Versão 02 - Inserção de diagrama lógico de banco de dados | Adrianne Alves da Silva | 09/09/2020 |
 | Versão 02 - Atualização do diagrama de pacotes | Lucas Vitor | 10/09/2020 |
 | Versão 02 - Atualização do diagrama de casos de uso | Adrianne Alves| 10/09/2020 |
+| Versão 02 - Atualização do diagrama de arquitetura | Lucas Vitor| 11/09/2020 |
