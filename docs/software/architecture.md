@@ -104,13 +104,13 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | | |
 | -- | -- |
 | Descrição | O agrônomo visualizará as notificações recebidas sobre quaisquer indicadores críticos relacionados à safra |
-| Atores | Agrônomo |
-| Pré-condições | Usuário deve possuir perfil de agrônomo no sistema |
+| Atores | Agrônomo, agricultor |
+| Pré-condições | Usuário deve possuir perfil de agrônomo ou agricultor no sistema |
 | Pós-condições | O usuário deve receber notificações sempre que a vinícola apresentar algum indicador fora do intervalo esperado, via email e através do próprio sistema |
-| Fluxo principal | 1. Sistema decta indicador fora do intervalo <br> 2. Usuário recebe email sobre a criticidade de um indicador <br> 3. Usuário entra no sistema <br> 4.Usuário clica nas notificações |
+| Fluxo principal | 1. Sistema detecta indicador fora do intervalo <br> 2. Usuário recebe email sobre a criticidade de um indicador <br> 3. Usuário entra no sistema <br> 4.Usuário clica nas notificações |
 | Fluxo de exceção | |
 
-#### UC 03 - Acompanhar indicadores da situação da safra
+#### UC 03 - Visualizar indicadores da situação da safra
 | | |
 | -- | -- |
 | Descrição | O usuário poderá visualizar um dashboard com os principais indicadores da safra |
@@ -124,41 +124,40 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | | |
 | -- | -- |
 | Descrição | Usuário pode registrar pragas identificadas na sua vinícola para acompanhamento |
-| Atores | Agrônomo |
+| Atores | Agrônomo, agricultor|
 | Pré-condições | Usuário deve estar logado no sistema |
 | Pós-condições | Na página de acompanhamento deve aparecer as pragas registradas |
-| Fluxo principal | 1. Usuário faz login no sistema <br> 2. Usuário acessa dashboard e clica em "registrar praga" <br> 3. Preenche o formulário informando a praga <br> 4. Clica em 'registrar' |
+| Fluxo principal | 1. Usuário faz login no sistema <br> 2. Usuário acessa dashboard e clica em "registrar praga" <br> 3. Preenche o formulário informando a praga <br> 4.Registra plano de ação 5. Clica em 'enviar' |
 | Fluxo de exceção | |
 
 #### UC 05 - Acionar equipe do sistema
 | | |
 | -- | -- |
-| Descrição | O usuário poderá acionar a equipe do sistema para eventuais problemas nos dados obtidos, enviando uma mensagem para o administrador |
-| Atores | Agrônomo |
-| Pré-condições | Usuário deve estar logado no sistema |
+| Descrição | O usuário poderá acionar a equipe do sistema para eventuais problemas nos sistemas e/ou dados, enviando uma mensagem para a equipe |
+| Atores | Agrônomo, agricultor |
+| Pré-condições | Usuário deve estar logado no sistema como agrônomo ou agricultor |
 | Pós-condições | O usuário deve conseguir enviar uma mensagem para o administrador a fim de informar irregularidade/problemas no sistema web|
-| Fluxo principal | 1. O usuário deve entrar no sistema <br> 2. Clicar no ícone correspondente à "suporte do sistema" <br> 3. Preencher o formulário infomando o problema e/ou solicitação <br> 4. O usuário deve clicar "enviar"|
+| Fluxo principal | 1. O usuário deve entrar no sistema <br> 2. Clicar no menu lateral correspondente à "suporte" <br> 3. Preencher o formulário informando o tipo, título, mensagem e prioridade do problema e/ou solicitação <br> 4. O usuário deve clicar "enviar"|
 | Fluxo de exceção | |
-
 
 #### UC 06 - Avaliar safra
 | | |
 | -- | -- |
-| Descrição | O agrônomo deverá/poderá responder um questionário sobre a uva obtida no final da safra |
+| Descrição | O agrônomo responderá um questionário sobre a uva obtida no final da safra |
 | Atores | Agrônomo |
 | Pré-condições | O agrônomo deve está logado no sistema |
 | Pós-condições | O usuário deve receber uma análise da qualidade do vinho a ser obtido com a uva coletada |
 | Fluxo principal | 1. O agrônomo entrará na página do dashboard <br> 2. Clicará em "avaliar resultado da safra" <br> 3. Irá clicar em "enviar" <br> 4. Será redirecionado para uma página em formato PDF com as prováveis qualidades do vinho que será obtido com a uva produzida. |
 | Fluxo de exceção | |
 
-#### UC 07 - Predizer qualidade do vinho
+#### UC 07 - Consultar características da uva dado o tipo
 | | |
 | -- | -- |
-| Descrição | Ao receber as informações da avaliação da safra, realizada pelo agrônomo, o sistema irá fornecer informações sobre a qualidade do vinho a ser obtido com aquela safra |
+| Descrição | O usuário poderá consultar as características físico/químicas da uva de acordo com o tipo de uva |
 | Atores | Sistema |
-| Pré-condições | O agrônomo deve enviar o formulário de avaliação da safra |
-| Pós-condições | O sistema deve ser capaz de mapear a qualidade do vinho a ser obtido |
-| Fluxo principal | 1. O usuário enviará o formulário de avaliação <br> 2. O sistema realizará a predição <br> 3. O sistema fornecerá um PDF com as informações processadas |
+| Pré-condições | O usuário deve ter perfil de agrônomo ou agricultor no sistema |
+| Pós-condições | O sistema deve ser capaz de retornar um relatório com as principais características da uva |
+| Fluxo principal | 1. O usuário acessa menu lateral <br> 2. Clica em 'caracteríriscas uva' <br> 3. Será direcionado para uma página com um formulário para seleção do tipo de uva  <br> 4. O sistema fornecerá uma tabela com as principais características |
 | Fluxo de exceção |  |
 
 
@@ -200,7 +199,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | Atores | Agrônomo |
 | Pré-condições | O usuário deve estar logado na plataforma e possuir perfil de agrônomo |
 | Pós-condições | O usuário deve ter acesso à todos os sistemas eletrônicos e dados processados dentro do sistema |
-| Fluxo principal | 1. O agrônomo entra na plataforma <br> 2. Clica em "Sistemas instalados" <br> 3. Vê a lista de sistemas instalados na vinícola <br> 4. Entra em um sistema que deseja gerenciar <br> 5. Visualiza os sensores instalados, dados coletados, entre outras informações |
+| Fluxo principal | 1. O agrônomo ou agricultor entra na plataforma <br> 2. Clica em "Sistemas" <br> 3. Vê a lista de sistemas instalados na vinícola <br> 4. Entra em um sistema que deseja gerenciar <br> 5. Visualiza os sensores instalados, dados coletados, entre outras informações |
 | Fluxo de exceção | |
 
 #### UC 12 - Acionar suporte dos sistemas eletrônicos
@@ -234,14 +233,14 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | Fluxo principal | 1. Administrador deve logar no sistema <br> 2. Administrador deve selecionar "Contratos" <br> 3. Deve clicar em "cancelar contrato"|
 | Fluxo de exceção | |
 
-#### UC 15 - Mostrar tráfego de dados
+#### UC 15 - Verificar tráfego de dados
 | | |
 | -- | -- |
 | Descrição | O administrador verá o tráfego de dados dos sistemas presentes nas vinícolas |
 | Atores | Administrador |
 | Pré-condições | O usuário deve estar logado e possuir perfil de administrador |
 | Pós-condições | O administrador deve ser capaz de visualizar pausas ou irregularidades através do tráfego de dados dos sensores |
-| Fluxo principal | 1. O administrador loga no sistema <br> 2. Ele entra na aba "Sistemas eletrônicos" <br> 3. Ele clica em "fluxo de dados" <br> 4. Ele visualiza uma lista de sistemas e sensores <br> 5. Ele filtra pelo sistema que deseja <br> 6.Clica em "filtrar" <br> 7. Entra no sistema e visualiza o tráfego |
+| Fluxo principal | 1. O administrador loga no sistema <br> 2. Ele clica na aba "Monitoramento" <br> 3. Visualiza estado dos sensores |
 | Fluxo de exceção | |
 
 #### UC 16 - Notificar mau funcionamento de sistema eletrônico
@@ -251,9 +250,8 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | Atores | Sistema |
 | Pré-condições | Algum sensor deve deixar de enviar dados com regularidade |
 | Pós-condições | Administrador recebe notificação e email informando qual o sistema eletrônico que possivelmente está com problemas |
-| Fluxo principal | 1. O usuário deve entrar no sistema <br> 2. Clicar no ícone correspondente à "sistema físico" <br> 3. Abrirá uma página discriminando os sistemas instalados na vinícola 4. O usuário deve clicar em acionar supor|
+| Fluxo principal | 1. O usuário deve entrar no sistema <br> 2. Clicar no ícone correspondente à "sistema" <br> 3. Abrirá uma página discriminando os sistemas instalados na vinícola 4. O usuário deve clicar em acionar suporte |
 | Fluxo de exceção | |
-
 
 #### UC 17 - Visualizar vinícolas
 | | |
@@ -262,7 +260,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | Atores | Administrador |
 | Pré-condições | O usuário deve estar logado e possuir perfil de administrador |
 | Pós-condições | O usuário deve visualizar todas as vinícolas cadastradas |
-| Fluxo principal | 1. Usuário entra no sistema <br> 2. Usuário clica em "Vinícolas" |
+| Fluxo principal | 1. Usuário entra no sistema <br> 2. Usuário clica em "monitoramento" 3. Seleciona uma vinícola |
 | Fluxo de exceção | |
 
 #### UC 18 - Cadastrar contrato
@@ -272,7 +270,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | Atores | Administrador |
 | Pré-condições | O usuário deve estar logado e possuir perfil de administrador |
 | Pós-condições | O contrato deve estar pronto para receber os dados da vinícola a ser vinculada |
-| Fluxo principal | 1. O administrador entra no sistema <br> 2. Clica em "novo contrato" <br> 3. Preenche o formulário com os dados do novo contrato <br> 4. O usuário é redirecionado para a página de contratos |
+| Fluxo principal | 1. O administrador entra no sistema <br> 2. Clica em contrato 3. Clica em "novo contrato" <br> 3. Preenche o formulário com os dados do novo contrato <br> 4. O usuário é redirecionado para a página de contratos |
 | Fluxo de exceção | |
 
 #### UC 19 - Cadastrar vinícola
@@ -280,10 +278,30 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | -- | -- |
 | Descrição | O administrador irá cadastrar as vinícolas associando-as a um contrato |
 | Atores | Administrador |
-| Pré-condições | 1. O usuário deve estar logado e ser administrador <br> 2. O contrato deve existir e estar ativo <br> 3. Os sistemas devem estar instalados e cadastrados |
+| Pré-condições | 1. O usuário deve estar logado e ser administrador <br> 2. O contrato deve existir e estar ativo |
 | Pós-condições | 1. Devem ser criados os emails do agricultor e do agrônomo responsável, fornecendo-os acesso ao sistema <br> 2. A vinícola deve aparecer na lista de vinícolas cadastradas <br> 3. Os sistemas devem ser associados à vinícola  <br> 4. Os dados devem ser captados do servidor |
 | Fluxo principal | 1. O administrador entra no sistema <br> 2. Pesquisa pelo contrato que receberá a vinícola <br> 3. Entra no contrato <br> 4. Clica em "cadastrar vinícola" <br> 5. Preenche o formulário <br> 6. Clica em "cadastrar" |
-| Fluxo de exceção | |
+| Fluxo de exceção | Se a vinícola já existir o usuário só poderá editar o cadastro |
+
+#### UC 20 - Gerenciar contas 
+| | |
+| -- | -- |
+| Descrição | O administrador poderá cadastrar, ativar ou inativar contas para os contratos |
+| Atores | Administrador |
+| Pré-condições | 1. O usuário a ser cadastrado deve ser associado à vinícola e contrato correspondente |
+| Pós-condições | 1. As contas dos usuários devem ser criadas, ativadas, inativadas ou atualizadas |
+| Fluxo principal | 1. O administrador entra no sistema <br> 2. Clica no menu lateral em "gerenciar usuários" <br> 3. Administrador pode criar ou alterar os usuários |
+| Fluxo de exceção |  |
+
+#### UC 21 - Acompanhar solicitações
+| | |
+| -- | -- |
+| Descrição | O administrador realizará o acompanhamento das solicitações recebidas de cadastro através da landing page |
+| Atores | Administrador |
+| Pré-condições | 1. O usuário deve ter perfil de administrador |
+| Pós-condições | 1. O usuário deve ser capaz de visualizar, e dar check nas solicitações recebidas, marcando-as como atendidas, em execução ou canceladas |
+| Fluxo principal | 1. O administrador entra no sistema <br> 2. Clica no menu lateral em "solicitações"  |
+| Fluxo de exceção |  |
 
 ## 5. Visão Lógica
 
@@ -321,3 +339,4 @@ A visão geral de banco de dados consiste na diagramação básica que define co
 | Versão 01 - Reorganização do documento | Adrianne Alves da Silva | 23/08/2020 |
 | Versão 02 - Inserção de diagrama lógico de banco de dados | Adrianne Alves da Silva | 09/09/2020 |
 | Versão 02 - Atualização do diagrama de pacotes | Lucas Vitor | 10/09/2020 |
+| Versão 02 - Atualização do diagrama de casos de uso | Adrianne Alves| 10/09/2020 |
