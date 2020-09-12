@@ -60,4 +60,5 @@
     * [Documento de visão](docs/software/vision.md)
     * [Protótipos](docs/software/prototipo.md)
     * [Testes]()
+    * [Decisões](docs/software/decisoes.md)
       * Resultados
