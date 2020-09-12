@@ -12,8 +12,6 @@
     * [4.1.1 Cobertura de Testes](#_411-cobertura-de-testes)
     * [4.1.2 Formatação do Código-fonte](#_412-formatação-do-código-fonte)
   * [4.2. Métricas para Meta de Produtividade](#_42-métricas-para-meta-de-produtividade)
-     * [4.2.1 Burndown](#_421-burndown)
-     * [4.2.2 Velocity](#_422-velocity)
 - [5. Referências](#_5-referências)
 - [ Histórico de revisão](#_histórico-de-revisão)
 
@@ -246,7 +244,7 @@
 
 ### 4.1. Métricas para Meta de Qualidade de Software
 
-#### 4.1.1 Cobertura de Testes 
+#### 4.1.1 Cobertura de Testes
 <table>
     <tr>
         <td>
@@ -357,119 +355,6 @@
 
 </p>
 
-### 4.2. Métricas para Meta de Produtividade
-
-#### 4.2.1 Burndown 
-
-<table>
-    <tr>
-        <td>
-            <b>Objetivo da medição</b>
-        </td>
-        <td>
-            Verificar se as entregas estão sendo realizadas de forma contínua.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Descrição</b>
-        </td>
-        <td>
-            O burndown se basea na pontuação das issues para criar um gráfico contendo a informação de quantos pontos foram concluídos até determinado momento.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Coleta</b>
-        </td>
-        <td>
-            Responsável: Membros de Software<br>
-            Periodicidade: Ao fim de cada sprint
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Procedimento</b>
-        </td>
-        <td>
-            O quadro é criado a partir do plugin apropriado. E o resultado será coletado ao fim de cada sprint
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Análise</b>
-        </td>
-        <td>
-            Existem três casos possíveis: as atividades estão mais fáceis do que deveriam, nesse caso a equipe entrega antes do prazo estipulado; as atividades estão mais difíceis do que deveriam, nesse caso a equipe não entrega ou entrega de somente ao fim da sprint; e por fim, o caso ótimo, onde a equipe entrega da forma esperada
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Providência</b>
-        </td>
-        <td>
-            As atividades da sprint serão planejadas de acordo com o feedback da sprint anterior afim de aumentar ou diminuir a dificuldade de acordo com o desempenho demonstrado.
-        </td>
-    </tr>
-</table>
-
-</p>
-
-#### 4.2.2 Velocity 
-
-<table>
-    <tr>
-        <td>
-            <b>Objetivo da medição</b>
-        </td>
-        <td>
-            Verificar se a equipe tem o desempenho esperado
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Descrição</b>
-        </td>
-        <td>
-            Determina a quantidade de pontos que a equipe consegue entregar por sprint.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Coleta</b>
-        </td>
-        <td>
-            Responsável: Membros de Software<br>
-            Periodicidade: ao fim de cada sprint
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Procedimento</b>
-        </td>
-        <td>
-            O quadro é criado a partir do plugin apropriado. E o resultado será coletado ao fim de cada sprint.
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Análise</b>
-        </td>
-        <td>
-            O velocity deve ficar dentro de uma área de pontuação média, sem mudanças abruptas entra sprints, sempre tendendo a se estabelecer numa média ou aumentar no decorrer das sprints
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Providência</b>
-        </td>
-        <td>
-            As atividades da sprint serão planejadas de acordo com o feedback da sprint anterior afim de aumentar ou diminuir a quantidade de pontos de acordo com o desempenho demonstrado.
-        </td>
-    </tr>
-</table>
-
-</p>
 
 ## 5. Referências
 
@@ -483,4 +368,5 @@ BASILI, Victor; CALDIERA, Gianluigi; ROMBACH, H. Dieter. **The Goal Question Met
 | Revisão entrega | Lucas Vitor | 22/05/2020 |
 | Segunda versão | João Lucas | 25/05/2020 |
 | Revisão entrega | Adrianne Alves | 25/05/2020 |
-| Adição de histórico, organização e atualização de informações| Adrianne Alves da Silva | 25/08/2020 |
+| Adição de histórico, organização e atualização de informações| Adrianne Alves | 25/08/2020 |
+| Revisão entrega | João Lucas| 12/09/2020|
