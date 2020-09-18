@@ -34,7 +34,7 @@
 
 ## 3. Decisões Tecnológicas
 
- <p align = "justify">A partir da decisão arquiterural inicial, foram escolhidas as tecnologias que melhor se adequam às necessiades do software e da equipe. As tecnologias esolhidas foram: </p>
+ <p align = "justify">A partir da decisão arquitetural inicial, foram escolhidas as tecnologias que melhor se adequam às necessidades do software e da equipe. As tecnologias escolhidas foram: </p>
 
 * HTML/CSS:	Utilizado no desenvolvimento Web de forma padrão e estruturado.
 * Python: Linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
@@ -62,7 +62,7 @@ Para a metodologia de trabalho foi escolhida uma metodologia híbrida entre Scru
 
 A ideia inicial para outros enfoques recaía sobre as análises feitas sobre os dados coletados, esta abordagem contava com a criação de bases de dados com os dados coletados para "alimentar" modelos de predição. Após amadurecimento da proposta, os outros enfoques focaram-se nas decisões arquiteturais da equipe, com a implementação de uma arquitetura de microsserviços e implementação de BFF.
 
-Após reavaliação deste tópico, a equipe decidiu pela implementação da implementação arquitetural supraitada com a inclusão de lógica fuzzy para facilitar as análises de dados e BDD (Behavior Driven Development) como estratégia de testes da aplicação.
+Após reavaliação deste tópico, a equipe decidiu pela implementação da implementação arquitetural supracitada com a inclusão de lógica fuzzy para facilitar as análises de dados e BDD (Behavior Driven Development) como estratégia de testes da aplicação.
 
 # Histórico de revisão
 
