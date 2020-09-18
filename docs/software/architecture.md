@@ -12,11 +12,14 @@
   * [4.2. Descrição dos Casos de Uso](#_42-Descrição-dos-Casos-de-Uso)
 - [5. Visão Lógica](#_5-visão-lógica)
   * [5.1. Visão Geral: Pacotes e Camadas](#_51-visão-geral-pacotes-e-camadas)
-  * [5.2. Visão Geral: Banco de Dados](#_53-visão-geral-banco-de-dados)
+  * [5.2. Visão Geral: Banco de Dados](#_52-visão-geral-banco-de-dados)
+- [6. Visão do Processo](_6-visão-do-processo)
+  * [6.1. Visão Geral: Sequências](#_61-visão-geral-sequencias)
+  * [6.2. Visão Geral: Atividades](#_62-visão-geral-atividades)
 
-- [6. Desempenho](#_6-desempenho)
+- [7. Desempenho](#_7-desempenho)
 
-- [7. Qualidade](#_7-qualidade)
+- [8. Qualidade](#_8-qualidade)
 
 ## 1. Introdução
 
@@ -283,7 +286,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | Fluxo principal | 1. O administrador entra no sistema <br> 2. Pesquisa pelo contrato que receberá a vinícola <br> 3. Entra no contrato <br> 4. Clica em "cadastrar vinícola" <br> 5. Preenche o formulário <br> 6. Clica em "cadastrar" |
 | Fluxo de exceção | Se a vinícola já existir o usuário só poderá editar o cadastro |
 
-#### UC 20 - Gerenciar contas 
+#### UC 20 - Gerenciar contas
 | | |
 | -- | -- |
 | Descrição | O administrador poderá cadastrar, ativar ou inativar contas para os contratos |
@@ -315,16 +318,40 @@ A figura a seguir mostra a estrutura de pacotes do sistema:
 
 ### 5.2. Visão Geral: Banco de dados
 
-A visão geral de banco de dados consiste na diagramação básica que define como será estruturado o banco de dados da aplicação. Nesse sentido, será apenas um banco de dados não relacional, cujos documentos estão explicitados abaixo. 
+A visão geral de banco de dados consiste na diagramação básica que define como será estruturado o banco de dados da aplicação. Nesse sentido, será apenas um banco de dados não relacional, cujos documentos estão explicitados abaixo.
 
 ![img](imgs/modelagem-banco.png)
 
+## 6. Visão do Processo
 
-## 6. Desempenho
+### 6.1. Visão Geral: Sequências
+O diagrama de sequência tem por objetivo exibir os ciclos de vida dentro da execução de uma parte específica do software e a maneira sequencial com a qual interagem os objetos, distribuídos no que chama-se em linhas de vida.
+
+Diagrama de Sequência do Administrador no SmartVit:
+
+![img](imgs/Diagrama-sequencia_ADM.png)
+
+Diagrama de Sequência do Agricultor no SmartVit:
+
+![img](imgs/Diagrama-Sequencia-Agricultor.png)
+
+Diagrama de Sequência do Agrônomo no SmartVit:
+
+![img](imgs/diagrama-sequencia_agronomo.png)
+
+### 6.2. Visão Geral: Atividades
+
+Diferente do diagrama de sequência, o diagrama de atividades tem por objetivo mostrar a parte comportamental do aplicativo, ou sejas, demostrar os fluxos entre os objetos, exibindo os processos de negócio e o fluxo de trabalho dos objetos.
+
+Diagrama de Atividades do Agrônomo no SmartVit:
+
+![img](imgs/Diagrama_Atividades.jpg)
+
+## 7. Desempenho
 
  <p align = "justify"> O desempenho do sistema está relacionado ao projeto todo. Por se tratar de um navegador PWA, a conexão com a internet e o aparelho eletrônico  são os fatores que pode causar os maiores problemas de seu desempenho, pois são os que demandam processamento mais abrangentes.
 
-## 7. Qualidade
+## 8. Qualidade
 
 <p align = "justify"> O projeto terá uma interface gráfica intuitiva, portando as informações principais que provém do projeto para que seja eficaz aos usuários. Todas os dados que venham a ser rceolhidos serão armazenados e uma tela que demostra essas informações será providenciada. </p>
 <p align = "justify"> O código-fonte será bem estruturado, seguindo as normas definidas no documento de folha de estilo, respeitando a padronização e manutenibilidade, criando testes e respeitando as métricas deferidas no Plano de Qualidade.
@@ -341,3 +368,4 @@ A visão geral de banco de dados consiste na diagramação básica que define co
 | Versão 02 - Atualização do diagrama de pacotes | Lucas Vitor | 10/09/2020 |
 | Versão 02 - Atualização do diagrama de casos de uso | Adrianne Alves| 10/09/2020 |
 | Versão 02 - Atualização do diagrama de arquitetura | Lucas Vitor| 11/09/2020 |
+| Adição dos Diagramas de Atividades e Sequências | João Lucas e Luciano | 12/09/2020 |
