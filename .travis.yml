@@ -28,7 +28,7 @@ jobs:
     
 after_success:
   - if [[ "$TRAVIS_BRANCH" == "feature/ci_configuration" ]]; then
-      docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD ;
+      echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
       docker push smart-vit/app;
     fi
 
