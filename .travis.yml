@@ -18,6 +18,7 @@ jobs:
   include:
   - stage: build
     script:
+      - npm install
       - npm run build
       - docker build -t smart-vit/app .
 
