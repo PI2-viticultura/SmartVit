@@ -26,9 +26,9 @@ jobs:
   #  - npm run lint
     - npm run test
     
-after_success:
-  - if [[ "$TRAVIS_BRANCH" == "feature/ci_configuration" ]]; then
-      echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-      docker push smart-vit/app;
-    fi
+# after_success:
+#  - if [[ "$TRAVIS_BRANCH" == "feature/ci_configuration" ]]; then
+#      echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+#      docker push smart-vit/app;
+#    fi
 
