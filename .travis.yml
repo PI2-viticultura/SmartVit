@@ -20,13 +20,15 @@ jobs:
     script:
       - npm run build
       - docker build -t smart-vit/app .
-    after_script:
-      - docker-compose stop
-      - docker-compose rm -f
 
   - stage: test
     script:
-    - npm run lint
+  #  - npm run lint
     - npm run test
     
+after_success:
+  - if [[ "$TRAVIS_BRANCH" == "feature/ci_configuration" ]]; then
+      docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD ;
+      docker push smart-vit/app;
+    fi
 
