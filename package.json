@@ -64,7 +64,7 @@
     "run-docker": "docker run -p 3000:80 react-docker",
     "lint": "eslint ./ --ignore-path .gitignore",
     "lint:fix": "npm run lint -- --fix",
-    "test-with-coverage": "node scripts/test.js --coverage && type ./acoverage/lcov.info | codacy-coverage"
+    "test-with-coverage": "node scripts/test.js --coverage && cat ./acoverage/lcov.info | codacy-coverage --token 2c02686dedcc4aeda54262b216dbecda"
   },
   "eslintConfig": {
     "extends": "react-app"
