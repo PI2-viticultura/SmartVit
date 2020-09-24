@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.20.0",
     "eslint": "^6.8.0",
+    "codacy-coverage": "^3.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
@@ -21,7 +22,8 @@
     "build-docker": "docker build -t react-docker .",
     "run-docker": "docker run -p 3000:80 react-docker",
     "lint": "eslint ./ --ignore-path .gitignore",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "test-with-coverage": "react-scripts test --coverage && type ./acoverage/lcov.info | codacy-coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,5 +40,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "react-test-renderer": "^16.13.1"
+  }
 }
