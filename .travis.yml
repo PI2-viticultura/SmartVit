@@ -23,7 +23,7 @@ jobs:
 
   - stage: test
     script:
-      - npm run lint
+      - npm run test-with-coverage --token $CODACY_PROJECT_TOKEN
       - npm run test
     
 # after_success:
