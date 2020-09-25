@@ -24,8 +24,8 @@ jobs:
 
   - stage: test
     script:
-      - npm run test-with-coverage --token $CODACY_PROJECT_TOKEN
       - npm run test
+      - node scripts/test.js --coverage && cat ./coverage/lcov.info | codacy-coverage --token $CODACY_PROJECT_TOKEN
     
 # after_success:
 #  - if [[ "$TRAVIS_BRANCH" == "feature/ci_configuration" ]]; then
