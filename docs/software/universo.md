@@ -14,7 +14,7 @@
 
 <p align = "justify"> O universo em que o tema do projeto está inserido diz respeito a agricultura modernizada para a produção de uvas, correspondente ao setor vinícola. Nesse tipo de prática, é utilizada a agricultura de precisão, visto que para cada destino a uva deve obedecer à critérios rigorosos desde o plantio à colheita, exigindo condições controladas de solo e irrigação, por exemplo. Por esse motivo, cabe ao agrônomo o acompanhamento do processo para que a vinícola chegue à combinação ideal de aroma e sabor e, quando o assunto é a viticultura, em específico, cada detalhe determina um tipo de vinho a ser obtido. </p>
 
-<p align = "justify">A indústria do vinho movimenta ainda outras profissões além do agrônomo, são elas: profissionais de marketing, os guias para enoturistas, sommelier e os consultores. O enoturismo consiste na reunião de turistas e demais apreciadores em visitações às viticulturas. Essa prática movimenta as vinículas e alimenta o turismo em determinadas regiões. Por sua vez, o sommelier consiste em uma espécie de “conhecedor de vinhos” e usa esse conhecimento para decidir cardápio de restaurantes, por exemplo. </p>
+<p align = "justify">A indústria do vinho movimenta ainda outras profissões além do agrônomo, são elas: profissionais de marketing, os guias para turistas, sommelier e os consultores. O enoturismo consiste na reunião de turistas e demais apreciadores em visitações às viticulturas. Essa prática movimenta as vinícolas e alimenta o turismo em determinadas regiões. Por sua vez, o sommelier consiste em uma espécie de “conhecedor de vinhos” e usa esse conhecimento para decidir cardápio de restaurantes, por exemplo. </p>
 
 <p align = "justify">É a partir das figuras anteriormente relacionadas que se estabelecem termos como enófilo, para grande apreciador de vinhos e enólogo, um especialista em vinhos, formado na área, que conhece todos os aspectos e técnicas relacionadas ao sabor, conservação, aroma  e sensações. Esse profissional, tem conhecimento e pode atuar na vinificação, estabilização, envelhecimento, engarrafamento, controle de qualidade, análise química e sensorial da bebida, marketing e comercialização. Ele possui ainda conhecimento a respeito do plantio a colheita da uva, conhecendo todas as qualidades do vinho, aroma, sensações (suave, seca, etc), cepas (branco,tinto, etc) e aparência (espumante, frisante, brilhante). </p>
 
@@ -71,3 +71,4 @@ ADEGA. O ciclo da videira. Uol. Disponível em: https://revistaadega.uol.com.br/
 |  Primeira versão do documento | Adrianne | 10/04/2020 |
 | Revisão entrega| Lucas Vitor | 17/04/2020 |
 | Revisão, reorganização do documento segundo diretrizes EAD| Adrianne Alves da Silva | 23/08/2020
+| Revisão | João Lucas | 26/09/2020 |

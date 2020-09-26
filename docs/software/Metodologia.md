@@ -52,7 +52,7 @@ Os papéis utilizados no presente projeto respeitam o framework Scrum, com a adi
 ### Scrum Master
 
 - Garantir que o <i>Product Backlog</i> seja feito, de acordo com a priorização do <i>Product Owner</i>, pelos Desenvolvedores;
-- Certificar-se que os rituais ageís sejam realizados por toda a equipe da forma como foi descrito;
+- Certificar-se que os rituais ágeis sejam realizados por toda a equipe da forma como foi descrito;
 - Mapear o progresso da equipe e do desenvolvimento do produto, assim como suas falhas e questões a melhorar;
 - Documentar o processo de cada <i>Sprint</i>.
 
@@ -80,7 +80,7 @@ Os papéis utilizados no presente projeto respeitam o framework Scrum, com a adi
 A divisão da equipe quanto aos papéis ocorre de acordo com o a seguinte especificação:
 
 | Papel           | Responsável                               |
-| :--------:      | :----:                                    | 
+| :--------:      | :----:                                    |
 | Product Owner   | Adrianne Silva e João Lucas               |
 | Scrum Master    | Adrianne Silva                            |
 | Arquiteto       | João Lucas, Adrianne e Lucas Vitor        |
@@ -144,3 +144,4 @@ Para monitorar as atividades entregues, o Scrum Master utilizará também o burn
 | Primeira versão do documento | Lucas Vitor | 24/04/2020 |
 | Revisão entrega | Adrianne Alves | 22/05/2020 |
 | Adição de histórico e edição de mudanças devido adição de membro na equipe | Adrianne Alves da Silva | 25/08/2020 |
+| Revisão | João Lucas | 26/09/2020 |

@@ -37,7 +37,7 @@
 ### 1.2. Escopo
 
 <p align="justify">&emsp;&emsp; A inserção de maquinário tecnológico com o intuito de possibilitar o controle de aspectos ambientais e meteorológicos, conhecido como  agricultura de precisão tem ganhado espaço entre os produtores. Dentro do contexto da viticultura esse fato se mantém, esta modalidade é conhecida como viticultura de precisão e pode ser entendida como a gestão da variabilidade temporal e espacial do vinhedo com o objetivo de melhorar o rendimento da atividade agrícola, seja pelo aumento na produtividade, seja pela redução dos custos de produção, trazendo consigo a possibilidade de o produtor entender o processo do seu vinhedo e acompanhar a produção, permitindo a mitigação de problemas que possuem a capacidade de reduzir a qualidade de seu produto. </p>
-<p align="justify">&emsp;&emsp; Tendo em vista tal fato, este projeto objetiva a criação de um sistema de monitoramento de viticultura de precisão de pequena escala. Dentre as sua principais funcionalidades estão sistema de suporte com acionamento automático de irrigação, que poderá ser acompanhado por meio do software; Monitoramento de aspectos físico/quimicos do vinhedo, no que diz respeito a dados sobre o vento, previsão de chuva, temperatura, umidade, ph do solo e radiação; Auxilio a tomada de decisões por meio de dashboard com indicadores com fácil visualização; Acompanhamento de pragas, por meio do qual será possível o registro do problema e da ação tomada para resolver, além da análise e alertas gerais dos indicadores fora dos intervalos permitidos.
+<p align="justify">&emsp;&emsp; Tendo em vista tal fato, este projeto objetiva a criação de um sistema de monitoramento de viticultura de precisão de pequena escala. Dentre as sua principais funcionalidades estão sistema de suporte com acionamento automático de irrigação, que poderá ser acompanhado por meio do software; Monitoramento de aspectos físico/químicos do vinhedo, no que diz respeito a dados sobre o vento, previsão de chuva, temperatura, umidade, ph do solo e radiação; Auxilio a tomada de decisões por meio de dashboard com indicadores com fácil visualização; Acompanhamento de pragas, por meio do qual será possível o registro do problema e da ação tomada para resolver, além da análise e alertas gerais dos indicadores fora dos intervalos permitidos.
 
 ### 1.3. Visão geral
 
@@ -139,7 +139,7 @@ a elementos externos. Abaixo encontra-se uma relação de pontos positivos e neg
 | -- | -- | -- |
 | Kit da libelium | Faz a coleta de informações a respeito do solo e umidade folear | Não realiza irrigação automática e não é específico para o cultivo de uvas |
 | PlantCT | Possui irrigação, detecção de pragas, faz coleta de informações do solo, umidade folear, precipitação, radiação solar | Não menciona análise folear, não fornece os requisitos detalhados do sistema e atua na região européia |
-| eVineyard | Possui calendário online, realiza previsão de mofo e irrigação, realiza planejamento de trabalhos e custos, suporte para sensores de irrigação, estação climática | O produto não oferece a parte de sensoreamento, apenas possui a parte de software, sendo voltado ao registro e controle de trabalho | 
+| eVineyard | Possui calendário online, realiza previsão de mofo e irrigação, realiza planejamento de trabalhos e custos, suporte para sensores de irrigação, estação climática | O produto não oferece a parte de sensoreamento, apenas possui a parte de software, sendo voltado ao registro e controle de trabalho |
 | Predivine | Rede de sensores wireless, estação de clima e algorítimo de predição  | Não detalha os sensores e é Chileno |
 
 ## 4. Visão Geral do Produto
@@ -181,8 +181,8 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 * Alertar sistema quanto à pragas
 * Envio de feedback do usuário
 * Registro de avaliação da safra obtida
-* Visualizar sistemas intalados 
-* Gerenciar sensores 
+* Visualizar sistemas intalados
+* Gerenciar sensores
 
 ## 6. Restrições
 
@@ -191,8 +191,8 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 - O design deve ser simples e intuitivo;
 - Respeitar as cores da palheta definida;
 - Itens devem ser agrupados por proximidade das informações.
-- Os gráficos devem ser de fácil entendimento 
-- As letras devem ser claras 
+- Os gráficos devem ser de fácil entendimento
+- As letras devem ser claras
 
 ### 6.2. Restrições de Implementação
 

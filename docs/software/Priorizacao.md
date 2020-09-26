@@ -1,4 +1,3 @@
-c
 
 |  # | Descrição  | Ator |  Observação | Priorização |
 |---|---|---|---|---|

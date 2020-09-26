@@ -375,3 +375,4 @@ Diagrama de Atividades dos usuários Agrônomo e Agricultor no SmartVit:
 | Versão 02 - Atualização do diagrama de casos de uso | Adrianne Alves| 10/09/2020 |
 | Versão 02 - Atualização do diagrama de arquitetura | Lucas Vitor| 11/09/2020 |
 | Adição dos Diagramas de Atividades e Sequências | João Lucas e Luciano | 12/09/2020 |
+| Adição do diagrama de atividades do administrador | João Lucas | 26/09/2020 |
