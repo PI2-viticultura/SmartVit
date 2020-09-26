@@ -6,15 +6,17 @@ import {
   Route
 } from "react-router-dom";
 import Feedback from './scenes/feedback';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route path='/feedback'>
-          <Feedback />
-        </Route>
-      </Switch>
+      <Navbar />
+        <Switch>
+          <Route path='/feedback'>
+            <Feedback />
+          </Route>
+         </Switch>
     </BrowserRouter>
   );
 }
