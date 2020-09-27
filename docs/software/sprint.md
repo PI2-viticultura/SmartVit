@@ -12,3 +12,6 @@ Este documento possui o registro do planejamento, revisão e retrospectiva de to
     - [Revisão/Retrospectiva](docs/software/sprints/sprint2-revisao.md)
 * Sprint 3 
     - [Planejamento](docs/software/sprints/sprint3-planejamento.md)
+    - [Revisão/Retrospectiva](docs/software/sprints/sprint3-revisao.md)
+* Sprint 4 
+    - [Planejamento](docs/software/sprints/sprint4-planejamento.md)
