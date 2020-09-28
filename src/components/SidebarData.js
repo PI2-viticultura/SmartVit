@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdFeedback } from 'react-icons/md';
 import { VscGear } from 'react-icons/vsc';
 import { BiSupport } from 'react-icons/bi';
 import { BiExit } from 'react-icons/bi';
