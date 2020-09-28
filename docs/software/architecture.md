@@ -106,7 +106,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 #### UC 02 - Visualizar notificações de criticidade
 | | |
 | -- | -- |
-| Descrição | O agrônomo visualizará as notificações recebidas sobre quaisquer indicadores críticos relacionados à safra |
+| Descrição | O usuário visualizará as notificações recebidas sobre quaisquer indicadores críticos relacionados à safra |
 | Atores | Agrônomo, agricultor |
 | Pré-condições | Usuário deve possuir perfil de agrônomo ou agricultor no sistema |
 | Pós-condições | O usuário deve receber notificações sempre que a vinícola apresentar algum indicador fora do intervalo esperado, via email e através do próprio sistema |
@@ -146,7 +146,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 #### UC 06 - Avaliar safra
 | | |
 | -- | -- |
-| Descrição | O agrônomo responderá um questionário sobre a uva obtida no final da safra |
+| Descrição | O usuário agrônomo responderá um questionário sobre a uva obtida no final da safra |
 | Atores | Agrônomo |
 | Pré-condições | O agrônomo deve está logado no sistema |
 | Pós-condições | O usuário deve receber uma análise da qualidade do vinho a ser obtido com a uva coletada |
@@ -198,7 +198,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 #### UC 11 - Gerenciar sistemas eletrônicos da safra
 | | |
 | -- | -- |
-| Descrição | O agrônomo deve ter acesso à todos os sistemas eletrônicos instalados na safra, incluindo os dados coletados e processados na plataforma. |
+| Descrição | O usuário agrônomo deve ter acesso à todos os sistemas eletrônicos instalados na safra, incluindo os dados coletados e processados na plataforma. |
 | Atores | Agrônomo |
 | Pré-condições | O usuário deve estar logado na plataforma e possuir perfil de agrônomo |
 | Pós-condições | O usuário deve ter acesso à todos os sistemas eletrônicos e dados processados dentro do sistema |
@@ -343,9 +343,15 @@ Diagrama de Sequência do Agrônomo no SmartVit:
 
 Diferente do diagrama de sequência, o diagrama de atividades tem por objetivo mostrar a parte comportamental do aplicativo, ou sejas, demostrar os fluxos entre os objetos, exibindo os processos de negócio e o fluxo de trabalho dos objetos.
 
-Diagrama de Atividades do Agrônomo no SmartVit:
+Diagrama de Atividades do Administrador no SmartVit:
 
-![img](imgs/Diagrama_Atividades.jpg)
+![img](imgs/Administrador.png)
+
+
+Diagrama de Atividades dos usuários Agrônomo e Agricultor no SmartVit:
+
+![img](imgs/Usuario.png)
+
 
 ## 7. Desempenho
 
@@ -369,3 +375,4 @@ Diagrama de Atividades do Agrônomo no SmartVit:
 | Versão 02 - Atualização do diagrama de casos de uso | Adrianne Alves| 10/09/2020 |
 | Versão 02 - Atualização do diagrama de arquitetura | Lucas Vitor| 11/09/2020 |
 | Adição dos Diagramas de Atividades e Sequências | João Lucas e Luciano | 12/09/2020 |
+| Adição do diagrama de atividades do administrador | João Lucas | 26/09/2020 |

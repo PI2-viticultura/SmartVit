@@ -22,5 +22,6 @@ Após reunião com nova equipe, após redistribuição dos grupos, o roadmap foi
 | O quê | Quem  | Quando |
 | - | - | - |
 |  Primeira versão do documento | Adrianne Alves | 22/05/2020 |
-| Revisão entrega| Lucas Vitor | 27/04/2020 |
-| Reorganização do documento | Adrianne Alves da Silva | 23/08/2020
+| Revisão entrega | Lucas Vitor | 27/04/2020 |
+| Reorganização do documento | Adrianne Alves da Silva | 23/08/2020 |
+| Atualização do documento com inserção de datas e planejamento | 27/09/2020 |
