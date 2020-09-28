@@ -33,7 +33,10 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: (8px 0px 8px 16px);
+  padding-left: 8px;
+  padding-top: 0;
+  padding-bottom: 16px;
+  padding-right: 8px;
   list-style: none;
   height: 60px;
 }
@@ -46,7 +49,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  padding: (0px 16px);
+  padding: 0 16px;
   border-radius: 4px;
 }
 
@@ -71,4 +74,3 @@
 span {
   margin-left: 16px;
 }
-

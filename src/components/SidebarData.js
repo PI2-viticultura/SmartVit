@@ -5,6 +5,7 @@ import { BiExit } from 'react-icons/bi';
 import { BsClipboardData } from 'react-icons/bs';
 import { HiDocumentReport } from 'react-icons/hi';
 import { GoBug } from 'react-icons/go';
+import { MdFeedback } from 'react-icons/md';
 
 export const SidebarData = [
     {
