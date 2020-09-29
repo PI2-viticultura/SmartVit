@@ -1,9 +1,9 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import { render } from '@testing-library/react';
-import Support from './scenes/support';
+import Feedback from './scenes/feedback';
 
-test('renders support page', () => {
+test('renders feedback page', () => {
   const test = true;
   expect(test).toBe(true);
 });
