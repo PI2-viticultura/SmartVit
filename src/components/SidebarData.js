@@ -1,53 +1,52 @@
 import React from 'react'
-import VscGear from 'react-icons/vsc';
-import BiSupport from 'react-icons/bi';
-import BiExit from 'react-icons/bi';
-import BsClipboardData from 'react-icons/bs';
-import HiDocumentReport from 'react-icons/hi';
-import GoBug from 'react-icons/go';
-import MdFeedback from 'react-icons/md';
+import * as VscIcons from 'react-icons/vsc';
+import * as BiIcons from 'react-icons/bi';
+import * as BsIcons from 'react-icons/bs';
+import * as HiIcons from 'react-icons/hi';
+import * as GoIcons from 'react-icons/go';
+import * as MdIcons from 'react-icons/md';
 
 export const SidebarData = [
     {
         title: ' Indicadores',
         path: '/',
-        icon: <HiDocumentReport />,
+        icon: <HiIcons.HiDocumentReport />,
         cName: 'nav-text'
     },
     {
         title: ' Sistemas',
         path: '/',
-        icon: <VscGear />,
+        icon: <VscIcons.VscGear />,
         cName: 'nav-text'
     },
     {
         title: ' Suporte',
         path: '/support',
-        icon: <BiSupport/>,
+        icon: <BiIcons.BiSupport/>,
         cName: 'nav-text'
     },
     {
         title: ' Avaliar Safra',
         path: '/',
-        icon: <BsClipboardData />,
+        icon: <BsIcons.BsClipboardData />,
         cName: 'nav-text'
     },
     {
         title: ' Feedback',
         path: '/feedback',
-        icon: <MdFeedback />,
+        icon: <MdIcons.MdFeedback />,
         cName: 'nav-text'
     },
     {
         title: ' Pragas',
         path: '/',
-        icon: <GoBug />,
+        icon: <GoIcons.GoBug />,
         cName: 'nav-text'
     },
     {
         title: ' Sair',
         path: '/',
-        icon: <BiExit />,
+        icon: <BiIcons.BiExit />,
         cName: 'nav-text'
     },
 

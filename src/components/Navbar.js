@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import {SidebarData} from './SidebarData';
+import {IconContext} from 'react-icons';
+import { SidebarData } from './SidebarData';
 import './style.css';
-import {IconContext} from 'react-icons'
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false)
