@@ -10,7 +10,6 @@ function Feedback() {
     const [success, setSuccess] = useState('');
 
     const makeRequest = async () => {
-        console.log('Amigo estou aqui');
         await api.post('/feedback', {
             title,
             message
@@ -25,22 +24,19 @@ function Feedback() {
             setError('error');
             setSuccess('');
         })
-
-}
+    }
 
     return (
         <div className="board">
-            <form>
-                <div className="inputTitulo">
-                    <input type="text" maxLength='32' onChange={e => {setTitle(e.target.value)}}></input>
-                </div>
-                <div className="inputMensagem">
-                    <textarea rows='18' onChange={e => {setMessage(e.target.value)}}></textarea>
-                </div>
-                <div className="buttonArea">
-                    <button className="buttonEnviar" onClick={() => makeRequest()}>ENVIAR</button>
-                </div>
-            </form>
+            <div className="inputTitulo">
+                <input type="text" maxLength='32' onChange={e => {setTitle(e.target.value)}}></input>
+            </div>
+            <div className="inputMensagem">
+                <textarea rows='10' onChange={e => {setMessage(e.target.value)}}></textarea>
+            </div>
+            <div className="buttonArea">
+                <button className="buttonEnviar" onClick={() => makeRequest()}>ENVIAR</button>
+            </div>
         </div>
     )
 }

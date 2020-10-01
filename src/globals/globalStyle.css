@@ -1,0 +1,16 @@
+.board {
+    text-align: center;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgb(194, 194, 194);
+    padding-top: 25px;
+    width: 40%;
+    margin: 25px auto;
+}
+
+textarea {
+    width: 80%;
+    border-radius: 0.3125em;
+    border-color: #c4c4c4;
+    resize: vertical;
+}
