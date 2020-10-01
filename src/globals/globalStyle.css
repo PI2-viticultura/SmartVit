@@ -23,12 +23,12 @@ textarea {
   padding-bottom: 5%;
   border-radius: 2px;
 }
-  
+
 .buttonArea {
   padding-top: 4%;
   padding-bottom: 5%;
 }
-  
+
 .buttonEnviar {
   font-size: 0.8rem;
   border-radius: 2px;
@@ -38,7 +38,7 @@ textarea {
   width: 25%;
   height: 2.409375em;
 }
-  
+
 input {
   width: 80%;
   padding-left: 10px;
@@ -65,19 +65,19 @@ select {
   border-radius: 2px;
   background-color: white;
 }
-  
+
 .periodContainer {
   display: flex;
   justify-content: center;
 }
-  
+
 .periodInnerContainer {
   display: flex;
   width: 80%;
   justify-content: center;
   margin-top: 20px;
 }
-  
+
 .periodInput {
   display: flex;
   align-items: center;
@@ -88,7 +88,7 @@ select {
   margin: 0 auto;
   margin-top: 10px;
 }
-  
+
 .labelText {
   text-align: left;
 }
