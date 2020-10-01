@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 import api from '../../services/api.js';
-import './style.css'
+import './style.css';
+import '../../globals/globalStyle.css';
 
 function Feedback() {
     const [title, setTitle] = useState('');
@@ -29,9 +30,15 @@ function Feedback() {
     return (
         <div className="board">
             <div className="inputTitulo">
+                <div className="labelContainer">
+                    <p className="labelText">Título:</p>
+                </div>
                 <input type="text" maxLength='32' onChange={e => {setTitle(e.target.value)}}></input>
             </div>
             <div className="inputMensagem">
+                <div className="labelContainer">
+                    <p className="labelText">Mensagem:</p>
+                </div>
                 <textarea rows='10' onChange={e => {setMessage(e.target.value)}}></textarea>
             </div>
             <div className="buttonArea">

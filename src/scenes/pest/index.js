@@ -81,7 +81,7 @@ function Pest(){
                 <textarea rows='10' onChange={e => {setObservation(e.target.value)}}></textarea>
             </div>
             <div className="buttonArea">
-                <button className="buttonEnviar" onClick={() => makeRequest()}>Salvar</button>
+                <button className="buttonEnviar" onClick={() => makeRequest()}>SALVAR</button>
             </div>
         </div>
     )
