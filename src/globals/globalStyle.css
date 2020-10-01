@@ -1,0 +1,94 @@
+.board {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px rgb(194, 194, 194);
+  padding-top: 25px;
+  width: 40%;
+  margin: 25px auto;
+}
+
+textarea {
+  width: 80%;
+  border-radius: 0.3125em;
+  border-color: #c4c4c4;
+  resize: vertical;
+}
+
+.inputTitulo {
+  padding-top: 5%;
+}
+
+.inputMensagem {
+  padding-bottom: 5%;
+  border-radius: 2px;
+}
+
+.buttonArea {
+  padding-top: 4%;
+  padding-bottom: 5%;
+}
+
+.buttonEnviar {
+  font-size: 0.8rem;
+  border-radius: 2px;
+  border: 0;
+  background-color: #591b2b;
+  color: #fff;
+  width: 25%;
+  height: 2.409375em;
+}
+
+input {
+  width: 80%;
+  padding-left: 10px;
+  border-radius: 2px;
+}
+
+input[type="text"] {
+  border: 1px solid #c4c4c4;
+  font-size: 1em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10px;
+  line-height: 1.18em;
+}
+
+select {
+  border: 1px solid #c4c4c4;
+  font-size: 1em;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10px;
+  line-height: 1.18em;
+  width: 80%;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.periodContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.periodInnerContainer {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.periodInput {
+  display: flex;
+  align-items: center;
+}
+
+.labelContainer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.labelText {
+  text-align: left;
+}

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 import api from '../../services/api.js';
-import './style.css'
+import './style.css';
+import '../../globals/globalStyle.css';
 
 function Feedback() {
     const [title, setTitle] = useState('');
@@ -10,7 +11,6 @@ function Feedback() {
     const [success, setSuccess] = useState('');
 
     const makeRequest = async () => {
-        console.log('Amigo estou aqui');
         await api.post('/feedback', {
             title,
             message
@@ -25,22 +25,25 @@ function Feedback() {
             setError('error');
             setSuccess('');
         })
-
-}
+    }
 
     return (
         <div className="board">
-            <form>
-                <div className="inputTitulo">
-                    <input type="text" maxLength='32' onChange={e => {setTitle(e.target.value)}}></input>
+            <div className="inputTitulo">
+                <div className="labelContainer">
+                    <p className="labelText">Título:</p>
                 </div>
-                <div className="inputMensagem">
-                    <textarea rows='18' onChange={e => {setMessage(e.target.value)}}></textarea>
+                <input type="text" maxLength='32' onChange={e => {setTitle(e.target.value)}}></input>
+            </div>
+            <div className="inputMensagem">
+                <div className="labelContainer">
+                    <p className="labelText">Mensagem:</p>
                 </div>
-                <div className="buttonArea">
-                    <button className="buttonEnviar" onClick={() => makeRequest()}>ENVIAR</button>
-                </div>
-            </form>
+                <textarea rows='10' onChange={e => {setMessage(e.target.value)}}></textarea>
+            </div>
+            <div className="buttonArea">
+                <button className="buttonEnviar" onClick={() => makeRequest()}>ENVIAR</button>
+            </div>
         </div>
     )
 }

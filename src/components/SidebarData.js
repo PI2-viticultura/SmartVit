@@ -39,7 +39,7 @@ export const SidebarData = [
     },
     {
         title: ' Pragas',
-        path: '/',
+        path: '/pest',
         icon: <GoIcons.GoBug />,
         cName: 'nav-text'
     },

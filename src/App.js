@@ -8,6 +8,8 @@ import {
 import Feedback from './scenes/feedback';
 import Navbar from './components/Navbar';
 import Support from './scenes/support';
+import Pest from './scenes/pest';
+
 import './App.css';
 
 function App() {
@@ -21,7 +23,10 @@ function App() {
           <Route path='/feedback'>
             <Feedback />
           </Route>
-         </Switch>
+          <Route path='/pest'>
+            <Pest />
+          </Route>
+        </Switch>
     </BrowserRouter>
   );
 }
