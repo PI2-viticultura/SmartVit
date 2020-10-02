@@ -9,7 +9,7 @@ import * as MdIcons from 'react-icons/md';
 export const SidebarData = [
     {
         title: ' Indicadores',
-        path: '/',
+        path: '/indicator',
         icon: <HiIcons.HiDocumentReport />,
         cName: 'nav-text'
     },

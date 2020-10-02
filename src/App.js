@@ -5,12 +5,13 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Indicator from './scenes/indicator';
 import Feedback from './scenes/feedback';
 import Navbar from './components/Navbar';
 import Support from './scenes/support';
 import Pest from './scenes/pest';
-
 import './App.css';
+
 
 function App() {
   return (
@@ -26,9 +27,12 @@ function App() {
           <Route path='/pest'>
             <Pest />
           </Route>
+          <Route path='/indicator'>
+            <Indicator />
+          </Route>
         </Switch>
     </BrowserRouter>
   );
 }
 
-export default App;;
+export default App;
