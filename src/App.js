@@ -11,18 +11,19 @@ import Navbar from './components/Navbar';
 import Support from './scenes/support';
 import Pest from './scenes/pest';
 import './App.css';
-
+import { ThemeProvider, CSSReset } from '@chakra-ui/core';
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-        <Switch>
-          <Route path='/support'>
-            <Support />
-          </Route>
-          <Route path='/feedback'>
-            <Feedback />
+      <ThemeProvider>
+        <Navbar />
+          <Switch>
+            <Route path='/support'>
+              <Support />
+            </Route>
+            <Route path='/feedback'>
+              <Feedback />
           </Route>
           <Route path='/pest'>
             <Pest />
@@ -31,6 +32,7 @@ function App() {
             <Indicator />
           </Route>
         </Switch>
+      </ThemeProvider>
     </BrowserRouter>
   );
 }
