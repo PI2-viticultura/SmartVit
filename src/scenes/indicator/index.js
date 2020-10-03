@@ -30,7 +30,7 @@ function Indicator(){
     <div className="step-container">
         <table>
                 <tr>
-                    <td><div className="text-center step-target"> Brotação</div></td>
+                    <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Brotação</div></td>
                     <td></td>
                     <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Crescimento</div></td>
                     <td></td>
@@ -66,7 +66,7 @@ function Indicator(){
                         </div>
                     </td>
                     <td>{days >= 28 ? (
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(1); onOpen()}}>
                             <div className="step-inner">
                                 <header className="icons-center-true">
                                     <GiIcons.GiSeedling />
@@ -74,7 +74,7 @@ function Indicator(){
                             </div>
                         </div>
                         ):(
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(1); onOpen()}}>
                             <div className="step-inner-disabled">
                                 <header className="icons-center-false">
                                     <GiIcons.GiSeedling />
@@ -88,7 +88,7 @@ function Indicator(){
                         </div>
                     </td>
                     <td>{days >= 42 ? (
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(2); onOpen()}}>
                             <div className="step-inner">
                                 <header className="icons-center-true">
                                     <GiIcons.GiFlowerPot />
@@ -96,7 +96,7 @@ function Indicator(){
                             </div>
                         </div>
                         ):(
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(2); onOpen()}}>
                             <div className="step-inner-disabled">
                                 <header className="icons-center-false">
                                     <GiIcons.GiFlowerPot />
@@ -110,7 +110,7 @@ function Indicator(){
                         </div>
                     </td>
                     <td>{days >= 91 ? (
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(3); onOpen()}}>
                             <div className="step-inner">
                                 <header className="icons-center-true">
                                     <IoIosColorPalette />
@@ -118,7 +118,7 @@ function Indicator(){
                             </div>
                         </div>
                         ):(
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(3); onOpen()}}>
                             <div className="step-inner-disabled">
                                 <header className="icons-center-false">
                                     <IoIosColorPalette />
@@ -132,7 +132,7 @@ function Indicator(){
                         </div>
                     </td>
                     <td>{days >= 130 ? (
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(4); onOpen()}}>
                             <div className="step-inner">
                                 <header className="icons-center-true">
                                     <GiIcons.GiGrapes />
@@ -140,7 +140,7 @@ function Indicator(){
                             </div>
                         </div>
                         ):(
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
+                        <div className="step" onClick={() => {setCycleIndex(4); onOpen()}}>
                             <div className="step-inner-disabled">
                                 <header className="icons-center-false">
                                     <GiIcons.GiGrapes />
