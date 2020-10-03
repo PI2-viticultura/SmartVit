@@ -44,5 +44,17 @@
 }
 
 .step-target {
-    width: 100px;
+  width: 100px;
+}
+
+.icons-center-true {
+  margin-top: 17px;
+  margin-left: 17px;
+  color: white;
+}
+
+.icons-center-false {
+  margin-top: 17px;
+  margin-left: 17px;
+  color: black;
 }
