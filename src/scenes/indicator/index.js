@@ -3,7 +3,7 @@ import './style.css';
 import '../../globals/globalStyle.css';
 import { FaSeedling } from "react-icons/fa";
 import * as GiIcons from "react-icons/gi";
-import { IoIosColorPalette } from "react-icons/io"
+import { IoIosColorPalette } from "react-icons/io";
 import {
   Modal,
   ModalOverlay,
