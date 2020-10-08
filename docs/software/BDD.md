@@ -1,4 +1,4 @@
-## Behaviour Driven Development (BDD)
+ ## Behaviour Driven Development (BDD)
 
 - [1. Introdução](#_1-introdução)
 - [2. Objetivos](#_2-objetivos)
@@ -17,7 +17,7 @@
 
 ### 3. Aplicação
 
-<p align="justify"> Para implementar uma nova funcionalidade do BDD definimos primeiros as histórias e cenários do que os usuários esperam dessa funcionalidade. Os usuários ajudam a definir um conjunto de exemplos concretos que possam ilustrar resultados que a nova funcionalidade deve fornecer. Utiliza-se um vocabulário comum e podem ser facilmente compreendidos pelos usuários finais e membros da equipe de desenvolvimento de software, e geralmente são expressos usando Cenário (Scenario), Dado (Given), Quando (When) e Então (Then).
+<p align="justify"> Para implementar uma nova funcionalidade do BDD utiliza-se a linguagem Gherkin. Gherkin é uma Business Readable Domain Specific Language criada especificamente para a descrição de comportamentos, servindo como documentação do BDD.  Defini-se primeiro as histórias e cenários do que os usuários esperam da funcionalidade. Os usuários ajudam a definir um conjunto de exemplos concretos que possam ilustrar resultados que a nova Funcionalidade (Feature) deve fornecer. Utiliza-se um vocabulário comum onde as expressões são: Cenário (Scenario), Dado (Given), Quando (When) e Então (Then) respectivamente.
 <p align="justify"> Depois de exemplificada a nova funcionalidade, os cenários serão automatizados sob a forma de especificações executáveis, facilitando a validação do software e fornecendo uma documentação atualizada técnica e funcional.
 <p align="justify"> Ao utilizar um framework apropriado para aplicação do BDD, deve-se seguir 5 passoas para obter sucesso nos testes.
 
@@ -38,6 +38,10 @@ comportamento descrito.
 
 <p align="justify"> Outra vantagem na utilização do Bahave é que ele prevê a criação das funcionalidades (features) para testes sendo possível especificar um ou mais cenários dos testes descritos do BDD.
 
+
+![bdd](imgs/Gherkin.png)
+<p align="center">Figura 1 - Exemplo de implementação de teste do Behave utilizando a descrição do Gherkin.
+
 ### 5. Referências
 
 Desenvolvimento Orientado a Comportamento BDD com Cucumber. Disponível em: <http://www.devmedia.com.br/desenvolvimento-orientado-a-comportamento-bdd-com-cucumber/33547>. Acesso em: 10 set. 2020.
@@ -50,3 +54,4 @@ Selenium Python Tutorial: Getting Started With BDD In Behave. Disponível em: <h
 | - | - | - |
 |  Primeira versão do documento | João Lucas | 10/09/2020 |
 | Adição da Aplicação prevista no SmartVit| João Lucas | 14/09/2020 |
+| Adição da imagem do Gherkin| joão Lucas | 8/10/2020 |

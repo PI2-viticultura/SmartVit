@@ -53,6 +53,7 @@
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Plano de usabilidade](docs/software/plano-de-usabilidade.md)
     * [Folha de Estilo](docs/software/Folha-de-estilo.md)
+    * [BDD](docs/software/BDD.md)
     * [Plano de Qualidade](docs/software/Plano-qualidade.md)
     * [GQM - Goal Question Metric](docs/software/gqm.md)
   * Documentação
