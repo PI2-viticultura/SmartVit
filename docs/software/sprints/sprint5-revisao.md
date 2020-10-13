@@ -13,17 +13,17 @@
 | Atualizar documentação de software | :white_check_mark: |
 
 ## 1.1 O que foi feito?
-Todas as tarefas 
+Todas as tarefas
 
 ## 1.2. O que não foi feito e por que não foi feito?
 
 # 2. Retrospectiva
 
-## 2.1. O que deu certo?  
+## 2.1. O que deu certo?
 * Tecnicamente entregamos tudo
 * Estruturação de tópicos da documentação no início da sprint
 
-## 2.2. O que deu errado? 
+## 2.2. O que deu errado?
 * Ser sempre o primeiro grupo a apresentar
 * Equipe muito atarefada
 * Membros com prova, indisposição
@@ -33,7 +33,7 @@ Todas as tarefas
 
 ## 2.3. Como melhorar?
 ### 2.3.1. Devemos implementar
-* Membros organizarem melhor suas tarefas da semana 
+* Membros organizarem melhor suas tarefas da semana
 * Discutir durante o planejamento para mapear essas dependências entre as pessoas
 
 ### 2.3.2. Podemos implementar
