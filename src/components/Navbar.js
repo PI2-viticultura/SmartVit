@@ -13,6 +13,7 @@ function Navbar() {
     const location = useLocation();
     const showSidebar = () => setSidebar(!sidebar);
     let var_notification = [];
+
     React.useEffect(() => {
         let repeat;
 
@@ -56,8 +57,10 @@ function Navbar() {
                     </div> */}
                 </div>
                 <div className='notification'>
-                    <span><FaIcons.FaBell/></span>
-                    <span className="badge">{notifications.length}</span>
+                    <Link to="/notifications">
+                        <span><FaIcons.FaBell/></span>
+                        <span className="badge">{notifications.length}</span>
+                    </Link>
                 </div>
             </div>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
