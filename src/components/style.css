@@ -80,3 +80,28 @@
 span {
   margin-left: 16px;
 }
+
+.notification {
+  position: absolute;
+  right: 25px;
+  color: white;
+}
+
+.notification {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 22px;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  padding: 3px 7px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 12px
+}

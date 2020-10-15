@@ -4,20 +4,60 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import {IconContext} from 'react-icons';
 import { SidebarData } from './SidebarData';
+import api from '../services/api';
 import './style.css';
 
 function Navbar() {
-    const [sidebar, setSidebar] = useState(false)
+    const [sidebar, setSidebar] = useState(false);
+    const [notifications, setNotifications] = React.useState([]);
     const location = useLocation();
-    const showSidebar = () => setSidebar(!sidebar)
+    const showSidebar = () => setSidebar(!sidebar);
+    let var_notification = [];
+    React.useEffect(() => {
+        let repeat;
+
+        async function fetchData() {
+            try {
+                await api.get("/notification/user_id",
+                {
+                    "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest"
+                }).then((res) => {
+                    var_notification = res.data.filter((element) => typeof element.message === "string");
+                    setNotifications(var_notification);
+                }).catch((error) => {
+                });
+
+                repeat = setTimeout(fetchData, 60000); // request again after a minute
+            } catch (error) {
+                console.error(error.message);
+                repeat = setTimeout(fetchData, 60000);
+            }
+        }
+
+        fetchData();
+
+        return () => {
+            if (repeat) {
+                clearTimeout(repeat);
+            }
+        }
+    }, []);
+
     return (
         <IconContext.Provider value={{color: 'white'}}>
             <div className='navbar'>
-                <Link to="#" className='menu-bars'>
-                    <FaIcons.FaBars onClick={showSidebar}/>
-                </Link>
-                <div className="nav-name">
-                    {location.pathname.substring(1, location.pathname.length).toUpperCase()}
+                <div>
+                    <Link to="#" className='menu-bars'>
+                        <FaIcons.FaBars onClick={showSidebar}/>
+                    </Link>
+                    {/* <div className="nav-name">
+                        {location.pathname.substring(1, location.pathname.length).toUpperCase()}
+                    </div> */}
+                </div>
+                <div className='notification'>
+                    <span><FaIcons.FaBell/></span>
+                    <span className="badge">{notifications.length}</span>
                 </div>
             </div>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
