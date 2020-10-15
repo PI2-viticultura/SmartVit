@@ -1,0 +1,36 @@
+.notification-date {
+    color: #858585;
+    font-size: .85em;
+}
+
+.notification-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.notification-title {
+    font-weight: bold;
+}
+
+.notification-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.notification-mark {
+    display: flex;
+}
+
+.notification-button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.notification-separator {
+    width: 75%;
+    border-bottom: 1px solid #c4c4c4;
+    margin: 10px auto;
+}

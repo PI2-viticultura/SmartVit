@@ -28,7 +28,6 @@ function Navbar() {
                     setNotifications(var_notification);
                 }).catch((error) => {
                 });
-
                 repeat = setTimeout(fetchData, 60000); // request again after a minute
             } catch (error) {
                 console.error(error.message);
@@ -59,7 +58,9 @@ function Navbar() {
                 <div className='notification'>
                     <Link to="/notifications">
                         <span><FaIcons.FaBell/></span>
-                        <span className="badge">{notifications.length}</span>
+                        {notifications.length > 0 &&
+                            <span className="badge">{notifications.length}</span>
+                        }
                     </Link>
                 </div>
             </div>

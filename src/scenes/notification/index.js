@@ -22,11 +22,42 @@ function Notification() {
 
     useEffect(() => {
         getNotifications();
-    });
+    }, []);
+
+    const markAsRead = async (id) => {
+        await api.patch("/notification/" + id,
+        {
+            "Content-Type": "application/json",
+            "X-Requested-With": "XMLHttpRequest"
+        }).then((res) => {
+            getNotifications();
+        }).catch((error) => {
+        });
+    };
 
     return (
         <div className="board">
-            {notifications.map((element) => <a key={element.date}>{element.message}</a>)}
+            {notifications.length > 0 ?
+                notifications.map((element) => (
+                    <div key={element._id.$oid}>
+                        <div className="notification-container">
+                            <div className="notification-texts">
+                                <span className="notification-title">{element.title}</span>
+                                <span>{element.message}</span>
+                                <span className="notification-date">{element.date}</span>
+                            </div>
+                            <div className="notification-mark">
+                                <button onClick={() => markAsRead(element._id.$oid)} className="notification-button">
+                                    Marcar como lida
+                                </button>
+                            </div>
+                        </div>
+                        <div className="notification-separator"></div>
+                    </div>
+                ))
+                :
+                <span>Nenhuma notificação no momento!</span>
+            }
         </div>
     )
 }
