@@ -1,6 +1,7 @@
 /* eslint-disable */
 'use strict';
 
+const dontenvs = require('dotenv');
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -52,7 +53,7 @@ const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
 
-const env = dotenv.config().parsed;
+const env = dontenvs.config().parsed;
 
 const envKeys = Object.keys(env).reduce((prev, next) => {
   prev[`process.env.${next}`] = JSON.stringify(env[next]);
