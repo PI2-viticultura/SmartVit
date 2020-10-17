@@ -1,7 +1,7 @@
   
 import axios from 'axios'
 
-const baseUrl = process.env.URL_INDICATOR;
+const baseUrl = process.env.REACT_APP_URL_INDICATOR;
 
 console.log(baseUrl);
 
