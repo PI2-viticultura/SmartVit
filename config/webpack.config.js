@@ -1,7 +1,6 @@
 /* eslint-disable */
 'use strict';
 
-const dontenvs = require('dotenv');
 const fs = require('fs');
 const path = require('path');
 const webpack = require('webpack');
@@ -28,7 +27,6 @@ const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpack
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
 
 const postcssNormalize = require('postcss-normalize');
-const { dotenv } = require('./paths');
 
 const appPackageJson = require(paths.appPackageJson);
 
@@ -52,18 +50,6 @@ const cssRegex = /\.css$/;
 const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
-
-const env = dontenvs.config().parsed;
-
-const envKeys = Object.keys(env).reduce((prev, next) => {
-  prev[`process.env.${next}`] = JSON.stringify(env[next]);
-  return prev;
-}, {
-  'URL_FEEDBACK': JSON.stringify(process.env.URL_FEEDBACK),
-  'URL_INDICATOR': JSON.stringify(process.env.URL_INDICATOR),
-  'URL_PEST': JSON.stringify(process.env.URL_PEST),
-  'URL_SUPPORT': JSON.stringify(process.env.URL_SUPPORT)
-});
 
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
@@ -523,7 +509,6 @@ module.exports = function(webpackEnv) {
       ],
     },
     plugins: [
-      new webpack.DefinePlugin(envKeys),
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
