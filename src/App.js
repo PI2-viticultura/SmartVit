@@ -5,6 +5,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import Notification from './scenes/notification';
 import Indicator from './scenes/indicator';
 import Feedback from './scenes/feedback';
 import Navbar from './components/Navbar';
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route path='/indicator'>
             <Indicator />
+          </Route>
+          <Route path='/notifications'>
+            <Notification />
           </Route>
         </Switch>
       </ThemeProvider>

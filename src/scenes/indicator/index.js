@@ -29,6 +29,7 @@ function Indicator(){
     return (
     <div className="step-container">
         <table>
+            <tbody>
                 <tr>
                     <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Brotação</div></td>
                     <td></td>
@@ -40,8 +41,10 @@ function Indicator(){
                     <td></td>
                     <td><div onClick={() => {setCycleIndex(4); onOpen()}} className="text-center step-target"> Maturação</div></td>
                 </tr>
+            </tbody>
         </table>
         <table>
+            <tbody>
                 <tr>
                     <td>{days >= 0 ? (
                         <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
@@ -149,6 +152,7 @@ function Indicator(){
                         </div>
                     )}</td>
                 </tr>
+            </tbody>
         </table>
 
       <Modal isOpen={isOpen} onClose={onClose}>
