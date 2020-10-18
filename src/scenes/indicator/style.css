@@ -9,7 +9,8 @@
   justify-content: center;
 }
 
-.step-container .step, .step-target {
+.step-container .step,
+.step-target {
   cursor: pointer;
 }
 

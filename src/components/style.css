@@ -85,10 +85,6 @@ span {
   position: absolute;
   right: 25px;
   color: white;
-}
-
-.notification {
-  color: white;
   text-decoration: none;
   display: inline-block;
   border-radius: 2px;
@@ -103,5 +99,5 @@ span {
   border-radius: 50%;
   background: red;
   color: white;
-  font-size: 12px
+  font-size: 12px;
 }
