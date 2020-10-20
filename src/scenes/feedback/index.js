@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import apiFeedback from '../../services/api-feedback';
-import './style.css';
 import '../../globals/globalStyle.css';
+import './style.css';
 
 function Feedback() {
     const [title, setTitle] = useState('');
