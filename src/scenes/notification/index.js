@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import api from '../../services/api.js';
+import apiNotification from '../../services/api-notification';
 import './style.css';
 import '../../globals/globalStyle.css';
 
@@ -9,7 +9,7 @@ function Notification() {
     let var_notification = [];
 
     const getNotifications = async () => {
-        await api.get("/notification/user_id",
+        await apiNotification.get("/notification/user_id",
         {
             "Content-Type": "application/json",
             "X-Requested-With": "XMLHttpRequest"
@@ -25,7 +25,7 @@ function Notification() {
     }, []);
 
     const markAsRead = async (id) => {
-        await api.patch("/notification/" + id,
+        await apiNotification.patch("/notification/" + id,
         {
             "Content-Type": "application/json",
             "X-Requested-With": "XMLHttpRequest"
