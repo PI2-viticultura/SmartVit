@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DatePicker from "react-datepicker"; 
 import "react-datepicker/dist/react-datepicker.css";
-import api from '../../services/api.js';
+import apiPest from '../../services/api-pest';
 import './style.css';
 import '../../globals/globalStyle.css';
 
@@ -16,7 +16,7 @@ function Pest(){
     const [success, setSuccess] = useState('');
 
     const makeRequest = async () => {
-        await api.post('/pest', {
+        await apiPest.post('/pest', {
             idVineyard,
             type,
             startTime,
