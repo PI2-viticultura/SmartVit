@@ -29,7 +29,7 @@ function App() {
           <Route path='/pest'>
             <Pest />
           </Route>
-          <Route path='/indicator'>
+          <Route path='/'>
             <Indicator />
           </Route>
           <Route path='/notifications'>
