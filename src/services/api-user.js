@@ -2,11 +2,13 @@
 import axios from 'axios'
 import { getToken } from './auth';
 
-const api =  axios.create({
-    baseURL: 'http://localhost:8000',
+const baseUrl = process.env.REACT_APP_URL_USER;
+
+const apiUser =  axios.create({
+    baseURL: baseUrl,
 });
 
-api.interceptors.request.use(async configure => {
+apiUser.interceptors.request.use(async configure => {
     const token = getToken();
     if(token){
         configure.headers.Authorization = `Bearer ${token}`
@@ -14,4 +16,4 @@ api.interceptors.request.use(async configure => {
     return configure;
 });
 
-export default api;
+export default apiUser;

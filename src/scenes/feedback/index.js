@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-import api from '../../services/api.js';
-import './style.css';
+import apiFeedback from '../../services/api-feedback';
 import '../../globals/globalStyle.css';
+import './style.css';
 
 function Feedback() {
     const [title, setTitle] = useState('');
@@ -11,7 +11,7 @@ function Feedback() {
     const [success, setSuccess] = useState('');
 
     const makeRequest = async () => {
-        await api.post('/feedback', {
+        await apiFeedback.post('/feedback', {
             title,
             message
         },

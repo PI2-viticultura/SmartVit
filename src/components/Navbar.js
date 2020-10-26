@@ -4,7 +4,7 @@ import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import {IconContext} from 'react-icons';
 import { SidebarData } from './SidebarData';
-import api from '../services/api';
+import apiNotification from '../services/api-notification';
 import './style.css';
 
 function Navbar() {
@@ -19,7 +19,7 @@ function Navbar() {
 
         async function fetchData() {
             try {
-                await api.get("/notification/user_id",
+                await apiNotification.get("/notification/user_id",
                 {
                     "Content-Type": "application/json",
                     "X-Requested-With": "XMLHttpRequest"

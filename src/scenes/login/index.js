@@ -11,11 +11,11 @@ import {
 } from "@chakra-ui/core";
 import { GrMail, GrLock } from "react-icons/gr"
 import { Link as ReachLink } from "@reach/router"
-import api from "../../services/api"
-import { login, getToken } from "../../services/auth";
+import apiUser from "../../services/api"
+import { login } from "../../services/auth";
 
 import './style.css';
-import { Redirect, useHistory, useLocation } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 function Login() {
     const [email, setEmail] = React.useState('');
@@ -24,7 +24,7 @@ function Login() {
     let history = useHistory();
 
     const makeLogin = async () => {
-        await api.post("/login", {
+        await apiUser.post("/login", {
             email,
             password
         }).then((result) => {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import api from '../../services/api';
+import apiSupport from '../../services/api-support';
 import './style.css';
 import '../../globals/globalStyle.css';
 
@@ -12,7 +12,7 @@ function Support() {
     const [success, setSuccess] = useState('');
 
     const makeRequest = async () => {
-            await api.post('/support', {
+            await apiSupport.post('/support', {
                 problem,
                 priority,
                 description,
