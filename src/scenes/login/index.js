@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/core";
 import { GrMail, GrLock } from "react-icons/gr"
 import { Link as ReachLink } from "@reach/router"
-import apiUser from "../../services/api"
+import apiUser from "../../services/api-user"
 import { login } from "../../services/auth";
 
 import './style.css';
