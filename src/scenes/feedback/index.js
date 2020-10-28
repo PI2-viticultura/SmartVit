@@ -29,6 +29,12 @@ function Feedback() {
 
     return (
         <div className="board">
+            {
+                error !== '' && <p>Aconteceu um erro na sua requisição, por favor cheque os dados enviados!</p>
+            }
+            {
+                success !== '' && <p>O feedback foi registrado com sucesso!</p>
+            }
             <div className="inputTitulo">
                 <div className="labelContainer">
                     <p className="labelText">Título:</p>
