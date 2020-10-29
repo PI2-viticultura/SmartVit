@@ -1,23 +1,25 @@
-.board {
-  text-align: center;
+.main {
+  max-width: 80%;
+  margin: 20px auto;
   border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 1px 1px 1px rgb(194, 194, 194);
-  padding-top: 25px;
-  padding-bottom: 25px;
-  width: 40%;
-  margin: 25px auto;
+  box-shadow: 1px 1px 1px 1px #c4c4c4;
+  background-color: white;
+}
+
+.p-5 {
+  padding: 5%;
+}
+
+.title-box>h3 {
+  text-align: center;
 }
 
 textarea {
-  width: 80%;
+  width: 100%;
   border-radius: 0.3125em;
   border-color: #c4c4c4;
   resize: vertical;
-}
-
-.inputTitulo {
-  padding-top: 5%;
+  padding: 10px
 }
 
 .inputMensagem {
@@ -41,7 +43,7 @@ textarea {
 }
 
 input {
-  width: 80%;
+  width: 100%;
   padding-left: 10px;
   border-radius: 2px;
 }
@@ -85,7 +87,7 @@ select {
 }
 
 .labelContainer {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   margin-top: 10px;
 }
@@ -96,4 +98,23 @@ select {
 
 .text-center {
   text-align: center;
+}
+
+select { 
+  width: 100%;
+}
+
+.button-box {
+  text-align: center;
+  padding-top: 2%;
+}
+
+.button-new {
+  width: unset !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  white-space: normal !important;
+  background-color: #591B2B !important;
+  outline: 0;
+  border: 0;
 }

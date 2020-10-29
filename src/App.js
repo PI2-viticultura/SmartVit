@@ -12,7 +12,7 @@ import Navbar from './components/Navbar';
 import Support from './scenes/support';
 import Pest from './scenes/pest';
 import './App.css';
-import { ThemeProvider, CSSReset } from '@chakra-ui/core';
+import { ThemeProvider } from '@chakra-ui/core';
 
 function App() {
   return (
@@ -29,11 +29,11 @@ function App() {
           <Route path='/pest'>
             <Pest />
           </Route>
-          <Route path='/'>
-            <Indicator />
-          </Route>
           <Route path='/notifications'>
             <Notification />
+          </Route>
+          <Route path='/'>
+            <Indicator />
           </Route>
         </Switch>
       </ThemeProvider>

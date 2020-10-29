@@ -33,21 +33,6 @@ function Stepper({days}){
             <table>
                 <tbody>
                     <tr>
-                        <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Brotação</div></td>
-                        <td></td>
-                        <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Crescimento</div></td>
-                        <td></td>
-                        <td><div onClick={() => {setCycleIndex(2); onOpen()}} className="text-center step-target"> Floração e Vingamento</div></td>
-                        <td></td>
-                        <td><div onClick={() => {setCycleIndex(3); onOpen()}} className="text-center step-target"> Pintor</div></td>
-                        <td></td>
-                        <td><div onClick={() => {setCycleIndex(4); onOpen()}} className="text-center step-target"> Maturação</div></td>
-                    </tr>
-                </tbody>
-            </table>
-            <table>
-                <tbody>
-                    <tr>
                         <td>{days >= 0 ? (
                             <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
                                 <div className="step-inner">
@@ -153,6 +138,21 @@ function Stepper({days}){
                                 </div>
                             </div>
                         )}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Brotação</div></td>
+                        <td></td>
+                        <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Crescimento</div></td>
+                        <td></td>
+                        <td><div onClick={() => {setCycleIndex(2); onOpen()}} className="text-center step-target"> Floração e Vingamento</div></td>
+                        <td></td>
+                        <td><div onClick={() => {setCycleIndex(3); onOpen()}} className="text-center step-target"> Pintor</div></td>
+                        <td></td>
+                        <td><div onClick={() => {setCycleIndex(4); onOpen()}} className="text-center step-target"> Maturação</div></td>
                     </tr>
                 </tbody>
             </table>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Box } from "@chakra-ui/core";
 
 import apiNotification from '../../services/api-notification';
 import './style.css';
@@ -36,7 +37,8 @@ function Notification() {
     };
 
     return (
-        <div className="board">
+        <div className="main">
+            <Box className="p-5" bg="#FFFFFF" rounded="md">
             {notifications.length > 0 ?
                 notifications.map((element) => (
                     <div key={element._id.$oid}>
@@ -56,8 +58,9 @@ function Notification() {
                     </div>
                 ))
                 :
-                <span>Nenhuma notificação no momento!</span>
+                <div style={{textAlign: 'center'}}>Nenhuma notificação no momento!</div>
             }
+            </Box>
         </div>
     )
 }

@@ -1,4 +1,15 @@
 import React, { useState } from 'react';
+import {
+    Alert,
+    AlertIcon,
+    Box,
+    Button,
+    FormControl,
+    FormLabel,
+    Grid,
+    Heading,
+    Input,
+} from "@chakra-ui/core";
 
 import apiSupport from '../../services/api-support';
 import './style.css';
@@ -30,48 +41,60 @@ function Support() {
 
     }
     return (
-        <div className="board">
-            {
-                error !== '' && <p>Aconteceu um erro na sua requisição, por favor cheque os dados enviados</p>
+        <div className="main">
+            {success === "success" &&
+                <Alert status="success" variant="solid">
+                    <AlertIcon />
+                    Em breve você receberá uma ligação de um dos nossos atendentes
+                </Alert>
             }
-            {
-                success !== '' && <p>Em breve você receberá uma ligação de um dos nossos atendentes</p>
+            {error === "error" &&
+                <Alert status="error" variant="solid">
+                    <AlertIcon />
+                    Aconteceu um erro na sua requisição, por favor cheque os dados enviados
+                </Alert>
             }
-            <div className="inputTitulo">
-                <div className="labelContainer">
-                    <p className="labelText">Problema:</p>
+            <Box className="p-5" bg="#FFFFFF" rounded="md">
+                <div className="title-box">
+                    <Heading as="h3" size="md">
+                        Suporte
+                    </Heading>
                 </div>
-                <select onChange={e => {setProblem(e.target.value)}}>
-                    <option value="Sistema eletrônico com defeito">Sistema eletrônico com defeito</option>
-                    <option value="Problema do software">Problema do software</option>
-                    <option value="Dados incoerentes">Dados incoerentes</option>
-                    <option value="Perfil de acesso">Perfil de acesso</option>
-                    <option value="Sobre o contrato">Sobre o contrato</option>
-                    <option value="outros">Outros</option>
-                </select>
-            </div>
-
-            <div className="inputTitulo">
-                <div className="labelContainer">
-                    <p className="labelText">Classificação:</p>
+                <div className="">
+                    <div className="labelContainer">
+                        <p className="labelText">Problema:</p>
+                    </div>
+                    <select onChange={e => {setProblem(e.target.value)}}>
+                        <option value="Sistema eletrônico com defeito">Sistema eletrônico com defeito</option>
+                        <option value="Problema do software">Problema do software</option>
+                        <option value="Dados incoerentes">Dados incoerentes</option>
+                        <option value="Perfil de acesso">Perfil de acesso</option>
+                        <option value="Sobre o contrato">Sobre o contrato</option>
+                        <option value="outros">Outros</option>
+                    </select>
                 </div>
-                <select onChange={e => {setPriority(e.target.value)}}>
-                    <option value="alta">Atrapalha meu serviço</option>
-                    <option value="média">Estou confuso</option>
-                    <option value="baixa">Sugestão</option>
-                </select>
-            </div>
 
-            <div className="inputMensagem">
-                <div className="labelContainer">
-                    <p className="labelText">Descrição:</p>
+                <div className="inputTitulo">
+                    <div className="labelContainer">
+                        <p className="labelText">Classificação:</p>
+                    </div>
+                    <select onChange={e => {setPriority(e.target.value)}}>
+                        <option value="alta">Atrapalha meu serviço</option>
+                        <option value="média">Estou confuso</option>
+                        <option value="baixa">Sugestão</option>
+                    </select>
                 </div>
-                <textarea rows='10' onChange={e => setDescription(e.target.value)}></textarea>
-            </div>
 
-            <div className="buttonArea">
-                <button className="buttonEnviar" onClick={() => makeRequest()}>ENVIAR</button>
-            </div>
+                <div className="inputMensagem">
+                    <div className="labelContainer">
+                        <p className="labelText">Descrição:</p>
+                    </div>
+                    <textarea rows='10' onChange={e => setDescription(e.target.value)}></textarea>
+                </div>
+                <div className="button-box">
+                    <Button className="button-new" variantColor="primary" size="md" w="25%" onClick={() => makeRequest()}>ENVIAR</Button>
+                </div>
+            </Box>
         </div>
     );
 }

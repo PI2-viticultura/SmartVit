@@ -103,7 +103,7 @@ span {
 
 .notification .badge {
   position: absolute;
-  top: -8px;
+  top: -38px;
   right: -12px;
   padding: 3px 7px;
   border-radius: 50%;
@@ -112,3 +112,12 @@ span {
   font-size: 12px;
 }
 
+.step-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  width: 80%;
+  margin: 0 auto;
+}
