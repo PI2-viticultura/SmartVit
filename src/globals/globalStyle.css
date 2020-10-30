@@ -10,7 +10,7 @@
   padding: 5%;
 }
 
-.title-box>h3 {
+.title-box > h3 {
   text-align: center;
 }
 
@@ -19,7 +19,7 @@ textarea {
   border-radius: 0.3125em;
   border-color: #c4c4c4;
   resize: vertical;
-  padding: 10px
+  padding: 10px;
 }
 
 .inputMensagem {
@@ -64,7 +64,7 @@ select {
   padding-bottom: 1%;
   padding-left: 10px;
   line-height: 1.18em;
-  width: 80%;
+  width: 100%;
   border-radius: 2px;
   background-color: white;
 }
@@ -100,10 +100,6 @@ select {
   text-align: center;
 }
 
-select { 
-  width: 100%;
-}
-
 .button-box {
   text-align: center;
   padding-top: 2%;
@@ -114,7 +110,7 @@ select {
   padding-left: 10px !important;
   padding-right: 10px !important;
   white-space: normal !important;
-  background-color: #591B2B !important;
+  background-color: #591b2b !important;
   outline: 0;
   border: 0;
 }
