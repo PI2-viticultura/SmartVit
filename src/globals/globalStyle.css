@@ -106,11 +106,11 @@ select {
 }
 
 .button-new {
-  width: unset !important;
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-  white-space: normal !important;
-  background-color: #591b2b !important;
+  width: unset;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: normal;
+  background-color: #591b2b;
   outline: 0;
   border: 0;
 }
