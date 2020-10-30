@@ -42,8 +42,10 @@ function Indicator(){
     }, []);
     return (
         <div>
-            <Stepper days={10}/>
-            <div className="board">
+            <div>
+                <Stepper days={10}/>
+            </div>
+            <div className="main">
                 Qualidade da vinícola
                 <GaugeChart id="gauge-chart5"
                     nrOfLevels={420}
