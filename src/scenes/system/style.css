@@ -1,57 +1,57 @@
 .main {
-    background-color: #ffffff;
-}
-
-.css-o4mft6  {
-    background-color: #ffffff !important;
-}
-
-.css-1brgn68 {
-    color: #ffffff;
-    background-color: #591b2b !important;
-    width: unset;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    white-space: normal !important;
-    margin-right: 20%;
-}
-
-.div-sensores {
-    margin-left: 5%;
-}
-
-.css-1brgn68 {
-    position: relative !important;
-    left: 20% !important;
-    top: 30% !important;
-}
-
-.div-lancamentos {
-    margin-left: 2.4%;
-}
-
-.column {
-    text-align: center;
-}
-
-.gbjtWJ {
-    width: auto !important;
-    position: absolute !important;
-}
-
-.accord-historico {
-    margin-top: 2% !important;
+  background-color: #ffffff;
 }
 
 .css-o4mft6 {
-    border-radius: 5px !important;
-    border-color: #C4C4C4;
+  background-color: #ffffff !important;
+}
+
+.css-1brgn68 {
+  color: #ffffff;
+  background-color: #591b2b !important;
+  width: unset;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  white-space: normal !important;
+  margin-right: 20%;
+}
+
+.div-sensores {
+  margin-left: 5%;
+}
+
+.css-1brgn68 {
+  position: relative !important;
+  left: 20% !important;
+  top: 30% !important;
+}
+
+.div-lancamentos {
+  margin-left: 2.4%;
+}
+
+.column {
+  text-align: center;
+}
+
+.gbjtWJ {
+  width: auto !important;
+  position: absolute !important;
+}
+
+.accord-historico {
+  margin-top: 2% !important;
+}
+
+.css-o4mft6 {
+  border-radius: 5px !important;
+  border-color: #c4c4c4;
 }
 
 .skeleton {
-    margin-top: 1%;
+  margin-top: 1%;
 }
 
 .stack-sk {
-    padding: 2%;
+  padding: 2%;
 }
