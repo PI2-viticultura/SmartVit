@@ -15,7 +15,7 @@ export const SidebarData = [
     },
     {
         title: ' Sistemas',
-        path: '/',
+        path: '/system',
         icon: <VscIcons.VscGear />,
         cName: 'nav-text'
     },
