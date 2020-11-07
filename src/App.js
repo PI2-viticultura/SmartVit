@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Support from './scenes/support';
 import Pest from './scenes/pest';
 import System from './scenes/system';
+import Sensor from './scenes/sensor';
 import './App.css';
 import { ThemeProvider } from '@chakra-ui/core';
 
@@ -23,6 +24,8 @@ function App() {
           <Switch>
             <Route path='/system'>
               <System />
+            <Route path='/sensor'>
+              <Sensor />
             </Route>
             <Route path='/support'>
               <Support />
