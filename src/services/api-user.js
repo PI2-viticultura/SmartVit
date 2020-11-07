@@ -2,7 +2,7 @@
 import axios from 'axios'
 import { getToken } from './auth';
 
-const baseUrl = process.env.REACT_APP_URL_USER;
+const baseUrl = process.env.REACT_APP_URL;
 
 const apiUser =  axios.create({
     baseURL: baseUrl,

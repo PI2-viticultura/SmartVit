@@ -38,13 +38,12 @@ function Login() {
     }
     return (
         <Flex align="center">
-            <Flex className="box-image" bg="green.50" size="100vh" align="center" justify="center">
-            </Flex>
+            <Flex className="box-image" bg="green.50" size="100vh" align="center" justify="center"></Flex>
             <Flex className="box-login" bg="blue.50" size="100vh" align="center" justify="center">
                 <div className="logo">
                     <img src={require("../../assets/imgs/login-icon.svg")}></img>
                 </div>
-                <FormControl>
+                <FormControl className="formInput">
                     <InputGroup className="input-email">
                         <InputLeftElement>
                             <Box as={GrLock} />
