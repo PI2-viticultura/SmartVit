@@ -60,6 +60,6 @@
     * [Documento de arquitetura](docs/software/architecture.md)
     * [Documento de visão](docs/software/vision.md)
     * [Protótipos](docs/software/prototipo.md)
-    * [Testes]()
+    * [Testes](docs/software/testes.md)
     * [Decisões](docs/software/decisoes.md)
       * Resultados
