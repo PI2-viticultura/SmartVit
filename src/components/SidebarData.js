@@ -45,7 +45,7 @@ export const SidebarData = [
     },
     {
         title: ' Sair',
-        path: '/',
+        path: '/logout',
         icon: <BiIcons.BiExit />,
         cName: 'nav-text'
     },
