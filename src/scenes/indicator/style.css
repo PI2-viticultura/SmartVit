@@ -1,13 +1,4 @@
-.inputTitulo {
-  padding-top: 5%;
-}
 
-.step-container {
-  flex-direction: column-reverse;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .step-container .step,
 .step-target {

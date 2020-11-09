@@ -1,4 +1,15 @@
 import React, { useState } from 'react';
+import {
+    Alert,
+    AlertIcon,
+    Box,
+    Button,
+    FormControl,
+    FormLabel,
+    Grid,
+    Heading,
+    Input,
+} from "@chakra-ui/core";
 import DatePicker from "react-datepicker"; 
 import "react-datepicker/dist/react-datepicker.css";
 import apiPest from '../../services/api-pest';
@@ -37,52 +48,65 @@ function Pest(){
     }
 
     return (
-        <div className="board">
-            {
-                error !== '' && <p>Aconteceu um erro na sua requisição, por favor cheque os dados enviados!</p>
+        <div className="main">
+            {success === "success" &&
+                <Alert status="success" variant="solid">
+                    <AlertIcon />
+                    A praga foi registrada!
+                </Alert>
             }
-            {
-                success !== '' && <p>A praga foi registrada!</p>
+            {error === "error" &&
+                <Alert status="error" variant="solid">
+                    <AlertIcon />
+                    Aconteceu um erro na sua requisição, por favor cheque os dados enviados
+                </Alert>
             }
-            <div className="inputTitulo">
-                <div className="labelContainer">
-                    <p className="labelText">Vinícola:</p>
+            <Box className="p-5" bg="#FFFFFF" rounded="md">
+                <div className="title-box">
+                    <Heading as="h3" size="md">
+                        Pragas
+                    </Heading>
                 </div>
-                <input type="text" maxLength='32' onChange={e => {setIdVineyard(e.target.value)}}></input>
-            </div>
-            <div className="inputTitulo">
-                <div className="labelContainer">
-                    <p className="labelText">Tipo:</p>
-                </div>
-                <input type="text" maxLength='32' onChange={e => {setType(e.target.value)}}></input>
-            </div>
-            <div className="periodContainer">
-                <div className="periodInnerContainer">
-                    <div className="inputMensagem periodInput">
-                        Início <br/>
-                        <DatePicker selected={startTime} onChange={date => {setStartTime(date)}}> </DatePicker>
+                <div className="inputTitulo">
+                    <div className="labelContainer">
+                        <p className="labelText">Vinícola:</p>
                     </div>
-                    <div className="inputMensagem periodInput">
-                        Fim <br/>
-                        <DatePicker selected={endTime} onChange={date => {setEndTime(date)}}> </DatePicker>
+                    <input type="text" maxLength='32' onChange={e => {setIdVineyard(e.target.value)}}></input>
+                </div>
+                <div className="inputTitulo">
+                    <div className="labelContainer">
+                        <p className="labelText">Tipo:</p>
+                    </div>
+                    <input type="text" maxLength='32' onChange={e => {setType(e.target.value)}}></input>
+                </div>
+                <div className="periodContainer">
+                    <div className="periodInnerContainer">
+                        <div className="inputMensagem periodInput">
+                            Início <br/>
+                            <DatePicker selected={startTime} onChange={date => {setStartTime(date)}}> </DatePicker>
+                        </div>
+                        <div className="inputMensagem periodInput">
+                            Fim <br/>
+                            <DatePicker selected={endTime} onChange={date => {setEndTime(date)}}> </DatePicker>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="inputMensagem">
-                <div className="labelContainer">
-                    <p className="labelText">Medidas tomadas:</p>
+                <div className="inputMensagem">
+                    <div className="labelContainer">
+                        <p className="labelText">Medidas tomadas:</p>
+                    </div>
+                    <textarea rows='5' onChange={e => {setAction(e.target.value)}}></textarea>
                 </div>
-                <textarea rows='5' onChange={e => {setAction(e.target.value)}}></textarea>
-            </div>
-            <div className="inputMensagem">
-                <div className="labelContainer">
-                    <p className="labelText">Observações:</p>
+                <div className="inputMensagem">
+                    <div className="labelContainer">
+                        <p className="labelText">Observações:</p>
+                    </div>
+                    <textarea rows='10' onChange={e => {setObservation(e.target.value)}}></textarea>
                 </div>
-                <textarea rows='10' onChange={e => {setObservation(e.target.value)}}></textarea>
-            </div>
-            <div className="buttonArea">
-                <button className="buttonEnviar" onClick={() => makeRequest()}>SALVAR</button>
-            </div>
+                <div className="button-box">
+                    <Button className="button-new" variantColor="primary" size="md" w="25%" onClick={() => makeRequest()}>SALVAR</Button>
+                </div>
+            </Box>
         </div>
     )
 }

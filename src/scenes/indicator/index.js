@@ -1,175 +1,65 @@
 import React, {useState} from 'react';
 import './style.css';
 import '../../globals/globalStyle.css';
-import { FaSeedling } from "react-icons/fa";
-import * as GiIcons from "react-icons/gi";
-import { IoIosColorPalette } from "react-icons/io";
-import {
-  Modal,
-  ModalOverlay,
-  ModalContent,
-  ModalHeader,
-  ModalFooter,
-  ModalBody,
-  ModalCloseButton,
-  useDisclosure
-} from "@chakra-ui/core";
+import api from '../../services/api';
+import Stepper from '../../components/stepper';
+import GaugeChart from 'react-gauge-chart';
+
 
 function Indicator(){
-    
-    const cycleTitles = ['Brotação', 'Crescimento', 'Floração e Vingamento', 'Pintor', 'Maturação'];
-    const cycleText = ['Agora aguardar a germinação da uva, atente-se a todos os cuidados necessários para que a planta cresça saudavél.',
-                       'Começa a surgir folhas do gomo dando origem ao crescimento de um pâmpano - ramo de onde surgem novas folhas e, por fim, as inflorescências.',
-                       'Durante essa fase começam a surgir os pequenos cachos com minúsculas flores, que se apresentam para a fertilização.',
-                       'Os bagos de uva deixam de ser verdes e duros e passam a ter elasticidade e cor tinto, translúcido ou amarelado',
-                       'Pode começar a fazer a colheita, pois a uva recomeça a crescer em volume com migração da água e de seu açúcar.'];
-    const [cycleIndex, setCycleIndex] = useState(0);
-    const { isOpen, onOpen, onClose } = useDisclosure();
-    const [days, setDays] = useState(0);
-    return (
-    <div className="step-container">
-        <table>
-            <tbody>
-                <tr>
-                    <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Brotação</div></td>
-                    <td></td>
-                    <td><div onClick={() => {setCycleIndex(1); onOpen()}} className="text-center step-target"> Crescimento</div></td>
-                    <td></td>
-                    <td><div onClick={() => {setCycleIndex(2); onOpen()}} className="text-center step-target"> Floração e Vingamento</div></td>
-                    <td></td>
-                    <td><div onClick={() => {setCycleIndex(3); onOpen()}} className="text-center step-target"> Pintor</div></td>
-                    <td></td>
-                    <td><div onClick={() => {setCycleIndex(4); onOpen()}} className="text-center step-target"> Maturação</div></td>
-                </tr>
-            </tbody>
-        </table>
-        <table>
-            <tbody>
-                <tr>
-                    <td>{days >= 0 ? (
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
-                            <div className="step-inner">
-                                <header className="icons-center-true">
-                                    <FaSeedling />
-                                </header>
-                            </div>
-                        </div>
-                        ):(
-                        <div className="step" onClick={() => {setCycleIndex(0); onOpen()}}>
-                            <div className="step-inner-disabled">
-                                <header className="icons-center-false">
-                                    <FaSeedling />
-                                </header>
-                            </div>
-                        </div>
-                    )}</td>
-                    <td>
-                        <div className="step-line-container">
-                            <div className="step-line"></div>
-                        </div>
-                    </td>
-                    <td>{days >= 28 ? (
-                        <div className="step" onClick={() => {setCycleIndex(1); onOpen()}}>
-                            <div className="step-inner">
-                                <header className="icons-center-true">
-                                    <GiIcons.GiSeedling />
-                                </header>
-                            </div>
-                        </div>
-                        ):(
-                        <div className="step" onClick={() => {setCycleIndex(1); onOpen()}}>
-                            <div className="step-inner-disabled">
-                                <header className="icons-center-false">
-                                    <GiIcons.GiSeedling />
-                                </header>
-                            </div>
-                        </div>
-                    )}</td>
-                    <td>
-                        <div className="step-line-container">
-                            <div className="step-line"></div>
-                        </div>
-                    </td>
-                    <td>{days >= 42 ? (
-                        <div className="step" onClick={() => {setCycleIndex(2); onOpen()}}>
-                            <div className="step-inner">
-                                <header className="icons-center-true">
-                                    <GiIcons.GiFlowerPot />
-                                </header>
-                            </div>
-                        </div>
-                        ):(
-                        <div className="step" onClick={() => {setCycleIndex(2); onOpen()}}>
-                            <div className="step-inner-disabled">
-                                <header className="icons-center-false">
-                                    <GiIcons.GiFlowerPot />
-                                </header>
-                            </div>
-                        </div>
-                    )}</td>
-                    <td>
-                        <div className="step-line-container">
-                            <div className="step-line"></div>
-                        </div>
-                    </td>
-                    <td>{days >= 91 ? (
-                        <div className="step" onClick={() => {setCycleIndex(3); onOpen()}}>
-                            <div className="step-inner">
-                                <header className="icons-center-true">
-                                    <IoIosColorPalette />
-                                </header>
-                            </div>
-                        </div>
-                        ):(
-                        <div className="step" onClick={() => {setCycleIndex(3); onOpen()}}>
-                            <div className="step-inner-disabled">
-                                <header className="icons-center-false">
-                                    <IoIosColorPalette />
-                                </header>
-                            </div>
-                        </div>
-                    )}</td>
-                    <td>
-                        <div className="step-line-container">
-                            <div className="step-line"></div>
-                        </div>
-                    </td>
-                    <td>{days >= 130 ? (
-                        <div className="step" onClick={() => {setCycleIndex(4); onOpen()}}>
-                            <div className="step-inner">
-                                <header className="icons-center-true">
-                                    <GiIcons.GiGrapes />
-                                </header>
-                            </div>
-                        </div>
-                        ):(
-                        <div className="step" onClick={() => {setCycleIndex(4); onOpen()}}>
-                            <div className="step-inner-disabled">
-                                <header className="icons-center-false">
-                                    <GiIcons.GiGrapes />
-                                </header>
-                            </div>
-                        </div>
-                    )}</td>
-                </tr>
-            </tbody>
-        </table>
+    const [fuzzy, setFuzzy] = useState([]);
+    let var_fuzzy = [];
 
-      <Modal isOpen={isOpen} onClose={onClose}>
-        <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>
-              {cycleTitles[cycleIndex]}
-          </ModalHeader>
-          <ModalCloseButton />
-          <ModalBody>
-            {cycleText[cycleIndex]}
-          </ModalBody>
-          <ModalFooter>
-          </ModalFooter>
-        </ModalContent>
-      </Modal>
-    </div>
+    React.useEffect(() => {
+        let repeat;
+
+        async function fetchData() {
+            try {
+                await api.get("/indicators/5f94f5b50b77b6edabdaea00",
+                {
+                    "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest"
+                }).then((res) => {
+                    var_fuzzy = res.data.filter((element) => typeof element.value === "number");
+                    setFuzzy(var_fuzzy);
+                    console.log(var_fuzzy[0].value)
+                }).catch((error) => {
+                });
+                repeat = setTimeout(fetchData, 900000); // request again after a minute
+            } catch (error) {
+                console.error(error.message);
+                repeat = setTimeout(fetchData, 900000);
+            }
+        }
+
+        fetchData();
+
+        return () => {
+            if (repeat) {
+                clearTimeout(repeat);
+            }
+        }
+    }, []);
+    return (
+        <div>
+            <div>
+                <Stepper days={10}/>
+            </div>
+            <div className="main">
+                Qualidade da vinícola
+                <GaugeChart id="gauge-chart5"
+                    nrOfLevels={420}
+                    textColor={"#591b2b"}
+                    needleColor={"#591b2b"}
+                    needleBaseColor={"#591b2b"}
+                    arcsLength={[0.35, 0.35, 0.3]}
+                    colors={['#EA4228', '#F5CD19', '#5BE12C']}
+                    percent={fuzzy.length > 0 ? fuzzy[0].value/100 : 0}
+                    arcPadding={0.01}
+                />
+            </div>
+        </div>
+    
     )
 }
 

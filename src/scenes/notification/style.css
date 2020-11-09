@@ -1,15 +1,18 @@
 .notification-date {
   color: #858585;
   font-size: 0.85em;
+  margin-top: 8px;
 }
 
 .notification-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .notification-title {
   font-weight: bold;
+  margin-bottom: -16px;
 }
 
 .notification-texts {
@@ -30,7 +33,6 @@
 }
 
 .notification-separator {
-  width: 75%;
   border-bottom: 1px solid #c4c4c4;
   margin: 10px auto;
 }
