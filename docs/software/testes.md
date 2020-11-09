@@ -6,7 +6,7 @@ Mas além disso, como especificado no nosso tópico de inovações, foi utilizad
 
 ## Cenários de Teste
 
-### Exemplo de cenário BDD da captação de dados
+###  Gherkin da captação de dados
 
 ```Python
 
@@ -30,7 +30,7 @@ Funcionalidade: Captar dados do modulo eletronico
        | 78as7as78as | 3.5 | 10    |  25     | 31          |
 ```
 
-### Exemplo de cenário BDD dos Indicadores
+###  Gherkin dos Indicadores
 
 ```Python
 
@@ -50,7 +50,7 @@ Funcionalidade: Gerar indicadores
 
 ```
 
-### Exemplo de cenário BDD da Notificação de Clima e Intemperie
+###  Gherkin da Notificação de Clima e Intemperie
 
 ```Python
 
@@ -69,7 +69,7 @@ Funcionalidade: Notificar clima e interperie ao usuario
 
 ```
 
-### Exemplo de cenário BDD da Notificação de cancelamento do contrato
+###  Gherkin da Notificação de cancelamento do contrato
 ```Python
 
 Funcionalidade: Notificar sobre cancelamento do contrato ao usuario
@@ -87,7 +87,7 @@ Funcionalidade: Notificar sobre cancelamento do contrato ao usuario
 
 ```
 
-### Exemplo de cenário BDD da Notificação sobre liberamento do contrato
+###  Gherkin da Notificação sobre liberamento do contrato
 ```Python
 
 Funcionalidade: Notificar sobre liberamento do contrato ao usuario
@@ -105,8 +105,217 @@ Funcionalidade: Notificar sobre liberamento do contrato ao usuario
 
 ```
 
-### Exemplo de cenário BDD da Notificação sobre liberamento do contrato
+###  Gherkin do BFF do microsserviço Feedback do Usuário 
+```Python
 
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico feedback atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo usuario,
+  e registra-los no meu servico.
+
+  Contexto: O usuario registra o feedback 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Usuario registrar informações
+      Dado a pagina do feedback
+       
+       Quando ele registar os campos do feedback
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+###  Gherkin do BFF do microsserviço Feedback do Usuário 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico feedback atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo usuario,
+  e registra-los no meu servico.
+
+  Contexto: O usuario registra o feedback 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Usuario registrar informações
+      Dado a pagina de registro do feedback
+       
+       Quando ele registar os campos do feedback
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+###  Gherkin do BFF do microsserviço Indicador do Usuário 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico indicator atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo usuario,
+  e visualiza-los no meu servico.
+
+  Contexto: O usuario seleciona o indicador 
+    Dado que os dados gerados do indicador utilizem o servico atraves do BFF
+
+  Cenario: Usuario visualiza as informacoes dos indicadores desejados
+      Dado a pagina de indicadores
+       
+       Quando ele seleciona o indicador
+
+       Entao os dados devem passar pelo servico atraves do BFF e retornar ao usuario atraves de infomacoes
+
+```
+
+###  Gherkin do BFF do microsserviço Pragas do Usuário 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico pest atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo usuario,
+  e registra-los no meu servico.
+
+  Contexto: O usuario registra a praga 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Usuario registrar pragas
+      Dado a pagina de registro da praga
+       
+       Quando ele registar os campos da praga
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+###  Gherkin do BFF do microsserviço Suporte do Usuário 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico support atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo usuario,
+  e registra-los no meu servico.
+
+  Contexto: O usuario registra o suporte 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Usuario registrar suporte desejado
+      Dado a pagina de registro do suporte
+       
+       Quando ele registar os campos do suporte
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+###  Gherkin do BFF do microsserviço Contrato do Administrador 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico contract atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo administrador,
+  e registra-los no meu servico.
+
+  Contexto: O administrador registra o contrato 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Administrador registrar contrato desejado
+      Dado a pagina de registro do contrato
+       
+       Quando ele registar os campos do contrato
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+###  Gherkin do BFF do microsserviço Pedidos do Administrador 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico contract atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo administrador,
+  e visualiza-los no meu servico.
+
+  Contexto: O administrador ver os pedidos de contrato 
+    Dado que os dados que foram resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Administrador visualiza as solicitacoes de contratos desejados
+      Dado a pagina de visualizar solicitacoes
+       
+       Quando ele selecionar a pagina desejada
+
+       Entao os dados devem passar pelo servico atraves do BFF e retornar ao administrador em forma de informacoes
+
+```
+
+
+###  Gherkin do BFF do microsserviço Sensor do Administrador 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico sensor atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo administrador,
+  e registra-los no meu servico.
+
+  Contexto: O administrador registra o sensor 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Administrador registrar sensor desejado
+      Dado a pagina de registro do sensor
+       
+       Quando ele registar os campos do sensor
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+
+###  Gherkin do BFF do microsserviço Sistema do Administrador 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico system atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo administrador,
+  e registra-los no meu servico.
+
+  Contexto: O administrador registra o sistema 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Administrador registrar sistema desejado
+      Dado a pagina de registro do sistema
+       
+       Quando ele registar os campos do sistema
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+
+###  Gherkin do BFF do microsserviço Vinícola do Administrador 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico winery atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo administrador,
+  e registra-los no meu servico.
+
+  Contexto: O administrador registra a vinicola 
+    Dado que os dados resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Administrador registrar vinicola desejada
+      Dado a pagina de registro da vinicola
+       
+       Quando ele registar os campos da vinicola
+
+       Entao os dados devem passar pelo servico atraves do BFF e armazenar no banco
+
+```
+
+###  Gherkin do BFF do microsserviço Usuário do Administrador 
+```Python
+
+Funcionalidade: Captar requisicao feita no frontend e enviar ao microsservico user atraves do BFF 
+  Como Sistema, quero pegar os dados informados no frontend pelo administrador,
+  e visualiza-los no meu servico.
+
+  Contexto: O administrador ver os usuarios cadastrados 
+    Dado que os dados que foram resgistrados utilizem o servico atraves do BFF
+
+  Cenario: Administrador visualiza os usuarios cadastrados na aplicacao
+      Dado a pagina de gerenciar usuarios
+       
+       Quando ele selecionar a pagina desejada
+
+       Entao os dados devem passar pelo servico atraves do BFF e retornar ao administrador em forma de informacoes
+
+```
 
 # Histórico de revisão
 
