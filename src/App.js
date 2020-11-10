@@ -12,7 +12,8 @@ import Navbar from './components/Navbar';
 import Support from './scenes/support';
 import Pest from './scenes/pest';
 import Login from './scenes/login';
-import Logout from "./scenes/logout"
+import Logout from "./scenes/logout";
+import System from "./scenes/system";
 import './App.css';
 import { ThemeProvider } from '@chakra-ui/core';
 import { isAuthenticated } from './services/auth';
@@ -40,6 +41,9 @@ const DefaultContainer = () => {
       <Route path='/notifications'>
         <Navbar />
         <Notification />
+      </Route>
+      <Route path="/system">
+        <System />
       </Route>
       <Route path="/logout">
         <Logout />

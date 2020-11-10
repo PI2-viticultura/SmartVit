@@ -22,11 +22,13 @@ function Login() {
     const [password, setPassword] = React.useState('');
     const [show, setShow] = React.useState(false);
     let history = useHistory();
+    let role = "user"
 
     const makeLogin = async () => {
         await apiUser.post("/login", {
             email,
-            password
+            password,
+            role
         }).then((result) => {
             const { access_token } = result.data;
             login(access_token);
