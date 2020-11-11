@@ -21,7 +21,7 @@
 * Estrutura
 
   * Gerenciamento
-    * [Plano de comunicação]()
+    * [Plano de comunicação](docs/Estrutura/Teste1.md)
     * [Metodologia de trabalho]()
   * Produto
     * Sustentação
