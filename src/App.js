@@ -67,7 +67,7 @@ function App() {
     <BrowserRouter>
       <ThemeProvider>
           <Route component={DefaultContainer} />
-          <Route component={LoginContainer} />
+          {/* <Route component={LoginContainer} /> */}
       </ThemeProvider>
     </BrowserRouter>
   );
