@@ -66,12 +66,8 @@ function App() {
   return (
     <BrowserRouter>
       <ThemeProvider>
-        <div className="App">
-          { console.log(isAuthenticated()),
-            isAuthenticated() ? <Route component={DefaultContainer} />
-              : <Route component={LoginContainer} />
-          }
-        </div>
+          <Route component={DefaultContainer} />
+          <Route component={LoginContainer} />
       </ThemeProvider>
     </BrowserRouter>
   );
