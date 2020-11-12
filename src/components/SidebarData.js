@@ -26,12 +26,6 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: ' Avaliar Safra',
-        path: '/',
-        icon: <BsIcons.BsClipboardData />,
-        cName: 'nav-text'
-    },
-    {
         title: ' Feedback',
         path: '/feedback',
         icon: <MdIcons.MdFeedback />,

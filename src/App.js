@@ -43,6 +43,7 @@ const DefaultContainer = () => {
         <Notification />
       </Route>
       <Route path="/system">
+        <Navbar />
         <System />
       </Route>
       <Route path="/logout">

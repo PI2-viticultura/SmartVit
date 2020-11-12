@@ -31,9 +31,8 @@ function Login() {
             password,
             role
         }).then((result) => {
-            const { access_token, user } = result.data;
-            login(access_token);
-            localStorage.setItem("user", user);
+            login(result.data.access_token);
+            localStorage.setItem("user", result.data.user);
             history.push("/indicator")
             window.location.reload(true);
         }, (error) => {

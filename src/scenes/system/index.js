@@ -38,6 +38,7 @@ function System() {
   const makeRequest = async () => {
     await apiSystem.get("/system").then(
       (res) => {
+        console.log(res.data)
         setSystem(res.data);
       },
       (err) => {
@@ -65,7 +66,7 @@ function System() {
   ];
 
   return (
-    <div className="main">
+    <div className="main-system">
       {error === true && (
         <Alert status="error" variant="solid">
           <AlertIcon />
@@ -74,13 +75,13 @@ function System() {
       )}
       {systems.length != 0 ? (
         <Flex flexDirection="column">
-          {systems.map((element) => (
-            <div key={element.name}>
+          {systems.map((element, index) => (
+            <div key={element._id.$oid} className="system-div">
               <Accordion allowToggle>
                 <AccordionItem>
-                  <AccordionHeader>
+                  <AccordionHeader className="accordion">
                     <Box flex="1" textAlign="left">
-                      {element.name}
+                      Sistema {index + 1}
                     </Box>
                     <AccordionIcon />
                   </AccordionHeader>
@@ -90,9 +91,10 @@ function System() {
                         <Heading as="h4" size="sm">
                           Sensores
                         </Heading>
-                        {element.sensors.map((el) => (
-                          <div key={el.sensor} className="div-sensores">
-                            {el.sensor}
+                        {systems.sensors && 
+                        element.sensors.map((el) => (
+                          <div key={el.type} className="div-sensores">
+                            {el.type}
                           </div>
                         ))}
                       </Stack>
@@ -108,7 +110,7 @@ function System() {
                     </Grid>
                     <Stack spacing={3}>
                       <Heading as="h4" size="sm">
-                        Sistema de {element.name}
+                        Sistema de Irrigação
                       </Heading>
                       <div className="div-lancamentos">
                         Último acionamento: 30/12/20 às 14:00
@@ -117,13 +119,13 @@ function System() {
 
                     <Accordion className="accord-historico" allowToggle>
                       <AccordionItem>
-                        <AccordionHeader>
+                        <AccordionHeader className="accordion">
                           <Box flex="1" textAlign="left">
                             Histórico
                           </Box>
                           <AccordionIcon />
                         </AccordionHeader>
-                        <AccordionPanel pb={4}>
+                        <AccordionPanel pb={4} className="accordion">
                           <DataTable
                             columns={columns}
                             data={element.monitoring}

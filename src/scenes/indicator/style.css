@@ -58,6 +58,7 @@
     max-width: 80%;
     margin: 20px auto;
   }
+
   .indicator {
     width: 100%;
     border-radius: 5px;
@@ -67,11 +68,11 @@
   }
 
   .quality-chart {
-    width: 100%
+    width: 100%;
   }
 
   .quality-gauge {
-    width: 100%
+    width: 100%;
   }
 
   .quality-main {
@@ -110,18 +111,18 @@
   }
 
   .indicator {
-      width: 24%;
-      border-radius: 5px;
-      box-shadow: 1px 1px 1px 1px #c4c4c4;
-      background-color: white;
+    width: 24%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #c4c4c4;
+    background-color: white;
   }
 
   .quality-chart {
-    width: 55%
+    width: 55%;
   }
 
   .quality-gauge {
-    width: 40%
+    width: 40%;
   }
 
   .quality-main {
@@ -159,7 +160,7 @@
 }
 
 .ph-value {
-  color: #7496C4;
+  color: #7496c4;
   font-weight: bold;
   font-size: 1.8em;
 }
@@ -170,35 +171,35 @@
 }
 
 .umidade-value {
-  color: #ABDFFF;
+  color: #abdfff;
   font-weight: bold;
   font-size: 1.8em;
 }
 
 .umidade-label {
-  color: #ABDFFF;
+  color: #abdfff;
   font-weight: bold;
 }
 
 .temperatura-value {
-  color: #F7AB79;
+  color: #f7ab79;
   font-weight: bold;
   font-size: 1.8em;
 }
 
 .temperatura-label {
-  color: #F7AB79;
+  color: #f7ab79;
   font-weight: bold;
 }
 
 .vento-value {
-  color: #B9BFC8;
+  color: #b9bfC8;
   font-weight: bold;
   font-size: 1.8em;
 }
 
 .vento-label {
-  color: #B9BFC8;
+  color: #b9bfC8;
   font-weight: bold;
 }
 
