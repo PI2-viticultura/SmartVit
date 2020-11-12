@@ -18,7 +18,8 @@ function Navbar() {
 
         async function fetchData() {
             try {
-                await apiNotification.get("/notification/user_id",
+                const user = localStorage.getItem("user");
+                await apiNotification.get("/notification/" + user,
                 {
                     "Content-Type": "application/json",
                     "X-Requested-With": "XMLHttpRequest"

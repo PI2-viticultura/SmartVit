@@ -3,53 +3,98 @@ import Chart from "chart.js";
 import './style.css';
 import '../../globals/globalStyle.css';
 import api from '../../services/api';
+import apiIndicator from '../../services/api-indicator';
 import Stepper from '../../components/stepper';
 import GaugeChart from 'react-gauge-chart';
 
 
 function Indicator(){
-    let refs = [React.createRef(), React.createRef(), React.createRef()]
+    let refs = [React.createRef(), React.createRef(), React.createRef(), React.createRef()];
     let qualityChartRef = React.createRef();
     const [fuzzy, setFuzzy] = useState([]);
+    const [systems, setSystems] = useState([]);
+    const [days, setDays] = useState(0);
+    const [humidity, setHumidity] = useState(0);
+    const [ph, setPh] = useState(0);
+    const [celsius, setCelsius] = useState(0);
+    const [wind, setWind] = useState(0);
     const [showGraph, setShowGraph] = useState(-1);
-    let var_fuzzy = [];
-    var date = "05/10/2020";
-    var dateParts = date.split("/");
-    var today = new Date().getTime();
-    var dateInDatetime = new Date(+dateParts[2], dateParts[1] - 1, +dateParts[0]).getTime();
-    var msDiff = today - dateInDatetime;    //Future date - current date
-    var days = Math.floor(msDiff / (1000 * 60 * 60 * 24));
+    const [winery, setWinery] = useState(null);
 
     React.useEffect(() => {
-        refs.map(chartRef => {
-            const myChartRef = chartRef.current.getContext("2d");
+        const user = localStorage.getItem("user");
+        const getWinery = async () => {
+            await api.get("/winery_by_user/" + user,
+            {
+                "Content-Type": "application/json",
+                "X-Requested-With": "XMLHttpRequest"
+            }).then((res) => {
+                setWinery(res.data._id.$oid);
+            }).catch((error) => {
+            });
+        }
+        getWinery();
+    }, []);
+
+    React.useEffect(() => {
+        if(systems.length > 0) {
+            systems.map((system, i) => {
+                const myChartRef = refs[i].current.getContext("2d");
+                
+                new Chart(myChartRef, {
+                    type: "line",
+                    data: {
+                        //Bring in data
+                        labels: [...system.humidity_percent.keys()],
+                        datasets: [
+                            {
+                                label: "pH",
+                                data: system.sensor_ph,
+                                pointBackgroundColor: "#fff",
+                                borderColor: "#7597C5",
+                                backgroundColor: "#7496C4"
+                            },
+                            {
+                                label: "Temperatura",
+                                data: system.temp_celsius,
+                                pointBackgroundColor: "#fff",
+                                borderColor: "#F7AB79",
+                                backgroundColor: "#F7AB79"
+                            },
+                            {
+                                label: "Umidade",
+                                data: system.humidity_percent,
+                                pointBackgroundColor: "#fff",
+                                borderColor: "#ABDFFF",
+                                backgroundColor: "#ABDFFF"
+                            }
+                        ]
+                    },
+                    options: {
+                        //Customize chart options
+                    }
+                });
+            });
+        }
+    }, [systems]);
+
+    React.useEffect(() => {
+        if (fuzzy.length > 0){
+            const myChsartRef = qualityChartRef.current.getContext("2d");
             
-            new Chart(myChartRef, {
+            new Chart(myChsartRef, {
                 type: "line",
                 data: {
                     //Bring in data
-                    labels: ["Jan", "Feb", "March", "May"],
+                    labels: [...fuzzy.keys()],
                     datasets: [
                         {
-                            label: "pH",
-                            data: [7, 5, 0, 15],
-                            pointBackgroundColor: "#fff",
-                            borderColor: "#7597C5",
-                            backgroundColor: "#7496C4"
-                        },
-                        {
-                            label: "Temperatura",
-                            data: [25, 26, 32, 18],
-                            pointBackgroundColor: "#fff",
-                            borderColor: "#F7AB79",
-                            backgroundColor: "#F7AB79"
-                        },
-                        {
-                            label: "Umidade",
-                            data: [60, 55, 38, 25],
-                            pointBackgroundColor: "#fff",
-                            borderColor: "#ABDFFF",
-                            backgroundColor: "#ABDFFF"
+                            label: "qualidade",
+                            data: fuzzy.length > 0 ? fuzzy : 0,
+                            pointBackgroundColor: fuzzy.map((item) => (item <= 35 ? "#EA4228" : item <= 70 ? "#F5CD19" : "#5BE12C")),
+                            borderColor: "#91d0f7",
+                            backgroundColor: "#ABDFFF",
+                            pointRadius: 4,
                         }
                     ]
                 },
@@ -57,67 +102,36 @@ function Indicator(){
                     //Customize chart options
                 }
             });
-        });
-    }, []);
+        }
+    }, [fuzzy]);
 
     React.useEffect(() => {
-        const myChartRef = qualityChartRef.current.getContext("2d");
-        
-        new Chart(myChartRef, {
-            type: "line",
-            data: {
-                //Bring in data
-                labels: ["Jan", "Feb", "March", "May"],
-                datasets: [
-                    {
-                        label: "qualidade",
-                        data: [60, 55, 38, 25, 0],
-                        pointBackgroundColor: ["#EA4228", "#F5CD19", "#5BE12C", "#fff"],
-                        borderColor: "#91d0f7",
-                        backgroundColor: "#ABDFFF",
-                        pointRadius: 4,
-                    }
-                ]
-            },
-            options: {
-                //Customize chart options
-            }
-        });
-    }, []);
-
-    React.useEffect(() => {
-        let repeat;
 
         async function fetchData() {
-            try {
-                await api.get("/indicators/5f94f5b50b77b6edabdaea00",
+                await apiIndicator.get("/indicators/" + winery,
                 {
                     "Content-Type": "application/json",
                     "X-Requested-With": "XMLHttpRequest"
                 }).then((res) => {
-                    var_fuzzy = res.data.filter((element) => typeof element.value === "number");
-                    setFuzzy(var_fuzzy);
-                    console.log(var_fuzzy[0].value)
+                    setDays(res.data.days);
+                    setFuzzy(res.data.fuzzy);
+                    setHumidity(res.data.general_indicators.humidity_percent);
+                    setPh(res.data.general_indicators.sensor_ph);
+                    setCelsius(res.data.general_indicators.temp_celsius);
+                    setWind(res.data.general_indicators.vento_MS);
+                    setSystems(res.data.systems);
+                    console.log(res.data.systems)
                 }).catch((error) => {
                 });
-                repeat = setTimeout(fetchData, 900000); // request again after a minute
-            } catch (error) {
-                console.error(error.message);
-                repeat = setTimeout(fetchData, 900000);
-            }
         }
 
         fetchData();
+    }, [winery]);
 
-        return () => {
-            if (repeat) {
-                clearTimeout(repeat);
-            }
-        }
-    }, []);
     return (
         <div>
             <div className="page-title">Dashboard</div>
+            
             <div className="indicator-container">
                 <div className="indicator">
                     <div>
@@ -128,7 +142,7 @@ function Indicator(){
                         />
                     </div>
                     <div>
-                        <div className="ph-value">7.0</div>
+                        <div className="ph-value">{Math.round(ph * 100)/100}</div>
                         <div className="ph-label">pH do solo</div>
                     </div>
                 </div>
@@ -142,7 +156,7 @@ function Indicator(){
                         />
                     </div>
                     <div>
-                        <div className="umidade-value">40%</div>
+                        <div className="umidade-value">{Math.round(humidity * 100)/100}%</div>
                         <div className="umidade-label">Umidade</div>
                     </div>
                 </div>
@@ -156,7 +170,7 @@ function Indicator(){
                         />
                     </div>
                     <div>
-                        <div className="temperatura-value">34ºC</div>
+                        <div className="temperatura-value">{Math.round(celsius * 100)/100}ºC</div>
                         <div className="temperatura-label">Temperatura</div>
                     </div>
                 </div>
@@ -170,7 +184,7 @@ function Indicator(){
                         />    
                     </div>
                     <div>
-                        <div className="vento-value">7.0 km/h</div>
+                        <div className="vento-value">{Math.round(wind * 100)/100} km/h</div>
                         <div className="vento-label">Vento</div>
                     </div>
                 </div>
@@ -186,7 +200,7 @@ function Indicator(){
                 <div className="quality-graphs">
                     <div className="quality-chart">
                         <canvas
-                            id="myChart"
+                            id="quality-chart-okok"
                             ref={qualityChartRef}
                         />
                     </div>
@@ -198,18 +212,20 @@ function Indicator(){
                             needleBaseColor={"#591b2b"}
                             arcsLength={[0.35, 0.35, 0.3]}
                             colors={['#EA4228', '#F5CD19', '#5BE12C']}
-                            percent={fuzzy.length > 0 ? fuzzy[0].value/100 : 0}
+                            percent={fuzzy.length > 0 ? fuzzy[fuzzy.length - 1]/100 : 0}
                             arcPadding={0.01}
                         />
                     </div>
                 </div>
             </div>
-            {refs.map((chartRef, i) => {
-                console.log(i)
-                return (<div key={i} className="system-graph-container">
+            {systems.length > 0 && refs.map((chartRef, i) => {
+                if (i < systems.length){
+                return (<div key={i} className="system-graph-container" >
                     <div className="system-graph-item" onClick={() => { showGraph == i ? setShowGraph(-1) : setShowGraph(i)}}>
-                        Sistema X    7.0 pH - 40% umidade - 34ºC temperaura
-                        {showGraph == 1 ?
+                        Sistema X: {systems[i].sensor_ph[systems[i].sensor_ph.length - 1]} pH -
+                         {' ' + systems[i].humidity_percent[systems[i].humidity_percent.length - 1]}% umidade - 
+                         {' ' + systems[i].temp_celsius[systems[i].temp_celsius.length - 1]}ºC temperaura
+                        {showGraph == i ?
                         <img
                             height={12}
                             alt="..."
@@ -229,8 +245,9 @@ function Indicator(){
                             ref={chartRef}
                         />
                     </div>
-                </div>)
+                </div>)}
             })
+                
             }
         </div>
     

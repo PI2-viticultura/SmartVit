@@ -71,3 +71,10 @@
     top: 40% !important;
   }
 }
+
+.login-error {
+  background: white;
+  margin: 5px;
+  border: 1px solid red;
+  color: red;
+}
