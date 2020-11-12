@@ -21,6 +21,7 @@ Stepper.propTypes = {
 function Stepper({days}){
     
     const cycleTitles = ['Brotação', 'Crescimento', 'Floração e Vingamento', 'Pintor', 'Maturação'];
+    const cycleDates = ['0 a 27 dias', '28 a 41 dias', '42 a 90 dias', '91 a 129 dias', 'Acima de 130 dias'];
     const cycleText = ['Agora aguardar a germinação da uva, atente-se a todos os cuidados necessários para que a planta cresça saudavél.',
                        'Começa a surgir folhas do gomo dando origem ao crescimento de um pâmpano - ramo de onde surgem novas folhas e, por fim, as inflorescências.',
                        'Durante essa fase começam a surgir os pequenos cachos com minúsculas flores, que se apresentam para a fertilização.',
@@ -169,6 +170,7 @@ function Stepper({days}){
                 </ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
+                    <p>{cycleDates[cycleIndex]}</p><br/>
                     {cycleText[cycleIndex]}
                 </ModalBody>
                 <ModalFooter>

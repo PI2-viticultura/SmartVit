@@ -6,6 +6,16 @@ import api from '../../services/api';
 import apiIndicator from '../../services/api-indicator';
 import Stepper from '../../components/stepper';
 import GaugeChart from 'react-gauge-chart';
+import {
+    Popover,
+    PopoverTrigger,
+    PopoverContent,
+    PopoverHeader,
+    PopoverBody,
+    PopoverFooter,
+    PopoverArrow,
+    PopoverCloseButton,
+  } from "@chakra-ui/core";
 
 
 function Indicator(){
@@ -145,6 +155,19 @@ function Indicator(){
                         <div className="ph-value">{Math.round(ph * 100)/100}</div>
                         <div className="ph-label">pH do solo</div>
                     </div>
+                    <div className="popover-container">
+                        <Popover>
+                            <PopoverTrigger>
+                                <button>?</button>
+                            </PopoverTrigger>
+                            <PopoverContent zIndex={4}>
+                                <PopoverArrow />
+                                <PopoverCloseButton />
+                                <PopoverHeader>Confirmation!</PopoverHeader>
+                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                            </PopoverContent>
+                        </Popover>
+                    </div>
                 </div>
 
                 <div className="indicator">
@@ -158,6 +181,19 @@ function Indicator(){
                     <div>
                         <div className="umidade-value">{Math.round(humidity * 100)/100}%</div>
                         <div className="umidade-label">Umidade</div>
+                    </div>
+                    <div className="popover-container">
+                        <Popover>
+                            <PopoverTrigger>
+                                <button>?</button>
+                            </PopoverTrigger>
+                            <PopoverContent zIndex={4}>
+                                <PopoverArrow />
+                                <PopoverCloseButton />
+                                <PopoverHeader>Confirmation!</PopoverHeader>
+                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                            </PopoverContent>
+                        </Popover>
                     </div>
                 </div>
 
@@ -173,6 +209,19 @@ function Indicator(){
                         <div className="temperatura-value">{Math.round(celsius * 100)/100}ºC</div>
                         <div className="temperatura-label">Temperatura</div>
                     </div>
+                    <div className="popover-container">
+                        <Popover>
+                            <PopoverTrigger>
+                                <button>?</button>
+                            </PopoverTrigger>
+                            <PopoverContent zIndex={4}>
+                                <PopoverArrow />
+                                <PopoverCloseButton />
+                                <PopoverHeader>Confirmation!</PopoverHeader>
+                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                            </PopoverContent>
+                        </Popover>
+                    </div>
                 </div>
 
                 <div className="indicator">
@@ -187,6 +236,19 @@ function Indicator(){
                         <div className="vento-value">{Math.round(wind * 100)/100} km/h</div>
                         <div className="vento-label">Vento</div>
                     </div>
+                    <div className="popover-container">
+                        <Popover>
+                            <PopoverTrigger>
+                                <button>?</button>
+                            </PopoverTrigger>
+                            <PopoverContent zIndex={4}>
+                                <PopoverArrow />
+                                <PopoverCloseButton />
+                                <PopoverHeader>Confirmation!</PopoverHeader>
+                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                            </PopoverContent>
+                        </Popover>
+                    </div>
                 </div>
             </div>
             
@@ -194,8 +256,24 @@ function Indicator(){
                 <Stepper days={days}/>
             </div>
             <div className="quality-main">
-                <div className="quality-title">
-                    Qualidade da vinícola
+                <div className="quality-header">
+                    <div></div>
+                    <div className="quality-title">
+                        Qualidade da vinícola
+                    </div>
+                    <div className="popover-container">
+                        <Popover>
+                            <PopoverTrigger>
+                                <button>?</button>
+                            </PopoverTrigger>
+                            <PopoverContent zIndex={4}>
+                                <PopoverArrow />
+                                <PopoverCloseButton />
+                                <PopoverHeader>Confirmation!</PopoverHeader>
+                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                            </PopoverContent>
+                        </Popover>
+                    </div>
                 </div>
                 <div className="quality-graphs">
                     <div className="quality-chart">
