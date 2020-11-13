@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Chart from "chart.js";
 import './style.css';
 import '../../globals/globalStyle.css';
-import api from '../../services/api';
+import apiWinery from '../../services/api-winery';
 import apiIndicator from '../../services/api-indicator';
 import Stepper from '../../components/stepper';
 import GaugeChart from 'react-gauge-chart';
@@ -34,7 +34,7 @@ function Indicator(){
     React.useEffect(() => {
         const user = localStorage.getItem("user");
         const getWinery = async () => {
-            await api.get("/winery_by_user/" + user,
+            await apiWinery.get("/winery_by_user/" + user,
             {
                 "Content-Type": "application/json",
                 "X-Requested-With": "XMLHttpRequest"
