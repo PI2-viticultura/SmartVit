@@ -69,3 +69,18 @@
 .stack-sk {
   padding: 2%;
 }
+
+.unset-position {
+  left: unset !important;
+  top: unset !important;
+}
+
+.system-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.measurement-container {
+  display: flex;
+}

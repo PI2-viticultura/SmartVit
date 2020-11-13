@@ -149,3 +149,10 @@ span {
     display: none;
   }
 }
+
+.nav-title {
+  color: white;
+  font-size: 1.35em;
+  font-weight: bold;
+  margin: 0 auto;
+}

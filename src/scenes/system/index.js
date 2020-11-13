@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import apiSystem from "../../services/api-system";
+import apiIndicator from '../../services/api-indicator';
 import {
   Accordion,
   AccordionItem,
@@ -33,13 +34,23 @@ const acionarSistema = async (history) => {
 function System() {
   const [systems, setSystem] = useState([]);
   const [error, setError] = useState(false);
+  const [measurement, setMeasurement] = useState([]);
   const history = useHistory();
 
   const makeRequest = async () => {
-    await apiSystem.get("/system").then(
+    let user = localStorage.getItem("user");
+    await apiSystem.get("/winery_by_user/" + user).then(
       (res) => {
-        console.log(res.data)
-        setSystem(res.data);
+        console.log(res.data);
+        setSystem(res.data.systems);
+        apiIndicator.get("/indicators/" + res.data._id.$oid,
+        {
+            "Content-Type": "application/json",
+            "X-Requested-With": "XMLHttpRequest"
+        }).then((res) => {
+            setMeasurement(res.data.systems);
+        }).catch((error) => {
+        });
       },
       (err) => {
         setError(true);
@@ -86,19 +97,20 @@ function System() {
                     <AccordionIcon />
                   </AccordionHeader>
                   <AccordionPanel pb={4}>
-                    <Grid templateColumns="repeat(2, 1fr)" gap={3}>
+                    <div templateColumns="repeat(2, 1fr)" gap={3} className="system-container">
                       <Stack spacing={3}>
                         <Heading as="h4" size="sm">
                           Sensores
                         </Heading>
-                        {systems.sensors && 
+                        {element.sensors && 
                         element.sensors.map((el) => (
-                          <div key={el.type} className="div-sensores">
-                            {el.type}
+                          <div key={el.identifier} className="div-sensores">
+                            {el.identifier}
                           </div>
                         ))}
                       </Stack>
                       <Button
+                        className="unset-position"
                         variantColor="teal"
                         size="md"
                         onClick={() => {
@@ -107,7 +119,7 @@ function System() {
                       >
                         ACIONAR SUPORTE
                       </Button>
-                    </Grid>
+                    </div>
                     <Stack spacing={3}>
                       <Heading as="h4" size="sm">
                         Sistema de Irrigação
@@ -126,12 +138,22 @@ function System() {
                           <AccordionIcon />
                         </AccordionHeader>
                         <AccordionPanel pb={4} className="accordion">
-                          <DataTable
-                            columns={columns}
-                            data={element.monitoring}
-                            defaultSortField="day"
-                            pagination={true}
-                          />
+                          {measurement.map((item, i) => (
+                            <div key={i}>
+                              <div className="measurement-container">
+                                Umidade: {'['}{item.humidity_percent.map((hi, j) => <div key={j}>{hi},</div>)} {']'}
+                              </div>
+                              <div className="measurement-container">
+                                Temperatura: {'['}{item.temp_celsius.map((hi, j) => <div key={j}>{hi},</div>)} {']'}
+                              </div>
+                              <div className="measurement-container">
+                                pH: {'['}{item.sensor_ph.map((hi, j) => <div key={j}>{hi},</div>)} {']'}
+                              </div>
+                              <div className="measurement-container">
+                                Chuva: {'['}{item.qtd_chuva.map((hi, j) => <div key={j}>{hi},</div>)} {']'}
+                              </div>
+                            </div>
+                          ))}
                         </AccordionPanel>
                       </AccordionItem>
                     </Accordion>

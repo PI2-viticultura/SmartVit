@@ -243,3 +243,9 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.items-quality {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

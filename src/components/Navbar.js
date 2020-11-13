@@ -55,6 +55,7 @@ function Navbar() {
                         {location.pathname.substring(1, location.pathname.length).toUpperCase()}
                     </div> */}
                 </div>
+                <div className="nav-title">SmartVit</div>
                 <div className='notification'>
                     <Link to="/notifications">
                         <span><FaIcons.FaBell/></span>
