@@ -11,6 +11,7 @@ import Feedback from './scenes/feedback';
 import Navbar from './components/Navbar';
 import Support from './scenes/support';
 import Pest from './scenes/pest';
+import PestList from './scenes/pest-list';
 import Login from './scenes/login';
 import Logout from "./scenes/logout";
 import System from "./scenes/system";
@@ -34,6 +35,10 @@ const DefaultContainer = () => {
         <Navbar />
         <Pest />
       </Route>
+      <Route path='/pest-list'>
+        <Navbar />
+        <PestList />
+      </Route>
       <Route path='/indicator'>
         <Navbar />
         <Indicator />
@@ -43,6 +48,7 @@ const DefaultContainer = () => {
         <Notification />
       </Route>
       <Route path="/system">
+        <Navbar />
         <System />
       </Route>
       <Route path="/logout">

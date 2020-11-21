@@ -1,6 +1,10 @@
 .box-login {
   width: 30% !important;
-  background-color: #fafafa;
+  background-color: #fafafa !important;
+}
+
+.login-container {
+  margin-top: -50px;
 }
 
 .box-image {
@@ -22,7 +26,7 @@
 
 .logo {
   position: absolute;
-  top: 5%;
+  top: 15%;
 }
 
 .buttonLogin {
@@ -41,6 +45,11 @@
 .css-u5zpo1 {
   font-weight: 900;
   color: #591b2b;
+}
+
+.formInput {
+  margin-top: calc(15% + 105px);
+  padding: 10px;
 }
 
 @media (max-width: 420px) {
@@ -70,4 +79,11 @@
     position: absolute !important;
     top: 40% !important;
   }
+}
+
+.login-error {
+  background: white;
+  margin: 5px;
+  border: 1px solid red;
+  color: red;
 }

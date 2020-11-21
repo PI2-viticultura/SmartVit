@@ -26,12 +26,6 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: ' Avaliar Safra',
-        path: '/',
-        icon: <BsIcons.BsClipboardData />,
-        cName: 'nav-text'
-    },
-    {
         title: ' Feedback',
         path: '/feedback',
         icon: <MdIcons.MdFeedback />,
@@ -39,7 +33,7 @@ export const SidebarData = [
     },
     {
         title: ' Pragas',
-        path: '/pest',
+        path: '/pest-list',
         icon: <GoIcons.GoBug />,
         cName: 'nav-text'
     },

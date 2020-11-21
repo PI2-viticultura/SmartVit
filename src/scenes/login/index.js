@@ -21,6 +21,7 @@ function Login() {
     const [email, setEmail] = React.useState('');
     const [password, setPassword] = React.useState('');
     const [show, setShow] = React.useState(false);
+    const [error, setError] = React.useState(false);
     let history = useHistory();
     let role = "user"
 
@@ -30,22 +31,31 @@ function Login() {
             password,
             role
         }).then((result) => {
-            const { access_token } = result.data;
-            login(access_token);
-            history.push("/feedback")
+            login(result.data.access_token);
+            localStorage.setItem("user", result.data.user);
+            history.push("/indicator")
             window.location.reload(true);
         }, (error) => {
+            setError(true);
             console.log(error);
         })
     }
     return (
-        <Flex align="center">
+        <Flex align="center" className="login-container">
             <Flex className="box-image" bg="green.50" size="100vh" align="center" justify="center"></Flex>
             <Flex className="box-login" bg="blue.50" size="100vh" align="center" justify="center">
                 <div className="logo">
                     <img src={require("../../assets/imgs/login-icon.svg")}></img>
                 </div>
                 <FormControl className="formInput">
+                    {
+                        error && (
+                            <div className="login-error">
+                                Erro ao logar, tente novamente
+                            </div>
+                        )
+                    }
+                    
                     <InputGroup className="input-email">
                         <InputLeftElement>
                             <Box as={GrLock} />

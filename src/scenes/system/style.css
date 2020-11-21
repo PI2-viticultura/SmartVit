@@ -1,5 +1,18 @@
-.main {
-  background-color: #ffffff;
+.main-system {
+  width: 80%;
+  margin: 20px auto;
+  background-color: transparent;
+}
+
+.system-div {
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #c4c4c4;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.accordion {
+  border: 1px solid #c4c4c4;
 }
 
 .css-o4mft6 {
@@ -21,8 +34,9 @@
 }
 
 .css-1brgn68 {
+  width: fit-content;
   position: relative !important;
-  left: 20% !important;
+  left: 50% !important;
   top: 30% !important;
 }
 
@@ -54,4 +68,19 @@
 
 .stack-sk {
   padding: 2%;
+}
+
+.unset-position {
+  left: unset !important;
+  top: unset !important;
+}
+
+.system-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.measurement-container {
+  display: flex;
 }

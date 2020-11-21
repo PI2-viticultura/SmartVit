@@ -18,7 +18,8 @@ function Navbar() {
 
         async function fetchData() {
             try {
-                await apiNotification.get("/notification/user_id",
+                const user = localStorage.getItem("user");
+                await apiNotification.get("/notification/" + user,
                 {
                     "Content-Type": "application/json",
                     "X-Requested-With": "XMLHttpRequest"
@@ -54,6 +55,7 @@ function Navbar() {
                         {location.pathname.substring(1, location.pathname.length).toUpperCase()}
                     </div> */}
                 </div>
+                <div className="nav-title">SmartVit</div>
                 <div className='notification'>
                     <Link to="/notifications">
                         <span><FaIcons.FaBell/></span>
