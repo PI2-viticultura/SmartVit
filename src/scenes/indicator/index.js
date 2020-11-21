@@ -12,17 +12,8 @@ import {
     PopoverContent,
     PopoverHeader,
     PopoverBody,
-    PopoverFooter,
     PopoverArrow,
     PopoverCloseButton,
-    Modal,
-    ModalOverlay,
-    ModalContent,
-    ModalHeader,
-    ModalFooter,
-    ModalBody,
-    ModalCloseButton,
-    useDisclosure
   } from "@chakra-ui/core";
 
 
@@ -38,8 +29,6 @@ function Indicator(){
     const [wind, setWind] = useState(0);
     const [showGraph, setShowGraph] = useState(-1);
     const [winery, setWinery] = useState(null);
-    const { isOpen, onOpen, onClose } = useDisclosure();
-
 
     React.useEffect(() => {
         const user = localStorage.getItem("user");
@@ -49,10 +38,8 @@ function Indicator(){
                 "Content-Type": "application/json",
                 "X-Requested-With": "XMLHttpRequest"
             }).then((res) => {
-                console.log(res.data);
                 setWinery(res.data._id.$oid);
             }).catch((error) => {
-                console.log("res");
             });
         }
         getWinery();
@@ -66,7 +53,6 @@ function Indicator(){
                 new Chart(myChartRef, {
                     type: "line",
                     data: {
-                        //Bring in data
                         labels: [...system.humidity_percent.keys()],
                         datasets: [
                             {
@@ -107,7 +93,6 @@ function Indicator(){
             new Chart(myChsartRef, {
                 type: "line",
                 data: {
-                    //Bring in data
                     labels: [...fuzzy.keys()],
                     datasets: [
                         {
@@ -142,7 +127,6 @@ function Indicator(){
                     setCelsius(res.data.general_indicators.temp_celsius);
                     setWind(res.data.general_indicators.vento_MS);
                     setSystems(res.data.systems);
-                    console.log(res.data.systems)
                 }).catch((error) => {
                 });
         }
@@ -152,20 +136,6 @@ function Indicator(){
 
     return (
         <div>
-            <Modal isOpen={isOpen} onClose={onClose}>
-                <ModalOverlay />
-                <ModalContent>
-                <ModalHeader>
-                    Problemas com o nível o pH
-                </ModalHeader>
-                <ModalCloseButton />
-                <ModalBody>
-                    Sugestão:
-                </ModalBody>
-                <ModalFooter>
-                </ModalFooter>
-                </ModalContent>
-            </Modal>
             <div className="page-title">Dashboard</div>
             
             <div className="indicator-container">
@@ -287,27 +257,18 @@ function Indicator(){
                     <div className="quality-title">
                         Qualidade da vinícola
                     </div>
-                    <div className="items-quality">
-                        <div onClick={() => onOpen()}>
-                            <img
-                                height={25}
-                                alt="..."
-                                src={require("../../imgs/alert.png")}
-                            />
-                        </div>
-                        <div className="popover-container">
-                            <Popover>
-                                <PopoverTrigger>
-                                    <button>?</button>
-                                </PopoverTrigger>
-                                <PopoverContent zIndex={4}>
-                                    <PopoverArrow />
-                                    <PopoverCloseButton />
-                                    <PopoverHeader>Qualidade</PopoverHeader>
-                                    <PopoverBody>Esta medida de qualidade considera os parâmetros físico-químicos coletados, realizando o cruzamento dos dados utilizando a lógica fuzzy. Por meio dela são traçados os limites de alerta, aqui representados por : Vermelho (Estado grave), Amarelo (Alerta) e Verde (Boa Situação). O gráfico em azul traz a qualidade ao longo do tempo.</PopoverBody>
-                                </PopoverContent>
-                            </Popover>
-                        </div>
+                    <div className="popover-container">
+                        <Popover>
+                            <PopoverTrigger>
+                                <button>?</button>
+                            </PopoverTrigger>
+                            <PopoverContent zIndex={4}>
+                                <PopoverArrow />
+                                <PopoverCloseButton />
+                                <PopoverHeader>Qualidade</PopoverHeader>
+                                <PopoverBody>Esta medida de qualidade considera os parâmetros físico-químicos coletados, realizando o cruzamento dos dados utilizando a lógica fuzzy. Por meio dela são traçados os limites de alerta, aqui representados por : Vermelho (Estado grave), Amarelo (Alerta) e Verde (Boa Situação). O gráfico em azul traz a qualidade ao longo do tempo.</PopoverBody>
+                            </PopoverContent>
+                        </Popover>
                     </div>
                 </div>
                 <div className="quality-graphs">
@@ -359,9 +320,7 @@ function Indicator(){
                         />
                     </div>
                 </div>)}
-            })
-                
-            }
+            })}
         </div>
     
     )

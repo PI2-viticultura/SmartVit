@@ -1,30 +1,45 @@
 import React, { useState } from 'react';
-import {
-    Alert,
-    AlertIcon,
-    Box,
-    Button,
-    FormControl,
-    FormLabel,
-    Grid,
-    Heading,
-    Input,
-    Link
-
-} from "@chakra-ui/core";
-import DatePicker from "react-datepicker"; 
+import { Box } from "@chakra-ui/core";
 import "react-datepicker/dist/react-datepicker.css";
-import apiPest from '../../services/api-pest';
-import { Link as ReachLink } from "@reach/router"
 import DataTable from "react-data-table-component";
+import apiPest from '../../services/api-pest';
+import apiWinery from '../../services/api-winery';
 import './style.css';
 import '../../globals/globalStyle.css';
 
 function PestList(){
-    let data = [
-        {type: 'cochonilha', start: '23/05/2020', end: '25/10/2020', action: '', observation: ''},
-        {type: 'ácaro rajado', start: '10/07/2020', end: '25/08/2020', action: '', observation: ''}
-    ]
+    const [winery, setWinery] = useState(null);
+    const [data, setData] = useState([]);
+
+    React.useEffect(() => {
+        const user = localStorage.getItem("user");
+        const getWinery = async () => {
+            await apiWinery.get("/winery_by_user/" + user,
+            {
+                "Content-Type": "application/json",
+                "X-Requested-With": "XMLHttpRequest"
+            }).then((res) => {
+                setWinery(res.data._id.$oid);
+            }).catch((error) => {
+            });
+        }
+        getWinery();
+    }, []);
+
+    React.useEffect(() => {  
+        const startPest = async () => {
+            await apiPest.get("/pest_by_winery/" + winery,
+            {
+                "Content-Type": "application/json",
+                "X-Requested-With": "XMLHttpRequest"
+            }).then((res) => {
+                console.log(res.data)
+                setData(res.data);
+            }).catch((error) => {
+            });
+        };
+        startPest();
+    }, [winery]);
 
     const columns = [
         {
@@ -34,12 +49,12 @@ function PestList(){
         },
         {
           name: "Início",
-          selector: "start",
+          selector: "startTime",
           sortable: true,
         },
         {
           name: "Fim",
-          selector: "end",
+          selector: "endTime",
           sortable: true,
         },
         {
