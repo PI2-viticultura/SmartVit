@@ -4,6 +4,7 @@ import './style.css';
 import '../../globals/globalStyle.css';
 import apiWinery from '../../services/api-winery';
 import apiIndicator from '../../services/api-indicator';
+import apiAdmin from '../../services/api-admin';
 import Stepper from '../../components/stepper';
 import GaugeChart from 'react-gauge-chart';
 import {
@@ -38,8 +39,9 @@ function Indicator(){
     const [wind, setWind] = useState(0);
     const [showGraph, setShowGraph] = useState(-1);
     const [winery, setWinery] = useState(null);
+    const [alert, setAlert] = useState(false);
+    const [partners, setPartners] = useState([]);
     const { isOpen, onOpen, onClose } = useDisclosure();
-
 
     React.useEffect(() => {
         const user = localStorage.getItem("user");
@@ -57,6 +59,38 @@ function Indicator(){
         }
         getWinery();
     }, []);
+
+
+
+    React.useEffect(() => {
+        const verify_alert = async () => {
+            if (humidity <= 400 || ph <= 5.4 || celsius <= 30 || wind > 2.7){
+                setAlert(true);
+                console.log("Aqui");
+                
+                await apiAdmin.get("/partners",
+                {
+                    "Content-Type": "application/json",
+                    "X-Requested-With": "XMLHttpRequest"
+                }).then((res) => {
+                    console.log(res.data);
+                    setPartners(res.data);
+                }).catch((error) => {
+                    console.log("res");
+                });
+            }
+        }
+        verify_alert();
+    }, [wind]);
+
+    const imprime = (() => {
+        if(partners.length > 0){
+            var partner = partners[Math.floor(Math.random() * partners.length)];
+            return partner.name + " - " + partner.phoneNumber + "( " + partner.type + " )";
+        }else{
+            return "Nada";
+        }
+    });
 
     React.useEffect(() => {
         if(systems.length > 0) {
@@ -99,6 +133,8 @@ function Indicator(){
             });
         }
     }, [systems]);
+
+
 
     React.useEffect(() => {
         if (fuzzy.length > 0){
@@ -156,11 +192,14 @@ function Indicator(){
                 <ModalOverlay />
                 <ModalContent>
                 <ModalHeader>
-                    Problemas com o nível o pH
+                    Vinícola apresenta problemas
                 </ModalHeader>
                 <ModalCloseButton />
-                <ModalBody>
-                    Sugestão:
+                <ModalBody>                    
+                    Entre em contato com um dos nossos parceiros para realizar a correção necessária 
+                    <br></br><br></br>
+                    { imprime() }
+
                 </ModalBody>
                 <ModalFooter>
                 </ModalFooter>
@@ -287,14 +326,16 @@ function Indicator(){
                     <div className="quality-title">
                         Qualidade da vinícola
                     </div>
-                    <div className="items-quality">
-                        <div onClick={() => onOpen()}>
-                            <img
-                                height={25}
-                                alt="..."
-                                src={require("../../imgs/alert.png")}
-                            />
-                        </div>
+                    <div className="items-quality" >
+                        {alert && 
+                            <div onClick={() => onOpen()}>
+                                <img
+                                    height={25}
+                                    alt="..."
+                                    src={require("../../imgs/alert.png")}
+                                />
+                            </div>
+                        }
                         <div className="popover-container">
                             <Popover>
                                 <PopoverTrigger>
