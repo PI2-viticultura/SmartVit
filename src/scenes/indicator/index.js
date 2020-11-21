@@ -20,7 +20,8 @@ import {
     ModalContent,
     ModalHeader,
     ModalCloseButton,
-    ModalBody
+    ModalBody,
+    ModalFooter
   } from "@chakra-ui/core";
 
 
