@@ -13,17 +13,8 @@ import {
     PopoverContent,
     PopoverHeader,
     PopoverBody,
-    PopoverFooter,
     PopoverArrow,
     PopoverCloseButton,
-    Modal,
-    ModalOverlay,
-    ModalContent,
-    ModalHeader,
-    ModalFooter,
-    ModalBody,
-    ModalCloseButton,
-    useDisclosure
   } from "@chakra-ui/core";
 
 
@@ -51,10 +42,8 @@ function Indicator(){
                 "Content-Type": "application/json",
                 "X-Requested-With": "XMLHttpRequest"
             }).then((res) => {
-                console.log(res.data);
                 setWinery(res.data._id.$oid);
             }).catch((error) => {
-                console.log("res");
             });
         }
         getWinery();
@@ -100,7 +89,6 @@ function Indicator(){
                 new Chart(myChartRef, {
                     type: "line",
                     data: {
-                        //Bring in data
                         labels: [...system.humidity_percent.keys()],
                         datasets: [
                             {
@@ -143,7 +131,6 @@ function Indicator(){
             new Chart(myChsartRef, {
                 type: "line",
                 data: {
-                    //Bring in data
                     labels: [...fuzzy.keys()],
                     datasets: [
                         {
@@ -178,7 +165,6 @@ function Indicator(){
                     setCelsius(res.data.general_indicators.temp_celsius);
                     setWind(res.data.general_indicators.vento_MS);
                     setSystems(res.data.systems);
-                    console.log(res.data.systems)
                 }).catch((error) => {
                 });
         }
@@ -400,9 +386,7 @@ function Indicator(){
                         />
                     </div>
                 </div>)}
-            })
-                
-            }
+            })}
         </div>
     
     )
