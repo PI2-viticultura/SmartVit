@@ -15,6 +15,13 @@ import {
     PopoverBody,
     PopoverArrow,
     PopoverCloseButton,
+    Modal,
+    ModalOverlay,
+    ModalContent,
+    ModalHeader,
+    ModalHeader,
+    ModalCloseButton,
+    ModalBody
   } from "@chakra-ui/core";
 
 
