@@ -159,8 +159,8 @@ function Indicator(){
                             <PopoverContent zIndex={4}>
                                 <PopoverArrow />
                                 <PopoverCloseButton />
-                                <PopoverHeader>Confirmation!</PopoverHeader>
-                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                                <PopoverHeader>Ph do Solo</PopoverHeader>
+                                <PopoverBody>Esta medida compreende a média das últimas 10 medidas registradas. Caso esteja entre 0 e 5, procure imediatamente um profissional para corrigi-lo e fique em alerta caso esteja entre 5 e 5,4.</PopoverBody>
                             </PopoverContent>
                         </Popover>
                     </div>
@@ -186,8 +186,8 @@ function Indicator(){
                             <PopoverContent zIndex={4}>
                                 <PopoverArrow />
                                 <PopoverCloseButton />
-                                <PopoverHeader>Confirmation!</PopoverHeader>
-                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                                <PopoverHeader>Umidade</PopoverHeader>
+                                <PopoverBody>Esta medida contém a média das últimas 10 medidas registradas da umidade do solo. Caso o valor se encontre entre 0 e 300, o sistema de automático de irrigação já terá sido acionado. Mas fique em alerta caso esteja entre 300 e 400.</PopoverBody>
                             </PopoverContent>
                         </Popover>
                     </div>
@@ -213,8 +213,8 @@ function Indicator(){
                             <PopoverContent zIndex={4}>
                                 <PopoverArrow />
                                 <PopoverCloseButton />
-                                <PopoverHeader>Confirmation!</PopoverHeader>
-                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                                <PopoverHeader>Temperatura</PopoverHeader>
+                                <PopoverBody>Esta medida compreende a média das 10 últimas temperaturas do solo medidas. Caso esse valor esteja de 0 a 10, sua safra poderá sofrer mudanças. Caso esteja entre 10 e 30 esteja em alerta! </PopoverBody>
                             </PopoverContent>
                         </Popover>
                     </div>
@@ -240,8 +240,8 @@ function Indicator(){
                             <PopoverContent zIndex={4}>
                                 <PopoverArrow />
                                 <PopoverCloseButton />
-                                <PopoverHeader>Confirmation!</PopoverHeader>
-                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                                <PopoverHeader>Vento</PopoverHeader>
+                                <PopoverBody>Esta medida compreende a médias das últimas 10 medidas da velocidade do vento coletadas. Caso esteja entre 3.2 e 33.3 é possível que as suas videiras sejam afetadas. Esteja em alerta caso esteja entre 2.7 e 3.2.</PopoverBody>
                             </PopoverContent>
                         </Popover>
                     </div>
@@ -265,8 +265,8 @@ function Indicator(){
                             <PopoverContent zIndex={4}>
                                 <PopoverArrow />
                                 <PopoverCloseButton />
-                                <PopoverHeader>Confirmation!</PopoverHeader>
-                                <PopoverBody>Are you sure you want to have that milkshake?</PopoverBody>
+                                <PopoverHeader>Qualidade</PopoverHeader>
+                                <PopoverBody>Esta medida de qualidade considera os parâmetros físico-químicos coletados, realizando o cruzamento dos dados utilizando a lógica fuzzy. Por meio dela são traçados os limites de alerta, aqui representados por : Vermelho (Estado grave), Amarelo (Alerta) e Verde (Boa Situação). O gráfico em azul traz a qualidade ao longo do tempo.</PopoverBody>
                             </PopoverContent>
                         </Popover>
                     </div>
