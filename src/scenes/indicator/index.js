@@ -320,9 +320,7 @@ function Indicator(){
                         />
                     </div>
                 </div>)}
-            })
-                
-            }
+            })}
         </div>
     
     )
