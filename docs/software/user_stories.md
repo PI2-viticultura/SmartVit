@@ -10,4 +10,5 @@ As histórias de usuário foram escritas com base no backlog do produto desenvol
 | - | - | - |
 | Primeira versão do documento | Adrianne | 17/04/2020 |
 | Revisão entrega | Lucas Vitor | 22/04/2020 |
-| Revisão, reorganização do documento | Lucas Vitor | 25/08/2020
+| Revisão, reorganização do documento | Lucas Vitor | 25/08/2020 |
+| Atualização das histórias realizadas | Adrianne | 17/04/2020 |

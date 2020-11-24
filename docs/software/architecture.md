@@ -33,9 +33,9 @@
 
 ## 2. Representação da Arquitetura
 
-<p align="justify"> A arquitetura adotada possui organização em microsserviços, isto se deve à robustez da aplicação a ser desenvolvida, com a utilização desta arquitetura é possível ter um software modularizado, manutenível e expansível, além disto, é possível ter um software com suas responsabilidades distribuídas, o que permite ao software lidar melhor com a carga imposta sobre ele. </p>
+<p align="justify"> A arquitetura adotada possui organização em microsserviços, isto se deve à robustez da aplicação a ser desenvolvida, com a utilização desta arquitetura é possível ter um software modularizado, manutenível e expansível, além disto, é possível ter responsabilidades distribuídas, o que o permite lidar melhor com a carga imposta sobre ele. </p>
 
-<p align="justify"> Como complemento da arquitetura de microsserviços, são utilizados BFF (Back For Front), uma decisão arquitetural que permite a contextualização do bacend para so frontends existentes (existirão dois frontends). </p>
+<p align="justify"> Como complemento da arquitetura de microsserviços, são utilizados BFF (Back For Front), uma decisão arquitetural que permite a contextualização do backend para os frontends existentes, sendo eles o usuário e o administrador. </p>
 
 ### 2.1. Diagrama de Relações
 
@@ -49,7 +49,7 @@
 
 #### 2.1.2. Backend
 
-<p align="justify"> O backend é a unidade da arquitetura responsável por receber, processar e armazenar dados do módulo eletrônico. Neste ambiente serão realizadas as análises preditivas e de safra, gerenciamento das vinícolas e acionamento de sistemas (recebendo a entrada do usuário e repassando para o módulo eletrônico responsável). </p>
+<p align="justify"> O backend é a unidade da arquitetura responsável por receber, processar e armazenar dados do módulo eletrônico. Neste ambiente serão realizados o gerenciamento das vinícolas e acionamento de sistemas (recebendo a entrada do usuário e repassando para o módulo eletrônico responsável). Além disso, o sistema contará com 9 diferentes microsserviços com responsabilidades distintas, explicitados na imagem anterior. </p>
 
 #### 2.1.3. Frontend
 
@@ -65,6 +65,7 @@
 * Python: Linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.
 * Flask: Framework python que disponibiliza funcionalidades para desenvolvimento de APIs que seguem o estilo arquitetural REST.
 * JavaScript: Linguagem de programação que permite a implementação de itens complexos em páginas web de forma dinâmica.
+* FastAPI: É um framework python que permite requisições assíncronas, gerenciando um maior número de requisições com maior fluidez.
 * ReactJS: Biblioteca JavaScript para construção de interfaces de usuários.
 * MongoDB: Banco NOSQL orientado a documentos (document database) no formato JSON.
 
@@ -107,7 +108,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | | |
 | -- | -- |
 | Descrição | O usuário visualizará as notificações recebidas sobre quaisquer indicadores críticos relacionados à safra |
-| Atores | Agrônomo, agricultor |
+| Atores | usuário |
 | Pré-condições | Usuário deve possuir perfil de agrônomo ou agricultor no sistema |
 | Pós-condições | O usuário deve receber notificações sempre que a vinícola apresentar algum indicador fora do intervalo esperado, via email e através do próprio sistema |
 | Fluxo principal | 1. Sistema detecta indicador fora do intervalo <br> 2. Usuário recebe email sobre a criticidade de um indicador <br> 3. Usuário entra no sistema <br> 4.Usuário clica nas notificações |
@@ -117,7 +118,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | | |
 | -- | -- |
 | Descrição | O usuário poderá visualizar um dashboard com os principais indicadores da safra |
-| Atores | Agrônomo e agricultor |
+| Atores | usuário |
 | Pré-condições | O usuário deve estar logado no sistema |
 | Pós-condições | O usuário deve visualizar todos os indicadores da safra |
 | Fluxo principal | 1. Usuário realiza login no sistema <br> 2. Sistema abre na dashboard <br> |
@@ -127,7 +128,7 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | | |
 | -- | -- |
 | Descrição | Usuário pode registrar pragas identificadas na sua vinícola para acompanhamento |
-| Atores | Agrônomo, agricultor|
+| Atores | usuário|
 | Pré-condições | Usuário deve estar logado no sistema |
 | Pós-condições | Na página de acompanhamento deve aparecer as pragas registradas |
 | Fluxo principal | 1. Usuário faz login no sistema <br> 2. Usuário acessa dashboard e clica em "registrar praga" <br> 3. Preenche o formulário informando a praga <br> 4.Registra plano de ação 5. Clica em 'enviar' |
@@ -137,33 +138,11 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 | | |
 | -- | -- |
 | Descrição | O usuário poderá acionar a equipe do sistema para eventuais problemas nos sistemas e/ou dados, enviando uma mensagem para a equipe |
-| Atores | Agrônomo, agricultor |
+| Atores | usuário |
 | Pré-condições | Usuário deve estar logado no sistema como agrônomo ou agricultor |
 | Pós-condições | O usuário deve conseguir enviar uma mensagem para o administrador a fim de informar irregularidade/problemas no sistema web|
 | Fluxo principal | 1. O usuário deve entrar no sistema <br> 2. Clicar no menu lateral correspondente à "suporte" <br> 3. Preencher o formulário informando o tipo, título, mensagem e prioridade do problema e/ou solicitação <br> 4. O usuário deve clicar "enviar"|
 | Fluxo de exceção | |
-
-#### UC 06 - Avaliar safra
-| | |
-| -- | -- |
-| Descrição | O usuário agrônomo responderá um questionário sobre a uva obtida no final da safra |
-| Atores | Agrônomo |
-| Pré-condições | O agrônomo deve está logado no sistema |
-| Pós-condições | O usuário deve receber uma análise da qualidade do vinho a ser obtido com a uva coletada |
-| Fluxo principal | 1. O agrônomo entrará na página do dashboard <br> 2. Clicará em "avaliar resultado da safra" <br> 3. Irá clicar em "enviar" <br> 4. Será redirecionado para uma página em formato PDF com as prováveis qualidades do vinho que será obtido com a uva produzida. |
-| Fluxo de exceção | |
-
-#### UC 07 - Consultar características da uva dado o tipo
-| | |
-| -- | -- |
-| Descrição | O usuário poderá consultar as características físico/químicas da uva de acordo com o tipo de uva |
-| Atores | Sistema |
-| Pré-condições | O usuário deve ter perfil de agrônomo ou agricultor no sistema |
-| Pós-condições | O sistema deve ser capaz de retornar um relatório com as principais características da uva |
-| Fluxo principal | 1. O usuário acessa menu lateral <br> 2. Clica em 'caracteríriscas uva' <br> 3. Será direcionado para uma página com um formulário para seleção do tipo de uva  <br> 4. O sistema fornecerá uma tabela com as principais características |
-| Fluxo de exceção |  |
-
-
 #### UC 08 - Alertar sobre intemperies
 | | |
 | -- | -- |
@@ -198,18 +177,18 @@ O diagrama de caso de uso descreve as funcionalidades propostas para um sistema,
 #### UC 11 - Gerenciar sistemas eletrônicos da safra
 | | |
 | -- | -- |
-| Descrição | O usuário agrônomo deve ter acesso à todos os sistemas eletrônicos instalados na safra, incluindo os dados coletados e processados na plataforma. |
-| Atores | Agrônomo |
-| Pré-condições | O usuário deve estar logado na plataforma e possuir perfil de agrônomo |
+| Descrição | O usuário deve ter acesso à todos os sistemas eletrônicos instalados na safra, incluindo os dados coletados e processados na plataforma. |
+| Atores | Usuário |
+| Pré-condições | O usuário deve estar logado na plataforma e possuir perfil de usuário |
 | Pós-condições | O usuário deve ter acesso à todos os sistemas eletrônicos e dados processados dentro do sistema |
-| Fluxo principal | 1. O agrônomo ou agricultor entra na plataforma <br> 2. Clica em "Sistemas" <br> 3. Vê a lista de sistemas instalados na vinícola <br> 4. Entra em um sistema que deseja gerenciar <br> 5. Visualiza os sensores instalados, dados coletados, entre outras informações |
+| Fluxo principal | 1. O usuário entra na plataforma <br> 2. Clica em "Sistemas" <br> 3. Vê a lista de sistemas instalados na vinícola <br> 4. Entra em um sistema que deseja gerenciar <br> 5. Visualiza os sensores instalados, dados coletados, entre outras informações |
 | Fluxo de exceção | |
 
 #### UC 12 - Acionar suporte dos sistemas eletrônicos
 | | |
 | -- | -- |
 | Descrição | O usuário conseguirá entrar em contato com a equipe de suporte aos sistemas eletrônicos instalados |
-| Atores | Agricultor e Administrador |
+| Atores | Usuário e Administrador |
 | Pré-condições | O usuário deve estar logado |
 | Pós-condições | O usuário deve poder acionar o suporte via mensagem na plataforma |
 | Fluxo principal | 1. O agricultor entra na plataforma <br> 2.Entra em "Sistemas instalados" <br> 3. Clica em "acionar suporte"  <br> 4. Preenche um formulário informando qual o sistema e qual foi o problema identificado |
@@ -359,7 +338,7 @@ Diagrama de Atividades dos usuários Agrônomo e Agricultor no SmartVit:
 
 ## 8. Qualidade
 
-<p align = "justify"> O projeto terá uma interface gráfica intuitiva, portando as informações principais que provém do projeto para que seja eficaz aos usuários. Todas os dados que venham a ser rceolhidos serão armazenados e uma tela que demostra essas informações será providenciada. </p>
+<p align = "justify"> O projeto terá uma interface gráfica intuitiva, portando as informações principais que provém do projeto para que seja eficaz aos usuários. Todas os dados que venham a ser recolhidos serão armazenados e uma tela que demostra essas informações será providenciada. </p>
 <p align = "justify"> O código-fonte será bem estruturado, seguindo as normas definidas no documento de folha de estilo, respeitando a padronização e manutenibilidade, criando testes e respeitando as métricas deferidas no Plano de Qualidade.
 
 # Histórico de revisão
@@ -376,3 +355,5 @@ Diagrama de Atividades dos usuários Agrônomo e Agricultor no SmartVit:
 | Versão 02 - Atualização do diagrama de arquitetura | Lucas Vitor| 11/09/2020 |
 | Adição dos Diagramas de Atividades e Sequências | João Lucas e Luciano | 12/09/2020 |
 | Adição do diagrama de atividades do administrador | João Lucas | 26/09/2020 |
+| Atualização dos artefatos e descrições | Adrianne | 26/09/2020 |
+

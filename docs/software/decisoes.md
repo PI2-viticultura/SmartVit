@@ -3,9 +3,10 @@
 - [1. Introdução](#_1-introdução)
   * [1.1. Objetivos](#_11-objetivos)
 - [2. Decisões Arquiteturais](#_2-decisões-arquiteturais)
-- [3. Decisões Tecnolágicas](#_3-decisões-de-tecnolágicas)
-- [4. Decisões Metodológicas](#_4-decisões-de-metodológicas)
+- [3. Decisões Tecnológicas](#_3-decisões-tecnológicas)
+- [4. Decisões Metodológicas](#_4-decisões-metodológicas)
 - [5. Decisões de Outros Enfoques](#_5-decisões-de-outros-enfoques)
+- [6. Decisões de Qualidade](#_6-decisoes-de-qualidade)
 - [ Histórico de revisão](#_histórico-de-revisão)
 
 ## 1. Introdução
@@ -29,8 +30,11 @@
 
  <p align = "justify"> Após a definição da arquitetura de microsserviços, foi percebida a possibilidade de criação de frontends distintos entre os usuários da aplicação. A partir desta nova abordagem, foi decidida a implementação da abordagem BFF (Back For Frontend), uma abordagem que permite contextualizar os microsserviços aos frontends distintos da aplicação. A diagramação está apresentada abaixo:</p>
 
- ![img](imgs/arquitetura.png)
+ ![img](imgs/arquiteturav3.png)
 
+Ao longo do desenvolvimento notou-se a necessidade da introdução de novos serviços e remoção de alguns microsserviços que não seriam mais utilizados. Dessa forma, obteve-se a infraestrutura explicitada na imagem abaixo. 
+
+ ![img](imgs/arquitetura.png)
 
 ## 3. Decisões Tecnológicas
 
@@ -53,7 +57,7 @@
 * ReactJS: Biblioteca JavaScript para construção de interfaces de usuários.
 * MongoDB: Banco NOSQL orientado a documentos (document database) no formato JSON.
 
-
+Por fim, foi escolhido o framework FastAPI para a implementação das API gateways (BFF).
 ## 4. Decisões Metodológicas
 
 Para a metodologia de trabalho foi escolhida uma metodologia híbrida entre Scrum e RUP. Esta metodologia conta com as fases do RUP com foco em documentação para a primeira fase de elaboração da solução, com os papéis inspirados no scrum, sendo estes product owner, scrum master, arquiteto, devops e desenvolvedores, e conta com os rituais de sprint, daily meeting, sprint review e sprint planning. bem como os artefatos de planejamento coposto por issues, milestones, épicos e priorização.
@@ -62,10 +66,24 @@ Para a metodologia de trabalho foi escolhida uma metodologia híbrida entre Scru
 
 A ideia inicial para outros enfoques recaía sobre as análises feitas sobre os dados coletados, esta abordagem contava com a criação de bases de dados com os dados coletados para "alimentar" modelos de predição. Após amadurecimento da proposta, os outros enfoques focaram-se nas decisões arquiteturais da equipe, com a implementação de uma arquitetura de microsserviços e implementação de BFF.
 
-Após reavaliação deste tópico, a equipe decidiu pela implementação da implementação arquitetural supracitada com a inclusão de lógica fuzzy para facilitar as análises de dados e BDD (Behavior Driven Development) como estratégia de testes da aplicação.
+Após reavaliação deste tópico, a equipe decidiu pela implementação da arquitetura supracitada com a inclusão de lógica fuzzy para facilitar as análises de dados e BDD (Behavior Driven Development) como estratégia de testes da aplicação.
+
+A documentação completa, contendo todas as decisões tomadas na definição da solução se encontra neste repositório na documentação das nossas sprints, assim como as decisões e gerenciais obtidas ao longo do projeto. 
+
+## 6.Decisões de Qualidade
+
+Tendo em vista o tempo de implementação e tamanho do sistema, foi decidida a implementação dos testes (aqui implementados na forma de BDD - Behavior Driven Development) nos microsserviços core do sistema, a fim de assegurar a qualidade da
+porção mais relevante para o usuário e o seu funcionamento correto. Os códigos priorizados são: 
+
+* Indicadores
+* BFF 
+* Captura de dados
+* Notificações
+* Cliente 
 
 # Histórico de revisão
 
 | O quê | Quem  | Quando |
 | - | - | - |
 | Primeira versão do documento | Lucas Vitor | 12/09/2020 |
+| Inserção das demais decisões da equipe | Adrianne Alves | 12/10/2020 |

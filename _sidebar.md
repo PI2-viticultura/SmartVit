@@ -1,34 +1,3 @@
-* Gerenciamento
-
-  * [Reuniões](docs/reunioes.md)
-  * [Termo de abertura do projeto]()
-  * [Estrutura analítica do projeto]()
-  * [Plano de comunicação](docs/Plano-comunicacao.md)
-  * [Metodologia]()
-  * [Gerenciamento de Riscos]()
-
-* Suporte Eletrônico
-
-  * Gerenciamento
-    * [Plano de comunicação]()
-    * [Metodologia de trabalho]()
-  * Produto
-    * Estrutura
-      * [Arquitetura]()
-      * [Montagem]()
-    * Testes
-
-* Estrutura
-
-  * Gerenciamento
-    * [Plano de comunicação](docs/Estrutura/Teste1.md)
-    * [Metodologia de trabalho]()
-  * Produto
-    * Sustentação
-      * [Arquitetura]()
-      * [Montagem]()
-    * Testes
-
 * Produto de software
 
   * Gerenciamento
@@ -44,7 +13,7 @@
       * [Brainstorm](docs/software/brainstorm.md)
     * [Backlog](docs/software/backlog.md)
     * [Histórias de usuário](docs/software/user_stories.md)
-    <!-- * [Roadmaps](docs/software/roadmap-geral.md) -->
+    * [Roadmaps](docs/software/roadmap-geral.md)
     * [Sprints](docs/software/sprint.md)
   * Planejamento
     * [Estrutura de branches e padrões](docs/software/Padrao-branch-software.md)

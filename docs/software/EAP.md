@@ -23,3 +23,4 @@
 | Primeira versão do documento | João Lucas | 24/04/2020 |
 | Revisão entrega | Lucas Vitor | 22/05/2020 |
 | Adição de histórico, atualização da EAP | Adrianne Alves da Silva | 25/08/2020 |
+| Atualização praticada | Adrianne Alves da Silva | 20/11/2020 |

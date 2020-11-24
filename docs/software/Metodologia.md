@@ -81,7 +81,7 @@ A divisão da equipe quanto aos papéis ocorre de acordo com o a seguinte especi
 
 | Papel           | Responsável                               |
 | :--------:      | :----:                                    | 
-| Product Owner   | Adrianne Silva                            |
+| Product Owner   | Adrianne Silva e Lucas Vitor                            |
 | Scrum Master    | Adrianne Silva                            |
 | Arquiteto       | Adrianne e Lucas Vitor                    |
 | DevOps          | Luciano dos Santos e João Lucas           |
@@ -145,4 +145,5 @@ Para monitorar as atividades entregues, o Scrum Master utilizará também o burn
 | Revisão entrega | Adrianne Alves | 22/05/2020 |
 | Adição de histórico e edição de mudanças devido adição de membro na equipe | Adrianne Alves da Silva | 25/08/2020 |
 | Revisão | João Lucas | 26/09/2020 |
-| Redfinição de papéis | Lucas Vitor | 27/09/2020 |
+| Redefinição de papéis | Lucas Vitor | 27/09/2020 |
+| Atualização de papéis executados | Adrianne Alves | 20/10/2020 |

@@ -36,3 +36,4 @@
 | Revisão, reorganização do documento | Adrianne Alves da Silva | 23/08/2020 |
 | Revisão das features do backlog | Adrianne, Lucas, João e Luciano | 01/09/2020 |
 | Adição de embed da planilha do backlog | Lucas Vitor | 05/09/2020 |
+| Atualização do backlog | Adrianne Alves | 06/10/2020 |

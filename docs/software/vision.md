@@ -167,22 +167,23 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 
 ## 5. Recursos do Produto
 
-<p align="justify">&emsp;&emsp; A aplicação permitirá ao usuário apenas acompanhar a safra, acessando indicadores de qualidade do solo, água e temperatura por meio de dashboards dinâmicos. Além disso poderá, diante de adversidades acionar por conta própria a irrigação do solo. Abaixo há uma listagem dos principais recursos:
+<p align="justify">&emsp;&emsp; A aplicação permitirá ao usuário apenas acompanhar a safra, acessando indicadores de qualidade do solo, água e temperatura por meio de dashboards dinâmicos. Abaixo há uma listagem dos principais recursos:
 
 * Visualizar indicadores de umidade, temperatura e qualidade do solo
+* Visualizar termômetro de qualidade da vinícola
 * Gerenciar vinícolas cadastradas
 * Ativar o monitoramento do sistema para as vinícolas
 * Filtrar vinícolas cadastradas
 * Remover vinícolas do monitoramento
-* Visualizar dados brutos em formato gráfico
 * Feedback de acionamento físico do SmartVit
 * Visualização de alertas de intemperies na região das vinícolas
 * Visualizar dados dos sistemas instalados na vinícola
 * Alertar sistema quanto à pragas
 * Envio de feedback do usuário
-* Registro de avaliação da safra obtida
-* Visualizar sistemas intalados
+* Visualizar sistemas instalados
 * Gerenciar sensores
+* Gerenciar solicitações e contratos
+* Acionar suporte
 
 ## 6. Restrições
 
@@ -223,3 +224,4 @@ De modo geral, o SmartVit se propõe a possibilitar o gerenciamento e monitorame
 | Versão 01 - Introdução e Descrição dos envolvidos e dos usuários | João Lucas | 24/04/2020 |
 | Versão 01 - visão geral do produto	e recursos do produto	 | Adrianne Alves | 24/05/2020 |
 | Versão 02 - Reestruturação, atualização e reescrita | Adrianne Alves da Silva | 08/09/2020 |
+| Versão 03 - Atualização das funcionalidades | Adrianne Alves da Silva | 08/11/2020 |
