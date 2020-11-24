@@ -2,8 +2,8 @@
 
 - [1. Introdução](#_1-introdução)
 - [2. Objetivos](#_2-objetivos)
-- [3. Aplicação do BDD](#_3-aplicação_do_BDD)
-- [4. Aplicação no SmartVit](#_4-aplicação_no_smartvit)
+- [3. Aplicação do BDD](#_3-aplicação-do-BDD)
+- [4. Aplicação no SmartVit](#_4-aplicação-no-smartvit)
 - [5. Referências](#_5-referências)
 - [ Histórico de revisão](#_histórico-de-revisão)
 
@@ -15,7 +15,7 @@
 
 <p align="justify"> O foco em BDD é a linguagem e as interações usadas no processo de desenvolvimento de software. Os desenvolvedores são os principais beneficiados com essas técnicas, escrevendo os testes em sua língua nativa e os combinam com a linguagem onipresente. Isso permite que eles foquem nos motivos do código a ser criado, ao invés de detalhes técnicos, e ainda possibilita uma comunicação eficiente entre as equipes de desenvolvimento e testes.
 
-### 3. Aplicação
+### 3. Aplicação do BDD
 
 <p align="justify"> Para implementar uma nova funcionalidade do BDD utiliza-se a linguagem Gherkin. Gherkin é uma Business Readable Domain Specific Language criada especificamente para a descrição de comportamentos, servindo como documentação do BDD.  Defini-se primeiro as histórias e cenários do que os usuários esperam da funcionalidade. Os usuários ajudam a definir um conjunto de exemplos concretos que possam ilustrar resultados que a nova Funcionalidade (Feature) deve fornecer. Utiliza-se um vocabulário comum onde as expressões são: Cenário (Scenario), Dado (Given), Quando (When) e Então (Then) respectivamente.
 <p align="justify"> Depois de exemplificada a nova funcionalidade, os cenários serão automatizados sob a forma de especificações executáveis, facilitando a validação do software e fornecendo uma documentação atualizada técnica e funcional.
@@ -54,4 +54,5 @@ Selenium Python Tutorial: Getting Started With BDD In Behave. Disponível em: <h
 | - | - | - |
 |  Primeira versão do documento | João Lucas | 10/09/2020 |
 | Adição da Aplicação prevista no SmartVit| João Lucas | 14/09/2020 |
-| Adição da imagem do Gherkin| joão Lucas | 8/10/2020 |
+| Adição da imagem do Gherkin | joão Lucas | 8/10/2020 |
+| Atualização dos links | Lucas Vitor | 23/11/2020 |
