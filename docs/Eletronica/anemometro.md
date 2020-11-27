@@ -9,6 +9,9 @@ De acordo com o Manual de Produção de Uvas Viniferas de Alta Qualidade, o vent
 
 Dito isto, temos o anemômetro digital para arduino ou raspberry, desenvolvido nacionalmente pela WRFCOMERCIAL, como opção escolhida. Feito de um material leve e resistente a corrosão, o alumínio, é capaz de suportar velocidades de 130 km/h e tem uma sensibilidade de aquisição de dados de 0,25 m/s. Desta forma, ele é capaz de atender ao requisito de dados, além de possuir disponibilidade nacional e ser o mais viável economicamente dizendo, tornando-se assim, a escolha óbvia para este ponto do projeto.
 
+![img](imgs/anemometro.png)
+
+
 ## 2. Especificações técnicas
 
 |Característica|Dado|
