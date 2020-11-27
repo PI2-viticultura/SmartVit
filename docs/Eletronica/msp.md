@@ -30,7 +30,7 @@ Além disso, a alta complexidade de programação em relação aos concorrentes 
 
 ## 3. Detalhamento técnico e cálculos
 
-Visto o menor erro de conversão da MSP430, as aquisições de dados dos sensores analógicos foram todas realizadas nele, cujo erro total desajustado máximo é de +-5, enquanto o da ESP 32 é de +- 12. Além disto, como os sensores digitais necessitam de um cuidado muito fino quanto ao período de aquisição de dados, os mesmos foram adquiridos utilizando a MSP430, visto sua capacidade de interrupção.
+Visto o menor erro de conversão da MSP430, as aquisições de dados dos sensores analógicos foram todas realizadas nele, cujo erro total desajustado máximo é de +-5, enquanto o da ESP 32 é de +- 12. Além disto, como os sensores digitais necessitam de um cuidado muito fino quanto ao período de aquisição de dados, os mesmos foram adquiridos utilizando a MSP430, visto sua capacidade de interrupção. O código com a implementação da máquina de estados descrita a seguir se encontra [aqui.](https://github.com/PI2-viticultura/SmartVit-electronic-module/blob/master/msp/main.c)
 
 Para o completo entendimento dos testes para a MSP430, é necessário entender a máquina de estados do sistema, que pode ser visualizada na figura abaixo.
 
