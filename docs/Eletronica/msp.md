@@ -26,6 +26,8 @@ Além disso, a alta complexidade de programação em relação aos concorrentes 
 |Erro típico não ajustado do ADC|+-2 LSB|
 |Erro máximo não ajustado do ADC|+-5 LSB|
 
+![img](imgs/pinout_msp.jpg)
+
 ## 3. Detalhamento técnico e cálculos
 
 Visto o menor erro de conversão da MSP430, as aquisições de dados dos sensores analógicos foram todas realizadas nele, cujo erro total desajustado máximo é de +-5, enquanto o da ESP 32 é de +- 12. Além disto, como os sensores digitais necessitam de um cuidado muito fino quanto ao período de aquisição de dados, os mesmos foram adquiridos utilizando a MSP430, visto sua capacidade de interrupção.
