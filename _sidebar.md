@@ -1,6 +1,6 @@
 * Produto de Estrutura
-  * Gerenciamento
-    * [Requisitos](docs\Estrutura\requisitos.md)
+  * [Requisitos](docs\Estrutura\requisitos.md)
+  * [Gerenciamento de qualidade](docs\Estrutura\gerenciamento_de_qualidade.md)
 
 * Produto de software
 
