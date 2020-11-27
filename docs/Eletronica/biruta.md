@@ -32,7 +32,7 @@ A divisão de tensão resistiva é dada pela seguinte equação:
 
 Onde:
 
-![\Large V_{saida}](https://latex.codecogs.com/svg.latex?\Large&space;V_{saida}} = tensão de saída do sensor [Volt];
+![\Large V_{saida}](https://latex.codecogs.com/svg.latex?\Large&space;V_{saida}) = tensão de saída do sensor [Volt];
 
 ![\Large V_{entrada}](https://latex.codecogs.com/svg.latex?\Large&space;V_{entrada}) = entrada analógica do sensor [Volt];
 
