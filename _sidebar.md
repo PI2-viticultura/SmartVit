@@ -1,9 +1,3 @@
-* Estrutura
-  * [TESTE1](docs\Estrutura\Teste1.md)
-  * [requisitos](docs/Estrutura/requisitos.md)
-
-
-
 * Produto de software
 
   * Gerenciamento
