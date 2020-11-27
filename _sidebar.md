@@ -1,6 +1,5 @@
 * Produto de Estrutura
-
-  * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
+blablabla
 
 * Produto de software
 
