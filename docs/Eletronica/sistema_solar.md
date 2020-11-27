@@ -14,7 +14,7 @@ Outro sistema estudado foi o gerador a diesel. Tal forma de geração foi descar
 
 Portanto o sistema escolhido, será o fotovoltaico off-grid (desconectado da rede), pela universalização da sua utilização, sendo necessárias poucas ou nenhuma modificação, pela localização do projeto ou outras intercorrências de demanda. Aliando o preço e o custo benefício se comparado com os outros dois sistemas, se mostra o mais vantajoso, além de solicitar apenas uma limpeza simples dos painéis e troca das baterias no tempo estipulado, geralmente em torno de 4 anos, podendo ser prorrogado analisando as taxas de descargas da bateria como mostrado na figura abaixo.
 
-1[img](imgs/Baterias_Freedom_Ciclos_de_Vida_02.jpg)
+![img](imgs/Baterias_Freedom_Ciclos_de_Vida_02.jpg)
 
 ## 2. Especificações técnicas
 
