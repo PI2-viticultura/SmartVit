@@ -57,7 +57,7 @@ O processo de instalação e acomodação dos fios é:
 
 Sendo que o caminho e a dimensão dos fios pode ser observado no diagrama unifilar:
 
-![img](diagrama.png)
+![img](imgs/diagrama.png)
 
 A espessura dos cabos foi definida com base na tabela AWG, sendo que três espessuras foram definidas. A primeira compreende a passagem de dados dos sensores para o microcontrolador e entre microcontroladores, a segunda entre os sensores e o sistema de alimentação com o controlador de carga, no qual a alimentação é realizada e a terceira é para a conexão dos componentes do sistema de alimentação. Os valores podem ser encontrados na tabela abaixo:
 
@@ -98,7 +98,7 @@ Por fim, para realizar um mapeamento mais simples para o usuário e fixar os com
 
 Na Figura abaixo estão numeradas e nomeadas todas as conexões que serão realizadas entre dentro do sistema, 
 
-![img](pcb_3d_numbered.jpg)
+![img](imgs/pcb_3d_numbered.jpg)
 
 Considerando um andamento de cima para baixo e da esquerda para a direita, os pinos devem ser conectados conforme descrito na tabela \ref{tab: pins_pcb}.
 
