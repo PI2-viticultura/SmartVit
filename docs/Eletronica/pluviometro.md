@@ -34,7 +34,7 @@ Sua dinâmica de acionamento funciona da seguinte maneira. A água é capturada 
 
 Dito isto, para calcular a quantidade de chuva observada em um dado tempo, necessitamos da quantidade de acionamentos do reed switch em um dado período de tempo, multiplicando este valor pela resolução do sistema, conforme observado na equação abaixo. Esta medição é dada em mm/h no SI.
 
-![\Large  Q_{Chuva} = \frac{n \times res}{t}](https://latex.codecogs.com/svg.latex?\Large&space;Q_{Chuva}%20=%20\frac{n%20\times%20res}{t})
+![\Large Q_{Chuva} = \frac{n \times res}{t}](https://latex.codecogs.com/svg.latex?\Large&space;Q_{Chuva}%20=%20\frac{n%20\times%20res}{t})
 
 Onde:
 
