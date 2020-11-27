@@ -1,7 +1,6 @@
 * Estrutura
-
   * [TESTE1](docs\Estrutura\Teste1.md)
-  * [Plano de comunicação](docs/Estrutura/Plano-comunicacao-software.md)
+  * [requisitos](docs/Estrutura/requisitos.md)
 
 
 
