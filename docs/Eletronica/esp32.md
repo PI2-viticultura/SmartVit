@@ -15,7 +15,7 @@ Por fim, em conjunto com a capacidade de envio para o servidor utilizando o HTTP
 
 Essa comunicação pode ser ainda mais simplificada, utilizando a vantagem de que esse microcontrolador também possui portabilidade para ser programado e configurado utilizando as bibliotecas desenvolvidas na linguagem de Arduino (extensão .ino) e na própria IDE do Arduino, o que possibilita à equipe entregar um sistema funcional e adaptado à tecnologia e forma de comunicação e armazenamento de dados vigente: o armazenamento em nuvem.
 
-![img](imgs/lora esp32.png)
+![img](imgs/lora%20esp32.png)
 
 ## 2. Especificações técnicas
 
@@ -31,7 +31,7 @@ Essa comunicação pode ser ainda mais simplificada, utilizando a vantagem de qu
 |Conversor analógico para digital (ADC)|8 bis|
 |Erro típico não ajustado do ADC|+-12 LSB|
 
-![img](imgs/Esp32 LoraWan.jpg)
+![img](imgs/Esp32%20LoraWan.jpg)
 
 ## 3. Detalhamento técnico e cálculos
 
