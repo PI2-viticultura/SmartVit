@@ -1,8 +1,8 @@
-# MSP430G2ET
+# Sistema de aquisição de dados
 
 ## 1. Definição do modelo
 
-O MSP430G2ET é um microcontrolador desenvolvido pela Texas Instrument, adequada para aplicações remotas devido ao seu baixíssimo consumo. Possui 20 pinos GPIO, sendo 8 pinos de leitura ADC de 10 bits, acesso as comunicações SPI, I2C e UART, alimentação típica de 5V ou 3.3V via entrada USB, 5 modos de funcionamento e 4 tipos de clock possíveis, o que a torna uma ferramenta extremamente adequada a problemática apresentada pelo projeto.
+Para o sistema de aquisição de dados, escolheu-se a MSP430G2ET, que é um microcontrolador desenvolvido pela Texas Instrument, adequado para aplicações remotas devido ao seu baixíssimo consumo. Possui 20 pinos GPIO, sendo 8 pinos de leitura ADC de 10 bits, acesso as comunicações SPI, I2C e UART, alimentação típica de 5V ou 3.3V via entrada USB, 5 modos de funcionamento e 4 tipos de clock possíveis, o que a torna uma ferramenta extremamente adequada a problemática apresentada pelo projeto.
 
 Seus modos de economia de energia chegam a trabalhar com o mínimo de 0.1uA (RAM retention), com um modo StandBy de 0.5uA e modo ativo utilizando de 230uA a 1MHz. Analisando o consumo de placas como a ESP12-E, que possui 80 mA de consumo médio, e o Arduino Uno com 45 mA de consumo médio, a MSP430 possui um consumo 200 vezes menor que o Arduino. Tratando-se de um sistema com alimentação remota, o baixo consumo se torna uma vantagem competitiva imensa em relação aos outros microcontroladores. 
 
