@@ -1,3 +1,7 @@
+* Produto de Estrutura
+
+  * [requisitos](docs\Estrutura\requisitos.md)
+
 * Produto de software
 
   * Gerenciamento
