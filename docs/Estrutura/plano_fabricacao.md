@@ -6,11 +6,11 @@
 <p align = "justify"> A proteção do sensor de temperatura e as tampas do poste principal e dos postes auxiliares serão fabricadas por meio de impressão 3D, e estão apresentadas nas Figuras \ref{fig: shield}, \ref{fig: tampa_poste_principal} e \ref{fig: tampa_poste_aux}
 
 
-![Imagens do plano de fabricacao](imgs_fab/shield_3D.png)
+![plano_fabricacao](imgs_fab/shield_3D.png)
 
-![Imagens do plano de fabricacao](imgs_fab/tampa_poste_principal_3D.png)
+![plano_fabricacao](imgs_fab/tampa_poste_principal_3D.png)
 
-![Imagens do plano de fabricacao](imgs_fab/tampa_poste_aux_3D.png)
+![plano_fabricacao](imgs_fab/tampa_poste_aux_3D.png)
 
 <p align = "justify"> As barras de aço SAE 1020 comerciais utilizadas para a fabricação do poste principal tem o comprimento de 6 m, com isso é possível obter duas barras de 2,2 m adequadas para a construção do poste. Para cortar esse tipo de perfil é necessário uma serra policorte com um disco dentado em baixa rotação, além disso, a barra deve estar fixada na mesa de corte. Os cortes necessários estão apresentados na figura abaixo:
 
