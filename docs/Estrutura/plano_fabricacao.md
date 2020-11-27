@@ -14,29 +14,29 @@
 
 <p align = "justify"> As barras de aço SAE 1020 comerciais utilizadas para a fabricação do poste principal tem o comprimento de 6 m, com isso é possível obter duas barras de 2,2 m adequadas para a construção do poste. Para cortar esse tipo de perfil é necessário uma serra policorte com um disco dentado em baixa rotação, além disso, a barra deve estar fixada na mesa de corte. Os cortes necessários estão apresentados na figura abaixo:
 
-![Imagens do plano de fabricacao](imgs_fab/cortesposteprincipal.png)
+![plano_fabricacao](imgs_fab/cortesposteprincipal.png)
 
 <p align = "justify"> Os postes auxiliares, feitos de aço SAE 1020, são comercializados também em barras de 6 m que devem ser cortadas com uma serra policorte da mesma maneira que o poste principal e resultaram em dois postes de comprimentos diferentes: 700 mm para o poste auxiliar da biruta e 750 mm para o poste auxiliar da placa solar. Com a barra com esse comprimento obtém-se 4 pares de postes auxiliares.  Os cortes necessários estão apresentados na figura abaixo:
 
-![Imagens do plano de fabricacao](imgs_fab/postescortess.PNG)
+![plano_fabricacao](imgs_fab/postescortess.PNG)
 
 <p align = "justify"> As cantoneiras utilizadas na estrutura de apoio da placa solar são comercializadas em barras de 6 m, a partir disso são cortadas com a serra policorte, de forma igual aos postes auxiliares, 3 conjuntos compostos por: 2 cantoneiras de 668 mm, 1 cantoneira de 245 mm e 2 cantoneiras de 31,75 mm. Sendo que apenas um conjunto é necessário por sistema do *SmartViti*, a figura abaixo ilustra os cortes necessários.
 
-![Imagens do plano de fabricacao](imgs_fab/cantoneiracortess.png)
+![plano_fabricacao](imgs_fab/cantoneiracortess.png)
 
 <p align = "justify"> A chapa de fixação do gabinete e a chapa utilizada na sapata do poste serão feitas de aço SAE 1020, a primeira tem dimensões de 400 x 300 x 4,75 mm enquanto a segunda 310 x 160 x 4,75 mm. Esse tipo de chapa é encontrada comercialmente com tamanho de 1,2 x 2 m , de forma que apenas uma será necessária para a construção de ambas as estruturas. Devido ao tamanho da chapa, o corte a laser é o mais adequado para fornecer as peças finais.
 
 <p align = "justify"> Utilizando o restante da chapa de aço 1020, será cortado também a laser dois pares de chapas com  as medidas de 280 x 80 mm e 140 x 80 mm que serão utilizadas para construir as estruturas em "L", que fixam o pluviômetro e o sensor de temperatura no poste principal. As figuras abaixo  ilustram as peças e os cortes que devem ser realizados.
 
-![Imagens do plano de fabricacao](imgs_fab/placamaldita.png)
+![plano_fabricacao](imgs_fab/placamaldita.png)
 
-![Imagens do plano de fabricacao](imgs_fab/placamaldita2.png)
+![plano_fabricacao](imgs_fab/placamaldita2.png)
 
 <p align = "justify"> A estrutura de fixação do poste auxiliar no poste principal é um perfil UDC  de aço SAE 1008 que comercialmente é encontrado em barras de 6 m de comprimento. Serão necessárias duas estruturas de 45 mm de comprimento para abarcar os dois postes, novamente será utilizada a serra policorte conforme descrito anteriormente. Após o corte no tamanho adequado deve-se fazer um furo de 13 mm, igual ao feito no poste auxiliar, para permitir a passagem do parafuso M12.
 
 <p align = "justify"> Por fim, é necessário cortar a tábua de madeira pinus que será utilizada para a caixa onde será despejado o concreto para a sapata do poste. A placa escolhida tem dimensões 1,2 x 0,3 m com 17 mm e deverá ser cortada com uma serra circular para madeira de modo a fornecer 2 placas de 300 x 258 mm, 2 placas de 300 x 154 mm e uma placa de 258 x 154 x 17 mm. A figura abaixo apresenta os cortes que devem ser realizados na madeira.
 
-![Imagens do plano de fabricacao](imgs_fab/chapamalditamaldeira.png)
+![plano_fabricacao](imgs_fab/chapamalditamaldeira.png)
 
 <p align = "justify"> A tabela abaixo resume os cortes que deverão ser realizados em cada tipo de material:
 
@@ -51,30 +51,30 @@
 
 <p align = "justify"> O próximo passo da fabricação é furar as peças nos locais adequados para passagem de fios, alocação de rebites e alocação dos chumbadores. Começando pela chapa do gabinete onde devem ser feitos 4 furos de 10 mm de diâmetro e em seguida a chapa da sapata de concreto que necessita de 4 furos de 21 mm, a figura abaixo ilustra o posicionamento dos furos das duas peças.
 
-![Imagens do plano de fabricacao](imgs_fab/chapas1.png)
+![plano_fabricacao](imgs_fab/chapas1.png)
 
 <p align = "justify"> As próximas estruturas que devem ser furadas são o suporte para a estrutura 3D com dois furos de 7 mm, o suporte para o pluviômetro com 4 furos de 10 mm e os dois perfis UDC utilizados para a fixação do poste auxiliar. A figura abaixo ilustra o posicionamento dos furos dessas peças.
 
-![Imagens do plano de fabricacao](imgs_fab/CHAPAS2.png)
+![plano_fabricacao](imgs_fab/CHAPAS2.png)
 
 <p align = "justify"> Em seguida deve-se furar as cantoneiras da estrutura em "H"  conforme ilustrado pela figura abaixo:
 
-![Imagens do plano de fabricacao](imgs_fab/estruturahfuros.png)
+![plano_fabricacao](imgs_fab/estruturahfuros.png)
 
 <p align = "justify"> No poste principal é necessário furar as passagens para os fios, além dos furos necessários para os rebites. A figura abaixo indica os seus posicionamentos.
 
-![Imagens do plano de fabricacao](imgs_fab/Furosposteprincipal.png)
+![plano_fabricacao](imgs_fab/Furosposteprincipal.png)
 
 <p align = "justify"> Os postes auxiliares necessitam de um furo em sua base para a passagem do parafuso que o prenderá no perfil UDC. Além disso, são necessários os furos para a passagem dos fios, a figura abaixo indica os seus posicionamentos para cada um dos postes.
 
-![Imagens do plano de fabricacao](imgs_fab/furospostesauxiliares.PNG)
+![plano_fabricacao](imgs_fab/furospostesauxiliares.PNG)
 
 <p align = "justify"> Para a instalação do rebite para fixação da caixa de proteção da válvula solenóide deve-se utilizar uma rebitadeira pneumática, onde primeiro, escolhe-se um bico adequado, em seguida regula-se a pressão, posiciona-se o rebitador sobre o rebite e aciona-se o interruptor.
 
 
 <p align = "justify"> O próximo passo é a soldagem das estruturas auxiliares no poste principal. A primeira etapa é marcar o posicionamento de cada uma, obedecendo a figura acima que mostra os cordões de solda dos postes auxiliares e a figura abaixo mostra as soldas das estruturas no poste principal.
 
-![Imagens do plano de fabricacao](imgs_fab/soldas.png)
+![plano_fabricacao](imgs_fab/soldas.png)
 
 <p align = "justify"> O processo de soldagem utilizado será o MIG, já que permite uma soldagem mais rápida e sem a formação de escória (ALUMAQ,2018). Para o processo de soldagem MIG são necessários os seguintes componentes (CÉSAR,2018):
 
