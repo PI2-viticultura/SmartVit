@@ -1,9 +1,3 @@
-* Produto de Estrutura
-  * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
-  * [Gerenciamento de Riscos](docs/software/Plano-riscos.md)
-  * [Cronograma](docs/software/cronograma-inicial.md)
-  * [Fluxo de Trabalho](docs/software/fluxo-trabalho.md)
-
 * Produto de software
 
   * Gerenciamento
