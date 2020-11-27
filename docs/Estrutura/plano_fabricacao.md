@@ -6,7 +6,7 @@
 <p align = "justify"> A proteção do sensor de temperatura e as tampas do poste principal e dos postes auxiliares serão fabricadas por meio de impressão 3D, e estão apresentadas nas Figuras \ref{fig: shield}, \ref{fig: tampa_poste_principal} e \ref{fig: tampa_poste_aux}
 
 
-![plano_fabricacao](imgs_fab/shield_3D.png)
+![imgs_fab](imgs_fab/shield_3D.png)
 
 ![plano_fabricacao](imgs_fab/tampa_poste_principal_3D.png)
 
