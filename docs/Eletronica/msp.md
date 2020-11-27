@@ -1,4 +1,4 @@
-# Sensor de temperatura e PH do solo
+# MSP430G2ET
 
 ## 1. Definição do modelo
 
@@ -32,7 +32,7 @@ Visto o menor erro de conversão da MSP430, as aquisições de dados dos sensore
 
 Para o completo entendimento dos testes para a MSP430, é necessário entender a máquina de estados do sistema, que pode ser visualizada na figura abaixo.
 
-![img](imgs/fsm)
+![img](imgs/fsm_MSP.png)
 
 De maneira simplificada, o que acontece na máquina de estados está descrito abaixo:
 
