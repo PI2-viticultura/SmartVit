@@ -1,6 +1,6 @@
 * Produto de Estrutura
   * Gerenciamento
-    * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
+    * [Requisitos](docs/software/Plano-comunicacao-software.md)
 
 * Produto de software
 
