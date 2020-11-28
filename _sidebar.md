@@ -1,6 +1,7 @@
 * Produto de Estrutura
   * [Plano de fabricação](docs\Estrutura\plano_fabricacao.md)
   * [Sapata](docs\Estrutura\sapata.md)
+  * [Cargas de Vento](docs\Estrutura\cargas_de_vento.md)
 
 * Produto de software
 
