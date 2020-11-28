@@ -4,6 +4,10 @@
   * [Cargas de Vento](docs\Estrutura\cargas_de_vento.md)
   * [Sistema de Irrigação](docs\Estrutura\irrigacao.md)
 
+* Manuais
+  * Manual de instalação
+    * [Subsistema Estrutural](docs\Estrutura\plano_instalacao.md)
+
 * Produto de software
 
   * Gerenciamento
