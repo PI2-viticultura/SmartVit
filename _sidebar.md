@@ -7,9 +7,10 @@
     * [Subsistema Estrutural](docs\Estrutura\plano_manutencao.md)
 
 * Produto de Estrutura
-  * [Sapata](docs\Estrutura\sapata.md)
-  * [Cargas de Vento](docs\Estrutura\cargas_de_vento.md)
-  * [Sistema de Irrigação](docs\Estrutura\irrigacao.md)
+  * Cálculos
+    * [Sapata](docs\Estrutura\sapata.md)
+    * [Cargas de Vento](docs\Estrutura\cargas_de_vento.md)
+    * [Sistema de Irrigação](docs\Estrutura\irrigacao.md)
 
 * Produto de software
 
