@@ -136,30 +136,84 @@
 
 <p align = "justify"> O próximo passo da fabricação é furar as peças nos locais adequados para passagem de fios, alocação de rebites e alocação dos chumbadores. Começando pela chapa do gabinete onde devem ser feitos 4 furos de 10 mm de diâmetro e em seguida a chapa da sapata de concreto que necessita de 4 furos de 21 mm, a figura abaixo ilustra o posicionamento dos furos das duas peças.
 
-![plano_fabricacao](imgs_fab/chapas1.png)
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_fab/chapas1.png"  />
+  <figcaption>
+      Esquemático dos furos que devem ser realizados para a chapa do gabinete e chapa da sapata com as medidas em mm. (Fonte:Autoria Própria)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> As próximas estruturas que devem ser furadas são o suporte para a estrutura 3D com dois furos de 7 mm, o suporte para o pluviômetro com 4 furos de 10 mm e os dois perfis UDC utilizados para a fixação do poste auxiliar. A figura abaixo ilustra o posicionamento dos furos dessas peças.
 
-![plano_fabricacao](imgs_fab/CHAPAS2.png)
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_fab/CHAPAS2.png"  />
+  <figcaption>
+      Esquemático dos furos que devem ser realizados para o suporte da estrutura 3D, suporte para o pluviômetro e do perfil "U" enrijecido com as medidas em mm. (Fonte:Autoria Própria)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Em seguida deve-se furar as cantoneiras da estrutura em "H"  conforme ilustrado pela figura abaixo:
 
-![plano_fabricacao](imgs_fab/estruturahfuros.png)
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_fab/estruturahfuros.png"  />
+  <figcaption>
+      Esquemático dos furos que devem ser realizados nas cantoneiras da estrutura em "H" com as medidas em mm. (Fonte:Autoria Própria)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> No poste principal é necessário furar as passagens para os fios, além dos furos necessários para os rebites. A figura abaixo indica os seus posicionamentos.
 
-![plano_fabricacao](imgs_fab/Furosposteprincipal.png)
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_fab/Furosposteprincipal.png"  />
+  <figcaption>
+      Esquemático dos furos e das soldas que devem ser realizadas no poste principal com as medidas em mm.(Fonte:Autoria Própria)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Os postes auxiliares necessitam de um furo em sua base para a passagem do parafuso que o prenderá no perfil UDC. Além disso, são necessários os furos para a passagem dos fios, a figura abaixo indica os seus posicionamentos para cada um dos postes.
 
-![plano_fabricacao](imgs_fab/furospostesauxiliares.PNG)
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_fab/furospostesauxiliares.PNG"  />
+  <figcaption>
+      Esquemático dos furos e das soldas que devem ser realizadas nos postes auxiliares com as medidas em mm.(Fonte:Autoria Própria)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Para a instalação do rebite para fixação da caixa de proteção da válvula solenóide deve-se utilizar uma rebitadeira pneumática, onde primeiro, escolhe-se um bico adequado, em seguida regula-se a pressão, posiciona-se o rebitador sobre o rebite e aciona-se o interruptor.
 
 
 <p align = "justify"> O próximo passo é a soldagem das estruturas auxiliares no poste principal. A primeira etapa é marcar o posicionamento de cada uma, obedecendo a figura acima que mostra os cordões de solda dos postes auxiliares e a figura abaixo mostra as soldas das estruturas no poste principal.
 
-![plano_fabricacao](imgs_fab/soldas.png)
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_fab/soldas.png"  />
+  <figcaption>
+      Esquemático das estruturas que serão soldadas no poste. (Fonte:Autoria Própria)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> O processo de soldagem utilizado será o MIG, já que permite uma soldagem mais rápida e sem a formação de escória (ALUMAQ,2018). Para o processo de soldagem MIG são necessários os seguintes componentes (CÉSAR,2018):
 
