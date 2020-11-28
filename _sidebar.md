@@ -1,6 +1,8 @@
 * Manuais
   * Manual de instalação
     * [Subsistema Estrutural](docs\Estrutura\plano_instalacao.md)
+  * Manual de manutenção
+    * [Subsistema Estrutural](docs\Estrutura\plano_manutencao.md)
 
 * Produto de Estrutura
   * [Plano de fabricação](docs\Estrutura\plano_fabricacao.md)
