@@ -1,3 +1,5 @@
+<u>Obs.: ARUMAR AS REFERÊNCIAS DE FIGURA E AS EQUAÇÕES</u>
+
 # Memorial de Cálculo da Sapata
 
 <p align = "justify"> A fixação do poste no solo será feita por meio de uma estrutura sapata,
