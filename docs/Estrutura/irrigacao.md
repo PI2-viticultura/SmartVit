@@ -2,7 +2,7 @@
 
 # Sistema de Irrigação
 
-O sistema de irrigação é responsável pela rega automatizada de uma
+<p align = "justify"> O sistema de irrigação é responsável pela rega automatizada de uma
 fileira de 2,5 m da vinícola com dois gotejadores por planta . A pressão
 de entrada é definida pelo prestador de serviço no DF e tem valor mínimo
 de 100 kPa e máximo de 500 kPa . O método escolhido para o sistema é o
@@ -36,7 +36,7 @@ Tabela 1 - Especificações do sistema de irrigação. (Adaptado de (SILVA, 2013
 
 ## Tubulação Lateral
 
-A tubulação lateral é responsável por abastecer os gotejadores e
+<p align = "justify"> A tubulação lateral é responsável por abastecer os gotejadores e
 garantir uniformidade na distribuição de água nos mesmos. Para cumprir
 essa função, é adotado como critério de dimensionamento uma variação
 máxima de 20% na pressão de serviço entre o primeiro e o último
@@ -44,7 +44,7 @@ gotejador, expresso pela equação [1].
 
 <u>Obs.: EQUAÇÃO 1</u>
 
-Utilizando o equacionamento desenvolvido por Darcy-Weisbach, a
+<p align = "justify"> Utilizando o equacionamento desenvolvido por Darcy-Weisbach, a
 regulamentação pertinente das normas **NBR 5626** , **NBR 5648** e da
 **Resolução ADASA N<sup>∘</sup> 14** , e considerando ainda os dados de
 entrada da tabela 1, o diâmetro comercial da
@@ -54,7 +54,7 @@ dimensionamento é de 6,5 m. O memorial de cálculo desta etapa
 encontra-se na seção "Memorial de cálculo da tubulação lateral". Para tornar a escolha do
 diâmetro mais ágil, foi desenvolvida uma rotina em , disponível nessa mesma seção.
 
-As informações da tabela 2 resumem as característica do sistema de
+<p align = "justify"> As informações da tabela 2 resumem as característica do sistema de
 irrigação.
 
 <center>
@@ -74,32 +74,32 @@ Tabela 2 - Parâmetros do sistema de irrigação. (Adaptado de: (EMBRAPA, 2020),
 
 ## Válvula Solenoide
 
-Válvulas solenoide são dispositivos que regulam a passagem de um fluido
+<p align = "justify"> Válvulas solenoide são dispositivos que regulam a passagem de um fluido
 a depender se está ou não energizada. No sistema de irrigação, ela tem o
 papel de permitir a divisão do plantio em setores independentes,
 controlando individualmente a área irrigada.
 
-Para especificar a válvula solenoide, assume-se água a temperatura
+<p align = "justify"> Para especificar a válvula solenoide, assume-se água a temperatura
 ambiente como fluido de operação. Além disso, conforme a **Resolução
 ADASA N<sup>∘</sup> 14** , considera-se 100 kPa (10 m.c.a.) como a
 pressão de entrada do sistema de irrigação.
 
-De acordo com o cálculo de dimensionamento da tubulação lateral, o diâmetro nominal determinado para a válvula solenoide foi de 1/2". Para esse cálculo, foi considerado que cada tubo lateral atenderia uma fileira do plantio e que o mesmo seria
+<p align = "justify"> De acordo com o cálculo de dimensionamento da tubulação lateral, o diâmetro nominal determinado para a válvula solenoide foi de 1/2". Para esse cálculo, foi considerado que cada tubo lateral atenderia uma fileira do plantio e que o mesmo seria
 regulado por uma válvula solenoide de duas vias.
 
-Devido às demandas hídricas da viticultura, a válvula escolhida é do
+<p align = "justify"> Devido às demandas hídricas da viticultura, a válvula escolhida é do
 tipo normalmente fechada, ou seja, para permitir a passagem de água, é
 necessário o fornecimento de energia ao mecanismo regulador. Esse
 mecanismo é de ação direta, permitindo o fluxo apenas por meio da
 energização ou não da bobina reguladora. Além disso, o sistema opera
 somente com duas posições: ligado ou desligado.
 
-O material interno é feito em latão, compatível com operações na qual a
+<p align = "justify"> O material interno é feito em latão, compatível com operações na qual a
 água é o fluido de trabalho. Outra medida de segurança necessária devido
 ao ambiente do campo é a proteção IP 65, que resguarda totalmente contra
 poeira e jatos de água.
 
-A tabela 3 apresenta as características da válvula solenoide
+<p align = "justify"> A tabela 3 apresenta as características da válvula solenoide
 adequada ao sistema <i>SmartVit</i>.
 
 <center>
@@ -122,12 +122,12 @@ Tabela 3 - Especificações da válvula solenoide. (Fonte: Autoria Própria).
 
 ### Dimensionamento analítico
 
-O dimensionamento da tubulação lateral foi executado atendendo às
+<p align = "justify"> O dimensionamento da tubulação lateral foi executado atendendo às
 premissas pertinentes da NBR 5626 , NBR 5648 e da Resolução
 N<sup>∘</sup> 14 da ADASA , juntamente com o equacionamento empírico
 aplicado em XXX. **(O QUE VEM AQUI FUINHA? @Pedro)**
 
-O processo de escolha do diâmetro adequado para a tubulação lateral é
+<p align = "justify"> O processo de escolha do diâmetro adequado para a tubulação lateral é
 iterativo, no qual o primeiro passo é escolha de uma bitola para a
 tubulação. Em seguida realizam-se os cálculos e verifica-se se o
 diâmetro escolhido atende aos requisitos do projeto. Para evitar
@@ -135,11 +135,11 @@ superdimensionamento, escolhe-se o menor diâmetro disponível
 comercialmente. Caso o diâmetro escolhido não atenda aos requisitos do
 projeto, seleciona-se um imediatamente acima.
 
-Para os cálculos de dimensionamento iniciais, simplifica-se o processo
+<p align = "justify"> Para os cálculos de dimensionamento iniciais, simplifica-se o processo
 de escolha considerando que o terreno é plano. Mais adiante é mostrado o
 valor de aclive máximo calculado para o sistema.
 
-Os parâmetros de entrada para o dimensionamento da tubulação lateral
+<p align = "justify"> Os parâmetros de entrada para o dimensionamento da tubulação lateral
 constam na tabela 4.
 
 <center>
@@ -155,13 +155,13 @@ constam na tabela 4.
 Tabela 4 - Especificações da válvula solenoide. (Fonte: Autoria Própria).
 </center>
 
-A perda de carga permissível nas tubulações laterais é dada pela equação 1. A pressão de serviço (PS) considerada neste
+<p align = "justify"> A perda de carga permissível nas tubulações laterais é dada pela equação 1. A pressão de serviço (PS) considerada neste
 documento é a menor oferecida pela ADASA para a Região do Distrito
 Federal.
 
 <u>Obs.: EQUAÇÃO 2</u>
 
-Portanto, a perda de carga nas tubulações laterais deve ser inferior a 2
+<p align = "justify"> Portanto, a perda de carga nas tubulações laterais deve ser inferior a 2
 m.c.a. O valor da perda de carga é determinado pela equação
 2.
 
@@ -177,7 +177,7 @@ Onde:
 
 - $$*L* =$$ comprimento total da tubulação lateral .
 
-A perda de carga unitária é obtida por XXX: **(O QUE VEM AQUI FUINHA? @Pedro)**
+<p align = "justify"> A perda de carga unitária é obtida por XXX: **(O QUE VEM AQUI FUINHA? @Pedro)**
 
 <u>Obs.: EQUAÇÃO 4</u>
 
@@ -195,32 +195,26 @@ Onde:
 
 - $$*Le* =$$ comprimento equivalente à perda de carga *\[*m*\]*.
 
-O fator de atrito é dependente do número de Reynolds *(Re)* , calculado
-por:
+<p align = "justify"> O fator de atrito é dependente do número de Reynolds *(Re)* , calculado por:
 
 <u>Obs.: EQUAÇÃO 5</u>
 
-Em que *υ* é a viscosidade cinemática da água em
+<p align = "justify"> Em que *υ* é a viscosidade cinemática da água em
 *(m<sup>2</sup>/s)*.
 
-Em operações normais, a velocidade média da água é de 0,9 m/s .
+<p align = "justify"> Em operações normais, a velocidade média da água é de 0,9 m/s .
 Considerando um diâmetro 17 mm e viscosidade da água igual a
 10<sup> − 6</sup> m²/s, tem-se:
 
 <u>Obs.: EQUAÇÃO 6</u>
 
-Para valores de Reynolds entre dois e cem mil, o fator de atrito pode
-ser calculado de acordo com a equação 6, proposta por Blasius:
+<p align = "justify"> Para valores de Reynolds entre dois e cem mil, o fator de atrito pode ser calculado de acordo com a equação 6, proposta por Blasius:
 
 <u>Obs.: EQUAÇÃO 7</u>
 
-O diâmetro considerado para os cálculos será de 1/2", equivalente a 17
-milímetros.
+<p align = "justify"> O diâmetro considerado para os cálculos será de 1/2", equivalente a 17 milímetros.
 
-O comprimento equivalente à perda de carga considera a perda de pressão
-gerada pela inserção dos gotejadores na tubulação lateral. O cálculo do
-comprimento equivalente, considerando diâmetro de 4 mm dos gotejadores é
-dado por:
+<p align = "justify"> O comprimento equivalente à perda de carga considera a perda de pressão gerada pela inserção dos gotejadores na tubulação lateral. O cálculo do comprimento equivalente, considerando diâmetro de 4 mm dos gotejadores é dado por:
 
 <u>Obs.: EQUAÇÃO 8</u>
 
@@ -228,34 +222,28 @@ Retornando ao cálculo da perda de carga unitária (*J*), tem-se:
 
 <u>Obs.: EQUAÇÃO 9</u>
 
-Já o fator de correção é calculado com a equação 9, onde *N*
+<p align = "justify"> Já o fator de correção é calculado com a equação 9, onde *N*
 é o número de gotejadores.
 
 <u>Obs.: EQUAÇÃO 10</u>
 
-Por fim, em 10 calcula-se o valor da perda de carga na
+<p align = "justify"> Por fim, em 10 calcula-se o valor da perda de carga na
 tubulação lateral.
 
 <u>Obs.: EQUAÇÃO 11</u>
 
-Pelo critério de projeto adotado, o diâmetro da tubulação é considerado
-adequado se *Δh**t**l* &lt; *h**f*. Como 0, 084 &lt; 2, o tubo de
+<p align = "justify"> Pelo critério de projeto adotado, o diâmetro da tubulação é considerado adequado se *Δh**t**l* &lt; *h**f*. Como 0, 084 &lt; 2, o tubo de
 $1/2"$ é considerado apropriado para a aplicação.
 
-Para determinar o nível máximo de aclive suportado pelo sistema,
-utiliza-se a equação 11, na qual considerou-se um fator
-de segurança (FS) igual a 3, isto é, que a pressão de serviço seja um
-terço da mínima regulamentada pela .
+<p align = "justify"> Para determinar o nível máximo de aclive suportado pelo sistema, utiliza-se a equação 11, na qual considerou-se um fator de segurança (FS) igual a 3, isto é, que a pressão de serviço seja um terço da mínima regulamentada pela .
 
 <u>Obs.: EQUAÇÃO 12</u>
 
-Portanto, a diferença de nível máxima a qual o sistema de irrigação pode
-sujeitar-se é de 6,509 metros.
+<p align = "justify"> Portanto, a diferença de nível máxima a qual o sistema de irrigação pode sujeitar-se é de 6,509 metros.
 
 ### Rotina para o dimensionamento do sistema de irrigação
 
-De modo a automatizar os cálculos foi construído o seguinte algoritmo
-utilizando o XXX. **(O QUE VEM AQUI FUINHA? @Pedro)**
+<p align = "justify"> De modo a automatizar os cálculos foi construído o seguinte algoritmo utilizando o XXX. **(O QUE VEM AQUI FUINHA? @Pedro)**
 
 ```
 clear all

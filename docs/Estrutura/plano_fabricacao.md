@@ -127,6 +127,8 @@
 
 <p align = "justify"> A tabela abaixo resume os cortes que deverão ser realizados em cada tipo de material:
 
+<center>
+
 |                         Material de Entrada                         |                                             Componentes Resultantes                                             |                                       Quantidade utilizada para um sistema                                      |
 |:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
 | Barra de aço 1020 com seção retangular vazada de 6000 x 150 x 50 mm |                                          2 x Postes principais de 2,2 m                                         |                                               1 x poste principal                                               |
@@ -135,6 +137,9 @@
 | Chapa de metal de 1,2 x 2 x 0,004m                                  | 1 x chapa de 400 x 300 x 4 mm 1 x chapa de 258 x 154 x 4 mm 2 x chapas de 280 x 80 mm 2 x chapas de 140 x 80 mm | 1 x chapa de 400 x 300 x 4 mm 1 x chapa de 258 x 158 x 4 mm 2 x chapas de 280 x 80 mm 2 x chapas de 140 x 80 mm |
 | Barra de perfil UDC de 6 m                                          |                           66 x pares de estruturas de fixação de 4,5 cm de comprimento                          |                            1 x par de estruturas de fixação de 4,5 cm de comprimento                            |
 | Placa de madeira pinus de 1,2 x 0,3 m                               |                 2 x placas de 480 x 310 mm 2 x placas de 480 x 240 mm 1 x placa de 310 x 140 mm                 |                  2 x placas de 3 x 258 mm 2 x placas de 300 x 154 mm 1 x placa de 258 x 154 mm                  |
+
+Descrição dos cortes dos materiais de entrada, os componentes resultantes e quantidade que será utilizada para construção de um sistema. (Fonte: Autoria rópia)
+</center>
 
 <p align = "justify"> O próximo passo da fabricação é furar as peças nos locais adequados para passagem de fios, alocação de rebites e alocação dos chumbadores. Começando pela chapa do gabinete onde devem ser feitos 4 furos de 10 mm de diâmetro e em seguida a chapa da sapata de concreto que necessita de 4 furos de 21 mm, a figura abaixo ilustra o posicionamento dos furos das duas peças.
 

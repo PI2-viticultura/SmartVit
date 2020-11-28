@@ -11,7 +11,7 @@ A manutenção da estrutura é um processo vital para garantir o funcionamento a
 | Fenda/Fratura | Corrosão Fadiga Impacto Sobrecarga Fogo |
 | Deslocamento  |      Fadiga Impacto Sobrecarga Fogo     |
 
-  Fonte: Adaptado de (COSTA, 2012).
+  Principais defeitos em estruturas metálicas. (Fonte: Adaptado de (COSTA, 2012)).
   </center>
 
 A manutenção estrutural pensada para evitar esses defeitos é em sua maioria corretiva e periódica e deve ser realizada da seguinte maneira:

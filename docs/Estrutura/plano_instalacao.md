@@ -134,7 +134,7 @@ O poste principal que chegará para a instalação já estará pré furado,
 | Cantoneiras em L de 668 mm                  | 2          |
 | Poste auxiliar de 700 mm                    | 1          |
 
-  Componentes necessários para a instalação da placa solar. (Fonte:Autoria Própria)}
+  Componentes necessários para a instalação da placa solar. (Fonte: Autoria Própria)
 
   </center>
 
@@ -218,7 +218,7 @@ O poste principal que chegará para a instalação já estará pré furado,
 |     Abraçadeira tipo U de 1 1/2''     | 1          |
 |        Poste auxiliar de 650 mm       | 1          |
 
-Componentes necessários para a instalação do sistema anemômetro/biruta. (Fonte:Autoria Própria)}
+Componentes necessários para a instalação do sistema anemômetro/biruta. (Fonte: Autoria Própria)
   </center>
 
   O passo a passo para a instalação do sistema biruta/anemômetro é dado
@@ -256,7 +256,7 @@ Componentes necessários para a instalação do sistema anemômetro/biruta. (Fon
   |        Poste auxiliar de 650 mm       |      1     |
   |        Poste auxiliar de 700 mm       |      1     |
 
-  Componentes necessários para a instalação dos postes auxiliares. (Fonte:Autoria Própria)}
+  Componentes necessários para a instalação dos postes auxiliares. (Fonte: Autoria Própria)
 
   </center>
 
@@ -303,6 +303,7 @@ Componentes necessários para a instalação do sistema anemômetro/biruta. (Fon
 |  Pluviômetro |      1     |
 | Parafusos M8 |      4     |
 
+Componentes necessários para a instalação do pluviômetro. (Fonte: Autoria Própria)
 </center>
 
   O passo a passo para a instalação do pluviômetro é dado por:
@@ -338,6 +339,7 @@ Componentes necessários para a instalação do sistema anemômetro/biruta. (Fon
   | Estrutura de proteção em ABS |      1     |
   |         Parafusos M6         |      2     |
 
+Componentes necessários para a instalação do sensor de temperatura. (Fonte: Autoria Própria)
   </center>
 
   O passo a passo para a instalação do  da estrutura 3D do sensor de temperatura é dado por:
@@ -374,6 +376,7 @@ Componentes necessários para a instalação do sistema anemômetro/biruta. (Fon
   | Gabinete |      1     |
   |         Parafusos M8         |      4     |
 
+Componentes necessários para a instalação do gabinete. (Fonte: Autoria Própria)
   </center>
 
   O passo a passo para a instalação do gabinete é dado por:
@@ -412,6 +415,7 @@ Componentes necessários para a instalação do sistema anemômetro/biruta. (Fon
   | Gotejadores          | 10         |
   |     Parafusos M8     |      1     |
 
+Componentes necessários para a instalação do sistema de irrigação. (Fonte: Autoria Própria)
   </center>
 
   O passo a passo para a instalação do sistema de irrigação é dado por:
@@ -443,7 +447,7 @@ Componentes necessários para a instalação do sistema anemômetro/biruta. (Fon
   <figure>
     <img src="/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
     <figcaption>
-        Diagrama hidráulico do sistema de irrigação.(Fonte: Autoria Própria)
+        Diagrama hidráulico do sistema de irrigação. (Fonte: Autoria Própria)
     </figcaption>
   </figure>
   </center>

@@ -44,6 +44,7 @@ descrita a seguir:
 |          0,9         | mar calmo, lagos e pântanos  |
 | Consultar a NBR 6123 | taludes e morros             |
 
+Fator S<sub>1</sub>. (Fonte: NBR 6123)
 </center>
 
 
@@ -71,6 +72,7 @@ classe A.
 |    B   | Maior dimensão da superfície frontal entre 20 e 50 metros       |
 |    C   | Maior dimensão da superfície frontal maior que 50 metros        |
 
+Definição de categoria para determinação do fator S<sub>2</sub>. (Fonte: NBR 6123)
 </center>
 
 
@@ -89,7 +91,7 @@ são determinados os parâmetros *b* e *p*. De acordo com a **NBR 6123** (ABNT, 
 <figure>
   <img src="/docs/Estrutura/imgs_cargasvento/parametros_meteorologicos_fator_2.png"  />
   <figcaption>
-
+      Parâmetros meteorológicos. (Fonte: NBR 6123)
   </figcaption>
 </figure>
 </center>
@@ -103,7 +105,7 @@ são determinados os parâmetros *b* e *p*. De acordo com a **NBR 6123** (ABNT, 
 <figure>
   <img src="/docs/Estrutura/imgs_cargasvento/fator_S2.png"  />
   <figcaption>
-
+      Fator S<sub>2</sub>. (Fonte: NBR 6123)
   </figcaption>
 </figure>
 </center>
@@ -132,6 +134,7 @@ Obs.: EQUAÇÕES T.3
   | 4     | Vedações (telhas, vidros, painéis de vedação, etc.)                                                                                                                                                     | 0,88 |
   | 5     | Edificações temporárias. Estruturas dos grupos 1 a 3 durante a construção                                                                                                                               | 0,83 |
 
+Valores mínimos para o fator S<sub>3</sub>. (Fonte: NBR 6123)
 </center>
 
 
