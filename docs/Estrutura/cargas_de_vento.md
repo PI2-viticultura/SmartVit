@@ -2,11 +2,11 @@
 
 # Memorial de Cálculo das Cargas de Vento
 
-O presente memorial utiliza as determinações aplicáveis da **NBR 6123**
+<p align = "justify"> O presente memorial utiliza as determinações aplicáveis da **NBR 6123**
 (Forças devidas ao vento em edificações) para determinar a magnitude da
 solicitação das cargas de vento (ABNT, 2013).
 
-A velocidade característica do vento, V<sub>k</sub>, é calculada de
+<p align = "justify"> A velocidade característica do vento, V<sub>k</sub>, é calculada de
 acordo com a Equação [\[eq: vel\_carac\_vento\]][1]. Na equação,
 V<sub>0</sub> é a velocidade básica, que é estimada pelo gráfico de
 isopletas de vento, apresentada na Figura [\[fig: isopletas\]][2]. Os
@@ -16,7 +16,7 @@ funcionalidade, respectivamente.
 
 Obs.: EQUAÇÕES T.1
 
-V<sub>0</sub> será considerado 35 m/s, que é a velocidade relativa para
+<p align = "justify"> V<sub>0</sub> será considerado 35 m/s, que é a velocidade relativa para
 a região do Centro-Oeste, como pode ser visto na Figura [1][].
 
 <center>
@@ -30,7 +30,7 @@ a região do Centro-Oeste, como pode ser visto na Figura [1][].
 <br>
 <br>
 
-A estimativa dos fatores S<sub>1</sub>, S<sub>2</sub> e S<sub>3</sub> é
+<p align = "justify"> A estimativa dos fatores S<sub>1</sub>, S<sub>2</sub> e S<sub>3</sub> é
 descrita a seguir:
 -   **S<sub>1</sub> - Fator topográfico:** A determinação do Fator
     S<sub>1</sub> é dada de acordo com a Tabela
@@ -47,7 +47,7 @@ descrita a seguir:
 </center>
 
 
-Assumindo o terreno como quase plano, o fator topográfico S<sub>1</sub>
+<p align = "justify"> Assumindo o terreno como quase plano, o fator topográfico S<sub>1</sub>
 será tomado como 1.
 -   **S<sub>2</sub> - Rugosidade do terreno, dimensões da edificação e
     altura sobre o terreno:** Para a análise deste fator, deve ser
@@ -59,7 +59,7 @@ será tomado como 1.
 
   Obs.: Tabela do fator S2
 
-Os parâmetros de determinação da Classe são apresentados na Tabela
+<p align = "justify"> Os parâmetros de determinação da Classe são apresentados na Tabela
 [\[tab: classe\_fator\_S2\]][1] e a estrutura foi categorizada como do
 classe A.
 
@@ -74,14 +74,14 @@ classe A.
 </center>
 
 
-Com os parâmetros definidos (Categoria III e Classe A), o cálculo de
+<p align = "justify"> Com os parâmetros definidos (Categoria III e Classe A), o cálculo de
 S<sub>2</sub> é realizado pela Equação [\[eq: calculo\_fator\_S2\]][1]
 em que *b*, *Fr*, *z* e *p* são parâmetros determinados com auxílio de
 tabelas presentes na **NBR 6123** (ABNT, 2013).
 
 Obs.: EQUAÇÕES T.2
 
-Na tabela presente na Figura [\[fig: parametros\_meteorologicos\]][2]
+<p align = "justify"> Na tabela presente na Figura [\[fig: parametros\_meteorologicos\]][2]
 são determinados os parâmetros *b* e *p*. De acordo com a **NBR 6123** (ABNT, 2013),
 *Fr* (força de rajada) deve ser considerada equivalente à Categoria 2.
 
@@ -96,7 +96,7 @@ são determinados os parâmetros *b* e *p*. De acordo com a **NBR 6123** (ABNT, 
 <br>
 <br>
 
-O parâmetro *z* é calculado de acordo com a tabela apresentada na Figura
+<p align = "justify"> O parâmetro *z* é calculado de acordo com a tabela apresentada na Figura
 [\[fig: fator\_S2\]][1] e é considerado que a altura é menor que 5 m.
 
 <center>
@@ -110,13 +110,12 @@ O parâmetro *z* é calculado de acordo com a tabela apresentada na Figura
 <br>
 <br>
 
-Com os valores das variáveis auxiliares (*b* = 0,94, *p* = 0,10 , *Fz* =
+<p align = "justify"> Com os valores das variáveis auxiliares (*b* = 0,94, *p* = 0,10 , *Fz* =
 1 e *z* = 0,88) determina-se o valor de S<sub>2</sub> como mostrado na
 Equação [\[eq: calculo\_s2\]][1].
 
 Obs.: EQUAÇÕES T.3
 
-  [1]: #eq: calculo_s2
 -   **S<sub>3</sub> - Fator estatístico:** É relacionado ao uso da
     estrutura e deve ser definido de acordo com a Tabela
     [\[tab: minimo\_S3\]][1].
@@ -136,27 +135,27 @@ Obs.: EQUAÇÕES T.3
 </center>
 
 
-Analisando a Tabela [\[tab: minimo\_S3\]][1], foi determinado
+<p align = "justify"> Analisando a Tabela [\[tab: minimo\_S3\]][1], foi determinado
 S<sub>3</sub> igual a 0,95.
 
   [1]: #tab: minimo_S3
 
-Retomando à Equação [\[eq: vel\_carac\_vento\]][1], a velocidade
+<p align = "justify"> Retomando à Equação [\[eq: vel\_carac\_vento\]][1], a velocidade
 característica do vento (V<sub>k</sub>) é:
 
 Obs.: EQUAÇÕES T.4
 
-A pressão dinâmica, *q*, é dada pela Equação [\[eq: pres\_din\]][2]. Em
+<p align = "justify"> A pressão dinâmica, *q*, é dada pela Equação [\[eq: pres\_din\]][2]. Em
 que **ρ** é a densidade do ar, que é estabelecido 1,225 kg/m³ na norma, e teve como resultado valor de 368  kg/m* ⋅ *s*<sup>2</sup>.
 
 Obs.: EQUAÇÕES T.5
 
-A força do vento agindo na estrutura é calculada de acordo com a Equação
+<p align = "justify"> A força do vento agindo na estrutura é calculada de acordo com a Equação
 [\[eq: carga\_vento\_particular\]][1].
 
 Obs.: EQUAÇÕES T.6
 
-Dado que a área da face lateral do poste possui 0,33 m² e a área efetiva
+<p align = "justify"> Dado que a área da face lateral do poste possui 0,33 m² e a área efetiva
 de exposição do painel solar é de 0,1271 m², a força do vento agindo
 nessas estruturas é respectivamente 121,43 N e 46,76 N, como mostrado
 nas Equações [\[eq: carga\_vento\_poste\_apendice\]][1] e
@@ -166,8 +165,6 @@ Obs.: EQUAÇÕES T.7
 
 Obs.: EQUAÇÕES T.8
 
-  [1]: #eq: carga_vento_poste_apendice
-  [2]: #eq: carga_vento_placa apendice
 
 Referências:
 ABNT. Forças devidas ao vento em edificações. Brazil, 2013.
