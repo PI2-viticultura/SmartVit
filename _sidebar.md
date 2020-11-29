@@ -1,17 +1,11 @@
 * Manuais
   * Manual de fabricação
-  <p align = "justify"> O objetivo desse plano é descrever como deve acontecer a fabricação dos componentes  estruturais do sistema <i>SmartVit</i>.
-
     * [Subsistema Estrutural](docs\Estrutura\plano_fabricacao.md)
 
   * Manual de instalação
-  <p align = "justify"> O objetivo desse plano é descrever como deve acontecer a instalação dos componentes  estruturais do sistema <i>SmartVit</i>.
-
     * [Subsistema Estrutural](docs\Estrutura\plano_instalacao.md)
 
   * Manual de manutenção
-  <p align = "justify"> O objetivo desse plano é descrever como deve acontecer a manutenção dos componentes estruturais do sistema <i>SmartVit</i>.
-
     * [Subsistema Estrutural](docs\Estrutura\plano_manutencao.md)
 
 * Produto de Estrutura
