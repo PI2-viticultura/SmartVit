@@ -6,7 +6,7 @@
     * [Subsistema Estrutural](docs\Estrutura\plano_instalacao.md)
 
   * Manual de manutenção
-    * [Subsistema Estrutural](docs\Estrutura\plano_manutencao.md)
+    * [Subsistema Estrutural](docs\Estrutura\manual_manutencao.md)
 
 * Produto de Estrutura
   * Validação
