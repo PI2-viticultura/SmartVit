@@ -38,11 +38,11 @@ funcionalidade, respectivamente.
 
 <center>
 
-|                      |                              |
-|:--------------------:|------------------------------|
-|           1          | terreno plano ou quase plano |
-|          0,9         | mar calmo, lagos e pântanos  |
-| Consultar a NBR 6123 | taludes e morros             |
+|      |  |
+|:--------------------------:|:-----------------:|
+| 1  |       terreno plano ou quase plano        |
+|  0,9 |      mar calmo, lagos e pântanos       |
+|  Consultar a NBR 6123 |      taludes e morros       |
 
 Tabela 1 - Fator <i>S<sub>1</sub></i>. (Fonte: NBR 6123)
 </center>
@@ -72,11 +72,11 @@ Tabela 1 - Fator <i>S<sub>1</sub></i>. (Fonte: NBR 6123)
 
 <center>
 
-| Classe | Descrição                                                       |
-|:------:|-----------------------------------------------------------------|
-|    A   | Maior dimensão da superfície frontal menor ou igual a 20 metros |
-|    B   | Maior dimensão da superfície frontal entre 20 e 50 metros       |
-|    C   | Maior dimensão da superfície frontal maior que 50 metros        |
+|   Classe   | Descrição |
+|:--------------------------:|:-----------------:|
+| A  |       Maior dimensão da superfície frontal menor ou igual a 20 metros        |
+| B |      Maior dimensão da superfície frontal entre 20 e 50 m       |
+|  C |      Maior dimensão da superfície maior que 50 m       |
 
 Tabela 3 - Definição de categoria para determinação do fator <i>S<sub>2</sub></i>. (Fonte: NBR 6123)
 </center>

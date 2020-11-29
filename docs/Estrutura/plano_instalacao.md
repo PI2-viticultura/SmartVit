@@ -114,14 +114,14 @@ O poste principal que chegará para a instalação já estará pré furado,
 
 <center>
 
-  |                  Componente                 | Quantidade |
-|:-------------------------------------------:|------------|
-|                 Parafuso M8                 | 4          |
-|                 Parafuso M12                | 2          |
-|        Abraçadeira tipo U de 1 1/2''        | 1          |
-| Cantoneira em L de 308,5 x 31,75 x 31,75 mm | 1          |
-| Cantoneiras em L de 668 mm                  | 2          |
-| Poste auxiliar de 700 mm                    | 1          |
+|   Componente   | Quantidade |
+|:--------------------------:|:-----------------:|
+| Parafuso M8  |       4        |
+| Parafuso M12 |      2       |
+| Abraçadeira tipo U de 1 1/2''  |    1     |
+| Cantoneira em L de 308,5 x 31,75 x 31,75 mm  |    1     |
+| Cantoneiras em L de 668 mm   |    2     |
+| Poste auxiliar de 700 mm  |    1     |
 
   Tabela 1 - Componentes necessários para a instalação da placa solar. (Fonte: Autoria Própria)
 
@@ -191,14 +191,13 @@ O poste principal que chegará para a instalação já estará pré furado,
 
   A Tabela 2 indica os componentes e suas quantidades necessárias para a fixação do sistema anemômetro/biruta:
 
-
   <center>
 
-  |               Componente              | Quantidade |
-|:-------------------------------------:|------------|
-| Estrutura com a biruta e o anemômetro | 1          |
-|     Abraçadeira tipo U de 1 1/2''     | 1          |
-|        Poste auxiliar de 650 mm       | 1          |
+  |   Componente   | Quantidade |
+  |:--------------------------:|:-----------------:|
+  | Estrutura com a biruta e o anemômetro  |       1        |
+  | Abraçadeira tipo U de 1 1/2'' |      1       |
+  | Poste auxiliar de 650 mm  |    1     |
 
 Tabela 2 - Componentes necessários para a instalação do sistema anemômetro/biruta. (Fonte: Autoria Própria)
   </center>
@@ -226,15 +225,14 @@ Tabela 2 - Componentes necessários para a instalação do sistema anemômetro/b
 
   A Tabela 3 indica os componentes e suas quantidades necessárias para a instalação dos postes auxiliares no poste principal:
 
-
   <center>
 
-  |               Componente              | Quantidade |
-  |:-------------------------------------:|------------|
-  | Estrutura com a biruta e o anemômetro |      1     |
-  |               Perfil UDC              |      2     |
-  |        Poste auxiliar de 650 mm       |      1     |
-  |        Poste auxiliar de 700 mm       |      1     |
+  |   Componente   | Quantidade |
+  |:--------------------------:|:-----------------:|
+  | Estrutura com a biruta e o anemômetro  |       1        |
+  |  Perfil UDC |      2       |
+  | Poste auxiliar de 650 mm  |    1     |
+  | Poste auxiliar de 7000 mm  |    1     |
 
   Tabela 3 - Componentes necessários para a instalação dos postes auxiliares. (Fonte: Autoria Própria)
 
@@ -271,10 +269,10 @@ Tabela 2 - Componentes necessários para a instalação do sistema anemômetro/b
 
 <center>
 
-|  Componente  | Quantidade |
-|:------------:|------------|
-|  Pluviômetro |      1     |
-| Parafusos M8 |      4     |
+|   Componente   | Quantidade |
+|:--------------------------:|:-----------------:|
+| Pluviômetro  |       1        |
+|  Parafusos M8 |      4       |
 
 Tabela 4 - Componentes necessários para a instalação do pluviômetro. (Fonte: Autoria Própria)
 </center>
@@ -302,10 +300,10 @@ Tabela 4 - Componentes necessários para a instalação do pluviômetro. (Fonte:
 
   <center>
 
-  |          Componente          | Quantidade |
-  |:----------------------------:|------------|
-  | Estrutura de proteção em ABS |      1     |
-  |         Parafusos M6         |      2     |
+  |   Componente   | Quantidade |
+  |:--------------------------:|:-----------------:|
+  | Estrutura de proteção em ABS  |       1        |
+  |  Parafusos M6 |      2       |
 
 Tabela 5 - Componentes necessários para a instalação do sensor de temperatura. (Fonte: Autoria Própria)
   </center>
@@ -332,10 +330,10 @@ Tabela 5 - Componentes necessários para a instalação do sensor de temperatura
 
   <center>
 
-  |          Componente          | Quantidade |
-  |:----------------------------:|------------|
-  | Gabinete |      1     |
-  |         Parafusos M8         |      4     |
+  |   Componente   | Quantidade |
+  |:--------------------------:|:-----------------:|
+  | Gabinete  |       1        |
+  |  Parafusos M8 |      4       |
 
 Tabela 6 - Componentes necessários para a instalação do gabinete. (Fonte: Autoria Própria)
   </center>
@@ -362,13 +360,13 @@ Tabela 6 - Componentes necessários para a instalação do gabinete. (Fonte: Aut
 
   <center>
 
-  |      Componente      | Quantidade |
-  |:--------------------:|------------|
-  |   Válvula solenoide  |      1     |
-  | Caixa protetora      | 1          |
-  | Mangueira de 1 1/2'' | 1          |
-  | Gotejadores          | 10         |
-  |     Parafusos M8     |      1     |
+  |   Componente   | Quantidade |
+  |:--------------------------:|:-----------------:|
+  | Válvula solenoide  |       1        |
+  |  Caixa protetora |      1       |
+  |  Mangueira de 1 1/2'' |      1       |
+  |  Gotejadores |      10       |
+  |  Parafusos M8 |      1       |
 
 Tabela 7 - Componentes necessários para a instalação do sistema de irrigação. (Fonte: Autoria Própria)
   </center>

@@ -1,5 +1,3 @@
-<u>Obs.: ARUMAR AS EQUAÇÕES</u>
-
 # Memorial de Cálculo da Sapata
 
 <p align = "justify"> A fixação do poste no solo será feita por meio de uma estrutura sapata,
@@ -20,9 +18,29 @@ chumbadores ligando as duas seções, seguindo os princípios aplicáveis da
 <br>
 <br>
 
-<p align = "justify"> As equações referentes à <i>l<sub>x</sub></i> e <i>l<sub>y</sub></i> são apresentadas a seguir, Equação [\[eq: lx\]][1] e [\[eq: ly\]][2]:
+<p align = "justify"> As equações referentes à <i>l<sub>x</sub></i> e <i>l<sub>y</sub></i> são apresentadas a seguir, Equação 1 e 2:
 
-Obs.: EQUAÇÕES U.1 E U.2
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq1.png"  />
+  <figcaption>
+      Equação 1
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
+
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq2.png"  />
+  <figcaption>
+      Equação 2
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> A variável <i>n<sub>b</sub></i> é referente ao número de chumbadores e as variáveis <i>a<sub>1</sub></i> e <i>a<sub>2</sub></i> são
 definidas de acordo com o tipo de chumbador, estão apresentadas na Figura 2 e são, respectivamente, 4 chumbadores, 40 mm e 80 mm.
@@ -39,27 +57,52 @@ definidas de acordo com o tipo de chumbador, estão apresentadas na Figura 2 e s
 <br>
 <br>
 
-<p align = "justify"> Considerando os valores apresentados na Figura 2 e as Equações [\[eq: lx\]][2] e [\[eq: ly\]][3], as dimensões da chapa de base são 310
+<p align = "justify"> Considerando os valores apresentados na Figura 2 e as Equações 1 e 2, as dimensões da chapa de base são 310
 mm e 160 mm, portanto, as dimensões do bloco de concreto são 310 mm e 160 mm.
 
-<p align = "justify"> A seguir, é feita a avaliação da tensão resistente de cálculo, <i>σ<sub>c,Rd</sub></i>, de acordo com a Equação [\[eq: tensao resistente de calculo\]][1]. Na equação, fck é 10 MPa,
+<p align = "justify"> A seguir, é feita a avaliação da tensão resistente de cálculo, <i>σ<sub>c,Rd</sub></i>, de acordo com a Equação 3. Na equação, fck é 10 MPa,
 <i>σ<sub>FS</sub></i> é um fator de segurança (no cálculo foi utilizado 1,4), <i>γ</i> é um fator de ponderação das resistências, que pode ser obtido na <b>NBR
 8800</b> e a razão A2/A1 representa a razão entre as áreas da chapa e do
 bloco de concreto.
 
-Obs.: EQUAÇÃO U.3
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq3.png"  />
+  <figcaption>
+      Equação 3
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> A distribuição de esforços na estrutura é avaliada em função da
-excentricidade (<i>e</i>), calculada pela Equação [\[eq: excentricidade\]][1], que representa a relação entre força de compressão (450 N) e momento fletor (263 N⋅m) resultante atuando na estrutura.
+excentricidade (<i>e</i>), calculada pela Equação 4, que representa a relação entre força de compressão (450 N) e momento fletor (263 N⋅m) resultante atuando na estrutura.
 
-Obs.: EQUAÇÃO U.4
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq4.png"  />
+  <figcaption>
+      Equação 4
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-<p align = "justify"> Dado que a excentricidade obedece a relação mostrada na Equação
-[\[eq: relacao\_excentricidade\]][2], a estrutura se comporta como a
-Figura 3.
+<p align = "justify"> Dado que a excentricidade obedece a relação mostrada na Equação 5, a estrutura se comporta como a Figura 3.
 
 
-Obs.: EQUAÇÃO U.5
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq5.png"  />
+  <figcaption>
+      Equação 5
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <center>
 <figure>
@@ -72,25 +115,73 @@ Obs.: EQUAÇÃO U.5
 <br>
 <br>
 
-<p align = "justify"> A equação a seguir, Equação [\[eq: lc\]][1], apresenta o cálculo de <i>lc</i>, que é o comprimento do trecho da placa sujeito à pressão de
+<p align = "justify"> A equação a seguir, Equação 6, apresenta o cálculo de <i>lc</i>, que é o comprimento do trecho da placa sujeito à pressão de
 contato do concreto. Na equação, <i>x</i> é a distância do centro do
 chumbador ao centro do poste, no projeto foi usado 150 mm.
 
-Obs.: EQUAÇÃO U.6
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq6.png"  />
+  <figcaption>
+      Equação 6
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-<p align = "justify"> A espessura mínima da chapa pode ser calculada comparando-se as duas expressões abaixo, Equações [\[eq: n\_aguento\_mais\]][1] e
-[\[eq: ja\_deu\]][2], a espessura mínima resultante deve ser a que tiver
-maior valor dentre elas.
+<p align = "justify"> A espessura mínima da chapa pode ser calculada comparando-se as duas expressões abaixo, Equações 7 e
+8, a espessura mínima resultante deve ser a que tiver maior valor dentre elas.
 
-Obs.: EQUAÇÃO U.7 e U.8
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq7.png"  />
+  <figcaption>
+      Equação 7
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-<p align = "justify"> Nas equações acima, <i>l<sub>max</sub></i> é calculado pela Equação [\[eq: lmax\]][1], <i>f<sub>y</sub></i> é a tensão de escoamento do aço da chapa e <i>γ<sub>a<sub>1</sub></sub></i> é um coeficiente de ponderação que pode ser obtido na <b>NBR 8800</b>, e <i>F<sub>t,Sd</sub></i> é calculado de acordo com a Equação [\[eq: Ft,sd\]][2].
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq8.png"  />
+  <figcaption>
+      Equação 8
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-Obs.: EQUAÇÃO U.9 e U.10
+<p align = "justify"> Nas equações acima, <i>l<sub>max</sub></i> é calculado pela Equação 9, <i>f<sub>y</sub></i> é a tensão de escoamento do aço da chapa e <i>γ<sub>a<sub>1</sub></sub></i> é um coeficiente de ponderação que pode ser obtido na <b>NBR 8800</b>, e <i>F<sub>t,Sd</sub></i> é calculado de acordo com a Equação 10.
+
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq9.png"  />
+  <figcaption>
+      Equação 9
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
+
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_sapata/eq10.png"  />
+  <figcaption>
+      Equação 10
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 A espessura resultante da chapa foi de 2,7 mm.
 
-# Referências
+## Referências
 
 ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 8800 - Projeto de estruturas de aço e de estruturas mistas de aço e concreto de edifícios.** Rio de Janeiro, BRA, 2008.
 
