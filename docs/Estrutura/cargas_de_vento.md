@@ -87,7 +87,7 @@ em que <i>b</i>, <i>Fr</i>, <i>z</i> e <i>p</i> são parâmetros determinados co
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/eq2.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq2.png"  />
   <figcaption>
       Equação 2
   </figcaption>
@@ -100,7 +100,7 @@ em que <i>b</i>, <i>Fr</i>, <i>z</i> e <i>p</i> são parâmetros determinados co
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/parametros_meteorologicos_fator_2.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/parametros_meteorologicos_fator_2.png"  />
   <figcaption>
       Figura 2 - Parâmetros meteorológicos. (Fonte: NBR 6123)
   </figcaption>
@@ -113,7 +113,7 @@ em que <i>b</i>, <i>Fr</i>, <i>z</i> e <i>p</i> são parâmetros determinados co
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/fator_S2.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/fator_S2.png"  />
   <figcaption>
       Figura 3 - Fator S<sub>2</sub>. (Fonte: NBR 6123)
   </figcaption>
@@ -126,7 +126,7 @@ em que <i>b</i>, <i>Fr</i>, <i>z</i> e <i>p</i> são parâmetros determinados co
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/eq3.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq3.png"  />
   <figcaption>
       Equação 3
   </figcaption>
@@ -159,7 +159,7 @@ característica do vento (V<sub>k</sub>) é:
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/eq4.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq4.png"  />
   <figcaption>
       Equação 4
   </figcaption>
@@ -173,7 +173,7 @@ que <i>ρ</i> é a densidade do ar, que é estabelecido 1,225 kg/m³ na norma, e
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/eq5.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq5.png"  />
   <figcaption>
       Equação 5
   </figcaption>
@@ -186,7 +186,7 @@ que <i>ρ</i> é a densidade do ar, que é estabelecido 1,225 kg/m³ na norma, e
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/eq6.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq6.png"  />
   <figcaption>
       Equação 6
   </figcaption>
@@ -202,7 +202,7 @@ nas Equações 7 e 8.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/eq7.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq7.png"  />
   <figcaption>
       Equação 7
   </figcaption>
@@ -213,7 +213,7 @@ nas Equações 7 e 8.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_cargasvento/eq8.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq8.png"  />
   <figcaption>
       Equação 8
   </figcaption>

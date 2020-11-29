@@ -5,7 +5,7 @@ fluxograma na Figura 1, que serão detalhados nas seções a seguir:
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_instalacao/construcaoestrutura.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_instalacao/construcaoestrutura.png"  />
   <figcaption>
       Figura 1 - Fluxograma da instalação da estrutura. (Fonte: Autoria Própria)
   </figcaption>
@@ -49,7 +49,7 @@ buraco e preparar o concreto conforme os passos mostrados na Figura 2 dentro da 
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_instalacao/concreto.PNG"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_instalacao/concreto.PNG"  />
   <figcaption>
     Figura 2 - Ilustração do processo de preparação manual do concreto. (Fonte: ABCP, 2006)
   </figcaption>
@@ -80,7 +80,7 @@ O poste principal que chegará para a instalação já estará pré furado,
 
   <center>
   <figure>
-    <img src="/docs/Estrutura/imgs_instalacao/posicionamentodossensores.PNG"  />
+    <img src="/SmartVit/docs/Estrutura/imgs_instalacao/posicionamentodossensores.PNG"  />
     <figcaption>
         Figura 3 - Esquemático do posicionamento das estruturas adjacentes no poste principal. (Fonte: Autoria Própria)
     </figcaption>
@@ -141,7 +141,7 @@ O poste principal que chegará para a instalação já estará pré furado,
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/estruturaemhpasso1.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/estruturaemhpasso1.PNG"  />
         <figcaption>
             Figura 4 - Esquemático da montagem da estrutura em H. Onde (1) indica a cantoneira de 308,5 mm, (2) e (3) as cantoneiras de 668 mm. (Fonte: Autoria Própria)
         </figcaption>
@@ -155,7 +155,7 @@ O poste principal que chegará para a instalação já estará pré furado,
 
        <center>
        <figure>
-         <img src="/docs/Estrutura/imgs_instalacao/estruturaemhpasso2.PNG"  />
+         <img src="/SmartVit/docs/Estrutura/imgs_instalacao/estruturaemhpasso2.PNG"  />
          <figcaption>
              Figura 5 - Esquemático da estrutura em H. Onde (4) indica os furos que serão utilizados para fixar a placa solar. (Fonte: Autoria Própria)
          </figcaption>
@@ -171,7 +171,7 @@ O poste principal que chegará para a instalação já estará pré furado,
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/estruturaemhpasso3.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/estruturaemhpasso3.PNG"  />
         <figcaption>
             Figura 6 - Esquemático da fixação da placa solar. Onde (5) indica o poste auxiliar. (Fonte: Autoria Própria)
         </figcaption>
@@ -212,7 +212,7 @@ Tabela 2 - Componentes necessários para a instalação do sistema anemômetro/b
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/anemometrobiruta.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/anemometrobiruta.PNG"  />
         <figcaption>
             Figura 7 - Esquemático da estrutura de fixação da biruta e do anemômetro. Onde (6) representa o poste retangular e (7) o poste auxiliar. (Fonte: Autoria Própria)
         </figcaption>
@@ -250,7 +250,7 @@ Tabela 2 - Componentes necessários para a instalação do sistema anemômetro/b
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/juncaoposte.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/juncaoposte.PNG"  />
         <figcaption>
             Figura 8 - Esquemático da estrutura de fixação da poste auxiliar. Onde (7) representa o poste auxiliar e (8) o perfil "U" enrijecido. (Fonte: Autoria Própria)
         </figcaption>
@@ -285,7 +285,7 @@ Tabela 4 - Componentes necessários para a instalação do pluviômetro. (Fonte:
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/pluviometro.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/pluviometro.PNG"  />
         <figcaption>
             Figura 9 - Esquemático da estrutura de fixação do pluviômetro. Onde (9) representa o pluviômetro e (10) a estrutura em "L". (Fonte: Autoria Própria)
         </figcaption>
@@ -315,7 +315,7 @@ Tabela 5 - Componentes necessários para a instalação do sensor de temperatura
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/shield.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/shield.PNG"  />
         <figcaption>
             Figura 10 - Esquemático da estrutura de fixação do sensor de temperatura. Onde (11) representa a estrutura em ABS e (12) a estrutura em "L". (Fonte: Autoria Própria)
         </figcaption>
@@ -345,7 +345,7 @@ Tabela 6 - Componentes necessários para a instalação do gabinete. (Fonte: Aut
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/gabinete.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/gabinete.PNG"  />
         <figcaption>
         Figura 11 - Esquemático da estrutura de fixação do sensor de temperatura. Onde (13) representa o gabinete e (14) a chapa de fixação. (Fonte: Autoria Própria)
         </figcaption>
@@ -384,7 +384,7 @@ Tabela 7 - Componentes necessários para a instalação do sistema de irrigaçã
 
       <center>
       <figure>
-        <img src="/docs/Estrutura/imgs_instalacao/caixinhamalditaaaa.PNG"  />
+        <img src="/SmartVit/docs/Estrutura/imgs_instalacao/caixinhamalditaaaa.PNG"  />
         <figcaption>
             Figura 12 - Esquemático da caixa de proteção da válvula solenoide. (Fonte: Autoria Própria)
         </figcaption>
@@ -398,7 +398,7 @@ Tabela 7 - Componentes necessários para a instalação do sistema de irrigaçã
 
   <center>
   <figure>
-    <img src="/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
+    <img src="/SmartVit/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
     <figcaption>
         Figura 13 - Diagrama hidráulico do sistema de irrigação. (Fonte: Autoria Própria)
     </figcaption>

@@ -24,7 +24,7 @@ Tabela 1 - Especificações do sistema de irrigação. (Adaptado de: SILVA, 2013
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
   <figcaption>
       Figura 1 - Diagrama hidráulico do sistema de irrigação. (Fonte: Autoria própria)
   </figcaption>

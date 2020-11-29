@@ -9,7 +9,7 @@ chumbadores ligando as duas seções, seguindo os princípios aplicáveis da
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/esquema_sapata.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/esquema_sapata.png"  />
   <figcaption>
       Figura 1 - Imagem esquemática da sapata. (Fonte: Pimenta, 2010)
   </figcaption>
@@ -22,7 +22,7 @@ chumbadores ligando as duas seções, seguindo os princípios aplicáveis da
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq1.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq1.png"  />
   <figcaption>
       Equação 1
   </figcaption>
@@ -33,7 +33,7 @@ chumbadores ligando as duas seções, seguindo os princípios aplicáveis da
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq2.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq2.png"  />
   <figcaption>
       Equação 2
   </figcaption>
@@ -48,7 +48,7 @@ definidas de acordo com o tipo de chumbador, estão apresentadas na Figura 2 e s
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/tab_pimenta.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/tab_pimenta.png"  />
   <figcaption>
       Figura 2 - Valores de referência para a sapata. (Fonte: NBR 8800)
   </figcaption>
@@ -67,7 +67,7 @@ bloco de concreto.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq3.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq3.png"  />
   <figcaption>
       Equação 3
   </figcaption>
@@ -81,7 +81,7 @@ excentricidade (<i>e</i>), calculada pela Equação 4, que representa a relaçã
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq4.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq4.png"  />
   <figcaption>
       Equação 4
   </figcaption>
@@ -95,7 +95,7 @@ excentricidade (<i>e</i>), calculada pela Equação 4, que representa a relaçã
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq5.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq5.png"  />
   <figcaption>
       Equação 5
   </figcaption>
@@ -106,7 +106,7 @@ excentricidade (<i>e</i>), calculada pela Equação 4, que representa a relaçã
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/casos_pimenta.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/casos_pimenta.png"  />
   <figcaption>
       Figura 3 - Tipos de distribuição de esforços em pilares sob compressão. (Fonte: PIMENTA, 2010)
   </figcaption>
@@ -121,7 +121,7 @@ chumbador ao centro do poste, no projeto foi usado 150 mm.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq6.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq6.png"  />
   <figcaption>
       Equação 6
   </figcaption>
@@ -135,7 +135,7 @@ chumbador ao centro do poste, no projeto foi usado 150 mm.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq7.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq7.png"  />
   <figcaption>
       Equação 7
   </figcaption>
@@ -146,7 +146,7 @@ chumbador ao centro do poste, no projeto foi usado 150 mm.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq8.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq8.png"  />
   <figcaption>
       Equação 8
   </figcaption>
@@ -159,7 +159,7 @@ chumbador ao centro do poste, no projeto foi usado 150 mm.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq9.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq9.png"  />
   <figcaption>
       Equação 9
   </figcaption>
@@ -170,7 +170,7 @@ chumbador ao centro do poste, no projeto foi usado 150 mm.
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_sapata/eq10.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_sapata/eq10.png"  />
   <figcaption>
       Equação 10
   </figcaption>

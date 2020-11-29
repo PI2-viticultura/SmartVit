@@ -15,7 +15,7 @@ Tabela 1 - Especificações do sistema de irrigação. (Fonte: SILVA, 2013 e ADA
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
   <figcaption>
       Figura 1 - Diagrama hidráulico do sistema de irrigação. (Fonte: Autoria própria)
   </figcaption>
@@ -29,7 +29,7 @@ A tubulação lateral é responsável por abastecer os gotejadores e garantir un
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/eq1.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/eq1.png"  />
   <figcaption>
       Equação 1
   </figcaption>
@@ -98,7 +98,7 @@ Dado que a área da face lateral do poste possui 0,33 m², a área efetiva de ex
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/eq2.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/eq2.png"  />
   <figcaption>
       Equação 2
   </figcaption>
@@ -109,7 +109,7 @@ Dado que a área da face lateral do poste possui 0,33 m², a área efetiva de ex
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/eq3.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/eq3.png"  />
   <figcaption>
       Equação 3
   </figcaption>
@@ -120,7 +120,7 @@ Dado que a área da face lateral do poste possui 0,33 m², a área efetiva de ex
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/eq4.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/eq4.png"  />
   <figcaption>
       Equação 4
   </figcaption>
@@ -158,7 +158,7 @@ As Figuras \ref{fig: dcl_lateral} e \ref{fig: dcl_frontal} apresentam o diagrama
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_vista_lateral_certo.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_vista_lateral_certo.png"  />
   <figcaption>
       Figura 2 - Diagrama de corpo livre vista lateral. (Fonte: Autoria Própria)
   </figcaption>
@@ -169,7 +169,7 @@ As Figuras \ref{fig: dcl_lateral} e \ref{fig: dcl_frontal} apresentam o diagrama
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_vista_frontal_certo.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_vista_frontal_certo.png"  />
   <figcaption>
       Figura 3 - Diagrama de corpo livre vista frontal. (Fonte: Autoria Própria)
   </figcaption>
@@ -198,7 +198,7 @@ No software <i>Ansys 18.1</i>, o poste foi modelado de acordo com o diagrama de 
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_poste_ansys.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_poste_ansys.png"  />
   <figcaption>
       Figura 4 - Modelagem das condições de serviço no software de simulação. (Fonte: Autoria Própria)
   </figcaption>
@@ -229,7 +229,7 @@ Assim como descrito na seção anterior, as estruturas foram modeladas no softwa
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_gabinete_bateria_ansys.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_gabinete_bateria_ansys.png"  />
   <figcaption>
       Figura 5 - Modelagem das condições de serviço do gabinete da bateria no software de simulação. (Fonte: Autoria Própria)
   </figcaption>
@@ -240,7 +240,7 @@ Assim como descrito na seção anterior, as estruturas foram modeladas no softwa
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_pluviometro_poste_ansys.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_pluviometro_poste_ansys.png"  />
   <figcaption>
       Figura 6 - Modelagem das condições de serviço do pluviômetro no software de simulação.(Fonte: Autoria Própria)
   </figcaption>
@@ -251,7 +251,7 @@ Assim como descrito na seção anterior, as estruturas foram modeladas no softwa
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_sensor_temperatura_ansys.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_sensor_temperatura_ansys.png"  />
   <figcaption>
       Figura 7 - Modelagem das condições de serviço do sensor de temperatura no software de simulação. (Fonte: Autoria Própria)
   </figcaption>
@@ -262,7 +262,7 @@ Assim como descrito na seção anterior, as estruturas foram modeladas no softwa
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_poste_aux_placa_ansys.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_poste_aux_placa_ansys.png"  />
   <figcaption>
       Figura 8 - Modelagem das condições de serviço do poste auxiliar do painel solar no software de simulação. (Fonte: Autoria Própria)
   </figcaption>
@@ -273,7 +273,7 @@ Assim como descrito na seção anterior, as estruturas foram modeladas no softwa
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/dcl_poste_aux_biruta_ansys.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/dcl_poste_aux_biruta_ansys.png"  />
   <figcaption>
       Figura 9 - Modelagem das condições de serviço do poste auxiliar do conjunto biruta/anemômetro no software de simulação. (Fonte: Autoria Própria)
   </figcaption>
@@ -360,7 +360,7 @@ As estruturas foram projetadas com materiais em aço, que é um material de comp
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/eq5.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/eq5.png"  />
   <figcaption>
       Equação 5
   </figcaption>
@@ -410,7 +410,7 @@ Por fim, a Figura 10 apresenta as medidas gerais da chapa metálica, a quantidad
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_validacao/medidas_furos_sapata.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_validacao/medidas_furos_sapata.png"  />
   <figcaption>
       Figura 10 - Valores de referência para a sapata (medidas em mm). (Fonte: autoria própria)
   </figcaption>
