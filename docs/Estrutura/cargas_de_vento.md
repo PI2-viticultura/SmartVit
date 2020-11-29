@@ -4,11 +4,12 @@
 
 <p align = "justify"> A velocidade característica do vento, <i>V<sub>k</sub></i>, é calculada de
 acordo com a Equação 1. Na equação, <i>V<sub>0</sub></i> é a velocidade básica, que é estimada pelo gráfico de isopletas de vento, apresentada na Figura 1. Os
-termos <i>S<sub>1</sub></i>, <i>S<sub>2</sub></i> e <i>S<sub>3</sub></i> são fatores relativos à topografia do terreno, dimensão da estrutura e funcionalidade, respectivamente.
+termos <i>S<sub>1</sub></i>, <i>S<sub>2</sub></i> e <i>S<sub>3</sub></i> são fatores relativos à topografia do terreno, dimensão da estrutura e
+funcionalidade, respectivamente.
 
 <center>
 <figure>
-  <img src="imgs_cargasvento/eq1.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/eq1.png"  />
   <figcaption>
       Equação 1
   </figcaption>
@@ -21,7 +22,7 @@ termos <i>S<sub>1</sub></i>, <i>S<sub>2</sub></i> e <i>S<sub>3</sub></i> são fa
 
 <center>
 <figure>
-  <img src="imgs_cargasvento/isopletas.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_cargasvento/isopletas.png"  />
   <figcaption>
       Figura 1 - Mapa de isopletas de vento, Velocidade Básica. (Fonte: NBR 6123)
   </figcaption>
