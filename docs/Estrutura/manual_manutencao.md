@@ -16,6 +16,8 @@ A manutenção da estrutura é um processo vital para garantir o funcionamento a
 
 A manutenção estrutural pensada para evitar esses defeitos é em sua maioria corretiva e periódica e deve ser realizada da seguinte maneira:
 
+## Estrutura Principal
+
 **Trimestralmente**
 
 

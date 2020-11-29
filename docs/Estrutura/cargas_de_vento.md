@@ -1,21 +1,24 @@
-<u>Obs.: ARRUMAR AS EQUAÇÕES E UMA TABELA (TABELA DO S2)</u>
-
 # Memorial de Cálculo das Cargas de Vento
 
 <p align = "justify"> O presente memorial utiliza as determinações aplicáveis da <b>NBR 6123</b> (Forças devidas ao vento em edificações) para determinar a magnitude da solicitação das cargas de vento (ABNT, 2013).
 
 <p align = "justify"> A velocidade característica do vento, <i>V<sub>k</sub></i>, é calculada de
-acordo com a Equação [\[eq: vel\_carac\_vento\]][1]. Na equação,
-<i>V<sub>0</sub></i> é a velocidade básica, que é estimada pelo gráfico de
-isopletas de vento, apresentada na Figura 1. Os
-termos <i>S<sub>1</sub></i>, <i>S<sub>2</sub></i> e <i>S<sub>3</sub></i> são fatores
-relativos à topografia do terreno, dimensão da estrutura e
+acordo com a Equação 1. Na equação, <i>V<sub>0</sub></i> é a velocidade básica, que é estimada pelo gráfico de isopletas de vento, apresentada na Figura 1. Os
+termos <i>S<sub>1</sub></i>, <i>S<sub>2</sub></i> e <i>S<sub>3</sub></i> são fatores relativos à topografia do terreno, dimensão da estrutura e
 funcionalidade, respectivamente.
 
-Obs.: EQUAÇÕES T.1
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq1.png"  />
+  <figcaption>
+      Equação 1
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-<p align = "justify"> <i>V<sub>0</sub></i> será considerado 35 m/s, que é a velocidade relativa para
-a região do Centro-Oeste, como pode ser visto na Figura 1.
+<p align = "justify"> <i>V<sub>0</sub></i> será considerado 35 m/s, que é a velocidade relativa para a região do Centro-Oeste, como pode ser visto na Figura 1.
 
 <center>
 <figure>
@@ -52,8 +55,18 @@ Tabela 1 - Fator <i>S<sub>1</sub></i>. (Fonte: NBR 6123)
     atribuída uma categoria e uma classe ao sistema. A categoria diz
     respeito à rugosidade do terreno, e os parâmetros de identificação
     estão apresentados na Tabela 2. Dado que a altura média de obstáculos no entorno é de 2,5 m, foi classificada como Categoria III.
+<center>
 
-  <u>Obs.: FALTA A TABELA DO FATOR S2</u>
+    | Categoria | Descrição do ambiente|
+    |---|---|
+    | I | Mar calmo, lagos, rios, pântanos |
+    | II | Campos de aviação, fazendas |
+    | III | Casas de campo, fazendas com muros, subúrbios com altura média dos <br> obstáculos de 3 m |
+    | IV | Cidades pequenas, subúrbios densamente construídos, áreas industriais <br> desenvolvidas com muros, subúrbios, com altura média dos obstáculos de 10 m|
+    | V | Florestas com árvores altas, centros de grandes cidades, com altura média igual ou superior a 25 m |
+
+    Tabela 2 - Definição de categoria para determinação do fator S<sub>2</sub>.
+  </center>
 
 <p align = "justify"> Os parâmetros de determinação da Classe são apresentados na Tabela 3 e a estrutura foi categorizada como do classe A.
 
@@ -69,10 +82,19 @@ Tabela 3 - Definição de categoria para determinação do fator <i>S<sub>2</sub
 </center>
 
 
-<p align = "justify"> Com os parâmetros definidos (Categoria III e Classe A), o cálculo de <i>S<sub>2</sub></i> é realizado pela Equação [\[eq: calculo\_fator\_S2\]][1]
+<p align = "justify"> Com os parâmetros definidos (Categoria III e Classe A), o cálculo de <i>S<sub>2</sub></i> é realizado pela Equação 2
 em que <i>b</i>, <i>Fr</i>, <i>z</i> e <i>p</i> são parâmetros determinados com auxílio de tabelas presentes na <b>NBR 6123</b> (ABNT, 2013).
 
-Obs.: EQUAÇÕES T.2
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq2.png"  />
+  <figcaption>
+      Equação 2
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Na tabela presente na Figura 2 são determinados os parâmetros <i>b</i> e <i>p</i>. De acordo com a <b>NBR 6123</b> (ABNT, 2013), <i>Fr</i> (força de rajada) deve ser considerada equivalente à da Categoria 2.
 
@@ -100,9 +122,18 @@ Obs.: EQUAÇÕES T.2
 <br>
 <br>
 
-<p align = "justify"> Com os valores das variáveis auxiliares (<i>b</i> = 0,94, <i>p</i> = 0,10 , <i>Fr</i> = 1 e <i>z</i> = 0,88) determina-se o valor de <i>S<sub>2</sub></i> como mostrado na Equação [\[eq: calculo\_s2\]][1].
+<p align = "justify"> Com os valores das variáveis auxiliares (<i>b</i> = 0,94, <i>p</i> = 0,10 , <i>Fr</i> = 1 e <i>z</i> = 0,88) determina-se o valor de <i>S<sub>2</sub></i> como mostrado na Equação 3.
 
-Obs.: EQUAÇÕES T.3
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq3.png"  />
+  <figcaption>
+      Equação 3
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 -   **S<sub>3</sub> - Fator estatístico:** É relacionado ao uso da
     estrutura e deve ser definido de acordo com a Tabela 4.
@@ -123,32 +154,75 @@ Tabela 4 - Valores mínimos para o fator S<sub>3</sub>. (Fonte: NBR 6123)
 
 <p align = "justify"> Analisando a Tabela 4, foi determinado <i>S<sub>3</sub></i> igual a 0,95.
 
-<p align = "justify"> Retomando à Equação [\[eq: vel\_carac\_vento\]][1], a velocidade
+<p align = "justify"> Retomando à Equação 1, a velocidade
 característica do vento (V<sub>k</sub>) é:
 
-Obs.: EQUAÇÕES T.4
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq4.png"  />
+  <figcaption>
+      Equação 4
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-<p align = "justify"> A pressão dinâmica, <i>q</i>, é dada pela Equação [\[eq: pres\_din\]][2]. Em
+<p align = "justify"> A pressão dinâmica, <i>q</i>, é dada pela Equação 5. Em
 que <i>ρ</i> é a densidade do ar, que é estabelecido 1,225 kg/m³ na norma, e teve como resultado valor de 368  kg/m⋅s<sup>2</sup>.
 
-Obs.: EQUAÇÕES T.5
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq5.png"  />
+  <figcaption>
+      Equação 5
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-<p align = "justify"> A força do vento agindo na estrutura é calculada de acordo com a Equação
-[\[eq: carga\_vento\_particular\]][1].
+<p align = "justify"> A força do vento agindo na estrutura é calculada de acordo com a Equação 6.
 
-Obs.: EQUAÇÕES T.6
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq6.png"  />
+  <figcaption>
+      Equação 6
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Dado que a área da face lateral do poste possui 0,33 m² e a área efetiva
 de exposição do painel solar é de 0,1271 m², a força do vento agindo
 nessas estruturas é respectivamente 121,43 N e 46,76 N, como mostrado
-nas Equações [\[eq: carga\_vento\_poste\_apendice\]][1] e
-[\[eq: carga\_vento\_placa apendice\]][2].
+nas Equações 7 e 8.
 
-Obs.: EQUAÇÕES T.7
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq7.png"  />
+  <figcaption>
+      Equação 7
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-Obs.: EQUAÇÕES T.8
+<center>
+<figure>
+  <img src="/docs/Estrutura/imgs_cargasvento/eq8.png"  />
+  <figcaption>
+      Equação 8
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 
-# Referências
+## Referências
 
 ABNT. **Forças devidas ao vento em edificações.** Brazil, 2013.

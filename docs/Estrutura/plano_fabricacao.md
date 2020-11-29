@@ -230,6 +230,8 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 <p align = "justify"> Além das estruturas serão também soldados cordões de soldas nos postes auxiliares para demarcar a altura na qual devem ser instaladas as braçadeiras. Antes da soldagem deverá ser realizada uma marcação a 10 cm da extremidade do poste do lado que não apresenta o furo, em seguida, o poste será fixado verticalmente com um torno de bancada para que a solda seja realizada em um plano horizontal, na posição chamada 2G. Os parâmetros e o processo utilizados serão os mesmos das demais estruturas.
 
+## Referências
+
 ESAB. **Apostila de Soldagem MIG/MAG. 2005.**
 
 ALUMAQ. **O que é Solda MIG/MAG? 2018**. Disponível em: <https://www.alumaq.com.br/o-que-e-solda-mig-mag/:. Acesso em: 02 nov. 2020.
