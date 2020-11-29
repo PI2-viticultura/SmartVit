@@ -1,6 +1,6 @@
 # Manutenção da Estrutura
 
-A manutenção da estrutura é um processo vital para garantir o funcionamento adequado do sistema. A estrutura do *SmartVit* é em sua maioria metálica de modo que os principais defeito e suas causas são:
+A manutenção da estrutura é um processo vital para garantir o funcionamento adequado do sistema. A estrutura do *SmartVit* é em sua maioria metálica de modo que os principais defeito e suas causas estão apresentados na Tabela 1:
 
 <center>
 
@@ -11,7 +11,7 @@ A manutenção da estrutura é um processo vital para garantir o funcionamento a
 | Fenda/Fratura | Corrosão Fadiga Impacto Sobrecarga Fogo |
 | Deslocamento  |      Fadiga Impacto Sobrecarga Fogo     |
 
-  Principais defeitos em estruturas metálicas. (Fonte: Adaptado de (COSTA, 2012)).
+  Tabela 1 - Principais defeitos em estruturas metálicas. (Adaptado de: COSTA, 2012).
   </center>
 
 A manutenção estrutural pensada para evitar esses defeitos é em sua maioria corretiva e periódica e deve ser realizada da seguinte maneira:
@@ -52,7 +52,7 @@ A principal peça do sistema de irrigação que pode gerar um funcionamento inad
 
 
 
-Além desses procedimentos é recomendável que o usuário instale um filtro no início do sistema de irrigação para que não se tenha muitas partículas suspensas na água. Em relação à válvula solenoide, o fabricante garante que essas resistem aproximadamente 50000 ciclos (AGRICOLA,2020). Esse número de ciclos é atingido aproximadamente dentro de 1 ano e 10 meses quando se considera dois usos diários durante o ano inteiro, então é recomendável que após esse período seja realizada uma vistoria mais detalhada da válvula.
+Além desses procedimentos é recomendável que o usuário instale um filtro no início do sistema de irrigação para que não se tenha muitas partículas suspensas na água. Em relação à válvula solenoide, o fabricante garante que essas resistem aproximadamente 50000 ciclos (AGRICOLA, 2020). Esse número de ciclos é atingido aproximadamente dentro de 1 ano e 10 meses quando se considera dois usos diários durante o ano inteiro, então é recomendável que após esse período seja realizada uma vistoria mais detalhada da válvula.
 
 ## Bibliografia
 

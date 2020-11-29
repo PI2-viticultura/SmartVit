@@ -1,15 +1,15 @@
-<u>Obs.: ARRUMAR AS EQUAÇÕES, ALGUMAS VARIÁVEIS, A FIGURA QUE TA FALTANDO E AS REFERÊNCIAS </u>
+<u>Obs.: DAR UMA OLHADA GERAL, EQUAÇÕES, ORDEM DAS EQUAÇÕES E VARIÁVEIS </u>
 
 # Sistema de Irrigação
 
 <p align = "justify"> O sistema de irrigação é responsável pela rega automatizada de uma
-fileira de 2,5 m da vinícola com dois gotejadores por planta . A pressão
+fileira de 2,5 m da vinícola com dois gotejadores por planta. A pressão
 de entrada é definida pelo prestador de serviço no DF e tem valor mínimo
-de 100 kPa e máximo de 500 kPa . O método escolhido para o sistema é o
+de 100 kPa e máximo de 500 kPa. O método escolhido para o sistema é o
 de gotejamento devido a sua eficiência e uniformidade em irrigar as
-videiras. As especificações do sistema se encontram na tabela [1][1] e um
+videiras. As especificações do sistema se encontram na Tabela 1 e um
 diagrama hidráulico simplificado do sistema de irrigação é mostrado na
-figura [2][2].
+Figura 1.
 
 <center>
 
@@ -19,14 +19,14 @@ figura [2][2].
 | **Comprimento da fileira** |       2,5 m       |
 | **Vazão dos gotejadores**  |    0 a 40 L/h     |
 
-Tabela 1 - Especificações do sistema de irrigação. (Adaptado de (SILVA, 2013) e (ADASA,2011)).
+Tabela 1 - Especificações do sistema de irrigação. (Adaptado de: SILVA, 2013 e ADASA, 2011)
 </center>
 
 <center>
 <figure>
-  <img src="/docs/Estrutura/imgs_irrigacao/"  />
+  <img src="/docs/Estrutura/imgs_instalacao/CircHidraulico.png"  />
   <figcaption>
-      Diagrama hidráulico do sistema de irrigação. (Fonte: Autoria própria)
+      Figura 1 - Diagrama hidráulico do sistema de irrigação. (Fonte: Autoria própria)
   </figcaption>
 </figure>
 </center>
@@ -45,17 +45,16 @@ gotejador, expresso pela equação [1].
 <u>Obs.: EQUAÇÃO 1</u>
 
 <p align = "justify"> Utilizando o equacionamento desenvolvido por Darcy-Weisbach, a
-regulamentação pertinente das normas **NBR 5626** , **NBR 5648** e da
-**Resolução ADASA N<sup>∘</sup> 14** , e considerando ainda os dados de
-entrada da tabela 1, o diâmetro comercial da
+regulamentação pertinente das normas <b>NBR 5626</b>, <b>NBR 5648</b> e da
+<b>Resolução ADASA N<sup>∘</sup> 14</b> , e considerando ainda os dados de
+entrada da Tabela 1, o diâmetro comercial da
 tubulação lateral que atendeu ao critério da perda de carga permissível
-foi de 1/2". Além disso, o aclive máximo permitido para o
+foi de 1/2", além disso, o aclive máximo permitido para o
 dimensionamento é de 6,5 m. O memorial de cálculo desta etapa
-encontra-se na seção "Memorial de cálculo da tubulação lateral". Para tornar a escolha do
-diâmetro mais ágil, foi desenvolvida uma rotina em , disponível nessa mesma seção.
+encontra-se na Seção "Memorial de cálculo da tubulação lateral". Para tornar a escolha do
+diâmetro mais ágil, foi desenvolvida uma rotina em MATLAB, disponível nessa mesma seção.
 
-<p align = "justify"> As informações da tabela 2 resumem as característica do sistema de
-irrigação.
+<p align = "justify"> As informações da Tabela 2 resumem as característica do sistema de irrigação.
 
 <center>
 
@@ -68,7 +67,7 @@ irrigação.
 | Diâmetro interno do tubo lateral |    1/2"     |
 |          Aclive máximo           |    6,5 m    |
 
-Tabela 2 - Parâmetros do sistema de irrigação. (Adaptado de: (EMBRAPA, 2020), (MIELE; MANDELLI, 2015) e (SILVA, 2013).
+Tabela 2 - Parâmetros do sistema de irrigação. (Adaptado de: EMBRAPA, 2020, MIELE; MANDELLI, 2015 e SILVA, 2013).
 </center>
 
 
@@ -80,8 +79,8 @@ papel de permitir a divisão do plantio em setores independentes,
 controlando individualmente a área irrigada.
 
 <p align = "justify"> Para especificar a válvula solenoide, assume-se água a temperatura
-ambiente como fluido de operação. Além disso, conforme a **Resolução
-ADASA N<sup>∘</sup> 14** , considera-se 100 kPa (10 m.c.a.) como a
+ambiente como fluido de operação. Além disso, conforme a <b>Resolução
+ADASA N<sup>∘</sup> 14</b>, considera-se 100 kPa (10 m.c.a.) como a
 pressão de entrada do sistema de irrigação.
 
 <p align = "justify"> De acordo com o cálculo de dimensionamento da tubulação lateral, o diâmetro nominal determinado para a válvula solenoide foi de 1/2". Para esse cálculo, foi considerado que cada tubo lateral atenderia uma fileira do plantio e que o mesmo seria
@@ -99,7 +98,7 @@ somente com duas posições: ligado ou desligado.
 ao ambiente do campo é a proteção IP 65, que resguarda totalmente contra
 poeira e jatos de água.
 
-<p align = "justify"> A tabela 3 apresenta as características da válvula solenoide
+<p align = "justify"> A Tabela 3 apresenta as características da válvula solenoide
 adequada ao sistema <i>SmartVit</i>.
 
 <center>
@@ -115,7 +114,7 @@ adequada ao sistema <i>SmartVit</i>.
 |        Acionamento        |     *On/off* simples     |
 |   Montagem de processo    | Normalmente fechada (NF) |
 
-Tabela 3 - Especificações da válvula solenoide. (Fonte: Autoria Própria).
+Tabela 3 - Especificações da válvula solenoide. (Fonte: Autoria Própria)
 </center>
 
 ## Memorial de cálculo da tubulação lateral
@@ -123,9 +122,7 @@ Tabela 3 - Especificações da válvula solenoide. (Fonte: Autoria Própria).
 ### Dimensionamento analítico
 
 <p align = "justify"> O dimensionamento da tubulação lateral foi executado atendendo às
-premissas pertinentes da NBR 5626 , NBR 5648 e da Resolução
-N<sup>∘</sup> 14 da ADASA , juntamente com o equacionamento empírico
-aplicado em XXX. **(O QUE VEM AQUI FUINHA? @Pedro)**
+premissas pertinentes da <b>NBR 5626</b> , <b>NBR 5648</b> e da <b>Resolução N<sup>∘</sup> 14 da ADASA</b>, juntamente com o equacionamento empírico aplicado em XXX. **(O QUE VEM AQUI FUINHA? @Pedro)**
 
 <p align = "justify"> O processo de escolha do diâmetro adequado para a tubulação lateral é
 iterativo, no qual o primeiro passo é escolha de uma bitola para a
@@ -140,7 +137,7 @@ de escolha considerando que o terreno é plano. Mais adiante é mostrado o
 valor de aclive máximo calculado para o sistema.
 
 <p align = "justify"> Os parâmetros de entrada para o dimensionamento da tubulação lateral
-constam na tabela 4.
+constam na Tabela 4.
 
 <center>
 
@@ -152,7 +149,7 @@ constam na tabela 4.
 |        Pressão de serviço        |  10 m.c.a.  |
 |      Diâmetro do gotejador       |    4 mm     |
 
-Tabela 4 - Especificações da válvula solenoide. (Fonte: Autoria Própria).
+Tabela 4 - Especificações da válvula solenoide. (Fonte: Autoria Própria)
 </center>
 
 <p align = "justify"> A perda de carga permissível nas tubulações laterais é dada pela equação 1. A pressão de serviço (PS) considerada neste
@@ -199,11 +196,9 @@ Onde:
 
 <u>Obs.: EQUAÇÃO 5</u>
 
-<p align = "justify"> Em que *υ* é a viscosidade cinemática da água em
-*(m<sup>2</sup>/s)*.
+<p align = "justify"> Em que <b>υ</b> é a viscosidade cinemática da água em (m<sup>2</sup>/s).
 
-<p align = "justify"> Em operações normais, a velocidade média da água é de 0,9 m/s .
-Considerando um diâmetro 17 mm e viscosidade da água igual a
+<p align = "justify"> Em operações normais, a velocidade média da água é de 0,9 m/s. Considerando um diâmetro 17 mm e viscosidade da água igual a
 10<sup> − 6</sup> m²/s, tem-se:
 
 <u>Obs.: EQUAÇÃO 6</u>
@@ -222,7 +217,7 @@ Retornando ao cálculo da perda de carga unitária (*J*), tem-se:
 
 <u>Obs.: EQUAÇÃO 9</u>
 
-<p align = "justify"> Já o fator de correção é calculado com a equação 9, onde *N*
+<p align = "justify"> Já o fator de correção é calculado com a equação 9, onde <b>N</b>
 é o número de gotejadores.
 
 <u>Obs.: EQUAÇÃO 10</u>
