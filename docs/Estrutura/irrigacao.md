@@ -1,5 +1,3 @@
-<u>Obs.: DAR UMA OLHADA GERAL, EQUAÇÕES, ORDEM DAS EQUAÇÕES E VARIÁVEIS </u>
-
 # Sistema de Irrigação
 
 <p align = "justify"> O sistema de irrigação é responsável pela rega automatizada de uma
@@ -131,7 +129,7 @@ Tabela 3 - Especificações da válvula solenoide. (Fonte: Autoria Própria)
 ### Dimensionamento analítico
 
 <p align = "justify"> O dimensionamento da tubulação lateral foi executado atendendo às
-premissas pertinentes da <b>NBR 5626</b> , <b>NBR 5648</b> e da <b>Resolução N<sup>∘</sup> 14 da ADASA</b>, juntamente com o equacionamento empírico aplicado em XXX. **(O QUE VEM AQUI FUINHA? @Pedro)**
+premissas pertinentes da <b>NBR 5626</b> , <b>NBR 5648</b> e da <b>Resolução N<sup>∘</sup> 14 da ADASA</b>, juntamente com o equacionamento empírico aplicado em (BISCARDO, 2014).
 
 <p align = "justify"> O processo de escolha do diâmetro adequado para a tubulação lateral é
 iterativo, no qual o primeiro passo é escolha de uma bitola para a
@@ -201,7 +199,7 @@ Onde:
 
 - L = comprimento total da tubulação lateral.
 
-<p align = "justify"> A perda de carga unitária é obtida por XXX: **(O QUE VEM AQUI FUINHA? @Pedro)**
+<p align = "justify"> A perda de carga unitária é obtida por:
 
 <center>
 <figure>
@@ -326,8 +324,8 @@ tubulação lateral.
 <br>
 <br>
 
-<p align = "justify"> Pelo critério de projeto adotado, o diâmetro da tubulação é considerado adequado se *Δh**t**l* &lt; *h**f*. Como 0, 084 &lt; 2, o tubo de
-$1/2"$ é considerado apropriado para a aplicação.
+<p align = "justify"> Pelo critério de projeto adotado, o diâmetro da tubulação é considerado adequado se Δh<sub>tl</sub> &lt; h<sub>f</sub>. Como 0, 084 &lt; 2, o tubo de
+1/2" é considerado apropriado para a aplicação.
 
 <p align = "justify"> Para determinar o nível máximo de aclive suportado pelo sistema, utiliza-se a equação 11, na qual considerou-se um fator de segurança (FS) igual a 3, isto é, que a pressão de serviço seja um terço da mínima regulamentada pela .
 
@@ -357,6 +355,8 @@ ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 5648 - Tubos e conexões de P
 EMBRAPA. **Sistema de Produção de Uvas Rústicas para Processamento em Regiões Tropicais do Brasil.** 2020. Disponível em: <https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Uva/UvasRusticasParaProcessamento/irrigacao.htm>.
 
 MIELE, A.; MANDELLI, F. **Sistemas de condução da videira: latada e espaldeira.** [S.l.], 2015.
+
+BISCARO, G. A. **Sistemas de irrigação localizada.** Universidade Federal da Grande Dourados, 2014.
 
 
 ### Rotina para o dimensionamento do sistema de irrigação
