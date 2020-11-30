@@ -25,7 +25,7 @@ Tabela 1 - Especificações do sistema de irrigação. (Fonte: SILVA, 2013 e ADA
 <br>
 
 ### Tubulação Lateral
-A tubulação lateral é responsável por abastecer os gotejadores e garantir uniformidade na distribuição de água nos mesmos. Para cumprir essa função, é adotado como critério de dimensionamento uma variação máxima de 20\% na pressão de serviço entre o primeiro e o último gotejador, expresso pela Equação 1.
+A tubulação lateral é responsável por abastecer os gotejadores e garantir uniformidade na distribuição de água nos mesmos. Para cumprir essa função, é adotado como critério de dimensionamento uma variação máxima de 20% na pressão de serviço entre o primeiro e o último gotejador, expresso pela Equação 1.
 
 <center>
 <figure>
@@ -38,7 +38,7 @@ A tubulação lateral é responsável por abastecer os gotejadores e garantir un
 <br>
 <br>
 
-Utilizando o equacionamento desenvolvido por Darcy-Weisbach, a regulamentação pertinente das normas <b>NBR 5626</b> (ABNT, 1998), <b>NBR 5648</b> (ABNT, 2018) e da <b>Resolução ADASA  N<sup>∘</sup> 14</b> (ADASA, 2011), e considerando ainda os dados de entrada da Tabela 1, o diâmetro comercial da tubulação lateral que atendeu ao critério da perda de carga permissível foi de 1/2". Além disso, o aclive máximo permitido para o dimensionamento é de 6,5 m. O memorial de cálculo desta etapa encontra-se no Apêndice \ref{apendtublat}. Para tornar a escolha do diâmetro mais ágil, foi desenvolvida uma rotina em <i>MATLAB</i>, disponível no Apêndice \ref{codMatlabIrrigacao}.
+Utilizando o equacionamento desenvolvido por Darcy-Weisbach, a regulamentação pertinente das normas <b>NBR 5626</b> (ABNT, 1998), <b>NBR 5648</b> (ABNT, 2018) e da <b>Resolução ADASA  N<sup>∘</sup> 14</b> (ADASA, 2011), e considerando ainda os dados de entrada da Tabela 1, o diâmetro comercial da tubulação lateral que atendeu ao critério da perda de carga permissível foi de 1/2". Além disso, o aclive máximo permitido para o dimensionamento é de 6,5 m. O memorial de cálculo desta etapa encontra-se na Seção de Cálculos (Sistema de Irrigação). Para tornar a escolha do diâmetro mais ágil, foi desenvolvida uma rotina em <i>MATLAB</i>, disponível na mesma seção do memorial de cálculo e presente neste repositório.
 
 As informações da Tabela 2 resumem as característica do sistema de irrigação.
 
@@ -90,9 +90,9 @@ Tabela 3 - Especificações da válvula solenoide. (Fonte: Autoria Própria)
 
 Devido a presença da placa solar no topo da estrutura e também a esbeltez da estrutura principal, o sistema estrutural está sujeito a cargas de vento. A magnitude dessa solicitação é calculada de acordo com as determinações aplicáveis da <b>NBR 6123</b>, que trata de forças devidas ao vento em edificações  (ABNT, 2013).
 
-A metodologia utilizada para o cálculo das cargas de vento faz uso de fatores que dependem do ambiente onde será alocada a estrutura. Tais fatores estão presentes na <b>NBR 6123</b>  (ABNT, 2013) e sua determinação e utilização para a definição das cargas de vento estão presentes no memorial de cálculo no Apêndice XXX.
+A metodologia utilizada para o cálculo das cargas de vento faz uso de fatores que dependem do ambiente onde será alocada a estrutura. Tais fatores estão presentes na <b>NBR 6123</b>  (ABNT, 2013) e sua determinação e utilização para a definição das cargas de vento estão presentes no memorial de cálculo na Seção de Cálculos (Cargas de Vento).
 
-De acordo com o memorial(XXXX trocar aqui) , foi obtido o valor de 368 kg/m.s² para a pressão dinâmica (<i>q</i>) agindo na estrutura, que representa a força do vento atuando sobre uma área. Além disso, com o objetivo de reproduzir o caso mais extremo possível, foi considerada a situação do vento agindo perpendicular à estrutura e o painel solar inclinado em uma angulação de 20°, quatro a mais do que os dezesseis requisitados pela área de Eletrônica e Eficiência Energética, de modo a deixar uma margem de regulagem para o painel solar.
+De acordo com o memorial, foi obtido o valor de 368 kg/m.s² para a pressão dinâmica (<i>q</i>) agindo na estrutura, que representa a força do vento atuando sobre uma área. Além disso, com o objetivo de reproduzir o caso mais extremo possível, foi considerada a situação do vento agindo perpendicular à estrutura e o painel solar inclinado em uma angulação de 20°, quatro a mais do que os dezesseis requisitados pela área de Eletrônica e Eficiência Energética, de modo a deixar uma margem de regulagem para o painel solar.
 
 Dado que a área da face lateral do poste possui 0,33 m², a área efetiva de exposição do painel solar é de 0,1271 m² e utilizando a Equação 2, determinam-se as cargas de vento a que estão sujeitos o poste e a placa.
 
@@ -178,7 +178,7 @@ As Figuras \ref{fig: dcl_lateral} e \ref{fig: dcl_frontal} apresentam o diagrama
 <br>
 <br>
 
-Os materiais utilizados na estrutura foram aço SAE 1020  (OLIVEIRA, 2017) e aço SAE 1008 (BAUCCIO; METALS, 1993),, cujas propriedades pertinentes para as simulações estão apresentadas na Tabela 5.
+Os materiais utilizados na estrutura foram aço SAE 1020  (OLIVEIRA, 2017) e aço SAE 1008 (BAUCCIO; METALS, 1993), cujas propriedades pertinentes para as simulações estão apresentadas na Tabela 5.
 
 <center>
 
