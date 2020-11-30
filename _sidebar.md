@@ -7,6 +7,9 @@
 
   * Manual de manutenção
     * [Subsistema Estrutural](docs\Estrutura\manual_manutencao.md)
+    
+  * Manual de calibração
+    * [Subsistema Eletrônico](docs\Eletronica\calibração.md)
 
 * Produto de Estrutura
   * Validação
