@@ -193,13 +193,13 @@ m.c.a. O valor da perda de carga é determinado pela equação
 
 Onde:
 
-- $$*Δ**h*<sub>*t**l*</sub> =$$ perda de carga na tubulação lateral ;
+- Δh<sub>tl</sub> = perda de carga na tubulação lateral;
 
-- $$*J* =$$ perda de carga unitária ;
+- J = perda de carga unitária;
 
-- $$*F* =$$ fator de correção ;
+- F = fator de correção;
 
-- $$*L* =$$ comprimento total da tubulação lateral .
+- L = comprimento total da tubulação lateral.
 
 <p align = "justify"> A perda de carga unitária é obtida por XXX: **(O QUE VEM AQUI FUINHA? @Pedro)**
 
@@ -216,19 +216,19 @@ Onde:
 
 Onde:
 
-- $$*f* =$$ fator de atrito *\[adimensional\]*;
+- f = fator de atrito *\[adimensional\]*;
 
-- $$*V* =$$ velocidade média da água dentro da tubulação *\[*m*/*s*\]*;
+- V = velocidade média da água dentro da tubulação *[m/s]*;
 
-- $$*g* =$$ aceleração da gravidade ;
+- g = aceleração da gravidade *[m/s²]*;
 
-- $$*D* =$$ diâmetro interno da tubulação .
+- D = diâmetro interno da tubulação;
 
-- $$*Se* =$$ espaçamento entre os emissores *\[*m*\]*;
+- Se = espaçamento entre os emissores *[m]*;
 
-- $$*Le* =$$ comprimento equivalente à perda de carga *\[*m*\]*.
+- Le = comprimento equivalente à perda de carga *[m]*.
 
-<p align = "justify"> O fator de atrito é dependente do número de Reynolds *(Re)* , calculado por:
+<p align = "justify"> O fator de atrito é dependente do número de Reynolds (Re), calculado por:
 
 <center>
 <figure>
