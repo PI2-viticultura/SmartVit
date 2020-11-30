@@ -236,6 +236,21 @@ $1/2"$ é considerado apropriado para a aplicação.
 
 <p align = "justify"> Portanto, a diferença de nível máxima a qual o sistema de irrigação pode sujeitar-se é de 6,509 metros.
 
+## Referências
+
+SILVA, J. A. **Estratégias de irrigação para economia de Água em videira cv. Syrah no vale do submédio do são francisco.** Universidade Federal do Vale do São Francisco, 2013.
+
+AGÊNCIA REGULADORA DE ÁGUAS, ENERGIA E SANEAMENTO BÁSICO DO DISTRITO FEDERAL. **Resolução N°14**, de 27 de outubro de 2011. Distrito Federal, BRA, 2011.
+
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 5626 - Instalação predial de água fria.** Rio de Janeiro, BRA, 1998.
+
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. **NBR 5648 - Tubos e conexões de PVC-U com junta soldável para sistemas prediais de água fria - Requisitos.** Rio de Janeiro, BRA, 2018.
+
+EMBRAPA. **Sistema de Produção de Uvas Rústicas para Processamento em Regiões Tropicais do Brasil.** 2020. Disponível em: <https://sistemasdeproducao.cnptia.embrapa.br/FontesHTML/Uva/UvasRusticasParaProcessamento/irrigacao.htm>.
+
+MIELE, A.; MANDELLI, F. **Sistemas de condução da videira: latada e espaldeira.** [S.l.], 2015.
+
+
 ### Rotina para o dimensionamento do sistema de irrigação
 
 <p align = "justify"> De modo a automatizar os cálculos foi construído o seguinte algoritmo utilizando o XXX. **(O QUE VEM AQUI FUINHA? @Pedro)**
