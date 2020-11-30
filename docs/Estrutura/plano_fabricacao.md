@@ -229,7 +229,7 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 ## Referências
 
-ESAB. **Apostila de Soldagem MIG/MAG. 2005.**
+ESAB. **Apostila de Soldagem MIG/MAG. 2005.** a
 
 ALUMAQ. **O que é Solda MIG/MAG? 2018**. Disponível em: <https://www.alumaq.com.br/o-que-e-solda-mig-mag/:. Acesso em: 02 nov. 2020.
 
