@@ -13,7 +13,6 @@
 <br>
 <br>
 
-
 <center>
 <figure>
   <img src="/SmartVit/docs/Estrutura/imgs_fab/tampa_poste_principal_3D.png"  />
@@ -38,7 +37,6 @@
 
 <p align = "justify"> As barras de aço SAE 1020 comerciais utilizadas para a fabricação do poste principal tem o comprimento de 6 m, com isso é possível obter duas barras de 2,2 m adequadas para a construção do poste. Para cortar esse tipo de perfil é necessário uma serra policorte com um disco dentado em baixa rotação, além disso, a barra deve estar fixada na mesa de corte. Os cortes necessários estão apresentados na Figura 4:
 
-
 <center>
 <figure>
   <img src="/SmartVit/docs/Estrutura/imgs_fab/cortesposteprincipal.png"  />
@@ -54,7 +52,7 @@
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/postescortess.PNG"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/postescortess.png"  />
   <figcaption>
       Figura 5 - Demarcações dos cortes que deverão ser realizados na barra de aço 1020. (Fonte: Autoria Própria)
   </figcaption>
@@ -190,7 +188,7 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/furospostesauxiliares.PNG"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/furospostesauxiliares.png"  />
   <figcaption>
       Figura 14 - Esquemático dos furos e das soldas que devem ser realizadas nos postes auxiliares com as medidas em mm.(Fonte: Autoria Própria)
   </figcaption>
