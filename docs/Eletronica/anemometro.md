@@ -9,6 +9,9 @@ De acordo com o Manual de Produção de Uvas Viniferas de Alta Qualidade, o vent
 
 Dito isto, temos o anemômetro digital para arduino ou raspberry, desenvolvido nacionalmente pela WRFCOMERCIAL, como opção escolhida. Feito de um material leve e resistente a corrosão, o alumínio, é capaz de suportar velocidades de 130 km/h e tem uma sensibilidade de aquisição de dados de 0,25 m/s. Desta forma, ele é capaz de atender ao requisito de dados, além de possuir disponibilidade nacional e ser o mais viável economicamente dizendo, tornando-se assim, a escolha óbvia para este ponto do projeto.
 
+![img](imgs/anemometro.png)
+
+
 ## 2. Especificações técnicas
 
 |Característica|Dado|
@@ -51,9 +54,9 @@ Onde:
 
 ![\Large T](https://latex.codecogs.com/svg.latex?\Large&space;T) = período [segundos]; 
 
-Que, em conformidade com a normativa internacional da WMO, temos o sua saída de dados dada na unidade do SI, que é em metros por segundo (m/s).
-       
-Como circuito, conforme observado na Figura \ref{img:anem_sim} foi utilizado do optoacoplador 4N25 como estágio de condicionamento de sinal, realizando a função de isolamento elétrico. Como a tensão de alimentação do sensor é maior do que a do microcontrolador, este isolamento proporciona uma segurança à porta de entrada do sensor, visto que possíveis picos de tensão poderiam queimar a porta da MSP. Além disso, o sinal vindo direto da alimentação está menos suscetível a rúido e perdas do que o sinal vindo do sensor, devido ao menor comprimento dos cabos.
+Que, em conformidade com a normativa internacional da WMO, temos o sua saída de dados dada na unidade do SI, que é em metros por segundo (m/s).Para este sensor, é importante lembrar que o período de aquisição de dados na MSP430 é de 1 minuto. Desta forma, o período de coleta deve ser adequado para a unidade no SI de cada sensor,  sendo dividido para chegar em segundos no caso do anemômetro.
+
+Como circuito foi utilizado do optoacoplador 4N25 como estágio de condicionamento de sinal, realizando a função de isolamento elétrico. Como a tensão de alimentação do sensor é maior do que a do microcontrolador, este isolamento proporciona uma segurança à porta de entrada do sensor, visto que possíveis picos de tensão poderiam queimar a porta da MSP. Além disso, o sinal vindo direto da alimentação está menos suscetível a rúido e perdas do que o sinal vindo do sensor, devido ao menor comprimento dos cabos.
 
 
 ## Referências
