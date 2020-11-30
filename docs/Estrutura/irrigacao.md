@@ -42,7 +42,16 @@ essa função, é adotado como critério de dimensionamento uma variação
 máxima de 20% na pressão de serviço entre o primeiro e o último
 gotejador, expresso pela equação [1].
 
-<u>Obs.: EQUAÇÃO 1</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq1.png"  />
+  <figcaption>
+      Equação 1
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Utilizando o equacionamento desenvolvido por Darcy-Weisbach, a
 regulamentação pertinente das normas <b>NBR 5626</b>, <b>NBR 5648</b> e da
@@ -156,13 +165,31 @@ Tabela 4 - Especificações da válvula solenoide. (Fonte: Autoria Própria)
 documento é a menor oferecida pela ADASA para a Região do Distrito
 Federal.
 
-<u>Obs.: EQUAÇÃO 2</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq1.png"  />
+  <figcaption>
+      Equação 1
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Portanto, a perda de carga nas tubulações laterais deve ser inferior a 2
 m.c.a. O valor da perda de carga é determinado pela equação
 2.
 
-<u>Obs.: EQUAÇÃO 3</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq2.png"  />
+  <figcaption>
+      Equação 2
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Onde:
 
@@ -176,7 +203,16 @@ Onde:
 
 <p align = "justify"> A perda de carga unitária é obtida por XXX: **(O QUE VEM AQUI FUINHA? @Pedro)**
 
-<u>Obs.: EQUAÇÃO 4</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq3.png"  />
+  <figcaption>
+      Equação 3
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Onde:
 
@@ -194,45 +230,117 @@ Onde:
 
 <p align = "justify"> O fator de atrito é dependente do número de Reynolds *(Re)* , calculado por:
 
-<u>Obs.: EQUAÇÃO 5</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq4.png"  />
+  <figcaption>
+      Equação 4
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Em que <b>υ</b> é a viscosidade cinemática da água em (m<sup>2</sup>/s).
 
 <p align = "justify"> Em operações normais, a velocidade média da água é de 0,9 m/s. Considerando um diâmetro 17 mm e viscosidade da água igual a
 10<sup> − 6</sup> m²/s, tem-se:
 
-<u>Obs.: EQUAÇÃO 6</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq5.png"  />
+  <figcaption>
+      Equação 5
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Para valores de Reynolds entre dois e cem mil, o fator de atrito pode ser calculado de acordo com a equação 6, proposta por Blasius:
 
-<u>Obs.: EQUAÇÃO 7</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq6.png"  />
+  <figcaption>
+      Equação 6
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> O diâmetro considerado para os cálculos será de 1/2", equivalente a 17 milímetros.
 
 <p align = "justify"> O comprimento equivalente à perda de carga considera a perda de pressão gerada pela inserção dos gotejadores na tubulação lateral. O cálculo do comprimento equivalente, considerando diâmetro de 4 mm dos gotejadores é dado por:
 
-<u>Obs.: EQUAÇÃO 8</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq7.png"  />
+  <figcaption>
+      Equação 7
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Retornando ao cálculo da perda de carga unitária (*J*), tem-se:
 
-<u>Obs.: EQUAÇÃO 9</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq8.png"  />
+  <figcaption>
+      Equação 8
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Já o fator de correção é calculado com a equação 9, onde <b>N</b>
 é o número de gotejadores.
 
-<u>Obs.: EQUAÇÃO 10</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq9.png"  />
+  <figcaption>
+      Equação 9
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Por fim, em 10 calcula-se o valor da perda de carga na
 tubulação lateral.
 
-<u>Obs.: EQUAÇÃO 11</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq10.png"  />
+  <figcaption>
+      Equação 10
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Pelo critério de projeto adotado, o diâmetro da tubulação é considerado adequado se *Δh**t**l* &lt; *h**f*. Como 0, 084 &lt; 2, o tubo de
 $1/2"$ é considerado apropriado para a aplicação.
 
 <p align = "justify"> Para determinar o nível máximo de aclive suportado pelo sistema, utiliza-se a equação 11, na qual considerou-se um fator de segurança (FS) igual a 3, isto é, que a pressão de serviço seja um terço da mínima regulamentada pela .
 
-<u>Obs.: EQUAÇÃO 12</u>
+<center>
+<figure>
+  <img src="/SmartVit/docs/Estrutura/imgs_irrigacao/eq11.png"  />
+  <figcaption>
+      Equação 11
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 <p align = "justify"> Portanto, a diferença de nível máxima a qual o sistema de irrigação pode sujeitar-se é de 6,509 metros.
 
