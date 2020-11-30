@@ -112,19 +112,19 @@ O poste principal que chegará para a instalação já estará pré furado,
 
   A Tabela 1 indica os componentes e suas quantidades necessárias para a fixação do sistema da placa solar:
 
-<center>
+  <center>
 
-|   Componente   | Quantidade |
-|:--------------------------:|:-----------------:|
-| Parafuso M8  |       4        |
-| Parafuso M12 |      2       |
-| Abraçadeira tipo U de 1 1/2''  |    1     |
-| Cantoneira em L de 308,5 x 31,75 x 31,75 mm  |    1     |
-| Cantoneiras em L de 668 mm   |    2     |
-| Poste auxiliar de 700 mm  |    1     |
+  |                         Material de Entrada                         |                                             Componentes Resultantes                                             |                                          
+  |:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
+  |Parafuso M8 | 4|
+  |Parafuso M12 | 2|
+  |Abraçadeira tipo U de 1 1/2'' |1|
+  |Cantoneira em L de 308,5 x 31,75 x 31,75 mm | 1|
+  |Cantoneiras em L de 668 mm | 2|
+  |Poste auxiliar de 700 mm | 1|
+
 
   Tabela 1 - Componentes necessários para a instalação da placa solar. (Fonte: Autoria Própria)
-
   </center>
 
 
