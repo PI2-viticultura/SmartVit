@@ -10,6 +10,6 @@
 
 [GitHub](https://github.com/PI2-viticultura)
 [Landing Page](http://smartvit-page.herokuapp.com/)
-<br><a style="padding: .75em 6.5em" href="/#/docs/software/architecture">Documentação</a>
+<br><a style="padding: .75em 6.5em" href="/SmartVit/#/docs/software/architecture">Documentação</a>
 
 ![color](#fff)

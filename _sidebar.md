@@ -48,7 +48,7 @@
     * [Gerenciamento de Riscos](docs/software/Plano-riscos.md)
     * [Cronograma](docs/software/cronograma-inicial.md)
     * [Fluxo de Trabalho](docs/software/fluxo-trabalho.md)
-  * Produto
+  * Produto de Software
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
       * [Sobre o universo de informações](docs/software/universo.md)
