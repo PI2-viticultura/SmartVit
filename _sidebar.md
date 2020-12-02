@@ -42,13 +42,13 @@
     * [Sapata](docs\Estrutura\sapata.md)
     * [Cargas de Vento](docs\Estrutura\cargas_de_vento.md)
     * [Sistema de Irrigação](docs\Estrutura\irrigacao.md)* Produto de software
-
+* Produto de Software
   * Gerenciamento
     * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
     * [Gerenciamento de Riscos](docs/software/Plano-riscos.md)
     * [Cronograma](docs/software/cronograma-inicial.md)
     * [Fluxo de Trabalho](docs/software/fluxo-trabalho.md)
-  * Produto de Software
+  * Escopo do Produto
     * Elicitação de Requisitos
       * [Plano de elicitação](docs/software/plano-elicitacao-requisitos.md)
       * [Sobre o universo de informações](docs/software/universo.md)
@@ -65,7 +65,7 @@
     * [Identidade Visual](docs/software/Identidade-Visual.md)
     * [Plano de usabilidade](docs/software/plano-de-usabilidade.md)
     * [Folha de Estilo](docs/software/Folha-de-estilo.md)
-    * [BDD](docs/software/BDD.md)
+    * [Testes](docs/software/BDD.md)
     * [Plano de Qualidade](docs/software/Plano-qualidade.md)
     * [GQM - Goal Question Metric](docs/software/gqm.md)
   * Documentação
@@ -74,4 +74,3 @@
     * [Protótipos](docs/software/prototipo.md)
     * [Testes](docs/software/testes.md)
     * [Decisões](docs/software/decisoes.md)
-      * Resultados
