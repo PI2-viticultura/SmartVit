@@ -35,13 +35,6 @@
     * [Cargas de Vento](docs\Estrutura\cargas_de_vento.md)
     * [Sistema de Irrigação](docs\Estrutura\irrigacao.md)
 
-* Produto de Estrutura
-  * Validação
-    * [Validação do Subsistema Estrutural](docs\Estrutura\validacao_estrutura.md)
-  * Cálculos
-    * [Sapata](docs\Estrutura\sapata.md)
-    * [Cargas de Vento](docs\Estrutura\cargas_de_vento.md)
-    * [Sistema de Irrigação](docs\Estrutura\irrigacao.md)* Produto de software
 * Produto de Software
   * Gerenciamento
     * [Plano de comunicação](docs/software/Plano-comunicacao-software.md)
