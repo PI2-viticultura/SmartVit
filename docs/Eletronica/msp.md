@@ -8,7 +8,16 @@ Seus modos de economia de energia chegam a trabalhar com o mínimo de 0.1uA (RAM
 
 Além disso, a alta complexidade de programação em relação aos concorrentes citados anteriormente, além da baixa existência de referências online, apesar de serem desvantagens para os desenvolvedores, se tornam vantagens comerciais, visto que é possível gerar um maior valor agregado ao sistema como um todo ao utilizar de uma tecnologia de acesso limitado e especializado, visto que transforma o desenvolvimento que passa do status de “hobby de fácil acesso online” para a prestação de um serviço técnico altamente capacitado.
 
-![img](imgs/msp430.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/msp430.jpg"  />
+  <figcaption>
+      MSP430G2ET
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Especificações técnicas
 
@@ -26,7 +35,16 @@ Além disso, a alta complexidade de programação em relação aos concorrentes 
 |Erro típico não ajustado do ADC|+-2 LSB|
 |Erro máximo não ajustado do ADC|+-5 LSB|
 
-![img](imgs/pinout_msp.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pinout_msp.jpg"  />
+  <figcaption>
+      Pinagem da MSP430G2ET
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 3. Detalhamento técnico e cálculos
 
@@ -34,7 +52,16 @@ Visto o menor erro de conversão da MSP430, as aquisições de dados dos sensore
 
 Para o completo entendimento dos testes para a MSP430, é necessário entender a máquina de estados do sistema, que pode ser visualizada na figura abaixo.
 
-![img](imgs/fsm_MSP.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/fsm_MSP.png"  />
+  <figcaption>
+      Máquina de estados finitos da MSP430G2ET
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 De maneira simplificada, o que acontece na máquina de estados está descrito abaixo:
 
