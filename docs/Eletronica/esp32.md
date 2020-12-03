@@ -17,7 +17,7 @@ Essa comunicação pode ser ainda mais simplificada, utilizando a vantagem de qu
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/lora%20esp32.jpg"  />
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/lora%20esp32.png"  />
   <figcaption>
       LoRa ESP 32
   </figcaption>
