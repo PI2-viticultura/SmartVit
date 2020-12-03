@@ -9,7 +9,17 @@ De acordo com o Manual de Produção de Uvas Viniferas de Alta Qualidade, o vent
 
 Dito isto, temos o anemômetro digital para arduino ou raspberry, desenvolvido nacionalmente pela WRFCOMERCIAL, como opção escolhida. Feito de um material leve e resistente a corrosão, o alumínio, é capaz de suportar velocidades de 130 km/h e tem uma sensibilidade de aquisição de dados de 0,25 m/s. Desta forma, ele é capaz de atender ao requisito de dados, além de possuir disponibilidade nacional e ser o mais viável economicamente dizendo, tornando-se assim, a escolha óbvia para este ponto do projeto.
 
-![img](imgs/anemometro.png)
+
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anemometro.png"  />
+  <figcaption>
+      Equação 1
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 
 ## 2. Especificações técnicas
@@ -39,10 +49,10 @@ Desta forma, o formato de saída dos dados é através de pulsos digitais, um pu
 ![img](imgs/anem_sim.png)
 
 ![img](imgs/anem_sim_out.png)
-       
+
 Com isso em mente, temos que calcular a velocidade do vento de saída do sistema. Para isto, estimando que uma volta dada pelo anemômetro corresponde ao perímetro de um círculo perfeito (uma volta completa) com um dado raio correspondente as hastes do anemômetro. Observando o número de voltas realizadas em um determinado período de tempo, temos a seguinte equação:
 
-![\Large V_{vento} = \frac{2 \times \pi \times r \times n}{T}](https://latex.codecogs.com/svg.latex?\Large&space;V_{vento}%20=%20\frac{2%20\times%20\pi%20\times%20r%20\times%20n}{T}) 
+![\Large V_{vento} = \frac{2 \times \pi \times r \times n}{T}](https://latex.codecogs.com/svg.latex?\Large&space;V_{vento}%20=%20\frac{2%20\times%20\pi%20\times%20r%20\times%20n}{T})
 
 Onde:
 
@@ -52,7 +62,7 @@ Onde:
 
 ![\Large n](https://latex.codecogs.com/svg.latex?\Large&space;n) = numéro de voltas [adimensional] ;
 
-![\Large T](https://latex.codecogs.com/svg.latex?\Large&space;T) = período [segundos]; 
+![\Large T](https://latex.codecogs.com/svg.latex?\Large&space;T) = período [segundos];
 
 Que, em conformidade com a normativa internacional da WMO, temos o sua saída de dados dada na unidade do SI, que é em metros por segundo (m/s).Para este sensor, é importante lembrar que o período de aquisição de dados na MSP430 é de 1 minuto. Desta forma, o período de coleta deve ser adequado para a unidade no SI de cada sensor,  sendo dividido para chegar em segundos no caso do anemômetro.
 
