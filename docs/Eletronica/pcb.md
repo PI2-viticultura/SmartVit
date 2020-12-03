@@ -4,9 +4,27 @@
 
 O objetivo da placa de circuito impresso é de ser uma plataforma que englobe todos os circuitos, evitando assim que seja necessário fios desnecessários de conexão. Desta forma,esta placa foi realizada de acordo com os diagramas esquemáticos presente abaixo:
 
-![img](imgs/schematic1.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/schematic1.jpg"  />
+  <figcaption>
+     Diagrama esquemático do sistema eletrônico - pág. 1
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-![img](imgs/schematic2.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/schematic2.jpg"  />
+  <figcaption>
+      Diagrama esquemático do sistema eletrônico - pág. 2
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 O layout foi realizado utilizando o Software comercial Altium Designer (versão 20.1.11). O esquemático abrange todas as conexões entre componentes, CIs e microcontroladores do sistema, removendo a necessidade de grande número de conexões entre eles de forma direta e mapeando o acesso a cada um desses sensores e microcontroladores. 
 
@@ -32,15 +50,51 @@ Também foi tomado o cuidado de gerar um pcb com todos os componentes possuindo 
 
 As Figuras abaixo são, respectivamente, as representações da _top layer_ e da _bottom layer_ da placa gerada. 
 
-![img](imgs/pcb_top.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pcb_top.jpg"  />
+  <figcaption>
+      Top-layer
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-![img](imgs/pcb_bottom.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pcb_bottom.jpg"  />
+  <figcaption>
+      Bottom-layer
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 As figuras abaixo são, respectivamente, uma representação _top view_  _bottom view_ da PCB3D.
 
-![img](imgs/pcb3d_top.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pcb3d_top.jpg"  />
+  <figcaption>
+      Top-layer (3D)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-![img](imgs/pcb3d_bottom.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pcb3d_bottom.jpg"  />
+  <figcaption>
+      Bottom-layer (3D)
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Instalação
 
@@ -57,7 +111,16 @@ O processo de instalação e acomodação dos fios é:
 
 Sendo que o caminho e a dimensão dos fios pode ser observado no diagrama unifilar:
 
-![img](imgs/diagrama.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/diagrama.png"  />
+  <figcaption>
+      Diagrama unifilar do sistema
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 A espessura dos cabos foi definida com base na tabela AWG, sendo que três espessuras foram definidas. A primeira compreende a passagem de dados dos sensores para o microcontrolador e entre microcontroladores, a segunda entre os sensores e o sistema de alimentação com o controlador de carga, no qual a alimentação é realizada e a terceira é para a conexão dos componentes do sistema de alimentação. Os valores podem ser encontrados na tabela abaixo:
 
@@ -98,7 +161,16 @@ Por fim, para realizar um mapeamento mais simples para o usuário e fixar os com
 
 Na Figura abaixo estão numeradas e nomeadas todas as conexões que serão realizadas entre dentro do sistema, 
 
-![img](imgs/pcb_3d_numbered.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pcb_3d_numbered.jpg"  />
+  <figcaption>
+      Pinagem da PCB
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Considerando um andamento de cima para baixo e da esquerda para a direita, os pinos devem ser conectados conforme descrito na tabela \ref{tab: pins_pcb}.
 
