@@ -38,7 +38,7 @@ Este sensor de direção de vento, também chamada de biruta ou indicador de dir
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_dentro.png"  />
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_dentro.jpg"  />
   <figcaption>
       Interior do indicador de direção
   </figcaption>
