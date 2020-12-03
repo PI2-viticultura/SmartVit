@@ -14,7 +14,16 @@ Outro sistema estudado foi o gerador a diesel. Tal forma de geração foi descar
 
 Portanto o sistema escolhido, será o fotovoltaico off-grid (desconectado da rede), pela universalização da sua utilização, sendo necessárias poucas ou nenhuma modificação, pela localização do projeto ou outras intercorrências de demanda. Aliando o preço e o custo benefício se comparado com os outros dois sistemas, se mostra o mais vantajoso, além de solicitar apenas uma limpeza simples dos painéis e troca das baterias no tempo estipulado, geralmente em torno de 4 anos, podendo ser prorrogado analisando as taxas de descargas da bateria como mostrado na figura abaixo.
 
-![img](imgs/Baterias_Freedom_Ciclos_de_Vida_02.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/Baterias_Freedom_Ciclos_de_Vida_02.jpg"  />
+  <figcaption>
+      Gráfico de ciclos de vida da bateria
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Especificações técnicas
 
@@ -32,7 +41,16 @@ Portanto o sistema escolhido, será o fotovoltaico off-grid (desconectado da red
 |Temperatura de operação nominal da célula}|47+-2 ºC|
 |Dimensões|545 x 668 x 25mm|
 
-![img](imgs/se50w.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/se50w.jpg"  />
+  <figcaption>
+      Painel solar Sun Energy 50W
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 |Característica|Dado|
 |-|-|
@@ -44,7 +62,16 @@ Portanto o sistema escolhido, será o fotovoltaico off-grid (desconectado da red
 |Peso|260 g|
 |Dimensões|175 x 75 x 40 mm|
 
-![img](imgs/honorall.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/honorall.jpg"  />
+  <figcaption>
+      Controlador de carga Honorall 30A
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 |Característica|Dado|
 |-|-|
@@ -57,7 +84,16 @@ Portanto o sistema escolhido, será o fotovoltaico off-grid (desconectado da red
 |Peso|14,7 kg|
 |Dimensões|274 x 175 x 175 mm|
 
-![img](imgs/freedom.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/freedom.jpg"  />
+  <figcaption>
+      Bateria estacionária Freedom 70Ah
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 3. Detalhamento técnico e cálculos
 
@@ -150,9 +186,27 @@ Para o presente trabalho foi feito uma análise de duas usinas situadas no Distr
 
 Ao olhar para o mês de agosto da usina do senhor Leopoldo localizada no Lago Sul, é possível perceber que a diferença de geração comparado ao mesmo mês do ano anterior, portanto houve um decréscimo perceptível em junho e julho, mas foi maior no mês de agosto e a limpeza ocorrida no mês de setembro apresentou o efeito esperado, passando assim a gerar mais energia e alcançando o nível esperado de eficiência.
 
-![img](imgs/Geração.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/Geração.jpg"  />
+  <figcaption>
+      Geração sem limpeza dos paineis
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Para o mês de agosto de 2020, da usina do Senhor Antônio, foi ainda mais perceptível a diferença de geração em dias próximos como o exemplificado. No dia 12 de agosto do mesmo ano foi feito uma manutenção preventiva, na qual foi necessário o desligamento do sistema por um período e feita a limpeza dos painéis. Portanto, ao analisar o dia imediatamente anterior ao dia 12 e o dia imediatamente posterior a esse dia, é possível concluir que houve um acréscimo na geração e que parte desse acréscimo se deveu a operação de limpeza.
 Desta forma é possível inferir que o longo período de seca pela qual o Centro-Oeste passa, diminui a eficiência da geração solar pela sujidade dos painéis, de forma que ao menos uma vez ao ano, nesse período é recomendável a limpeza, para o período chuvoso, a própria chuva faz o papel de limpeza, não sendo necessário uma intervenção operacional, e por isso o aumento da diferença de geração de um ano para ou outro é gradativo.
 
-![img](imgs/Agostoo.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/Agostoo.jpg"  />
+  <figcaption>
+      Geração com limpeza dos paineis
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
