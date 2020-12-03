@@ -6,7 +6,16 @@ O monitoramento dos aspectos do ambiente, como a temperatura, pressão e umidade
 
 O sensor BME280 coletará dados de umidade, temperatura e pressão. Além de ser um sensor conhecido, também é, como indicado no próprio datasheet, extremamente recomendado para estações meteorológicas, IoT (_Internet of Things_), dispositivos móveis, entre outros, se adequando perfeitamento ao escopo do projeto que vem sendo desenvolvido. 
 
-![img](imgs/bme280.jpg)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/bme280.jpg"  />
+  <figcaption>
+      BME280
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Especificações técnicas
 
