@@ -76,13 +76,31 @@ Conforme o ASTM D 5092-02 \cite{astm_5092}, os passos de calibração são:
 4. Realizar a análise de regressão dos mínimos quadrados utilizando dos dados coletados de velocidade do vento e da rotação de anemômetro para determinar a inclinação e o deslocamento da função de transferência da calibração, gerando a curva de calibração do sensor.
 5. Calcular as velocidades residuais do vento a partir da velocidade do vento prevista para as taxas de rotação do anemômetro utilizando a função de transferência determinada e, então, subtrair os valores previstos dos valores medidos.
 
-![img](imgs/anem_speed.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_speed.jpg"  />
+  <figcaption>
+      Velocidades de calibração para o anemômetro
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
  
 É importante citar que a função de transferência é válida, apenas, para 50% da velocidade máxima, o que observando o sensor escolhido, é mais do que suficiente para o espectro de dados desejado. 
 
 Uma maneira de realizar a calibração é desenvolvendo um sistema caseiro de medição, utilizando de um soprador de ar ou secador de cabelo jogando ar frio diretamente ao copo do anemômetro, conforme figura abaixo, e registrar suas medições para, desta forma, realizar os mesmos passos matemáticos descritos na normativa.  A desvantagem deste método é a falta de controle de diferentes tipos de velocidade, o que reduz a precisão da curva de calibração, além do baixo controle da velocidade da saída do soprador. Entretanto, esta solução ganha pontos em praticidade e custo, visto que uma estação é capaz de calibrar diversos sensores, além de evitar o transporte para a calibração.
 
-![img](imgs/anem_calib.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_calib.jpg"  />
+  <figcaption>
+      Proposta de sistema de calibração caseira para o anemômetro
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
  
  O procedimento:
  
@@ -100,7 +118,16 @@ A normativa responsável pelas regras de calibração de Indicadores de direçã
 
 Para a calibração seguindo a IEC 61400-12-01, utiliza-se de um túnel de vento, em que o sensor fica alinhado paralelamente ao fluxo de vento. Para a sua calibração um fluxo constante de ar (usualmente 8 m/s) é mantido enquanto o sensor é rotacionado em torno do seu eixo vertical. A rotação é induzida por uma unidade de acionamento e seu ângulo é medido por um encoder rotativo que é conectado por um acoplamento de foles à unidade de acionamento. O eixo de encoder rotativo é concêntrico e coaxial em respeito ao sensor e ao eixo rotativo da unidade de acionamento, o que pode ser observado na imagem abaixo.
 
-![img](imgs/biruta_tunel.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_tunel.jpg"  />
+  <figcaption>
+      Posicionamento do indicador de direção no túnel de vento
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 O processo de calibração consiste dos seguintes passos:
 
@@ -108,7 +135,16 @@ O processo de calibração consiste dos seguintes passos:
 2. Ligar o túnel e aumentar o fluxo de vento, de forma constante, até 8 m/s. A partir deste ponto, o sensor é rotacionado em torno do seu eixo vertical, que pode ser realizado de duas formas: a uma taxa constante de yaw ou passo a passo. O recomendado é utilizar uma taxa constante, visto que passo a passo pode gerar erros de leitura do sensor. Assim, duas voltas completas são executadas, uma no sentido anti-horário e outra no sentido horário. Para evitar o efeito de histerese, as voltas são dadas com uma sobreposição de ângulos de, pelo menos, 20°. Desta forma, temos uma volta no sentido anti-horário de 0 a 380° e uma no sentido horário de 380° a 0°.
 3. Avaliar a resposta medida, no caso de um sensor digital, a velocidade de saída e o ângulo de guinada são listados juntamente com os valores de saída do sensor e o desvio calculado a partir do ângulo esperado em relação ao ângulo observado, conforme imagem \ref{img:biruta_calib_out}.
 
-![img](imgs/biruta_calib_out.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_calib_out.jpg"  />
+  <figcaption>
+      Exemplo de resultado de calibração para o indicador de direção digital
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 O processo de  calibração local, não exigindo assim a contratação de um serviço especializado que, possui o revéz de apenas regula os valores da saída, sem avaliar o a influência do vento. A descrição do passo a passo é:
 
