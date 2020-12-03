@@ -78,7 +78,7 @@ Conforme o ASTM D 5092-02 \cite{astm_5092}, os passos de calibração são:
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_speed.jpg"  />
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_speed.png"  />
   <figcaption>
       Velocidades de calibração para o anemômetro
   </figcaption>
@@ -93,7 +93,7 @@ Uma maneira de realizar a calibração é desenvolvendo um sistema caseiro de me
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_calib.jpg"  />
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_calib.png"  />
   <figcaption>
       Proposta de sistema de calibração caseira para o anemômetro
   </figcaption>
@@ -120,7 +120,7 @@ Para a calibração seguindo a IEC 61400-12-01, utiliza-se de um túnel de vento
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_tunel.jpg"  />
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_tunel.png"  />
   <figcaption>
       Posicionamento do indicador de direção no túnel de vento
   </figcaption>
@@ -137,7 +137,7 @@ O processo de calibração consiste dos seguintes passos:
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_calib_out.jpg"  />
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_calib_out.png"  />
   <figcaption>
       Exemplo de resultado de calibração para o indicador de direção digital
   </figcaption>
