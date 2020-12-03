@@ -10,7 +10,16 @@ Os piranômetros fotovoltaicos utilizam uma pequena célula fotovoltaica de sil�
 
 Optamos por utilizar o sensor de radiação solar modelo SEM228 da empresa SENTEC. Esse modelo adota o princípio fotoelétrico sensor de radiação solar e pode ser utilizado para medir a radiação solar com o espectral faixa de 0.3 ~ 3$\mu$ m. Adota o sensor de radiação de alta-precisão elemento fotossensível, amplo espectro de absorção, alta absorção e boa estabilidade em todo o espectro gama; entretanto, tampa protetora contra poeira com transmissão da luz até 95% é instalado fora do elemento sensor, a tampa do pó adota um tratamento especial para reduzir a absorção de poeira, Efetivamente evitar a interferência de fatores ambientais nos componentes internos, e com precisão medir a radiação solar.
 
-![img](imgs/piranometro.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/piranometro.png"  />
+  <figcaption>
+      Piranômetro SEM228
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Especificações técnicas
 
@@ -104,13 +113,48 @@ Desta forma a estratégia que seria utilizada em função do custo, seria a de u
 De acordo com a estimativa e comparação com o piranômetro, porém, foi possível concluir que o erro torna inviável essa substituição, como os dados abaixo demonstram, para o plano horizontal, sentido sempre norte, e para uma inclinação igual ao ângulo de latitude, aproximadamente 16°N, uma diferença média de aproximadamente 1kWh/m².dia. Essa ordem de grandeza de erro, além da temperatura do painel, que interfere diretamente na geração, de acordo com estudo feito na Universidade Federal do Pampa, demonstrou que um painel a 45°C perde 12,49%, aproximadamente, de geração, a 65°C é de quase 15% e, portanto, gera erro no cálculo da irradiação, a temperatura por outro lado mantém constante a geração de energia, provendo uma falsa impressão da irradiação solar, de forma que quando há variações mais bruscas da irradiação solar no local, o painel é feito para não absorver esse decaimento, e assim fica prejudicada a precisão, descartando assim essa substituição. 
 De acordo com o Atlas Brasileiro de Energia Solar de 2017 em sua segunda edição, apresenta dados de mais de 17 anos, que foi produzido pelo Centro de Ciência do Sistema Terrestre (CCST) do Instituto Nacional de Pesquisas Espaciais (INPE), através do seu Laboratório de Modelagem e Estudos de Recursos Renováveis de Energia (LABREN) (CCST/LABREN/INPE, 2017), além de setenta mil piranômetros espalhados pelo Brasil e dados satelitais, utilizando a partir dessa base de dados um método de cálculo matemático para todo o território brasileiro, este por sua vez alimenta o programa SunData v 3.0 e assim o site do CRESESB (Centro de Referência para as Energias Solar e Eólica Sérgio de S. Brito), dos quais foram retirados os dados médios abaixo.
 
-![img](imgs/cresesb1.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/cresesb1.png"  />
+  <figcaption>
+      Dados de irradiação solar do DF - coordenada 1
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-![img](imgs/cresesb2.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/cresesb2.png"  />
+  <figcaption>
+      Dados de irradiação solar do DF - coordenada 2
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-![img](imgs/cresesb3.png)
-
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/cresesb3.png"  />
+  <figcaption>
+      Dados de irradiação solar do DF - coordenada 3
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 Analisando as médias acima, para 3 localidades diferentes randômicas nas regiões agrícolas do Distrito Federal é possível inferir que a média anual de irradiação, de acordo com os dados do CRESESB, é em média de 5,316 kWh/m².dia para o plano horizontal e 5,513 kWh/m².dia para um plano inclinado de 16°, sentido norte e para o período de um ano. Ainda analisando as médias, é possível perceber que a menor média anual para um plano horizontal é em junho, com 4,77 kWh/m².dia e para um plano inclinado, ocorre em novembro, com médias de 4,753 kWh/m².dia. A média máxima por ano, no entanto, permanece no mês de agosto, com 5,896 kWh/m².dia e 6,616 kWh/m².dia, respectivamente.
 
-![img](imgs/cresesb4.png)
 
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/cresesb4.png"  />
+  <figcaption>
+      Gráfico de irradiação solar do DF
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
