@@ -12,9 +12,28 @@ Nesse aspecto, o sensoriamento do solo foi projetado para coleta de informaçõe
 
 O sensor é composto por uma sonda, no qual será inserida no solo nos pontos onde deseja-se fazer a coleta de dados e o módulo responsável por fazer a conversão dos impulsos elétricos em sinais analógicos e digitais. Os sinais analógicos serão enviados ao microcontrolador, enquanto os sinais digitais serão enviados para o sistema de acionamento da irrigação local. 
 
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pontaumidade.JPG"  />
+  <figcaption>
+      Ponta de prova capacitiva do sensor de umidade
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 ![img](imgs/pontaumidade.JPG)
 
-![img](imgs/moduloumidade.JPG)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/moduloumidade.JPG"  />
+  <figcaption>
+      Módulo comparador do sensor de umidade
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Especificações técnicas
 
