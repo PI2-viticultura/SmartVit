@@ -14,7 +14,7 @@ Dito isto, temos o anemômetro digital para arduino ou raspberry, desenvolvido n
 <figure>
   <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anemometro.png"  />
   <figcaption>
-      Equação 1
+      Anemômetro digital SV10
   </figcaption>
 </figure>
 </center>
@@ -42,13 +42,41 @@ Dados quanto a precisão do sensor não foram informados pelo fabricante, entret
 
 O anemômetro escolhido possui seu funcionamento através do acionamento de uma chave magnética no seu interior a cada volta completado. Desta forma, na sua estrutura interna, há um imã preso ao eixo que, ao passar perto de um reed switch, faz com que os seus contatos internos fechem, permitindo a passagem da corrente.
 
-![img](imgs/anem_func.jpg)
+
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_func.jpg"  />
+  <figcaption>
+      Descrição do funcionamento do anemômetro digital
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Desta forma, o formato de saída dos dados é através de pulsos digitais, um pulso por rotação. Desta maneira, seu comportamento foi simulado, com o intuito de visualizar como fica a saída de dados, como demonstrado na Figura \ref{img:anem_sim_out}:
 
-![img](imgs/anem_sim.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_sim.png"  />
+  <figcaption>
+      Simulação do anemômetro usando o LtSpice
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
-![img](imgs/anem_sim_out.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/anem_sim_out.png"  />
+  <figcaption>
+      Resultado da simulação do anemômetro usando o LtSpice
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Com isso em mente, temos que calcular a velocidade do vento de saída do sistema. Para isto, estimando que uma volta dada pelo anemômetro corresponde ao perímetro de um círculo perfeito (uma volta completa) com um dado raio correspondente as hastes do anemômetro. Observando o número de voltas realizadas em um determinado período de tempo, temos a seguinte equação:
 
