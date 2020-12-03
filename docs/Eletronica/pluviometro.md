@@ -6,7 +6,16 @@ O controle hídrico da viticultura é essencial, visto que diferentes etapas do 
 
 Para a escolha do pluviômetro, foi escolhido é do tipo _tipping rain gauge_, ou contato seco, visto a sua maior disponibilidade e acessibilidade no mercado, sem uma grande perda associada. Como resolução mínima foi determinado 0,25mm, resolução esta comumente utilizada em estações meteorológicas. Além disto, devido ao modo construtivo do sensor, a opção oferecida no mercado é de saídas digitais, o que foi acatado. Além disso, aspectos como a durabilidade, disponibilidade e custo-benefício foram observados no momento de escolha do sensor. Com isso em mente, temos como a opção escolhida o sensor pluviométrico PL2, da Wrf Comercial.
 
-![img](imgs/pluviometro.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pluviometro.png"  />
+  <figcaption>
+      Sensor pluviométrico PL2
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Especificações técnicas
 
@@ -30,7 +39,16 @@ O sensor pluviométrico de contato seco, ou pluviômetro, possui um princípio d
 
 Sua dinâmica de acionamento funciona da seguinte maneira. A água é capturada pelo coletor, sendo forçada a descer pelo funil até um dos cubos gêmeos, que ficam enchendo até atingir o volume máximo de chuva, o que corresponde a resolução do sensor. Após atingir este nível crítico, o cubo gêmeo abaixa, permitindo a saída da água e é parado em um dos parafusos de calibração. Ao realizar este movimento, o imã acoplado ao pivô aciona o interruptor magnético, que fica instalado no centro da placa de base, criando um pulso de sinal.
 
-![img](imgs/pluv_explicação.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/pluv_explicação.png"  />
+  <figcaption>
+      Funcionamento interno do pluviômetro
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 Dito isto, para calcular a quantidade de chuva observada em um dado tempo, necessitamos da quantidade de acionamentos do reed switch em um dado período de tempo, multiplicando este valor pela resolução do sistema, conforme observado na equação abaixo. Esta medição é dada em mm/h no SI.
 
