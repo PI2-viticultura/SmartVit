@@ -4,7 +4,17 @@
 
 Como este sensor observa as características do complementares do vento em relação ao anemômetro, sua justificativa de utilização é a mesma do referido. Como requisitos específicos, temos a capacidade de aquisição dos dados de pontos cardeais e colaterais. Em relação a saída dos dados, tem-se como padrão de mercado o formato analógico, o que fomentou a escolha deste tipo de saída de dados. De maneira complementar, aspectos como a durabilidade, disponibilidade e custo-benefício foram observados no momento de escolha do sensor. Desta forma, temos o Indicador de Direção do Vento - DV10, desenvolvido nacionalmente pela Wrf Comercial, como opção escolhida. 
 
-![img](imgs/biruta.png)
+
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta.png"  />
+  <figcaption>
+      Indicador de direção do vento digital DV10
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
 ## 2. Especificações técnicas
 
@@ -24,7 +34,18 @@ Como este sensor observa as características do complementares do vento em rela�
 
 Este sensor de direção de vento, também chamada de biruta ou indicador de direção, possui seu funcionamento baseado em um divisor de tensão controlado por chaves magnéticas. Para cada uma das oito direções observadas, existe um resistor de 10kOhm e um reed switch ligado ao terra, enquanto, acoplado ao eixo, há um imã, de forma com que, a depender da direção, um reed switch é ativado, tendo como saída um certo nível analógico correspondente a tensão dividida até aquele ponto.
 
-![img](imgs/biruta_dentro.jpg)
+
+
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_dentro.png"  />
+  <figcaption>
+      Interior do indicador de direção
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
        
 A divisão de tensão resistiva é dada pela seguinte equação:
 
@@ -63,7 +84,16 @@ Por fim, para que haja a correta interpretação dos dados, é necessário que:
 
 Para exemplificar, foi realizada a prototipação do sistema simulado. Assim, o ponto norte foi definido como o maior valor de saída, como pode ser observado abaixo, com as direções cardeais e colaterais sendo atribuídas girando, no sentido horário, a rosa dos ventos, realizando, desta forma, o primeiro passo para a correta interpretação dos dados.
 
-![img](imgs/biruta_sim.png)
+<center>
+<figure>
+  <img src="/SmartVit/docs/Eletronica/imgs_eletronica/biruta_sim.png"  />
+  <figcaption>
+      Simulação do indicador de direção
+  </figcaption>
+</figure>
+</center>
+<br>
+<br>
 
  Para o segundo passo, o circuito foi implementado, utilizando os mesmos parâmetros de tensão e resistor de pull-down como demonstrados acima, e com auxílio de um Arduino Uno, visto que o mesmo possui um ADC de 10 bits, igual a MSP430 que desejamos utilizar, bem como mesmo nível de tensão e uma abordagem mais rápida de implementação. Assim, podemos realizar o comparativo do terceiro passo, conforme demonstrado abaixo, com sua codificação sendo realizada a posteriori.
  
