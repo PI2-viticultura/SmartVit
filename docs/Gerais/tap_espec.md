@@ -17,20 +17,26 @@ Devido as características especiais e condições específicas de cultivo, as s
 ### Descrição do problema
 A relação do produto com o problema que ele visa resolver, de acordo com o posicionamento do SmartVit, é descrito abaixo.
 <center>
-| **O problema** | consiste na falta de controle dos recursos utilizados na produção de uvas finas, apresentando um número elevado de erro de produção e perdas econômicas. A falta de domínio e controle sobre os fatores ambientais (vento, chuva, insolação). Excesso ou escassez de nutrientes no solo. |
-| **Afetando** | a qualidade da uva e quantidade produzida. |
-| **Cujo impacto é** | safra perdida ou alto percentual de insumo desperdiçado por não atender às condições necessárias para produção do vinho e recursos ambientais utilizados erroneamente. Alto impacto ambiental. |
-| **Uma boa solução seria** | um sistema de monitoramento remoto e digital, dispensando a presença física para controle do cultivo, garantindo o controle e uniformidade nas análises, de modo que a produção por completo tenha as mesmas características. Sistema de sensoriamento e plataforma de acesso de fácil utilização. |
+| **O problema**             | consiste na falta de controle dos recursos utilizados na produção de uvas finas, apresentando um número elevado de erro de produção e perdas econômicas. A falta de domínio e controle sobre os fatores ambientais (vento, chuva, insolação). Excesso ou escassez de nutrientes no solo.           |
+| :------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Afetando**               | a qualidade da uva e quantidade produzida.                                                                                                                                                                                                                                                         |
+| **Cujo impacto é**         | safra perdida ou alto percentual de insumo desperdiçado por não atender às condições necessárias para produção do vinho e recursos ambientais utilizados erroneamente. Alto impacto ambiental.                                                                                                     |
+| **Uma boa solução seria**  | um sistema de monitoramento remoto e digital, dispensando a presença física para controle do cultivo, garantindo o controle e uniformidade nas análises, de modo que a produção por completo tenha as mesmas características. Sistema de sensoriamento e plataforma de acesso de fácil utilização. |
 </center>
 
 ### Posição do produto
 A apresentação do produto desenvolvido e o seu diferencial em relação às propostas existentes no mercado.
-| Para | viticultores |
-| que | desejam acompanhar sua produção remotamente |
-| o SmartVit | se propõe a disponibilizar em dashboards os dados obtidos a partir do sensoriamento local, realizando análise de dados da vinícola e ativando um sistema de notificações e alertas |
-| que | tornarão o processo de análise e monitoramento remoto mais dinâmico e efetivo |
-| diferente das | propostas da [PlantCT](https://plantct.com/) e [Libelium](http://www.libelium.com/smart-wine-libeliums-iot-technology-allows-predictive-control-of-vineyards-in-the-pago-ayles-winery-spain/) |
-| nosso produto | estará calibrado para monitorar a produção de viticulturas de regiões com climas tropicais, fornecendo análises precisas, disponibilizando _dashboards_ de acompanhamento e atuando na correção do sistema de irrigação quando necessário. |
+
+<center>
+| **Para**           | viticultores                                                                                                                                                                                                                               |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **que**            | desejam acompanhar sua produção remotamente                                                                                                                                                                                                |
+| **o SmartVit**     | se propõe a disponibilizar em *dashboards* os dados obtidos a partir do sensoriamento local, realizando análise de dados da vinícola e ativando um sistema de notificações e alertas                                                       |
+| **que**            | tornarão o processo de análise e monitoramento remoto mais dinâmico e efetivo                                                                                                                                                              |
+| **diferente das**  | propostas da  e                                                                                                                                                                                                                            |
+| **nosso produto**  | estará calibrado para monitorar a produção de viticulturas de regiões com climas tropicais, fornecendo análises precisas, disponibilizando *dashboards* de acompanhamento e atuando na correção do sistema de irrigação quando necessário. |
+</center>
+
 
 ## Objetivo
 O protótipo objetiva-se no sensoriamento e controle dos aspectos do solo, ar e microclima e correção no sistema de irrigação. Contará com um sistema _web_ para transformar os dados coletados pelos sensores e dispositivos em informações utilizáveis. Dessa forma, será possível disponibilizar ao produtor informações úteis que auxiliarão na tomada de decisão, fazendo com que o sistema de coleta de informações, processamento e controle seja completo.
