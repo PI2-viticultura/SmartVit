@@ -28,6 +28,9 @@
     * [Placa de circuito impresso](docs\Eletronica\pcb.md)
 
 * Produto de Estrutura
+  * Gerenciamento
+    * [Plano de Comunicação](docs\Estrutura\plano_comunicacao.md)
+    * [Plano de Trabalho](docs\Estrutura\cronograma.md)
   * Validação
     * [Validação do Subsistema Estrutural](docs\Estrutura\validacao_estrutura.md)
   * Cálculos
