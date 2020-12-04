@@ -112,7 +112,7 @@ O poste principal que chegará para a instalação já estará pré furado,
 
   A Tabela 1 indica os componentes e suas quantidades necessárias para a fixação do sistema da placa solar:
 
-  <center>
+  <>
 
   |                         Material de Entrada                         |                                             Componentes Resultantes                                             |                                          
   |:-------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
