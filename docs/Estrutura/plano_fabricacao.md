@@ -1,7 +1,5 @@
 # Plano de Fabricação
 
-~~  teste rodou
-
 <p align = "justify"> A proteção do sensor de temperatura e as tampas do poste principal e dos postes auxiliares serão fabricadas por meio de impressão 3D, e estão apresentadas nas Figuras 1, 2 e 3.
 
 <center>
