@@ -63,6 +63,7 @@
 
 <p align = "justify"> As cantoneiras utilizadas na estrutura de apoio da placa solar são comercializadas em barras de 6 m, a partir disso são cortadas com a serra policorte, de forma igual aos postes auxiliares, 3 conjuntos compostos por: 2 cantoneiras de 668 mm, 1 cantoneira de 245 mm e 2 cantoneiras de 31,75 mm. Sendo que apenas um conjunto é necessário por sistema do <i>SmartViti</i>, a Figura 6 ilustra os cortes necessários.
 
+
 <center>
 <figure>
   <img src="/SmartVit/docs/Estrutura/imgs_fab/cantoneiracortess.png"  />
@@ -72,7 +73,8 @@
 </figure>
 </center>
 <br>
-<br>
+<br>      
+
 
 <p align = "justify"> A chapa de fixação do gabinete e a chapa utilizada na sapata do poste serão feitas de aço SAE 1020, a primeira tem dimensões de 400 x 300 x 4,75 mm enquanto a segunda 310 x 160 x 4,75 mm. Esse tipo de chapa é encontrada comercialmente com tamanho de 1,2 x 2 m , de forma que apenas uma será necessária para a construção de ambas as estruturas. Devido ao tamanho da chapa, o corte a laser é o mais adequado para fornecer as peças finais.
 
