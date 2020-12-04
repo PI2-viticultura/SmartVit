@@ -39,7 +39,7 @@
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/cortesposteprincipal.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/cortesposteprincipal.PNG"  />
   <figcaption>
       Figura 4 - Demarcações dos cortes que deverão ser realizados na barra de aço 1020. (Fonte: Autoria Própria)
   </figcaption>
@@ -52,7 +52,7 @@
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/postescortess.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/postescortess.PNG"  />
   <figcaption>
       Figura 5 - Demarcações dos cortes que deverão ser realizados na barra de aço 1020. (Fonte: Autoria Própria)
   </figcaption>
@@ -66,7 +66,7 @@
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/cantoneiracortess.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/cantoneiracortess.PNG"  />
   <figcaption>
       Figura 6 - Demarcações dos cortes que deverão ser realizados nas cantoneiras. (Fonte: Autoria Própria)
   </figcaption>
@@ -83,7 +83,7 @@
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/placamaldita.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/placamaldita.PNG"  />
   <figcaption>
       Figura 7 - Demarcações dos cortes que deverão ser realizados na chapa de aço 1020. (Fonte: Autoria Própria)
   </figcaption>
@@ -94,7 +94,7 @@
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/placamaldita2.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/placamaldita2.PNG"  />
   <figcaption>
       Figura 8 - Numeração das chapas que serão cortadas a partir da placa de aço 1020. (Fonte: Autoria Própria)
   </figcaption>
@@ -109,7 +109,7 @@
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/chapamalditamaldeira.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/chapamalditamaldeira.PNG"  />
   <figcaption>
       Figura 9 - Numeração das chapas que serão cortadas a partir da placa de aço 1020. (Fonte: Autoria Própria)
   </figcaption>
@@ -138,7 +138,7 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/chapas1.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/chapas1.PNG"  />
   <figcaption>
       Figura 10 - Esquemático dos furos que devem ser realizados para a chapa do gabinete e chapa da sapata com as medidas em mm. (Fonte: Autoria Própria)
   </figcaption>
@@ -151,7 +151,7 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/CHAPAS2.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/CHAPAS2.PNG"  />
   <figcaption>
       Figura 11 - Esquemático dos furos que devem ser realizados para o suporte da estrutura 3D, suporte para o pluviômetro e do perfil "U" enrijecido com as medidas em mm. (Fonte: Autoria Própria)
   </figcaption>
@@ -164,7 +164,7 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/estruturahfuros.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/estruturahfuros.PNG"  />
   <figcaption>
       Figura 12 - Esquemático dos furos que devem ser realizados nas cantoneiras da estrutura em "H" com as medidas em mm. (Fonte: Autoria Própria)
   </figcaption>
@@ -177,7 +177,7 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/Furosposteprincipal.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/Furosposteprincipal.PNG"  />
   <figcaption>
       Figura 13 - Esquemático dos furos e das soldas que devem ser realizadas no poste principal com as medidas em mm.(Fonte: Autoria Própria)
   </figcaption>
@@ -190,7 +190,7 @@ Tabela 1 - Descrição dos cortes dos materiais de entrada, os componentes resul
 
 <center>
 <figure>
-  <img src="/SmartVit/docs/Estrutura/imgs_fab/furospostesauxiliares.png"  />
+  <img src="/SmartVit/docs/Estrutura/imgs_fab/furospostesauxiliares.PNG"  />
   <figcaption>
       Figura 14 - Esquemático dos furos e das soldas que devem ser realizadas nos postes auxiliares com as medidas em mm.(Fonte: Autoria Própria)
   </figcaption>
